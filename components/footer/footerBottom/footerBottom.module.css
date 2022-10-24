@@ -1,0 +1,34 @@
+.container{
+    background: rgba(255, 255, 255, 0.13);
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+
+    padding: 103px 50px 78px 252px;
+    
+}
+
+.startBetween{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.column{
+    width: 12%;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 1.125rem;
+    margin-bottom: 1.6875rem;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    margin-bottom: 0.5rem;
+}

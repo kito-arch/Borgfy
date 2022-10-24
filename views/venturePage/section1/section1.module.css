@@ -1,0 +1,19 @@
+.container{
+    padding: 13.125rem 0px 11.125rem;
+    background: #000103;
+    position: relative;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 89px;
+    margin-bottom: 3.875rem;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+    width: 41.4%;
+}

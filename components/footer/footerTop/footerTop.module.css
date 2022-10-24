@@ -1,0 +1,46 @@
+.container{
+    margin-bottom: 371px;
+    padding: 0 4.3125rem;
+}
+
+.desc{
+    font-weight: 800;
+    font-size: 1.875rem;
+    line-height: 4rem;
+    /* width: 66.4%; */
+}
+
+.startBetween{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.haveContainer{
+    width: 19.5%;
+}
+
+.have{
+    font-weight: 800;
+    font-size: 1.5625rem;
+    margin-bottom: 1.6875rem;
+}
+
+.chipContainer{
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.13);
+    border: 1px solid #FFFFFF;
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+    padding: 15px 23px 21px;
+}
+
+.lets{
+    font-weight: 800;
+    font-size: 1.5625rem;
+    margin-right: 50px;
+}

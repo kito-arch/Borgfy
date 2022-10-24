@@ -1,0 +1,42 @@
+.container{
+    padding: 4.375rem 0 8.5625rem;
+    color: #000103;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 3.125rem;
+    margin-bottom: 3.0625rem;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.subheading1{
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.subheading2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.subheading2_container{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.quotes{
+    margin: 0;
+    color: #1E61F2;
+    font-size: 3.75rem;
+}

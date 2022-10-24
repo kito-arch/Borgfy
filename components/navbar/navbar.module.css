@@ -1,0 +1,50 @@
+.container{
+    background: rgba(152, 185, 255, 0.13);
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+}
+
+.innerContainer{
+    width: 73.75%;
+}
+
+.leftContainer{
+
+}
+
+.leftRightContainer{
+    margin-left: 3.6rem;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLabelContainer{
+    margin-right: 1.5625rem;
+}
+
+.navLabels{
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin-right: 0.3125rem;
+}
+
+.chip{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+    padding: 1.125rem 2.625rem;
+}
+
+.chipLabel{
+    font-weight: 500;
+    font-size: 1.125rem;
+}

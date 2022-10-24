@@ -1,7 +1,10 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
+import VenturePage from '../views/venturePage/venturePage'
 
-export default function Home() {
+export default function Venture() {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -10,8 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <div><h1>Index</h1></div>
+      <main>
+        <VenturePage/>
       </main>
 
       

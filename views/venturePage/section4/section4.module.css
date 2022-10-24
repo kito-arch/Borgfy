@@ -1,0 +1,19 @@
+.container{
+    padding: 4.4375rem 0 6.6875rem;
+    position: relative;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 3.25rem;
+    color: white;
+    margin-bottom: 3.125rem;
+    text-align: center;
+}
+
+.stretchBetween{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}

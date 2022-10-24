@@ -1,0 +1,25 @@
+.container{
+    padding: 4.4375rem 0;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.innerContainer{
+    width: 43.54%;
+    z-index: 10;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 3.25rem;
+    line-height: 5.5625rem;
+    margin-bottom: 2.5rem;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+}
