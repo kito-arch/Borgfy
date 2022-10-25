@@ -1,0 +1,37 @@
+.container{
+    padding-top: 88px;
+    padding-bottom: 114px;
+    color: white;
+}
+
+.innerContainer{
+    padding: 0 35px;
+    border-radius: 20px;
+    padding: 53px 61px;
+    min-height: 915px;
+    position: relative;
+    overflow: hidden;
+}
+
+.iconsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 800px;
+}
+
+.iconContainer{
+    margin-bottom: 15px;
+}
+
+.bottomContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 50px;
+    z-index: 10;
+}

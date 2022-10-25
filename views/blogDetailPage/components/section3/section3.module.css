@@ -1,0 +1,29 @@
+.container{
+    padding-bottom: 107px;
+    color: black;
+    position: relative;
+}
+
+.centerBetween{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 41px;
+}
+
+.date{
+    font-weight: 500;
+    font-size: 30px;
+    color: #377DFF;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+}

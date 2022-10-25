@@ -4,7 +4,7 @@ import styles from './footerTop.module.css'
 export default function FooterTop(props){
     return(
         <div className = {`${styles.container} ${styles.startBetween}`}>
-            <p className = {`${styles.desc}`}>“Be the viewer or be the changer it's your choice”<br/>Don't be just  a daydreamer let's do it and build something great</p>
+            <p className = {`${styles.desc}`}>“Be the viewer or be the changer it`s your choice”<br/>Don`t be just  a daydreamer let`s do it and build something great</p>
             <div>
                 <p className = {`${styles.have}`}>Have an Idea ?</p>
                 <div className = {`${styles.chipContainer}`}>
