@@ -17,6 +17,12 @@ body{
   /* transform: scale(0.67); */
 }
 
+@-moz-document url-prefix() {
+  body {
+    width: 2304px;
+  }
+}
+
 
 
 a {
