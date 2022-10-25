@@ -14,7 +14,7 @@ export default function Section2(props){
                     <br/><br/>In short, digital transformation lets you accelerate your pace of growth by creating new revenue opportunities.   
                 </p>
             </div>
-            <div style = {{position: 'absolute', top: '-4px', left: '-12rem', zIndex: '1'}}>
+            <div style = {{position: 'absolute', top: '-4px', left: '-12rem', zIndex: '1', height: '100%', overflowY: 'hidden'}}>
                 <Image src = '/../public/digital_music_back_edited.png' width = '2000px' height = '930px'/>
             </div>
         </div>  

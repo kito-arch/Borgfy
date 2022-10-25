@@ -1,0 +1,15 @@
+.container{
+    padding: 13rem 0 22.5625rem;
+    position: relative;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 4.5rem;
+    line-height: 5.5625rem;
+
+    /* or 124% */
+    text-align: center;
+
+    color: #FFFFFF;
+}

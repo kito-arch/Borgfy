@@ -1,0 +1,25 @@
+.container{
+    padding-bottom: 5.625rem;
+}
+
+.heading{
+    margin-top: 2.0625rem;
+    margin-bottom: 1.4375rem;
+    font-weight: 800;
+    font-size: 3.25rem;
+    color: white;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+    margin-bottom: 5.5625rem;
+    color: #FFFFFF;
+}
+
+.cardContainer{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
