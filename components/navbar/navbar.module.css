@@ -2,6 +2,8 @@
     background: rgba(152, 185, 255, 0.13);
     box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(8px);
+    /* padding-top: 8px;
+    padding-bottom: 15px; */
 }
 
 .innerContainer{
@@ -18,7 +20,7 @@
 
 .center{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 
@@ -36,12 +38,15 @@
     font-weight: 700;
     font-size: 1.125rem;
     margin-right: 0.3125rem;
+    margin-top: 37px;
+    margin-bottom: 33px;
 }
 
 .chip{
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 100px;
     padding: 1.125rem 2.625rem;
+    margin-top: 18px;
 }
 
 .chipLabel{

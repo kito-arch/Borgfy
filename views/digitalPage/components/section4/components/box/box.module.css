@@ -1,0 +1,33 @@
+.innerContainer{
+    padding: 30px 44px 30px 30px;
+    background: rgba(152, 185, 255, 0.13);
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.subheading{
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.subtext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 2.25rem;
+
+    /* or 164% */
+
+    color: #FFFFFF;
+    width: 86.3%;
+}

@@ -8,7 +8,9 @@ export default function Navbar(props){
         <div className = {`${styles.container} ${styles.center}`}>
             <div className = {`${styles.innerContainer} ${styles.between}`}>
                 <div className = {`${styles.leftContainer} ${styles.between}`}>
-                    <Logo/>
+                    <div style = {{marginTop: '8px', marginBottom: '15px'}}>
+                        <Logo/>
+                    </div>
                     <div className = {`${styles.leftRightContainer} ${styles.between}`}>
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Who We Are</p>

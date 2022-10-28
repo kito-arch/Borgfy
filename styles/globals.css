@@ -19,7 +19,7 @@ body{
 
 @-moz-document url-prefix() {
   body {
-    width: 2304px;
+    width: 1920px;
   }
 }
 

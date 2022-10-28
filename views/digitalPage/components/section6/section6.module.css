@@ -1,0 +1,39 @@
+.container{
+    padding: 61px 0 75px;
+    z-index: 5;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 89px;
+
+    /* identical to box height, or 171% */
+
+    color: #FFFFFF;
+
+    margin-bottom: 90px;
+
+    white-space: nowrap;
+}
+
+.innerContainer{
+    background: rgba(152, 185, 255, 0.06);
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+    padding: 31px 47px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+
+    /* or 200% */
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}

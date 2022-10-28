@@ -1,0 +1,44 @@
+.container{
+    padding: 70px 4px 45px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 3.25rem;
+    line-height: 5.5625rem;
+
+    /* or 171% */
+
+    color: #FFFFFF;
+    margin-bottom: 0.6875rem;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+
+    /* or 150% */
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.innerContainer{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.innerSingleContainer{
+    width: 43.7%;
+}
+
+.subheading{
+    font-weight: 700;
+    font-size: 1.875rem;
+    margin-bottom: 2.375rem;
+
+    color: #FFFFFF;
+}

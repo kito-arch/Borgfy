@@ -1,0 +1,28 @@
+.container{
+    padding: 0.875rem 0 6.75rem;
+    position: relative;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 3.25rem;
+    line-height: 5.5625rem;
+
+    /* identical to box height, or 171% */
+
+    color: #000103;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+
+    /* or 150% */
+    letter-spacing: 0.02em;
+
+    color: #000103;
+    margin-top: 50px;
+}

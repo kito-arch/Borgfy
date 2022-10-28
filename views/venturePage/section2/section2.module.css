@@ -7,7 +7,7 @@
 }
 
 .innerContainer{
-    width: 43.54%;
+    width: 54.4%;
     z-index: 10;
 }
 
@@ -22,4 +22,5 @@
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.6875rem;
+    width: 90%;
 }

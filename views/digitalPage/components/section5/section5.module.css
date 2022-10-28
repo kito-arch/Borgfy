@@ -1,0 +1,54 @@
+.container{
+    padding: 90px 0 128px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 3.25rem;
+    line-height: 5.5625rem;
+
+    /* identical to box height, or 171% */
+
+    color: #000103;
+
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #000103;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1E61F2;
+    width: 100%;
+    text-align: left;
+    padding: 22px 0;
+}
+
+.subheading{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.5625rem;
+    line-height: 5,5625rem;
+
+    /* identical to box height, or 356% */
+
+    color: #FFFFFF;
+    
+    text-align: left;
+}
