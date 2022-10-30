@@ -5,7 +5,7 @@ import styles from './standardLayout.module.css'
 
 export default function StandardLayout(props){
     return(
-        <div>
+        <div style = {{position: 'relative'}}>
             <Navbar/>
                 {props.children}
             <Footer/>

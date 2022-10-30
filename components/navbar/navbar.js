@@ -8,33 +8,45 @@ export default function Navbar(props){
         <div className = {`${styles.container} ${styles.center}`}>
             <div className = {`${styles.innerContainer} ${styles.between}`}>
                 <div className = {`${styles.leftContainer} ${styles.between}`}>
-                    <div style = {{marginTop: '8px', marginBottom: '15px'}}>
+                    <div>
                         <Logo/>
                     </div>
                     <div className = {`${styles.leftRightContainer} ${styles.between}`}>
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Who We Are</p>
-                            <Image src = '/../public/arrowDown.png' width = '6px' height = '4px'/>
+                            <div style = {{marginTop: '-5px'}}>
+                                <Image src = '/../public/arrowDown.png' width = '6px' height = '4px'/>
+                            </div>
                         </div>
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Services</p>
-                            <Image src = '/../public/arrowDown.png' width = '6px' height = '4px'/>
+                            <div style = {{marginTop: '-5px'}}>
+                                <Image src = '/../public/arrowDown.png' width = '6px' height = '4px'/>
+                            </div>
                         </div>
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Blog</p>
-                            <Image src = '/../public/arrowDown.png' width = '6px' height = '4px'/>
+                            <div style = {{marginTop: '-5px'}}>
+                                <Image src = '/../public/arrowDown.png' width = '6px' height = '4px'/>
+                            </div>
                         </div>
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Our Work</p>
-                            <Image src = '/../public/arrowDown.png' width = '6px' height = '4px'/>
+                            <div style = {{marginTop: '-5px'}}>
+                                <Image src = '/../public/arrowDown.png' width = '6px' height = '4px'/>
+                            </div>
                         </div>
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Expertise</p>
-                            <Image src = '/../public/arrowDown.png' width = '6px' height = '4px'/>
+                            <div style = {{marginTop: '-5px'}}>
+                                <Image src = '/../public/arrowDown.png' width = '6px' height = '4px'/>
+                            </div>
                         </div>
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Resources</p>
-                            <Image src = '/../public/arrowDown.png' width = '6px' height = '4px'/>
+                            <div style = {{marginTop: '-5px'}}>
+                                <Image src = '/../public/arrowDown.png' width = '6px' height = '4px'/>
+                            </div>
                         </div>
                     </div>
                 </div>

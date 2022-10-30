@@ -20,7 +20,7 @@
 
 .center{
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -31,6 +31,7 @@
 }
 
 .navLabelContainer{
+    margin-top: 16px;
     margin-right: 1.5625rem;
 }
 
@@ -38,15 +39,16 @@
     font-weight: 700;
     font-size: 1.125rem;
     margin-right: 0.3125rem;
-    margin-top: 37px;
-    margin-bottom: 33px;
+    /* margin-top: 37px;
+    margin-bottom: 33px; */
 }
 
 .chip{
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 100px;
     padding: 1.125rem 2.625rem;
-    margin-top: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .chipLabel{
