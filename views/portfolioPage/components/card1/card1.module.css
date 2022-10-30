@@ -1,0 +1,57 @@
+.container{
+    background: rgba(255, 255, 255, 0.13);
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    padding: 60px 48px 35px;
+    color: white;
+    width: 608px;
+}
+
+.alternateContainer{
+    background: #EB1C50;
+    box-shadow: 0px 4px 34px #EB1C50, inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 60px;
+    padding: 60px 48px 35px;
+    color: white;
+    width: 608px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 89px;
+
+    /* identical to box height, or 124% */
+
+
+}
+
+.subheading{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 44px;
+
+    /* identical to box height, or 200% */
+
+    margin-bottom: 33px;
+}
+
+.text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+
+    /* or 148% */
+
+    
+}
+
+.centerStart{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}

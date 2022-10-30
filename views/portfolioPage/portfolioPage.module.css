@@ -1,0 +1,46 @@
+.container{
+    padding-top: 90px;
+    
+}
+.topContainer{
+    padding: 24px 0 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+
+.category{
+    background: rgba(255, 255, 255, 0.13);
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 6px;
+    padding: 16px 24px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.centerStart{
+    padding: 110px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.centerEnd{
+    padding: 110px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
