@@ -1,0 +1,25 @@
+.container{
+    padding: 180px 0 270px;
+    color: white;
+
+    position: relative;
+}
+
+.heading{
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 69px;
+    margin-bottom: 45px;
+    width: 35.16%;
+}
+
+
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 46.875%;
+    /* or 167% */
+}

@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.imageContainer{
+    width: 50%;
+}
+.textContainer{
+    position: relative;
+    width: 50%;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 69px;
+    margin-bottom: 33px;
+    /* identical to box height, or 138% */
+}
+
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
