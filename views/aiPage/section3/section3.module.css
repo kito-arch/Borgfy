@@ -1,0 +1,26 @@
+.container{
+    padding: 200px 0 166px;
+    color: black;
+
+    position: relative;
+}
+
+.innerContainer{
+    width: 48.3%;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 89px;
+    margin-bottom: 50px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    /* or 135% */
+    letter-spacing: 0.02em;
+}

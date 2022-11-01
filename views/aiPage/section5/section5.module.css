@@ -1,0 +1,26 @@
+.container{
+    padding: 53px 0 71px;
+    color: white;
+    position: relative;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 89px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    /* or 135% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 65px;
+}

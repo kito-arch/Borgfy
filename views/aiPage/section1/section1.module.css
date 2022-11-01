@@ -1,0 +1,43 @@
+.container{
+    padding: 152px 8px 99px;
+    color: white;
+    position: relative;
+}
+
+.heading{
+    margin-bottom: 40px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    width: 51.4%;
+    margin-bottom: 192px;
+}
+
+.point{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 20px;
+}
+
+.centerStart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.bottomText{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 68px;
+
+}
