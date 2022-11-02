@@ -1,0 +1,31 @@
+.container{
+    padding: 121px 48px 435px;
+    color: white;
+    position: relative;
+}
+
+.dimHeading{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 69px;
+
+    /* identical to box height, or 230% */
+
+    color: #FFFFFF;
+
+    opacity: 0.5;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 69px;
+    margin-bottom: 15px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    width: 55.2%;
+}

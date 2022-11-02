@@ -1,0 +1,41 @@
+.container{
+    padding: 110px 0 112px;
+    color: black;
+    position: relative;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 89px;
+    margin: auto;
+    margin-bottom: 41px;
+    width: fit-content;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.stretchBetween{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.innerContainer{
+    width: 30%;
+}
+
+.button{
+    background: #018DFE;
+    border-radius: 10px;
+    padding: 12px 30px;
+    margin-bottom: 46px;
+    white-space: nowrap;
+    color: white;
+    width: fit-content;
+}

@@ -1,0 +1,29 @@
+.container{
+    padding: 57px 0 80px;
+}
+
+.stretchBetween{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #018DFE;
+    margin-bottom: 56px;
+}
+
+.innerContainer{
+    width: 47%;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #000000;
+}

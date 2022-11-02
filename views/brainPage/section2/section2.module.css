@@ -1,0 +1,54 @@
+.container{
+    padding-top: 60px;
+    position: relative;
+    background-color: white;
+}
+
+.topHeading{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 69px;
+
+    /* identical to box height, or 230% */
+    text-transform: capitalize;
+
+    color: #0B0000;
+
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.23);
+    width: fit-content;
+    margin: auto;
+    z-index: 10;
+}
+
+.innerContainer{
+    margin-top: 71px;
+    padding: 41.5px 187px 170px;
+    position: relative;
+    width: 100%;
+}
+
+
+.heading{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 69px;
+    z-index: 10;
+
+    /* identical to box height, or 138% */
+
+    color: #0B0000;
+
+    margin: 54px 0 58px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+
+    /* or 164% */
+
+    color: #000000;
+    z-index: 10;
+    width: 67.4%;
+}

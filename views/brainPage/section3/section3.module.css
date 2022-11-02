@@ -1,0 +1,44 @@
+.container{
+    padding: 84px 0 133px;
+    color: white;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 89px;
+    margin: auto;
+    margin-bottom: 131px;
+    width: fit-content;
+}
+
+.stretchBetween{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.innerContainer{
+    width: 45%;
+    text-align: right;
+}
+
+.blueHeading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #018DFE;
+    margin-bottom: 56px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.lastContainer{
+    margin-top: 124px;
+    text-align: right;
+}
