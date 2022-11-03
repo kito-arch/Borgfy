@@ -1,0 +1,37 @@
+.container{
+    padding: 120px 0 167px;
+    position: relative;
+}
+
+.centerStart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heading{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 32px;
+
+    /* identical to box height, or 89% */
+
+    color: #000000;
+
+
+}
+
+.button{
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 32px;
+
+    /* identical to box height, or 128% */
+
+    color: #007AFF;
+    padding: 20px 25px;
+    border: 1px solid #007AFF;
+    border-radius: 10px;
+    margin-left: 40px;
+
+}

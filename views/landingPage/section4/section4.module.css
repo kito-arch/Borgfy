@@ -1,0 +1,22 @@
+.container{
+    background: #000000;
+    box-shadow: -2px -45px 37px -7px rgba(0, 0, 0, 0.19);
+    border-radius: 40px 40px 0px 0px;
+    padding: 90px 192px 108px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 89px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 42px;
+}
+
+.text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}

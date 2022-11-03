@@ -1,0 +1,29 @@
+.container{
+    background: linear-gradient(90deg, #018DFE 37.43%, #2F5FCF 98.63%);
+    box-shadow: -2px 45px 37px -7px rgba(112, 118, 122, 0.19);
+    border-radius: 0px 0px 40px 40px;
+
+    padding: 82px 192px 88px;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid white;
+    width: fit-content;
+}
+
+.stretchBetween{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+}
+
+.text{
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 89px;
+}

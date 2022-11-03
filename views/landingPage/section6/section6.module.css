@@ -1,0 +1,47 @@
+.container{
+    padding-top: 100px;
+}
+
+.topHeading{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #818182;
+    margin-bottom: 16px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 89px;
+    color: #010204;
+    margin-bottom: 170px;
+}
+
+.stretchBetween{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 120px;
+}
+
+.single{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 33.3%;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+
+    /* identical to box height */
+
+    color: #000000;
+    margin-top: 30px;
+}
