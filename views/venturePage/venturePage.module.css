@@ -2,3 +2,7 @@
     background-image: url('../../public/digital_advantages_back.png');
     background-size: cover;
 }
+
+.container{
+    padding-top: 90px;
+}

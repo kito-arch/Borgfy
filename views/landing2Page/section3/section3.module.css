@@ -1,0 +1,28 @@
+.container{
+    padding: 120px 0 200px;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    color: #313643;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 100px;
+
+}
+
+.centerCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.stretchBetween{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+}

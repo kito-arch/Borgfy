@@ -15,34 +15,38 @@ export default function DigitalPage(props){
     return(
         <StandardLayout>
 
-            <PaddingLayout>
-                <Section1/>
-            </PaddingLayout>
+            <div className = {`${styles.container}`}>
 
-            <PaddingLayout>
-                <Section2/>
-            </PaddingLayout>
+                <PaddingLayout>
+                    <Section1/>
+                </PaddingLayout>
 
-            <PaddingLayout backgroundColor = 'white'>
-                <Section3/>
-            </PaddingLayout>
+                <PaddingLayout>
+                    <Section2/>
+                </PaddingLayout>
 
-            <PaddingLayout>
-                <Section4/>
-            </PaddingLayout>
+                <PaddingLayout backgroundColor = 'white'>
+                    <Section3/>
+                </PaddingLayout>
 
-            <PaddingLayout backgroundColor = 'white'>
-                <Section5/>
-            </PaddingLayout>
+                <PaddingLayout>
+                    <Section4/>
+                </PaddingLayout>
 
-            <PaddingLayout backgroundColor = 'white'>
-                <Image src = '/../public/venture_business_back.png' layout = 'fill'/>
-                <Section6/>
-            </PaddingLayout>
+                <PaddingLayout backgroundColor = 'white'>
+                    <Section5/>
+                </PaddingLayout>
 
-            <PaddingLayout backgroundColor = 'white'>
-                <Section7/>
-            </PaddingLayout>
+                <PaddingLayout backgroundColor = 'white'>
+                    <Image src = '/../public/venture_business_back.png' layout = 'fill'/>
+                    <Section6/>
+                </PaddingLayout>
+
+                <PaddingLayout backgroundColor = 'white'>
+                    <Section7/>
+                </PaddingLayout>
+
+            </div>
 
         </StandardLayout>
     )

@@ -1,0 +1,29 @@
+.container{
+    padding: 190px 0 70px;
+    position: relative;
+    color: black;
+}
+
+.subtext{
+    width: fit-content;
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 153px;
+
+}
+
+.stretchBetween{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    width: 605px;
+    margin: auto;
+}

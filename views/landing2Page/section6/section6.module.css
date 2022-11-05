@@ -1,0 +1,151 @@
+.container{
+    padding: 96px 64px 140px;
+    color: black;
+}
+
+.subheading{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #818182;
+    margin-bottom: 14px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 89px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.numberContainer{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 40px -12px 96px rgba(230, 230, 230, 0.5);
+    border-radius: 12px;
+    padding: 115px 190px 77px;
+    margin-bottom: 50px;
+}
+
+.numberHeading{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 42px;
+    margin-bottom: 45px;
+}
+
+
+.numberText{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 11px;
+}
+
+.numberSubText{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28p;
+    color: #A8A8A8;
+}
+
+.howContainer{
+    padding: 0 121px;
+}
+
+
+.heading2{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 89px;
+    margin-bottom: 3px;
+    width: 529px;
+}
+
+.subheading2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+
+    color: #818182;
+    width: 529px;
+    margin-bottom: 25px;
+
+    padding-right: 50px;
+
+
+}
+
+.stretchBetween{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+
+.boxContainer{
+    width: 529px;
+}
+
+.boxTop{
+    border-radius: 20px 20px 0px 0px;
+    padding: 94px 40px 78px;
+    color: black;
+}
+
+.boxHeading1{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.boxHeading2{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 26px;
+}
+
+.boxHeading3{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.boxBottom{
+    padding: 40px 40px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: #FBFBFB;
+    border: 1px solid #ECECEC;
+    border-radius: 0px 0px 20px 20px;
+    flex-direction: column;
+    min-height: 727px;
+}
+
+.list{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.button{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 19px 53px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}

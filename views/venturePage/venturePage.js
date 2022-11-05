@@ -14,25 +14,29 @@ export default function VenturePage(props){
     return(
         <React.Fragment>
             <StandardLayout>
-                <PaddingLayout>
-                    <Section1/> 
-                </PaddingLayout>
-                <PaddingLayout>
-                    <Section2/>
-                </PaddingLayout>
-                <PaddingLayout backgroundColor = 'white'>
-                    <Section3/>
-                </PaddingLayout>
 
-                <PaddingLayout>
-                    <Image src = '/../public/digital_advantages_back.png' layout="fill"/>
-                    <Section4/>
-                </PaddingLayout>
+                <div className = {`${styles.container}`}>
 
-                <PaddingLayout backgroundColor = 'white'>
-                    <Section5/>
-                </PaddingLayout>
+                    <PaddingLayout>
+                        <Section1/> 
+                    </PaddingLayout>
+                    <PaddingLayout>
+                        <Section2/>
+                    </PaddingLayout>
+                    <PaddingLayout backgroundColor = 'white'>
+                        <Section3/>
+                    </PaddingLayout>
 
+                    <PaddingLayout>
+                        <Image src = '/../public/digital_advantages_back.png' layout="fill"/>
+                        <Section4/>
+                    </PaddingLayout>
+
+                    <PaddingLayout backgroundColor = 'white'>
+                        <Section5/>
+                    </PaddingLayout>
+
+                </div>
             </StandardLayout>
         </React.Fragment>
     )

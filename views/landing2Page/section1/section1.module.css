@@ -1,0 +1,26 @@
+.container{
+    padding: 230px 63px 262px;
+    position: relative;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 89px;
+
+    /* or 124% */
+
+    color: #FFFFFF;
+    z-index: 10;
+    position: relative;
+    width: 667px;
+
+
+}
