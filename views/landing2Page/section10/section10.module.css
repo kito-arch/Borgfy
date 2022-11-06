@@ -1,0 +1,53 @@
+.container{
+    height: 862px;
+    position: relative;
+    background-color: white;
+    color: black;
+}
+.innerContainer{
+    padding: 60px 0 65px 1100px;
+    position: relative;
+}
+
+.subtext{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #818182;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 89px;
+    margin-bottom: 62px;
+    width: 668px;
+}
+
+.centerStart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 27px;
+}
+
+.tickText{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 16px;
+}
+
+.consult{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+    padding: 18px 57px;
+    width: fit-content;
+}

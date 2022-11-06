@@ -1,0 +1,72 @@
+.container{
+    padding: 90px 0 154px;
+    color: black;
+    position: relative;
+}
+
+.subheading{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    width: fit-content;
+    margin: auto;
+    color: #818182;
+    margin-bottom: 31px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 89px;
+    width: fit-content;
+    margin: auto;
+    /* identical to box height, or 124% */
+    text-align: center;
+
+    margin-bottom: 47px;
+}
+
+.stretchBetween{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.rev{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+
+    /* or 137% */
+    letter-spacing: -0.02em;
+
+    /* Pallet 1 / Dark */
+    color: #1B1C31;
+
+    margin-top: 20px;
+    margin-bottom: 88px;
+    width: 992px;
+}
+
+.by{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    /* identical to box height, or 150% */
+    letter-spacing: -0.03em;
+    margin-bottom: 2px;
+}
+
+.company{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+    letter-spacing: -0.02em;
+
+    color: #757095;
+
+
+}

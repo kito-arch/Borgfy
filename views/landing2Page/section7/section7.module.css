@@ -1,0 +1,21 @@
+.container{
+    padding: 190px 0 154px;
+    color: white;
+    position: relative;
+}
+
+.subtext{
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 50px;
+
+    opacity: 0.5;
+    margin-bottom: 44px;
+}
+
+.text{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 50px;
+    width: 700px;
+}
