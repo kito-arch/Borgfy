@@ -16,6 +16,9 @@ import Section10 from './section10/section10';
 import Section11 from './section11/section11';
 import Section12 from './section12/section12';
 import Section13 from './section13/section13';
+import Section14 from './section14/section14';
+import Section15 from './section15/section15';
+import Section16 from './section16/section16';
 
 export default function Landing2Page(props){
     return(
@@ -75,6 +78,17 @@ export default function Landing2Page(props){
                     <Section13/>
                 </PaddingLayout>
 
+                <PaddingLayout backgroundColor = 'white'>
+                    <Section14/>
+                </PaddingLayout>
+
+                <PaddingLayout backgroundColor = 'white'>
+                    <Section15/>
+                </PaddingLayout>
+
+                <PaddingLayout backgroundColor = '#F4F6F6'>
+                    <Section16/>
+                </PaddingLayout>
 
             </div>
         </StandardLayout>

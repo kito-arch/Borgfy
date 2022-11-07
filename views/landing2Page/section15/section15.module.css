@@ -1,0 +1,35 @@
+.container{
+    padding: 260px 0 215px;
+}
+
+.stretchBetween{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 568px;
+    margin-bottom: 154px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 89px;
+
+    color: #000000;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+
+    /* or 125% */
+
+    color: #000000;
+
+    opacity: 0.5;
+    margin-bottom: 30px;
+    width: 562px;
+}
