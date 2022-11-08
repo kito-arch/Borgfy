@@ -1,0 +1,121 @@
+.container{
+    padding-top: 90px;
+    position: relative;
+}
+
+.innerContainer{
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    color: #000000;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.subheading{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 78px;
+}
+
+.stretchBetween{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 730px;
+    padding: 82px 25px 25px;
+    min-height: 970px;
+    margin-bottom: 60px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+    position: relative;
+}
+
+.boxHeading{
+    position: relative;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 34px;
+
+    color: #000000;
+}
+
+.boxSubheading{
+    position: relative;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    width: 584px;
+    margin: auto;
+    color: #565353;
+    margin-bottom: 60px;
+}
+
+.read{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #018DFE 37.43%, #2F5FCF 98.63%);
+    box-shadow: -2px 45px 37px -7px rgba(112, 118, 122, 0.19);
+    border-radius: 90px;
+    padding: 22px 40px;
+}
+
+.mobile{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 63px;
+
+    color: #3842F8;
+    margin-left: 52px;
+
+}
+
+.sure{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 63px;
+
+    color: #000000;
+
+    margin-bottom: 40px;
+
+
+}
+
+.gray{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 63px;
+    color: #8B8B8B;
+
+
+}
