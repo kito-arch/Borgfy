@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.image{
+    margin-right: 60px;
+}
+
+.desc{
+    width: 73.5%;
+}
+
+.subheading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+
+    /* identical to box height */
+
+    color: white;
+    margin-bottom: 50px;
+}
+
+.subtext{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    /* or 150% */
+    letter-spacing: 0.02em;
+    
+    color: white;   
+}

@@ -1,0 +1,46 @@
+.container{
+    padding: 127px 0 175px;
+    position: relative;
+}
+
+.heading{
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 232.6%;
+
+    /* identical to box height, or 121px */
+
+    color: #000000;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 52px;
+}
+
+.centerCenter{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stretchBetween{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    width: 1182px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 135%;
+
+    /* identical to box height, or 22px */
+
+    color: #000000;
+    width: fit-content;
+    margin: auto;
+    margin-top: 38px;
+
+
+}

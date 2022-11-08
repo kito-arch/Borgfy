@@ -1,0 +1,27 @@
+.container{
+    padding: 146px 0 250px;
+    position: relative;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 81px;
+
+    /* identical to box height */
+
+    color: #000000;
+    margin-bottom: 47px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 232.6%;
+
+    /* or 56px */
+
+    color: #565656;
+
+    width: 640px;
+}

@@ -1,0 +1,27 @@
+.container{
+    padding: 150px 0 38px;
+    color: white;
+    position: relative;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 143.9%;
+
+    /* or 58px */
+    text-align: center;
+    letter-spacing: 0.01em;
+
+
+}
+
+.text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 143.9%;
+
+    /* or 35px */
+    text-align: center;
+    letter-spacing: 0.01em;
+}

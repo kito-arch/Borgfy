@@ -1,0 +1,15 @@
+.container{
+    padding: 111px 0 81px;
+    position: relative;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 89px;
+    margin-bottom: 151px;
+    /* identical to box height, or 171% */
+
+    color: white;
+    text-align: center;
+}

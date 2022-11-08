@@ -1,0 +1,28 @@
+.container{
+    padding: 0 0 280px;
+    position: relative;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 81px;
+
+    /* identical to box height */
+    text-align: right;
+
+    color: #000000;
+    margin-bottom: 42px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+
+    /* or 188% */
+    letter-spacing: 0.02em;
+
+    color: #4B4B4B;
+    width: 798px;
+}
