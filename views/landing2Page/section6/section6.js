@@ -1,9 +1,20 @@
 
+import Image from 'next/image'
 import styles from './section6.module.css'
 
 export default function Section6(props){
     return(
         <div className = {`${styles.container}`}>
+
+
+            <div style = {{position: 'absolute', top: '900px', left: '-12rem'}}>
+                <Image src = '/../public/landing2_sec5_back5.png' width = '120px' height = '170px' />
+            </div>
+
+            <div style = {{position: 'absolute', top: '1300px', right: '-12rem'}}>
+                <Image src = '/../public/landing2_sec5_back6.png' width = '130px' height = '170px' />
+            </div>
+
             <p className = {`${styles.subheading}`}>DELIVERED</p>
             <p className = {`${styles.heading}`}>What our Delivered</p>
 
@@ -38,6 +49,15 @@ export default function Section6(props){
 
                     <div className = {`${styles.boxContainer}`}>
                         <div style = {{backgroundColor: '#A5CEFF'}} className = {`${styles.boxTop}`}>
+
+                            <div style = {{position: 'absolute', top: '0', left: '50px'}}>
+                                <Image src = '/../public/landing2_sec5_back1.png' width = '100px' height = '50px' />
+                            </div>
+
+                            <div style = {{position: 'absolute', bottom: '-4px', right: '100px'}}>
+                                <Image src = '/../public/landing2_sec5_back2.png' width = '100px' height = '50px' />
+                            </div>
+
                             <p className = {`${styles.boxHeading1}`}>As experts in</p>
                             <p className = {`${styles.boxHeading2}`}>Digital Transformation</p>
                             <p className = {`${styles.boxHeading3}`}>we undertake</p>
@@ -65,6 +85,15 @@ export default function Section6(props){
 
                     <div className = {`${styles.boxContainer}`}>
                         <div style = {{backgroundColor: '#A0FFEE'}} className = {`${styles.boxTop}`}>
+
+                            <div style = {{position: 'absolute', bottom: '-4px', left: '100px'}}>
+                                <Image src = '/../public/landing2_sec5_back3.png' width = '100px' height = '50px' />
+                            </div>
+
+                            <div style = {{position: 'absolute', top: '0', right: '50px'}}>
+                                <Image src = '/../public/landing2_sec5_back4.png' width = '100px' height = '50px' />
+                            </div>
+
                             <p className = {`${styles.boxHeading1}`}>From Inception to Launch we do</p>
                             <p className = {`${styles.boxHeading2}`}>Venture Building</p>
                             <p className = {`${styles.boxHeading3}`}>To Build next level Visionary ideas</p>

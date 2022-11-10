@@ -1,4 +1,5 @@
 
+import Image from 'next/image'
 import styles from './footerBottom.module.css'
 
 export default function FooterBottom(props){

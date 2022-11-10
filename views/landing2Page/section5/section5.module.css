@@ -1,6 +1,7 @@
 .container{
     padding: 150px 64px 170px;
     color: white;
+    position: relative;
 }
 
 .subheading{

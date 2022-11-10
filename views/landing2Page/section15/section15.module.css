@@ -1,5 +1,6 @@
 .container{
     padding: 260px 0 215px;
+    position: relative;
 }
 
 .stretchBetween{

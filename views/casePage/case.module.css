@@ -35,6 +35,7 @@
     align-items: stretch;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .box{
@@ -95,7 +96,7 @@
     line-height: 63px;
 
     color: #3842F8;
-    margin-left: 52px;
+    margin-left: 20px;
 
 }
 

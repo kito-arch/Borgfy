@@ -9,9 +9,9 @@ import Image from 'next/image';
 export default function FullStackPage (props){
     return(
 
-        <StandardLayout>
+        <StandardLayout backgroundColor = 'black'>
             <div className = {`${styles.container}`}>
-                
+
                 <PaddingLayout backgroundColor = '#0B0000'>
                     <Section1/>
                 </PaddingLayout>

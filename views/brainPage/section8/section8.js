@@ -52,7 +52,7 @@ export default function Section8(props){
             </div>
 
 
-            <p style = {{textAlign: 'center'}} className = {`${styles.bottomContainerText}`}>Our advice for all entrepreneurs would be “Execute Startups Idea More Strategically” and don't rush towards funding and acquisition because we do not build just a product to sell. We actually build a vision that creates value in the market.</p>
+            <p style = {{textAlign: 'center', marginTop: '50px'}} className = {`${styles.bottomContainerText}`}>Our advice for all entrepreneurs would be “Execute Startups Idea More Strategically” and don't rush towards funding and acquisition because we do not build just a product to sell. We actually build a vision that creates value in the market.</p>
 
         </div>
     )

@@ -1,6 +1,7 @@
 .container{
     padding: 4.375rem 0 8.5625rem;
     color: #000103;
+    position: relative;
 }
 
 .heading{

@@ -4,6 +4,7 @@
 }
 
 .heading{
+    position: relative;
     font-weight: 800;
     font-size: 52px;
     line-height: 89px;
@@ -12,9 +13,11 @@
 
     color: #FFFFFF;
 
+    margin: auto;
     margin-bottom: 90px;
 
     white-space: nowrap;
+    width: fit-content;
 }
 
 .innerContainer{

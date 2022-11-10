@@ -5,6 +5,14 @@ import styles from './section11.module.css'
 export default function Section11(props){
     return(
         <div className = {`${styles.container}`}>
+
+            <div style = {{zIndex: '10', position: 'absolute', left: '0rem', top: '800px'}}>
+                <Image src = '/../public/case_left_hand.png' width = '158px' height = '185px' />
+            </div>
+            <div style = {{zIndex: '10', position: 'absolute', left: '-28rem', top: '0px'}}>
+                <Image src = '/../public/case_style_gray.png' width = '1227px' height = '1227px' />
+            </div>
+
             <div className = {`${styles.startBetween}`}>
                 <div className = {`${styles.headingContainer}`}>
                     <div style = {{position: 'absolute', left: '-25px', top: '0'}}>

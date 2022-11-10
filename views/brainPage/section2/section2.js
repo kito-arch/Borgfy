@@ -12,16 +12,13 @@ export default function Section2(props){
                 <Image src = '/../public/brain_sec2_back.png' layout='fill'/>
 
                 <div style = {{position: 'relative'}}>
-                    <div style = {{position: 'absolute', top: '200px', right: '150px'}}>
+                    <div style = {{position: 'absolute', top: '150px', right: '50px'}}>
                         <Image src = '/../public/brain_sec2_image.png' width = '512px' height = '512px'/>
                     </div>
-                    <div style = {{position: 'absolute', top: '200px', right: '150px'}}>
-                        <Image src = '/../public/brain_sec2_image.png' width = '512px' height = '512px'/>
-                    </div>
-                    <div style = {{position: 'absolute', top: '30px', left: '10px'}}>
+                    <div style = {{position: 'absolute', top: '0px', left: '-12rem'}}>
                         <Image src = '/../public/brain_sec2_icon.png' width = '383px' height = '397px'/>
                     </div>
-                    <div style = {{position: 'absolute', bottom: '-20px', right: '10px'}}>
+                    <div style = {{position: 'absolute', bottom: '-200px', right: '-11rem'}}>
                         <Image src = '/../public/brain_sec2_icon.png' width = '383px' height = '397px'/>
                     </div>
                     <p className = {`${styles.topHeading}`}>Borgfy</p>

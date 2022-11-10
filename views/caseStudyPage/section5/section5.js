@@ -5,6 +5,11 @@ import styles from './section5.module.css'
 export default function Section5(props){
     return(
         <div className = {`${styles.container}`}>
+
+            <div style = {{zIndex: '10', position: 'absolute', right: '0rem', top: '500px'}}>
+                <Image src = '/../public/case_problem_target.png' width = '256px' height = '423px' />
+            </div>
+
             <div>
                 <div className = {`${styles.headingContainer}`}>
                     <div style = {{position: 'absolute', left: '-25px', top: '0'}}>

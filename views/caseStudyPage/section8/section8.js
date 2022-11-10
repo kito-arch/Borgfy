@@ -6,6 +6,11 @@ import styles from './section8.module.css'
 export default function Section8(props){
     return(
         <div className = {`${styles.container}`}>
+
+            <div style = {{zIndex: '10', position: 'absolute', right: '0rem', top: '350px'}}>
+                <Image src = '/../public/case_right_hand.png' width = '158px' height = '185px' />
+            </div>
+
             <div className = {`${styles.headingContainer}`}>
                 <div style = {{position: 'absolute', left: '-25px', top: '0'}}>
                     <Image src = '/../public/gray_ellipse.png' width = '61px' height = '61px'/>

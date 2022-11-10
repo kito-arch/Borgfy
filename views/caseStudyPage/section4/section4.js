@@ -5,6 +5,11 @@ import styles from './section4.module.css'
 export default function Section4(props){
     return(
         <div className = {`${styles.container}`}>
+
+            <div style = {{position: 'absolute', left: '0rem', top: '-20px'}}>
+                <Image src = '/../public/case_objective_hand.png' width = '180px' height = '263px' />
+            </div>
+
             <div className = {`${styles.headingContainer}`}>
                 <div style = {{position: 'absolute', left: '-20px', top: '0'}}>
                     <Image src = '/../public/gray_ellipse.png' width = '61px' height = '61px'/>

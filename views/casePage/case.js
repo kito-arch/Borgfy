@@ -11,6 +11,11 @@ export default function Case(props){
             <div className = {`${styles.container}`}>
                 
                 <PaddingLayout backgroundColor = 'white'>
+
+                    <div style = {{position: 'absolute', bottom: '250px', right: '0rem'}}>
+                        <Image src = '/../public/case2_hifi.png' width = '300px' height = '300px'/>
+                    </div>
+
                     <div className = {`${styles.innerContainer}`}>
 
                         <div style = {{position: 'absolute', top: '400px', left: '-4rem'}}>
@@ -25,6 +30,14 @@ export default function Case(props){
 
 
                         <div className = {`${styles.stretchBetween}`}>
+
+                            <div style = {{position: 'absolute', top: '200px', left: '-24rem'}}>
+                                <Image src = '/../public/case2_ellipse1.png' width = '600px' height = '3000px'/>
+                            </div>
+                            <div style = {{position: 'absolute', top: '800px', right: '-348px'}}>
+                                <Image src = '/../public/case2_ellipse2.png' width = '600px' height = '600px'/>
+                            </div>
+
                             <div>
                                 <div style = {{display: 'flex', alignItems: 'center'}}>
                                     <Image src = '/../public/case2_ellipse.png' width = '31px' height = '31px' />

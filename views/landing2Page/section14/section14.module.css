@@ -1,5 +1,6 @@
 .container{
     padding: 102px 0 260px;
+    position: relative;
 }
 
 .heading{

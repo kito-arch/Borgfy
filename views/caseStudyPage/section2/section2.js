@@ -5,6 +5,11 @@ import styles from './section2.module.css'
 export default function Section2(props){
     return(
         <div className = {`${styles.container}`}>
+
+            <div style = {{zIndex: '100', position: 'absolute', left: '-12rem', top: '600px'}}>
+                <Image src = '/../public/case_left_lines.png' width = '300px' height = '700px' />
+            </div>
+
             <div className = {`${styles.centerCenter}`}>
                 <div className = {`${styles.stretchStart}`}>
                     <div className = {`${styles.column}`}>

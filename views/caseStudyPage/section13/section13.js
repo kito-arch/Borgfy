@@ -5,6 +5,11 @@ import styles from './section13.module.css'
 export default function Section13(props){
     return(
         <div className = {`${styles.container}`}>
+
+            <div style = {{zIndex: '10', position: 'absolute', right: '0rem', top: '-1500px'}}>
+                <Image src = '/../public/case_conclusion_gray.png' width = '1227px' height = '4027px' />
+            </div>
+
             <div className = {`${styles.headingContainer}`}>
                 <div style = {{position: 'absolute', left: '-20px', top: '0'}}>
                     <Image src = '/../public/gray_ellipse.png' width = '61px' height = '61px'/>

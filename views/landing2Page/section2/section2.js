@@ -38,6 +38,9 @@ export default function Section2(props){
             </div>
 
             <div className = {`${styles.bottomContainer}`}>
+                {/* <div style = {{position: 'absolute', top: '-100px', left: '-150px'}}>
+                    <Image src = '/../public/landing2_sec2_line.png' width = '1410px' height = '39px' />
+                </div> */}
                 <div style = {{position: 'absolute', top: '-50px', left: '-300px'}}>
                     <Image src = '/../public/landing2_sec2_steve.png' width = '262px' height = '195px' />
                 </div>

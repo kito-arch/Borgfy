@@ -8,7 +8,7 @@ import styles from './portfolioPage.module.css'
 export default function PortfolioPage(props){
     return(
 
-        <StandardLayout>
+        <StandardLayout backgroundColor = 'black'>
 
             <div className = {`${styles.container}`}>
                 <div className = {`${styles.topContainer}`}>

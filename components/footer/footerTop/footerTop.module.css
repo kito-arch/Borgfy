@@ -1,6 +1,7 @@
 .container{
     margin-bottom: 371px;
     padding: 0 4.3125rem;
+    position: relative;
 }
 
 .desc{

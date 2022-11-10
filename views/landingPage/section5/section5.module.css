@@ -1,6 +1,10 @@
 .container{
+    background-color: white;
+}
+
+.innerContainer{
     background: linear-gradient(90deg, #018DFE 37.43%, #2F5FCF 98.63%);
-    box-shadow: -2px 45px 37px -7px rgba(112, 118, 122, 0.19);
+    /* box-shadow: -2px 45px 37px -7px rgba(112, 118, 122, 0.19); */
     border-radius: 0px 0px 40px 40px;
 
     padding: 82px 192px 88px;

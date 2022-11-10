@@ -5,6 +5,39 @@ import styles from './section15.module.css'
 export default function Section15(props){
     return(
         <div className = {`${styles.container}`}>
+
+            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '600px'}}>
+                <Image src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+            </div>
+            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '680px'}}>
+                <Image src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+            </div>
+            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '760px'}}>
+                <Image src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+            </div>
+            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '840px'}}>
+                <Image src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+            </div>
+            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '920px'}}>
+                <Image src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+            </div>
+            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1000px'}}>
+                <Image src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+            </div>
+            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1080px'}}>
+                <Image src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+            </div>
+            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1160px'}}>
+                <Image src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+            </div>
+            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1240px'}}>
+                <Image src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+            </div>
+            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1320px'}}>
+                <Image src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+            </div>
+            
+
             <div style = {{justifyContent: 'flex-start'}} className = {`${styles.stretchBetween}`}>
                 <div>
                     <div className = {`${styles.stretchBetween}`}>

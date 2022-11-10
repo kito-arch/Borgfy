@@ -27,6 +27,19 @@ export default function BlogDetailPage(props){
                 <PaddingLayout backgroundColor = 'white'>
                     <Section3 image = '/../public/blog_detail_blue_ellipse_2.png' bottom = '-200px' right = '-12rem' title = 'Our new design system' date = '' text = "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,dummy text of the printing .But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose. To do so, I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? [33] On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, "/>
                 </PaddingLayout>
+
+                <PaddingLayout backgroundColor = 'white'>
+                    <div className = {`${styles.paginationContainer}`}>
+                        <div className = {`${styles.pageNumberContainer}`}>
+                            <p style = {{background: '#377DFF', color: 'white'}} className = {`${styles.pageNumber}`}>1</p>
+                            <p className = {`${styles.pageNumber}`}>2</p>
+                            <p className = {`${styles.pageNumber}`}>3</p>
+                            <p className = {`${styles.pageNumber}`}>...</p>
+                            <p className = {`${styles.next}`}>Next</p>
+                        </div>
+                    </div>
+                </PaddingLayout>
+
             </div>
         </StandardLayout>
     )

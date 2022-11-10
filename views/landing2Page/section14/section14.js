@@ -5,8 +5,13 @@ import styles from './section14.module.css'
 export default function Section14(props){
     return(
         <div className = {`${styles.container}`}>
+
+            <div style = {{position: 'absolute', top: '250px', right: '350px'}}>
+                <Image src = '/../public/landing2_sec14_arrow.png' width = '100px' height = '104px' />
+            </div>
+
             <p className = {`${styles.heading}`}>You need to Choose Us</p>
-            <p className = {`${styles.subheading}`}>The World is too noise tune to Borgy SignalThe World is too noise tune to Borgy Signal</p>
+            <p className = {`${styles.subheading}`}>The World is too noise tune to Borgy Signal</p>
 
 
             <div style = {{padding: '19px 16px', paddingRight: '131px', marginBottom: '93px'}} className = {`${styles.box}`}>

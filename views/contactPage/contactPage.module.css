@@ -1,0 +1,54 @@
+.container{
+    padding-top: 90px;
+    position: relative;
+}
+
+.innerContainer{
+    padding-top: 100px;
+    position: relative;
+}
+
+.box{
+    padding: 206px 202px 105px;
+    background: rgba(152, 185, 255, 0.15);
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    position: relative;
+}
+
+.contact{
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 69px;
+    margin-bottom: 27px;
+    margin-left: 100px;
+}
+
+.input{
+    background: rgba(251, 252, 253, 0.94);
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 21px 30px;
+    margin-bottom: 33px;
+    width: 538px;
+}
+
+.submit{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    padding: 15px 40px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #018DFE 37.43%, #2F5FCF 98.63%);
+    box-shadow: -2px 45px 37px -7px rgba(112, 118, 122, 0.1);
+    border-radius: 7px;
+    margin-top: 33px;
+    width: fit-content;
+    margin-left: 122px;
+}
+
+.textArea{
+    min-height: 243px;
+    resize: none;
+}

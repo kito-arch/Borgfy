@@ -6,6 +6,15 @@ import styles from './section7.module.css'
 export default function Section7(props){
     return(
         <div className = {`${styles.container}`}>
+
+            <div style = {{position: 'absolute', top: '150px', left: '-25rem'}}>
+                <Image src = '/../public/about_sec7_ellipse1.png' width = '450px' height = '400px'/>
+            </div>
+
+            <div style = {{position: 'absolute', bottom: '0', right: '-12rem'}}>
+                <Image src = '/../public/about_sec7_ellipse2.png' width = '270px' height = '400px'/>
+            </div>
+
             <p className = {`${styles.heading}`}>Advantages of Our Working With Borgfy  Venture Studio</p>
             <div style = {{position: 'absolute', top: '489px', left: '48px'}}>
                 <Image src = '/../public/venture_advantages_path.png' width = '248px' height = '1520px'/>

@@ -5,6 +5,11 @@ import styles from './section9.module.css'
 export default function Section9(props){
     return(
         <div className = {`${styles.container}`}>
+
+            <div style = {{zIndex: '10', position: 'absolute', right: '0rem', top: '0px'}}>
+                <Image src = '/../public/case_sketching_gray.png' width = '1227px' height = '1227px' />
+            </div>
+
             <div className = {`${styles.startBetween}`}>
                 <div>
                     <div className = {`${styles.headingContainer}`}>

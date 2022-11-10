@@ -5,6 +5,14 @@ import styles from './section15.module.css'
 export default function Section15(props){
     return(
         <div className = {`${styles.container}`}>
+
+            <div style = {{position: 'absolute', right: '-12rem', bottom: '-400px'}}>
+                <Image src = '/../public/case_bottom_lines.png' width = '300px' height = '500px' />
+            </div>
+            <div style = {{zIndex: '10', position: 'absolute', left: '-12rem', top: '200px'}}>
+                <Image src = '/../public/case_left_hand.png' width = '158px' height = '185px' />
+            </div>
+
             <p className = {`${styles.heading}`}>The Outcomes</p>
             <div className = {`${styles.centerCenter}`}>
                 <div className = {`${styles.stretchBetween}`}>

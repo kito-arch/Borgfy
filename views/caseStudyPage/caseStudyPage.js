@@ -88,7 +88,7 @@ export default function CaseStudyPage(props){
                     <Section15/>
                 </PaddingLayout>
 
-                <PaddingLayout backgroundColor = 'white'>
+                <PaddingLayout zIndex = '15' backgroundColor = 'white'>
                     <Image src = '/../public/case_sec16_back.png' layout = 'fill'/>
                     <Section16/>
                 </PaddingLayout>

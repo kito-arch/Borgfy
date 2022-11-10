@@ -5,6 +5,16 @@ import styles from './section5.module.css'
 export default function Section5(props){
     return(
         <div className = {`${styles.container}`}>
+
+
+            <div style = {{position: 'absolute', top: '800px', left: '-12rem'}}>
+                <Image src = '/../public/landing2_sec5_back5.png' width = '120px' height = '170px' />
+            </div>
+
+            <div style = {{position: 'absolute', top: '100px', right: '-12rem'}}>
+                <Image src = '/../public/landing2_sec5_back6.png' width = '130px' height = '170px' />
+            </div>
+
             <p className = {`${styles.subheading}`}>Where</p>
             <p className = {`${styles.heading}`}>We are best</p>
 

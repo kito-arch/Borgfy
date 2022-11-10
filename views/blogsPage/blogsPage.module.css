@@ -1,3 +1,43 @@
 .container{
     padding-top: 90px;
+    position: relative;
+}
+
+.paginationContainer{
+    width: fit-content;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageNumberContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageNumber{
+    min-width: 70px;
+    min-height: 70px;
+    background: #F7F7F7;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #666666;
+}
+.next{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+    /* or 24px */
+
+    color: #377DFF;
 }

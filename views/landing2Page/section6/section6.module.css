@@ -1,6 +1,7 @@
 .container{
     padding: 96px 64px 140px;
     color: black;
+    position: relative;
 }
 
 .subheading{
@@ -97,6 +98,7 @@
     border-radius: 20px 20px 0px 0px;
     padding: 94px 40px 78px;
     color: black;
+    position: relative;
 }
 
 .boxHeading1{

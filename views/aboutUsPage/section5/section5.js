@@ -5,6 +5,19 @@ import styles from './section5.module.css'
 export default function Section5(props){
     return(
         <div className = {`${styles.container}`}>
+
+            <div style = {{position: 'absolute', top: '100px', left: '-12rem'}}>
+                <Image src = '/../public/about_sec5_ellipse1.png' width = '250px' height = '300px'/>
+            </div>
+
+            <div style = {{position: 'absolute', bottom: '-160px', right: '-60px'}}>
+                <Image src = '/../public/about_sec5_ellipse2.png' width = '400px' height = '350px'/>
+            </div>
+
+            <div style = {{position: 'absolute', bottom: '-100px', left: '-50px'}}>
+                <Image src = '/../public/about_sec5_semi.png' width = '204px' height = '204px'/>
+            </div>
+
             <p className = {`${styles.heading}`}>Why we different from others</p>
             <p className = {`${styles.text}`}>This revolutionary business model works on promoting or encouraging startups that have the potential to grow. Building an innovative business model from scratch is challenging. So, startups acquisition is favored under the venture studio model.<br/>Here is how it works. </p>
 

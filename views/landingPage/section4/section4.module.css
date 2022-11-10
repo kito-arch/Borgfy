@@ -1,6 +1,11 @@
 .container{
-    background: #000000;
-    box-shadow: -2px -45px 37px -7px rgba(0, 0, 0, 0.19);
+    background: white;
+    
+}
+
+.innerContainer{
+    background-color: black;
+    /* box-shadow: -2px -45px 37px -7px rgba(0, 0, 0, 0.19); */
     border-radius: 40px 40px 0px 0px;
     padding: 90px 192px 108px;
 }
