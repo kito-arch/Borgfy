@@ -1,5 +1,5 @@
 .container{
-    padding: 4.375rem 0 8.5625rem;
+    padding: 4.375rem 0 12rem;
     color: #000103;
     position: relative;
 }
@@ -8,6 +8,7 @@
     font-weight: 800;
     font-size: 3.125rem;
     margin-bottom: 3.0625rem;
+    line-height: 89px;
 }
 
 .text{
@@ -20,6 +21,7 @@
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 30px;
+    line-height: 89px;
 }
 
 .subheading2{

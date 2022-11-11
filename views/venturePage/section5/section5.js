@@ -11,7 +11,7 @@ export default function Section5(props){
             <div style = {{position: 'absolute', bottom: '4px', right: '-12rem'}}>
                 <Image src = '/../public/venture_right_dots.png' width = '174px' height = '348px'/>
             </div>
-            <div style = {{position: 'absolute', bottom: '30px', right: '200px'}}>
+            <div style = {{position: 'absolute', bottom: '70px', right: '400px'}}>
                 <Image src = '/../public/venture_arrow.png' width = '100px' height = '90px'/>
             </div>
             <p className = {`${styles.heading}`}>Lets Us Help You Build Your Digital Transformation Era</p>

@@ -4,6 +4,7 @@
     border-radius: 15px;
     padding: 1.3125rem 1.5rem;
     text-align: center;
+    min-height: 422px;
 }
 
 .center{
@@ -16,6 +17,7 @@
     font-size: 1.875rem;
     color: #018DFE;
     margin: 1.125rem 0 2.3125rem;
+    line-height: 38px;
 }
 
 .text{
