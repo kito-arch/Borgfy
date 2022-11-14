@@ -9,7 +9,7 @@ export default function Section4(props){
 
                 <Image src = '/../public/ui_sec4_back.png' width = '1537px' height = '691px' layout = 'fill'/>
 
-                <div className = {`${styles.innerContainer}`}>
+                <div data-aos-offset = "-1000" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.innerContainer}`}>
                     <div style = {{width: '30%', zIndex: '10', marginRight: '3%'}}>
                         <p className = {`${styles.heading}`}>Analysis</p>
                         <p className = {`${styles.text}`}>By collecting all information about your needs and discussing it thoroughly, we ensure there is no scope of error.</p>
@@ -26,7 +26,7 @@ export default function Section4(props){
                     </div>
                 </div>
 
-                <div className = {`${styles.innerContainer}`}>
+                <div data-aos-offset = "-1000" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.innerContainer}`}>
                     <div style = {{width: '30%', zIndex: '10', marginRight: '3%'}}>
                         <p className = {`${styles.heading}`}>Prototyping</p>
                         <p className = {`${styles.text}`}>We test your ideas before they are fully developed to provide the best user experience.</p>

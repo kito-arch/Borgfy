@@ -4,7 +4,7 @@ import styles from './section7.module.css'
 
 export default function(props){
     return(
-        <div className = {`${styles.container}`}>
+        <div data-aos-offset = "-1600" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.container}`}>
 
             <div style = {{zIndex: '1', position: 'absolute', top: '370px', left: '30%'}}>
                 <Image src = '/../public/brain_sec7_image.png' width = '734px' height = '450px'/>

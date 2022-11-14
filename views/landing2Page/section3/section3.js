@@ -5,8 +5,8 @@ import styles from './section3.module.css'
 export default function Section3(props){
     return(
         <div className = {`${styles.container}`}>
-            <p className = {`${styles.heading}`}>Oue Story been featured through them</p>
-            <div className = {`${styles.centerCenter}`}>
+            <p data-aos-offset = "-400" data-aos = 'fade-up' data-aos-duration = '1000'  className = {`${styles.heading}`}>Oue Story been featured through them</p>
+            <div data-aos-offset = "-400" data-aos = 'fade-up' data-aos-duration = '1000'  className = {`${styles.centerCenter}`}>
                 <div className = {`${styles.stretchBetween}`}>
                     <Image src = '/../public/landing2_sec3_image1.png' width = '312px' height = '92px'/>
                     <Image src = '/../public/landing2_sec3_image3.png' width = '407px' height = '92px'/>

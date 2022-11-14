@@ -10,7 +10,7 @@ export default function Section7(props){
                 <Image src = '/../public/case_sec8_image.png' width = '257px' height = '257px' />
             </div>
 
-            <div className = {`${styles.startBetween}`}>
+            <div data-aos-offset = "-1400" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.startBetween}`}>
                 <div className = {`${styles.headingContainer}`}>
                     <div style = {{position: 'absolute', left: '-25px', top: '0'}}>
                         <Image src = '/../public/gray_ellipse.png' width = '61px' height = '61px'/>

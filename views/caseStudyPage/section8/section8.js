@@ -11,13 +11,13 @@ export default function Section8(props){
                 <Image src = '/../public/case_right_hand.png' width = '158px' height = '185px' />
             </div>
 
-            <div className = {`${styles.headingContainer}`}>
+            <div data-aos-offset = "-1800" data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.headingContainer}`}>
                 <div style = {{position: 'absolute', left: '-25px', top: '0'}}>
                     <Image src = '/../public/gray_ellipse.png' width = '61px' height = '61px'/>
                 </div>
                 <p className = {`${styles.heading}`}>Approach</p>
             </div>
-            <p className = {`${styles.text}`}>We worked with this team early in the Discovery phase to define project goals and objectives that would serve as benchmarks for success, including both short- and long-term objectives. Then we moved on to more strategic research, such as persona creation, customer journey mapping, iterating, and testing. </p>
+            <p data-aos-offset = "-1800" data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.text}`}>We worked with this team early in the Discovery phase to define project goals and objectives that would serve as benchmarks for success, including both short- and long-term objectives. Then we moved on to more strategic research, such as persona creation, customer journey mapping, iterating, and testing. </p>
 
 
             <div className = {`${styles.centerCenter}`}>

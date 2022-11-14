@@ -5,9 +5,9 @@ import Image from 'next/image'
 export default function Section6(props){
     return(
         <div className = {`${styles.container}`}>
-            <p className = {`${styles.heading}`}>Meet Our Team</p>
+            <p data-aos-offset = "-1300" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>Meet Our Team</p>
 
-            <div className = {`${styles.centerCenter}`}>
+            <div data-aos-offset = "-1400" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.centerCenter}`}>
                 <div className = {`${styles.stretchBetween}`}>
                     <div>
                         <Image src = '/../public/about_sec6_image1.png' width = '354px' height = '300px'/>

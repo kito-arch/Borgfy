@@ -9,9 +9,9 @@ export default function Section10(props){
 
                 <Image src = '/../public/landing2_sec10_back.png' layout = 'fill'/>
 
-                <div className = {`${styles.innerContainer}`}>
+                <div data-aos-offset = "-3200" data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.innerContainer}`}>
                     <Image src = '/../public/landing2_sec10_bulb.png' width = '30px' height = '46px' />
-                    <p className = {`${styles.subtext}`}>HAV E AN IDEA</p>
+                    <p className = {`${styles.subtext}`}>HAVE AN IDEA</p>
                     <p className = {`${styles.heading}`}>Startup business consultant ideas helpful services</p>
 
                     <div className = {`${styles.centerStart}`}>

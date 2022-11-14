@@ -10,7 +10,7 @@ export default function Section5(props){
                 <Image src = '/../public/case_problem_target.png' width = '256px' height = '423px' />
             </div>
 
-            <div>
+            <div data-aos-offset = "-900" data-aos = 'fade-right' data-aos-duration = '1000' >
                 <div className = {`${styles.headingContainer}`}>
                     <div style = {{position: 'absolute', left: '-25px', top: '0'}}>
                         <Image src = '/../public/gray_ellipse.png' width = '61px' height = '61px'/>

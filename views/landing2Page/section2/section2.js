@@ -7,12 +7,12 @@ export default function Section2(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{position: 'relative'}}>
-                <p className = {`${styles.subtext}`}>WHO WE ARE</p>
-                <p className = {`${styles.heading}`}>WE ARE</p>
+                <p data-aos-offset = "-300" data-aos = 'fade-up' data-aos-duration = '1000'  className = {`${styles.subtext}`}>WHO WE ARE</p>
+                <p data-aos-offset = "-300" data-aos = 'fade-up' data-aos-duration = '1000'  className = {`${styles.heading}`}>WE ARE</p>
 
                 <div className = {`${styles.centerCenter}`}>
                     <div className = {`${styles.stretchBetween}`}>
-                        <div style = {{width: '340px', position: 'relative', paddingTop: '60px'}}>
+                        <div data-aos-offset = "-300" data-aos = 'fade-up' data-aos-duration = '1000'  style = {{width: '340px', position: 'relative', paddingTop: '60px'}}>
                             <div style = {{width: 'fit-content', margin: 'auto'}}>
                                 <Image src = '/../public/landing2_sec2_image1.png' width = '110px' height = '110px' />
                             </div>
@@ -21,7 +21,7 @@ export default function Section2(props){
                             </div>
                             <p className = {`${styles.text}`}>Venture Builders  and Digital Transformation Experts helping startups and enterprises</p>
                         </div>
-                        <div style = {{width: '340px', position: 'relative'}}>
+                        <div data-aos-offset = "-300" data-aos = 'fade-up' data-aos-duration = '1000'  style = {{width: '340px', position: 'relative'}}>
                             <Image src = '/../public/landing2_sec2_image2.png' width = '110px' height = '110px' />
                             <p className = {`${styles.text}`}>with capabilities to quickly develop high quality technology products of any scale and complexity</p>
 
@@ -29,7 +29,7 @@ export default function Section2(props){
                                 <Image src = '/../public/landing2_sec2_arrow2.png' width = '76px' height = '59px' />
                             </div>
                         </div>
-                        <div style = {{width: '340px', position: 'relative', paddingTop: '60px'}}>
+                        <div data-aos-offset = "-300" data-aos = 'fade-up' data-aos-duration = '1000'  style = {{width: '340px', position: 'relative', paddingTop: '60px'}}>
                             <Image src = '/../public/landing2_sec2_image3.png' width = '110px' height = '110px' />
                             <p className = {`${styles.text}`}>and business skills to launch and support digital ideas, initiatives,  & Ventures</p>
                         </div>
@@ -37,7 +37,7 @@ export default function Section2(props){
                 </div>
             </div>
 
-            <div className = {`${styles.bottomContainer}`}>
+            <div data-aos-offset = "-400" data-aos = 'fade-up' data-aos-duration = '1000'  className = {`${styles.bottomContainer}`}>
                 {/* <div style = {{position: 'absolute', top: '-100px', left: '-150px'}}>
                     <Image src = '/../public/landing2_sec2_line.png' width = '1410px' height = '39px' />
                 </div> */}
