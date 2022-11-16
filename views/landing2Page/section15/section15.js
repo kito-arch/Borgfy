@@ -1,4 +1,4 @@
-
+import { scroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section15.module.css'
 
@@ -49,7 +49,7 @@ export default function Section15(props){
                         <Image src = '/../public/landing2_sec15_image4.png' width = '260px' height = '260px'/>
                     </div>
                 </div>
-                <div data-aos-offset = "-5500" data-aos = 'fade-left' data-aos-duration = '1000' style = {{paddingLeft: '420px'}}>
+                <div data-aos-offset = {scroll-5500} data-aos = 'fade-left' data-aos-duration = '1000' style = {{paddingLeft: '420px'}}>
                     <p className = {`${styles.heading}`}>Our Client</p>
                     <p className = {`${styles.text}`}>The World is too noise tune to Borgy Signal</p>
                     <p className = {`${styles.text}`}>The World is too noise tune to Borgy Signal</p>

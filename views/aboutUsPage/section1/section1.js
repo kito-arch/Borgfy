@@ -1,5 +1,6 @@
 
 import Image from 'next/image'
+import { scroll } from '../../../conts_vars'
 import styles from './section1.module.css'
 
 export default function Sectoin1(props){
@@ -11,16 +12,16 @@ export default function Sectoin1(props){
             </div>
 
 
-            <div data-aos-offset = "-300" data-aos = 'fade-up' data-aos-duration = '1000' style = {{position: 'relative'}}>
+            <div data-aos-offset = {-300+scroll} data-aos = 'fade-up' data-aos-duration = '1000' style = {{position: 'relative'}}>
                 <div style = {{position: 'absolute', top: '-20px', left: '160px'}}>
                     <Image src = '/../public/about_sec1_bell.png' width = '100px' height = '100px'/>
                 </div>
                 <p className = {`${styles.heading}`}>We Shape Visionary Ideas So That It Connects Dots in People life</p>
                 <br/>
             </div>
-            <p data-aos-offset = "-300" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.text}`}>Building Amazing products using cutting-edge technologies mixed with physchology</p>
+            <p data-aos-offset = {-300+scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.text}`}>Building Amazing products using cutting-edge technologies mixed with physchology</p>
             <br/>
-            <div data-aos-offset = "-400" data-aos = 'fade-up' data-aos-duration = '1000' style = {{position: 'relative'}}>
+            <div data-aos-offset = {-400+scroll} data-aos = 'fade-up' data-aos-duration = '1000' style = {{position: 'relative'}}>
                 <p style = {{marginBottom: '40px'}} className = {`${styles.text}`}>You know why? Cause it sell more</p>
                 <div style = {{position: 'absolute', top: '0px', right: '670px'}}>
                     <Image src = '/../public/about_sec1_emoji.png' width = '35px' height = '35px'/>

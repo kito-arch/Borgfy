@@ -1,14 +1,14 @@
-
+import { scroll } from '../../../conts_vars'
 import styles from './section3.module.css'
 
 export default function Section3(props){
     return(
         <div className = {`${styles.container}`}>
-            <p data-aos-offset = "-500" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>Our Approach</p>
+            <p data-aos-offset = {scroll-500} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>Our Approach</p>
 
             <div className = {`${styles.stretchBetween}`}>
 
-                <div data-aos-offset = "-600" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                <div data-aos-offset = {scroll-600} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
                     <div className = {`${styles.numberContainer}`}>
                         <p className = {`${styles.number}`}>1</p>
                     </div>
@@ -16,7 +16,7 @@ export default function Section3(props){
                     <p className = {`${styles.boxText}`}>We will get on a call to understand your app idea. This is where we will learn about your requirements, and objectives.</p>
                 </div>
 
-                <div data-aos-offset = "-600" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                <div data-aos-offset = {scroll-600} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
                     <div className = {`${styles.numberContainer}`}>
                         <p className = {`${styles.number}`}>2</p>
                     </div>
@@ -24,7 +24,7 @@ export default function Section3(props){
                     <p className = {`${styles.boxText}`}>We will validate your app idea throughout this phase, examine your target audience, and prepare a solid roadmap for seamless project execution.</p>
                 </div>
 
-                <div data-aos-offset = "-600" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                <div data-aos-offset = {scroll-600} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
                     <div className = {`${styles.numberContainer}`}>
                         <p className = {`${styles.number}`}>3</p>
                     </div>
@@ -32,7 +32,7 @@ export default function Section3(props){
                     <p className = {`${styles.boxText}`}>We will map out the user journey, design the interface during this phase. Our team will constantly seek your feedback and improvise as and when needed.</p>
                 </div>
 
-                <div data-aos-offset = "-700" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                <div data-aos-offset = {scroll-700} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
                     <div className = {`${styles.numberContainer}`}>
                         <p className = {`${styles.number}`}>4</p>
                     </div>
@@ -40,7 +40,7 @@ export default function Section3(props){
                     <p className = {`${styles.boxText}`}>This is the phase where the actual development starts. Once the design is finalized, we will start coding the app. Our experts employ best coding practices to ensure your app is secure, fast, and snappy.</p>
                 </div>
 
-                <div data-aos-offset = "-700" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                <div data-aos-offset = {scroll-700} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
                     <div className = {`${styles.numberContainer}`}>
                         <p className = {`${styles.number}`}>5</p>
                     </div>
@@ -48,7 +48,7 @@ export default function Section3(props){
                     <p className = {`${styles.boxText}`}>Once we’re through the development phase, we will start testing the app and its functionality to ensure everything is working as intended.</p>
                 </div>
 
-                <div data-aos-offset = "-700" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                <div data-aos-offset = {scroll-700} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
                     <div className = {`${styles.numberContainer}`}>
                         <p className = {`${styles.number}`}>6</p>
                     </div>

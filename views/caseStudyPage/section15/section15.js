@@ -1,5 +1,6 @@
 
 import Image from 'next/image'
+import { scroll } from '../../../conts_vars'
 import styles from './section15.module.css'
 
 export default function Section15(props){
@@ -13,8 +14,8 @@ export default function Section15(props){
                 <Image src = '/../public/case_left_hand.png' width = '158px' height = '185px' />
             </div>
 
-            <p data-aos-offset = "-4600" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>The Outcomes</p>
-            <div data-aos-offset = "-4600" data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.centerCenter}`}>
+            <p data-aos-offset = {scroll-4600} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>The Outcomes</p>
+            <div data-aos-offset = {scroll-4600} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.centerCenter}`}>
                 <div className = {`${styles.stretchBetween}`}>
                     <div style = {{position: 'relative'}}> 
                         <p className = {`${styles.text}`}>$10M</p>
