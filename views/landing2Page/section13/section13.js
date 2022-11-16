@@ -11,12 +11,12 @@ export default function Section13(props){
                 <Image src = './landing2_sec13_left.png' width = '215px' height = '749px' />
             </div>
 
-            <p data-aos-offset = {scroll-4600} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.subheading}`}>Testimonials</p>
-            <p data-aos-offset = {scroll-4600} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>Check what our clients are saying</p>
+            <p data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.subheading}`}>Testimonials</p>
+            <p data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>Check what our clients are saying</p>
 
             <div className = {`${styles.stretchBetween}`}>
                 <Image src = './landing2_sec13_image1.png' width = '495px' height = '593px' />
-                <div data-aos-offset = {scroll-4600} data-aos = 'fade-left' data-aos-duration = '1000'>
+                <div data-aos-offset = {-scroll*4600} data-aos = 'fade-left' data-aos-duration = '1000'>
                     <div style = {{marginBottom: '20px', marginTop: '150px'}}>
                         <Image src = './landing2_sec13_comma.png' width = '31px' height = '27px' />
                     </div>

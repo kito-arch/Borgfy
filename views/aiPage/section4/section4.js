@@ -11,12 +11,12 @@ export default function Section4(props){
                 <Image src = './ai_sec4_dots.png' width = '120px' height = '274px' />
             </div>
 
-            <p  data-aos-offset = {-600+scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>Data Science & Machine Learning Applications</p>
-            <p  data-aos-offset = {-600+scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.text}`}>As more and more data is created to scale the industrial outcome the use of Data Science is increasing. With the help of AI and analytics industries are becoming more profoundly able for mass-producing digital and physical products of a grand scale.it helps in estimating your customer behaviour,product lifecycle and better insights of future</p>
+            <p  data-aos-offset = {-600*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>Data Science & Machine Learning Applications</p>
+            <p  data-aos-offset = {-600*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.text}`}>As more and more data is created to scale the industrial outcome the use of Data Science is increasing. With the help of AI and analytics industries are becoming more profoundly able for mass-producing digital and physical products of a grand scale.it helps in estimating your customer behaviour,product lifecycle and better insights of future</p>
 
             <div className = {`${styles.stretchBetween}`}>
 
-                <div  data-aos-offset = {-700+scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.card}`}>
+                <div  data-aos-offset = {-700*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.card}`}>
                     <div className = {`${styles.cardImage}`}>
                         <Image src = './ai_sec4_icon1.png' width = '93px' height = '93px' />
                     </div>
@@ -24,7 +24,7 @@ export default function Section4(props){
                     <p className = {`${styles.cardText}`}>This capability of computers allows the machines to interpret their field of view of the visual world. It helps these machines to react accordingly using the protocols defined through artificial intelligence.example are Smarts Autonomous cars,Robots</p>
                 </div>
 
-                <div  data-aos-offset = {-700+scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.card}`}>
+                <div  data-aos-offset = {-700*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.card}`}>
                     <div className = {`${styles.cardImage}`}>
                         <Image src = './ai_sec4_icon2.png' width = '93px' height = '93px' />
                     </div>
@@ -32,7 +32,7 @@ export default function Section4(props){
                     <p className = {`${styles.cardText}`}>You have a clear understanding of a chatbot because most of the time you are chatting with a chatbot on different websites. These chatbots have pre-programmed answers which are provided to you according to your question with the help of AI.Example: Siri,Alexa,Google Assistant</p>
                 </div>
 
-                <div  data-aos-offset = {-700+scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.card}`}>
+                <div  data-aos-offset = {-700*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.card}`}>
                     <div className = {`${styles.cardImage}`}>
                         <Image src = './ai_sec4_icon3.png' width = '93px' height = '93px' />
                     </div>
