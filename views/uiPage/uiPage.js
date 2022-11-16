@@ -12,7 +12,7 @@ import styles from './uiPage.module.css'
 
 export default function UIPage(props){
     return(
-        <StandardLayout>
+        <StandardLayout logo = '/../public/logo_black.png'>
             <PaddingLayout>
                 <Image src = '/../public/ui_sec1_back.png' layout = 'fill'/>
                 <Section1/>
@@ -23,9 +23,12 @@ export default function UIPage(props){
             <PaddingLayout>
                 <Section3/>
             </PaddingLayout>
-            <div style = {{position: 'relative', minHeight: '1080px', marginBottom: '26.875rem'}}>
+            <video width="100%" height="100%" loop autoPlay muted>
+                <source src={'render.mp4'} type="video/mp4" />
+            </video>
+            {/* <div style = {{position: 'relative', minHeight: '1080px', marginBottom: '26.875rem'}}>
                 <Image src = '/../public/ui_sec3_back.png' layout="fill"/>
-            </div>
+            </div> */}
             <PaddingLayout backgroundColor = 'white'>
                 <Section4/>
             </PaddingLayout>

@@ -7,7 +7,7 @@ import FooterTag from '../../components/footer/footerTag/footerTag'
 export default function StandardLayout(props){
     return(
         <div style = {{position: 'relative'}}>
-            <Navbar/>
+            <Navbar logo =  {props.logo}/>
                 {props.children}
             <Footer backgroundColor = {props.backgroundColor ?? 'white'}/>
             <FooterTag/>
