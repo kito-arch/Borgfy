@@ -10,17 +10,17 @@ export default function Section2(props){
 
             <div className = {`${styles.innerContainer}`}>
 
-                <Image src = '/../public/brain_sec2_back.png' layout='fill'/>
+                <Image src = './brain_sec2_back.png' layout='fill'/>
 
                 <div style = {{position: 'relative'}}>
                     <div style = {{position: 'absolute', top: '150px', right: '50px'}}>
-                        <Image src = '/../public/brain_sec2_image.png' width = '512px' height = '512px'/>
+                        <Image src = './brain_sec2_image.png' width = '512px' height = '512px'/>
                     </div>
                     <div style = {{position: 'absolute', top: '0px', left: '-12rem'}}>
-                        <Image src = '/../public/brain_sec2_icon.png' width = '383px' height = '397px'/>
+                        <Image src = './brain_sec2_icon.png' width = '383px' height = '397px'/>
                     </div>
                     <div style = {{position: 'absolute', bottom: '-200px', right: '-11rem'}}>
-                        <Image src = '/../public/brain_sec2_icon.png' width = '383px' height = '397px'/>
+                        <Image src = './brain_sec2_icon.png' width = '383px' height = '397px'/>
                     </div>
                     <p data-aos-offset = {-300+scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.topHeading}`}>Borgfy</p>
                     <p data-aos-offset = {-300+scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>02. What Are We Going to Build?</p>

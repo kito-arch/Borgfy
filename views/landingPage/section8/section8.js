@@ -7,7 +7,7 @@ export default function Section8(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{position: 'absolute', bottom: '70px', right: '20%'}}>
-                <Image src = '/../public/landing_sec8_arrow.png' width = '70px' height = '40px' />
+                <Image src = './landing_sec8_arrow.png' width = '70px' height = '40px' />
             </div>
 
             <div className = {`${styles.centerStart}`}>

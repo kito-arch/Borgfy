@@ -7,7 +7,7 @@ export default function Section4(props){
         <div className = {`${styles.outerContainer}`}>
             <div className = {`${styles.container}`}>
 
-                <Image src = '/../public/ui_sec4_back.png' width = '1537px' height = '691px' layout = 'fill'/>
+                <Image src = './ui_sec4_back.png' width = '1537px' height = '691px' layout = 'fill'/>
 
                 <div data-aos-offset = {scroll-1000} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.innerContainer}`}>
                     <div style = {{width: '30%', zIndex: '10', marginRight: '3%'}}>

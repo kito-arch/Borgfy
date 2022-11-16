@@ -14,10 +14,10 @@ export default function ContactPage(props){
                     <div className = {`${styles.innerContainer}`}>
 
                         <div style = {{position: 'absolute', top: '400px', left: '-14rem'}}>
-                            <Image src = '/../public/digital_left_triangle.png' width = '219.47px' height = '221.19px'/>
+                            <Image src = './digital_left_triangle.png' width = '219.47px' height = '221.19px'/>
                         </div>
                         <div style = {{position: 'absolute', top: 23, right: '-12rem'}}>
-                            <Image src = '/../public/digital_right_triangle.png' width = '170px' height = '221.19px'/>
+                            <Image src = './digital_right_triangle.png' width = '170px' height = '221.19px'/>
                         </div>
 
 
@@ -26,11 +26,11 @@ export default function ContactPage(props){
                             
 
                             <div style = {{position: 'absolute', top: '228px', right: '107px'}}>
-                                <Image src = '/../public/contact_image1.png' width = '553px' height = '553px'/>
+                                <Image src = './contact_image1.png' width = '553px' height = '553px'/>
                             </div>
 
                             <div style = {{position: 'absolute', top: '87px', left: '127px'}}>
-                                <Image src = '/../public/contact_bell.png' width = '103px' height = '103px'/>
+                                <Image src = './contact_bell.png' width = '103px' height = '103px'/>
                             </div>
 
                             <p className = {`${styles.contact}`}>Contact Us</p>

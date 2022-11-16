@@ -6,8 +6,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "heroku-postbuild": "npm run start -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "export": "next export"
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",

@@ -28,7 +28,7 @@ export default function VenturePage(props){
                     </PaddingLayout>
 
                     <PaddingLayout>
-                        <Image src = '/../public/digital_advantages_back.png' layout="fill"/>
+                        <Image src = './digital_advantages_back.png' layout="fill"/>
                         <Section4/>
                     </PaddingLayout>
 

@@ -8,11 +8,11 @@ export default function Section6(props){
 
 
             <div style = {{position: 'absolute', top: '900px', left: '-12rem'}}>
-                <Image src = '/../public/landing2_sec5_back5.png' width = '120px' height = '170px' />
+                <Image src = './landing2_sec5_back5.png' width = '120px' height = '170px' />
             </div>
 
             <div style = {{position: 'absolute', top: '1300px', right: '-12rem'}}>
-                <Image src = '/../public/landing2_sec5_back6.png' width = '130px' height = '170px' />
+                <Image src = './landing2_sec5_back6.png' width = '130px' height = '170px' />
             </div>
 
             <p data-aos-offset = {scroll-1700} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.subheading}`}>DELIVERED</p>
@@ -51,11 +51,11 @@ export default function Section6(props){
                         <div style = {{backgroundColor: '#A5CEFF'}} className = {`${styles.boxTop}`}>
 
                             <div style = {{position: 'absolute', top: '0', left: '50px'}}>
-                                <Image src = '/../public/landing2_sec5_back1.png' width = '100px' height = '50px' />
+                                <Image src = './landing2_sec5_back1.png' width = '100px' height = '50px' />
                             </div>
 
                             <div style = {{position: 'absolute', bottom: '-4px', right: '100px'}}>
-                                <Image src = '/../public/landing2_sec5_back2.png' width = '100px' height = '50px' />
+                                <Image src = './landing2_sec5_back2.png' width = '100px' height = '50px' />
                             </div>
 
                             <p className = {`${styles.boxHeading1}`}>As experts in</p>
@@ -87,11 +87,11 @@ export default function Section6(props){
                         <div style = {{backgroundColor: '#A0FFEE'}} className = {`${styles.boxTop}`}>
 
                             <div style = {{position: 'absolute', bottom: '-4px', left: '100px'}}>
-                                <Image src = '/../public/landing2_sec5_back3.png' width = '100px' height = '50px' />
+                                <Image src = './landing2_sec5_back3.png' width = '100px' height = '50px' />
                             </div>
 
                             <div style = {{position: 'absolute', top: '0', right: '50px'}}>
-                                <Image src = '/../public/landing2_sec5_back4.png' width = '100px' height = '50px' />
+                                <Image src = './landing2_sec5_back4.png' width = '100px' height = '50px' />
                             </div>
 
                             <p className = {`${styles.boxHeading1}`}>From Inception to Launch we do</p>

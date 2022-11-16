@@ -12,7 +12,7 @@ export default function Section8(props){
                 <div className = {`${styles.stretchBetween}`}>
 
                     <div data-aos-offset = {scroll-3000} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
-                        <Image src = '/../public/landing2_sec8_google.png' width = '400px' height = '48px' />
+                        <Image src = './landing2_sec8_google.png' width = '400px' height = '48px' />
 
                         <p className = {`${styles.boxHeading}`}>Title Heading</p>
                         <p className = {`${styles.boxText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -20,7 +20,7 @@ export default function Section8(props){
                     </div>
 
                     <div data-aos-offset = {scroll-3000} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
-                        <Image src = '/../public/landing2_sec8_google.png' width = '400px' height = '48px' />
+                        <Image src = './landing2_sec8_google.png' width = '400px' height = '48px' />
 
                         <p className = {`${styles.boxHeading}`}>Title Heading</p>
                         <p className = {`${styles.boxText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -28,7 +28,7 @@ export default function Section8(props){
                     </div>
 
                     <div data-aos-offset = {scroll-3000} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
-                        <Image src = '/../public/landing2_sec8_google.png' width = '400px' height = '48px' />
+                        <Image src = './landing2_sec8_google.png' width = '400px' height = '48px' />
 
                         <p className = {`${styles.boxHeading}`}>Title Heading</p>
                         <p className = {`${styles.boxText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>

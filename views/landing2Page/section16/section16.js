@@ -15,11 +15,11 @@ export default function Section16(props){
                             <p className = {`${styles.boxTitle}`}>Top 10 App Ideas for startups in  2022</p>
                             <p className = {`${styles.boxText}`}>An important aspect of every company’s success nowadays is to have the greatest app concepts. App development</p>
                         </div>
-                        <Image src = '/../public/landing2_sec16_image1.png' width = '419px' height = '317px' />
+                        <Image src = './landing2_sec16_image1.png' width = '419px' height = '317px' />
                     </div>
 
                     <div style = {{minWidth: '414px', marginRight: '30px', padding: '124px 16px 43px'}} className = {`${styles.box}`}>
-                        <Image src = '/../public/landing2_sec16_mage2.png' width = '398px' height = '223px' />
+                        <Image src = './landing2_sec16_mage2.png' width = '398px' height = '223px' />
                         <div>
                             <p className = {`${styles.boxDate}`}>January 08, 2022</p>
                             <p className = {`${styles.boxTitle}`}>8 Steps To Consider on Evaluation of your startup idea</p>
@@ -28,7 +28,7 @@ export default function Section16(props){
                     </div>
 
                     <div style = {{minWidth: '414px', marginRight: '30px', padding: '43px 16px'}} className = {`${styles.box}`}>
-                        <Image src = '/../public/landing2_sec16_image3.png' width = '367px' height = '367px' />
+                        <Image src = './landing2_sec16_image3.png' width = '367px' height = '367px' />
                         <div>
                             <p className = {`${styles.boxDate}`}>January 08, 2022</p>
                             <p className = {`${styles.boxTitle}`}>If as a business owner, why do you need influencer marketing?</p>
@@ -38,7 +38,7 @@ export default function Section16(props){
 
 
                     <div style = {{minWidth: '414px', marginRight: '30px', padding: '43px 16px'}} className = {`${styles.box}`}>
-                        <Image src = '/../public/landing2_sec16_image1.png' width = '419px' height = '317px' />
+                        <Image src = './landing2_sec16_image1.png' width = '419px' height = '317px' />
                         <div>
                             <p className = {`${styles.boxDate}`}>January 08, 2022</p>
                             <p className = {`${styles.boxTitle}`}>8 Steps To Consider on Evaluation of your startup idea</p>

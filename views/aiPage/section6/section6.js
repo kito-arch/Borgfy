@@ -9,7 +9,7 @@ export default function Section6(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{position: 'absolute', bottom: '65px', right: '-12rem'}}>
-                <Image src = '/../public/ai_sec6_dots.png' width = '174px' height = '348px'/>
+                <Image src = './ai_sec6_dots.png' width = '174px' height = '348px'/>
             </div>
 
             <div data-aos-offset = {-1200+scroll} data-aos = 'fade-up' data-aos-duration = '1000'>

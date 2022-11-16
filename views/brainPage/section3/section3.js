@@ -8,11 +8,11 @@ export default function Section3(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{position: 'absolute', top: '84px', left: '0'}}>
-                <Image src = '/../public/brain_sec3_image.png' width = '552px' height = '589px'/>
+                <Image src = './brain_sec3_image.png' width = '552px' height = '589px'/>
             </div>
 
             <div style = {{position: 'absolute', top: '400px', right: '0px'}}>
-                <Image src = '/../public/brain_sec3_image.png' width = '552px' height = '589px'/>
+                <Image src = './brain_sec3_image.png' width = '552px' height = '589px'/>
             </div>
 
             <p data-aos-offset = {-500+scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>03. Whom are we going to sell?</p>

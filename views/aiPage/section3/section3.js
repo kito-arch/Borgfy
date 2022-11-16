@@ -8,7 +8,7 @@ export default function Section3(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{position: 'absolute', bottom: '-4px', right: '-100px'}}>
-                <Image src = '/../public/ai_sec3_back.png' width = '992px' height = '711px' />
+                <Image src = './ai_sec3_back.png' width = '992px' height = '711px' />
             </div>
 
             <div  data-aos-offset = {-500+scroll} data-aos = 'fade-right' data-aos-duration = '1000' className = {`${styles.innerContainer}`}>

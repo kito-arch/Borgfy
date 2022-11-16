@@ -2,10 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  // images:{
-  //   unoptimized: true
-  // },
-  // assetPrefix: './'
+  images:{
+    unoptimized: true
+  },
+  assetPrefix: './'
 }
 
 module.exports = nextConfig

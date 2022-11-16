@@ -11,9 +11,9 @@ export default function (props){
             {!props.noIcon &&
                 <div className = {`${styles.centerStart}`}>
                     <div style = {{marginRight: '20px'}}>
-                        <Image src = '/../public/apple_icon.png' width = '44px' height = '44px' />
+                        <Image src = './apple_icon.png' width = '44px' height = '44px' />
                     </div>
-                    <Image src = '/../public/playstore_icon.png' width = '44px' height = '44px' />
+                    <Image src = './playstore_icon.png' width = '44px' height = '44px' />
                 </div>
             }   
         </div>

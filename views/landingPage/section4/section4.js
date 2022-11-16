@@ -10,7 +10,7 @@ export default function Section4(props){
                 <p data-aos-offset = {scroll-1200} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.text}`}>We Had Great Experience Building</p>
 
                 <div data-aos-offset = {scroll-1200} data-aos = 'fade-up' data-aos-duration = '1000'>
-                    <Image src = '/../public/landing_sec4_text.png' width = '700px' height = '40px'/>
+                    <Image src = './landing_sec4_text.png' width = '700px' height = '40px'/>
                 </div>
             </div>
         </div>
