@@ -38,6 +38,10 @@
 .navLabelContainer{
     margin-top: 16px;
     margin-right: 1.5625rem;
+    position: relative;
+    cursor: pointer;
+    height: 70px;
+    white-space: nowrap;
 }
 
 .navLabels{
@@ -59,4 +63,108 @@
 .chipLabel{
     font-weight: 500;
     font-size: 1.125rem;
+}
+
+.dropdownContainer{
+    padding: 0;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: -20px;
+    min-width: 100%;
+    background-color: #141821;
+    transition: all 0.2s linear;
+    overflow: hidden;
+}
+
+.navLabelContainer:hover .dropdownContainer{
+    padding: 10px 20px;
+}
+
+.dropdownContainer:hover{
+    padding: 10px 20px;
+}
+
+.dropdownContainer .navLabels{
+    margin-bottom: 5px;
+}
+
+.dropContainer .line{
+    width: 0;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 10px;
+    transition: all 0.2s linear;
+}
+
+.dropContainer:hover .line{
+    width: 30%;
+}
+
+.one{
+    height: 0px;
+}
+
+.two{
+    height: 0px;
+}
+.three{
+    height: 0px;
+}
+.four{
+    height: 0px;
+}
+.five{
+    height: 0px;
+}
+
+
+.navLabelContainer:hover .dropdownContainer.one{
+    padding: 10px 20px;
+    height: 42px;
+}
+
+.one.dropdownContainer:hover{
+    padding: 10px 20px;
+    height: 42px;
+}
+
+.navLabelContainer:hover .dropdownContainer.two{
+    padding: 10px 20px;
+    height: 84px;
+}
+
+.two.dropdownContainer:hover{
+    padding: 10px 20px;
+    height: 84px;
+}
+
+.navLabelContainer:hover .dropdownContainer.three{
+    padding: 10px 20px;
+    height: 126px;
+}
+
+.three.dropdownContainer:hover{
+    padding: 10px 20px;
+    height: 126px;
+}
+
+.navLabelContainer:hover .dropdownContainer.four{
+    padding: 10px 20px;
+    height: 168px;
+}
+
+.four.dropdownContainer:hover{
+    padding: 10px 20px;
+    height: 168px;
+}
+
+.navLabelContainer:hover .dropdownContainer.five{
+    padding: 10px 20px;
+    height: 210px;
+}
+
+.five.dropdownContainer:hover{
+    padding: 10px 20px;
+    height: 210px;
 }

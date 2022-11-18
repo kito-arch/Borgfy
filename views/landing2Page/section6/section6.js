@@ -1,6 +1,7 @@
 import { scroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section6.module.css'
+import Link from 'next/link'
 
 export default function Section6(props){
     return(
@@ -79,7 +80,9 @@ export default function Section6(props){
                                     <li><p className = {`${styles.list}`}>Full Funding Assistance</p></li>
                                 </ul>
                             </div>
-                            <p className = {`${styles.button}`}>Read More</p>
+                            <Link href = 'venture'>
+                                <p className = {`${styles.button}`}>Read More</p>
+                            </Link>
                         </div>
                     </div>
 
@@ -119,7 +122,9 @@ export default function Section6(props){
                                     <li><p className = {`${styles.list}`}>Startup Networking Events </p></li>
                                 </ul>
                             </div>
-                            <p className = {`${styles.button}`}>Read More</p>
+                            <Link href = 'digital'>
+                                <p className = {`${styles.button}`}>Read More</p>
+                            </Link>
                         </div>
                     </div>
 
