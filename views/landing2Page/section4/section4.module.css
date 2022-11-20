@@ -1,5 +1,5 @@
 .container{
-    padding: 190px 0 70px;
+    padding: 50px 0 70px;
     position: relative;
     color: black;
 }
@@ -26,4 +26,20 @@
     color: #000000;
     width: 605px;
     margin: auto;
+}
+
+.image{
+    padding: 20px;
+    background-image: none;
+    transition: all 0.5s linear;
+    border-radius: 40px;
+    width: 767px;
+    height: 734px;
+    cursor: pointer;
+}
+
+
+.image:hover{
+    background-image: linear-gradient(to bottom, #7785ff, #fd2f31);
+    /* width: 10px; */
 }

@@ -38,12 +38,6 @@ export default function Navbar(props){
                             </div>
                         </div>
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
-                            <p className = {`${styles.navLabels}`}>Services</p>
-                            <div style = {{marginTop: '-5px'}}>
-                                <Image src = './arrowDown.png' width = '6px' height = '4px'/>
-                            </div>
-                        </div>
-                        <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Blog</p>
                             <div style = {{marginTop: '-5px'}}>
                                 <Image src = './arrowDown.png' width = '6px' height = '4px'/>
@@ -70,10 +64,34 @@ export default function Navbar(props){
                             <div style = {{marginTop: '-5px'}}>
                                 <Image src = './arrowDown.png' width = '6px' height = '4px'/>
                             </div>
-                            <div className = {`${styles.dropdownContainer} ${styles.one}`}>
+                            <div className = {`${styles.dropdownContainer} ${styles.four}`}>
                                 <Link href = 'ai'>
                                     <div className = {`${styles.dropContainer}`}>
                                         <p className = {`${styles.navLabels}`}>AI</p>
+                                        <div style = {{display: 'flex', justifyContent: 'center'}}>
+                                            <div className = {`${styles.line}`}></div>
+                                        </div>
+                                    </div>
+                                </Link>
+                                <Link href = 'ui'>
+                                    <div className = {`${styles.dropContainer}`}>
+                                        <p className = {`${styles.navLabels}`}>UI/UX</p>
+                                        <div style = {{display: 'flex', justifyContent: 'center'}}>
+                                            <div className = {`${styles.line}`}></div>
+                                        </div>
+                                    </div>
+                                </Link>
+                                <Link href = 'landing'>
+                                    <div className = {`${styles.dropContainer}`}>
+                                        <p className = {`${styles.navLabels}`}>App Development</p>
+                                        <div style = {{display: 'flex', justifyContent: 'center'}}>
+                                            <div className = {`${styles.line}`}></div>
+                                        </div>
+                                    </div>
+                                </Link>
+                                <Link href = 'fullstack'>
+                                    <div className = {`${styles.dropContainer}`}>
+                                        <p className = {`${styles.navLabels}`}>Full Stack Development</p>
                                         <div style = {{display: 'flex', justifyContent: 'center'}}>
                                             <div className = {`${styles.line}`}></div>
                                         </div>
@@ -86,18 +104,10 @@ export default function Navbar(props){
                             <div style = {{marginTop: '-5px'}}>
                                 <Image src = './arrowDown.png' width = '6px' height = '4px'/>
                             </div>
-                            <div className = {`${styles.dropdownContainer} ${styles.three}`}>
-                                <Link href = 'case'>
-                                    <div className = {`${styles.dropContainer}`}>
-                                        <p className = {`${styles.navLabels}`}>Use Cases</p>
-                                        <div style = {{display: 'flex', justifyContent: 'center'}}>
-                                            <div className = {`${styles.line}`}></div>
-                                        </div>
-                                    </div>
-                                </Link>
+                            <div className = {`${styles.dropdownContainer} ${styles.two}`}>
                                 <Link href = 'case2'>
                                     <div className = {`${styles.dropContainer}`}>
-                                        <p className = {`${styles.navLabels}`}>Cases</p>
+                                        <p className = {`${styles.navLabels}`}>Cases Studies</p>
                                         <div style = {{display: 'flex', justifyContent: 'center'}}>
                                             <div className = {`${styles.line}`}></div>
                                         </div>

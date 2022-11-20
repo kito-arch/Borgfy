@@ -8,6 +8,7 @@ import Section2 from "./components/section2/section2";
 import Section3 from "./components/section3/section3";
 import Section4 from "./components/section4/section4";
 import Section5 from "./components/section5/section5";
+import Section7 from "./components/section7/section7";
 import styles from './uiPage.module.css'
 
 export default function UIPage(props){
@@ -34,6 +35,9 @@ export default function UIPage(props){
             </PaddingLayout>
             <PaddingLayout backgroundColor = 'white'>
                 <Section5/>
+            </PaddingLayout>
+            <PaddingLayout backgroundColor = 'white'>
+                <Section7/>
             </PaddingLayout>
         </StandardLayout>
     )

@@ -11,7 +11,7 @@ export default function Section14(props){
             </div>
 
             <p data-aos-offset = {-scroll*4800} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>You need to Choose Us</p>
-            <p data-aos-offset = {-scroll*4800} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.subheading}`}>The World is too noise tune to Borgy Signal</p>
+            <p data-aos-offset = {-scroll*4800} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.subheading}`}>The World is too noisy, tune to Borgy Signal</p>
 
 
             <div data-aos-offset = {-scroll*5000} data-aos = 'fade-up' data-aos-duration = '1000' style = {{padding: '19px 16px', paddingRight: '131px', marginBottom: '93px'}} className = {`${styles.box}`}>

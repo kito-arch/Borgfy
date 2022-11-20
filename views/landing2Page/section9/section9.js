@@ -1,6 +1,7 @@
 import { scroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section9.module.css'
+import Link from 'next/link'
 
 export default function Section9(props){
     return(
@@ -38,8 +39,9 @@ export default function Section9(props){
 
                 </div>
             </div>
-
-            <p className = {`${styles.readmore}`}>Read More</p>
+            <Link href = 'case2'>
+                <p className = {`${styles.readmore}`}>Read More</p>
+            </Link>
 
         </div>
     )

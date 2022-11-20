@@ -11,27 +11,28 @@ export default function Section10(props){
 
                 <div data-aos-offset = {-scroll*3200} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.innerContainer}`}>
                     <Image src = './landing2_sec10_bulb.png' width = '30px' height = '46px' />
-                    <p className = {`${styles.subtext}`}>HAVE AN IDEA</p>
-                    <p className = {`${styles.heading}`}>Startup business consultant ideas helpful services</p>
+                    <p className = {`${styles.subtext}`}>Already have a startup idea?</p>
+                    <p className = {`${styles.heading}`}>Let's setup a FREE consultation call</p>
+                    <p className = {`${styles.subtext}`}>to answer questions like...</p>
 
                     <div className = {`${styles.centerStart}`}>
                         <Image src = './landing2_sec10_tick.png' width = '32px' height = '32px' />
-                        <p className = {`${styles.tickText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p className = {`${styles.tickText}`}>Is my startup idea good enough?</p>
                     </div>
 
                     <div className = {`${styles.centerStart}`}>
                         <Image src = './landing2_sec10_tick.png' width = '32px' height = '32px' />
-                        <p className = {`${styles.tickText}`}>Lorem ipsum dolor sit amet, </p>
+                        <p className = {`${styles.tickText}`}>What do I need to execute my idea?</p>
                     </div>
 
                     <div className = {`${styles.centerStart}`}>
                         <Image src = './landing2_sec10_tick.png' width = '32px' height = '32px' />
-                        <p className = {`${styles.tickText}`}>Lorem ipsum dolor sit amet consectetur</p>
+                        <p className = {`${styles.tickText}`}>What would be my ideal MVP?</p>
                     </div>
 
                     <div className = {`${styles.centerStart}`}>
                         <Image src = './landing2_sec10_tick.png' width = '32px' height = '32px' />
-                        <p className = {`${styles.tickText}`}>Lorem ipsum dolor sit </p>
+                        <p className = {`${styles.tickText}`}>How can I build a GTM strategy?</p>
                     </div>
 
                     <p className = {`${styles.consult}`}>Consult now</p>

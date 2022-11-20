@@ -30,6 +30,7 @@
     margin-top: 10rem;
     padding: 1.125rem;
     width: fit-content;
+    cursor: pointer;
 }
 
 .button{

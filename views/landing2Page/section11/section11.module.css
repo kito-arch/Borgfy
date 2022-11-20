@@ -9,8 +9,10 @@
     font-size: 72px;
     line-height: 89px;
     width: fit-content;
-    margin: auto;
-    margin-bottom: 33px;
+    /* margin: auto; */
+    margin-bottom: 333px;
+    text-align: left;
+    
 }
 
 .text{
@@ -18,9 +20,9 @@
     font-size: 22px;
     line-height: 36px;
     width: 1056px;
-    margin: auto;
-    margin-bottom: 333px;
-    text-align: center;
+    /* margin: auto; */
+    text-align: left;
+    margin-bottom: 33px;
 }
 
 .box{
@@ -68,4 +70,5 @@
     border-radius: 100px;
     transform: matrix(1, 0, -0.01, 1, 0, 0);
     margin-top: 77px;
+    cursor: pointer;
 }

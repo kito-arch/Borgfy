@@ -1,6 +1,7 @@
 import { scroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section5.module.css'
+import Link from 'next/link'
 
 export default function Section5(props){
     return(
@@ -26,7 +27,9 @@ export default function Section5(props){
                             <Image src = './landing2_sec5_image1.png' width = '261px' height = '261px' />
                         </div>
                         <p className = {`${styles.boxText}`}>We Are Dedicated Engineers Minds Devoted to Innovation, Bringing Sustainable</p>
-                        <p className = {`${styles.button}`}>Read More</p>
+                        <Link href = 'landing'>
+                            <p className = {`${styles.button}`}>Read More</p>
+                        </Link>
                     </div>
                 </div>
 
@@ -37,7 +40,9 @@ export default function Section5(props){
                             <Image src = './landing2_sec5_image2.png' width = '261px' height = '261px' />
                         </div>
                         <p className = {`${styles.boxText}`}>We Are Dedicated Engineers Minds Devoted to Innovation, Bringing Sustainable</p>
-                        <p className = {`${styles.button}`}>Read More</p>
+                        <Link href = 'ai'>
+                            <p className = {`${styles.button}`}>Read More</p>
+                        </Link>
                     </div>
                 </div>
 
@@ -48,7 +53,9 @@ export default function Section5(props){
                             <Image src = './landing2_sec5_image3.png' width = '261px' height = '261px' />
                         </div>
                         <p className = {`${styles.boxText}`}>We Are Dedicated Engineers Minds Devoted to Innovation, Bringing Sustainable</p>
-                        <p className = {`${styles.button}`}>Read More</p>
+                        <Link href = 'ui'>
+                            <p className = {`${styles.button}`}>Read More</p>
+                        </Link>
                     </div>
                 </div>
 
@@ -59,7 +66,9 @@ export default function Section5(props){
                             <Image src = './landing2_sec5_image4.png' width = '261px' height = '261px' />
                         </div>
                         <p className = {`${styles.boxText}`}>We Are Dedicated Engineers Minds Devoted to Innovation, Bringing Sustainable</p>
-                        <p className = {`${styles.button}`}>Read More</p>
+                        <Link href = 'fullstack'>
+                            <p className = {`${styles.button}`}>Read More</p>
+                        </Link>
                     </div>
                 </div>
             </div>

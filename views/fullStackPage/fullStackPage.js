@@ -5,6 +5,7 @@ import StandardLayout from "../../layouts/standardLayout/standardLayout";
 import Section1 from './components/section1/section1';
 import { Section2 } from './components/section2/section2';
 import Image from 'next/image';
+import Section7 from './components/section7/section7';
 
 export default function FullStackPage (props){
     return(
@@ -22,6 +23,10 @@ export default function FullStackPage (props){
                         <Image src = './full_stack_line.png' width = '10px' height = '4900px'/>
                     </div>
                     <Section2/>
+                </PaddingLayout>
+
+                <PaddingLayout backgroundColor = 'black'>
+                    <Section7/>
                 </PaddingLayout>
                 
             </div>

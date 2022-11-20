@@ -59,4 +59,5 @@
     border: 1px solid white;
     border-radius: 30px;
     width: fit-content;
+    cursor: pointer;
 }

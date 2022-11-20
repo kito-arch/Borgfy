@@ -16,8 +16,8 @@ export default function Section6(props){
                 <Image src = './landing2_sec5_back6.png' width = '130px' height = '170px' />
             </div>
 
-            <p data-aos-offset = {-scroll*1700} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.subheading}`}>DELIVERED</p>
-            <p data-aos-offset = {-scroll*1700} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.heading}`}>What our Delivered</p>
+            <p data-aos-offset = {-scroll*1700} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.subheading}`}>COMMITTED</p>
+            <p data-aos-offset = {-scroll*1700} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.heading}`}>What we delivered</p>
 
             <div className = {`${styles.numberContainer}`}>
 
@@ -28,7 +28,7 @@ export default function Section6(props){
                 </div>
 
                 <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '1000' >
-                    <p className = {`${styles.numberHeading}`}>105+</p>
+                    <p className = {`${styles.numberHeading}`}>150+</p>
                     <p className = {`${styles.numberText}`}>Technology Products</p>
                     <p className = {`${styles.numberSubText}`}>Developed</p>
                 </div>

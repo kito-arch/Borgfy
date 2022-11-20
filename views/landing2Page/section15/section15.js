@@ -51,8 +51,8 @@ export default function Section15(props){
                 </div>
                 <div data-aos-offset = {-scroll*5500} data-aos = 'fade-left' data-aos-duration = '1000' style = {{paddingLeft: '420px'}}>
                     <p className = {`${styles.heading}`}>Our Client</p>
-                    <p className = {`${styles.text}`}>The World is too noise tune to Borgy Signal</p>
-                    <p className = {`${styles.text}`}>The World is too noise tune to Borgy Signal</p>
+                    <p className = {`${styles.text}`}>These People Trusted Us</p>
+                    {/* <p className = {`${styles.text}`}>The World is too noise tune to Borgy Signal</p> */}
                 </div>
             </div>
         </div>

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { scroll } from '../../../../conts_vars'
 import styles from './section5.module.css'
 
@@ -10,9 +11,11 @@ export default function Section5(props){
                 <p className = {`${styles.text}`}>why choose us 3d vectore</p>
             </div>
             <div className = {`${styles.center}`}>
-                <div className = {`${styles.buttonContainer}`}>
-                    <p className = {`${styles.button}`}>Let’s Build it</p>
-                </div>
+                <Link href = 'contact'>
+                    <div className = {`${styles.buttonContainer}`}>
+                        <p className = {`${styles.button}`}>Let’s Build it</p>
+                    </div>
+                </Link>
             </div>
         </div>
     )

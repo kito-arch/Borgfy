@@ -1,33 +1,44 @@
 
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from './footerBottom.module.css'
 
 export default function FooterBottom(props){
     return(
         <div className = {`${styles.container} ${styles.startBetween}`}>
+            <Link href = 'landing2'>
+                <div style = {{position: 'absolute', top: '30px', left: '30px', cursor: 'pointer', zIndex: '100'}}>
+                    <Image src = './logo_white.png' width = '170px' height = '90px'/>
+                </div>
+            </Link>
             <div className = {`${styles.column}`}>
                 <p className = {`${styles.heading}`}>Address</p>
-                <p className = {`${styles.text}`}>B-78, Near Saket Metro Station, Gate no, 2, New Delhi, 110030, India</p>
+                <p className = {`${styles.text}`}>B-78, Near Saket Metro Station, Gate no, 2, New Delhi, 110030, India <Image src = './india.png' width = '20px' height = '16px'/></p>
                 <p className = {`${styles.text}`}>+91 813 093 7887</p>
-                <p className = {`${styles.text}`}>1216, Broadway, 2nd floor New York Down, NY, 10001, USA</p>
+                <p className = {`${styles.text}`}>1216, Broadway, 2nd floor New York Down, NY, 10001, USA <Image src = './usa.png' width = '20px' height = '16px'/></p>
                 <p className = {`${styles.text}`}>+1 646 338 6179</p>
             </div>
-            <div className = {`${styles.column}`}>
+            {/* <div className = {`${styles.column}`}>
                 <p className = {`${styles.heading}`}>Services</p>
                 <p className = {`${styles.text}`}>Software Development</p>
                 <p className = {`${styles.text}`}>Hardware Development</p>
                 <p className = {`${styles.text}`}>AI</p>
                 <p className = {`${styles.text}`}>Design</p>
-            </div>
+            </div> */}
             <div className = {`${styles.column}`}>
                 <p className = {`${styles.heading}`}>Expertise</p>
-                <p className = {`${styles.text}`}>IOS / Android Development</p>
-                <p className = {`${styles.text}`}>Embedded System Design</p>
-                <p className = {`${styles.text}`}>Internet of Things</p>
-                <p className = {`${styles.text}`}>Chatboot / Machine learning</p>
-                <p className = {`${styles.text}`}>Web design & Web</p>
-                <p className = {`${styles.text}`}>Development</p>
-
+                <Link href = 'ai'>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.text}`}>AI</p>
+                </Link>
+                <Link href = 'ui'>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.text}`}>UI/UX</p>
+                </Link>
+                <Link href = 'landing'>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.text}`}>App Development</p>
+                </Link>
+                <Link href = 'fullstack'>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.text}`}>Full Stack Development</p>
+                </Link>
             </div>
             <div className = {`${styles.column}`}>
                 <p className = {`${styles.heading}`}>Technologies</p>

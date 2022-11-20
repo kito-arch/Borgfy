@@ -29,7 +29,7 @@ export default function ContactPage(props){
                                 <Image src = './contact_image1.png' width = '553px' height = '553px'/>
                             </div>
 
-                            <div style = {{position: 'absolute', top: '87px', left: '127px'}}>
+                            <div className = {styles.bell} style = {{position: 'absolute', top: '87px', left: '127px'}}>
                                 <Image src = './contact_bell.png' width = '103px' height = '103px'/>
                             </div>
 

@@ -1,5 +1,6 @@
 
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from './section8.module.css'
 
 export default function Section8(props){
@@ -12,7 +13,9 @@ export default function Section8(props){
 
             <div className = {`${styles.centerStart}`}>
                 <p className = {`${styles.heading}`}>Transform Your Amazing App Idea Into A Clickable Reality</p>
-                <p className = {`${styles.button}`}>Let's Build It</p>
+                <Link href = 'contact'>
+                    <p className = {`${styles.button}`}>Let's Build It</p>
+                </Link>
             </div>
         </div>  
     )

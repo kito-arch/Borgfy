@@ -44,7 +44,7 @@ export default function Section2(props){
                 <div style = {{position: 'absolute', top: '-50px', left: '-300px'}}>
                     <Image src = './landing2_sec2_steve.png' width = '262px' height = '195px' />
                 </div>
-                <div style = {{position: 'absolute', top: '-100px', right: '-300px'}}>
+                <div className = {styles.rocket} style = {{position: 'absolute', top: '-100px', right: '-300px'}}>
                     <Image src = './landing2_sec2_rocket.png' width = '214px' height = '214px' />
                 </div>
                 <p className = {`${styles.bottomText}`}>“Be a yardstick of quality. Some people aren't used to an environment where excellence is expected.”</p>

@@ -22,7 +22,7 @@ export default function Section2(props){
                     <div style = {{position: 'absolute', bottom: '-200px', right: '-11rem'}}>
                         <Image src = './brain_sec2_icon.png' width = '383px' height = '397px'/>
                     </div>
-                    <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.topHeading}`}>Borgfy</p>
+                    {/* <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.topHeading}`}>Borgfy</p> */}
                     <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>02. What Are We Going to Build?</p>
                     <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.text}`}>Problem Identification-To find the problem in the society and leverage the solution of a particular problem using technology, we select one niche industry that fits your problem solution synergies. This is the most crucial step where most entrepreneurs do the mistake of building anything by replicating someone else idea. This is the only reason startups are unable to sustain themselves.</p>
                     <br/>

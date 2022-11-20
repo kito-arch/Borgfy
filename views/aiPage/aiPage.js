@@ -10,6 +10,7 @@ import Section5 from './section5/section5'
 import Section6 from './section6/section6'
 import Section7 from './section7/section7'
 import Section8 from './section8/section8'
+import Section7Link from './section7Link/section7'
 
 export default function AIPage(props){
     return(
@@ -49,6 +50,10 @@ export default function AIPage(props){
 
                 <PaddingLayout backgroundColor = 'white'>
                     <Section8/>
+                </PaddingLayout>
+
+                <PaddingLayout backgroundColor = 'white'>
+                    <Section7Link/>
                 </PaddingLayout>
 
             </div>
