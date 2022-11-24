@@ -16,24 +16,24 @@ export default function Section6(props){
                 <Image src = './landing2_sec5_back6.png' width = '130px' height = '170px' />
             </div>
 
-            <p data-aos-offset = {-scroll*1700} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.subheading}`}>COMMITTED</p>
-            <p data-aos-offset = {-scroll*1700} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.heading}`}>What we delivered</p>
+            <p data-aos-offset = {-scroll*1700} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.subheading}`}>COMMITTED</p>
+            <p data-aos-offset = {-scroll*1700} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.heading}`}>What we delivered</p>
 
             <div className = {`${styles.numberContainer}`}>
 
-                <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '1000' >
+                <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '3000' >
                     <p className = {`${styles.numberHeading}`}>1.5k+</p>
                     <p className = {`${styles.numberText}`}>Startup Ideas</p>
                     <p className = {`${styles.numberSubText}`}>Evaluated</p>
                 </div>
 
-                <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '1000' >
+                <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '3000' >
                     <p className = {`${styles.numberHeading}`}>150+</p>
                     <p className = {`${styles.numberText}`}>Technology Products</p>
                     <p className = {`${styles.numberSubText}`}>Developed</p>
                 </div>
 
-                <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '1000' >
+                <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '3000' >
                     <p className = {`${styles.numberHeading}`}>30+</p>
                     <p className = {`${styles.numberText}`}>Enterprise / Startup</p>
                     <p className = {`${styles.numberSubText}`}>Clients</p>
@@ -43,12 +43,12 @@ export default function Section6(props){
 
             <div className = {`${styles.howContainer}`}>
 
-                <p data-aos-offset = {-scroll*2000} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.heading2}`}>How we work?</p>
-                <p data-aos-offset = {-scroll*2000} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.subheading2}`}>Bussiness Model</p>
+                <p data-aos-offset = {-scroll*2000} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.heading2}`}>How we work?</p>
+                <p data-aos-offset = {-scroll*2000} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.subheading2}`}>Bussiness Model</p>
 
                 <div className = {`${styles.stretchBetween}`}>
 
-                    <div data-aos-offset = {-scroll*2100} data-aos = 'fade-right' data-aos-duration = '1000' className = {`${styles.boxContainer}`}>
+                    <div data-aos-offset = {-scroll*2100} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.boxContainer}`}>
                         <div style = {{backgroundColor: '#A5CEFF'}} className = {`${styles.boxTop}`}>
 
                             <div style = {{position: 'absolute', top: '0', left: '50px'}}>
@@ -86,7 +86,7 @@ export default function Section6(props){
                         </div>
                     </div>
 
-                    <div data-aos-offset = {-scroll*2100} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.boxContainer}`}>
+                    <div data-aos-offset = {-scroll*2100} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.boxContainer}`}>
                         <div style = {{backgroundColor: '#A0FFEE'}} className = {`${styles.boxTop}`}>
 
                             <div style = {{position: 'absolute', bottom: '-4px', left: '100px'}}>

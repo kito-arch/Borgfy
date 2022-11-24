@@ -24,12 +24,12 @@ export default function Section11(props){
                 <Image src = './landing2_sec11_back.png' width = '307.5px' height = '320.5px' />
             </div>
 
-            <p data-aos-offset = {-scroll*3650} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.text}`}>Our solution</p>
-            <p data-aos-offset = {-scroll*3650} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>We can</p>
+            <p data-aos-offset = {-scroll*3650} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.text}`}>Our solution</p>
+            <p data-aos-offset = {-scroll*3650} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>We can</p>
 
             <div style = {{marginBottom: '398px'}} className = {`${styles.stretchBetween}`}>
 
-                <div data-aos-offset = {-scroll*3850} data-aos = 'fade-right' data-aos-duration = '1000' className = {`${styles.box}`}>
+                <div data-aos-offset = {-scroll*3850} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.box}`}>
                     <div style = {{position: 'absolute', top: '-134px', left: '43px'}}>
                         <Image src = './landing2_sec11_image1.png' width = '228px' height = '197px' />
                     </div>
@@ -38,7 +38,7 @@ export default function Section11(props){
                 </div>
 
 
-                <div data-aos-offset = {-scroll*3850} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.box}`}>
+                <div data-aos-offset = {-scroll*3850} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.box}`}>
                     <div style = {{position: 'absolute', top: '-125px', left: '35px'}}>
                         <Image src = './landing2_sec11_image2.png' width = '231px' height = '199px' />
                     </div>
@@ -49,7 +49,7 @@ export default function Section11(props){
             </div>
             <div className = {`${styles.stretchBetween}`}>
 
-                <div data-aos-offset = {-scroll*4050} data-aos = 'fade-right' data-aos-duration = '1000' className = {`${styles.box}`}>
+                <div data-aos-offset = {-scroll*4050} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.box}`}>
                     <div style = {{position: 'absolute', top: '-275px', left: '0px'}}>
                         <Image src = './landing2_sec11_image3.png' width = '326px' height = '326px' />
                     </div>
@@ -57,7 +57,7 @@ export default function Section11(props){
                     <p className = {`${styles.boxText}`}>Enroll to lead our venture building initiatives or get help to take your own ideas to your ideal market place.</p>
                 </div>
 
-                <div data-aos-offset = {-scroll*4050} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.box}`}>
+                <div data-aos-offset = {-scroll*4050} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.box}`}>
                     <div style = {{position: 'absolute', top: '-171px', left: '-5px'}}>
                         <Image src = './landing2_sec11_image4.png' width = '227px' height = '227px' />
                     </div>

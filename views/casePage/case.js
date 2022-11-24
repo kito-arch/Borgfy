@@ -26,8 +26,8 @@ export default function Case(props){
                             <Image src = './digital_right_triangle.png' width = '219.47px' height = '221.19px'/>
                         </div>
 
-                        <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>Check In Depth - How we solved it</p>
-                        <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.subheading}`}>Case Studies</p>
+                        <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Check In Depth - How we solved it</p>
+                        <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Case Studies</p>
 
 
                         <div className = {`${styles.stretchBetween}`}>
@@ -39,7 +39,7 @@ export default function Case(props){
                                 <Image src = './case2_ellipse2.png' width = '600px' height = '600px'/>
                             </div>
 
-                            <div data-aos-offset = {-300*scroll} data-aos = 'fade-right' data-aos-duration = '1000'>
+                            <div data-aos-offset = {-300*scroll} data-aos = 'fade-right' data-aos-duration = '3000'>
                                 <div style = {{display: 'flex', alignItems: 'center'}}>
                                     <Image src = './case2_ellipse.png' width = '31px' height = '31px' />
                                     <p className = {`${styles.mobile}`}>Mobile App</p>
@@ -59,7 +59,7 @@ export default function Case(props){
                                 <p className = {`${styles.read}`}>Read More</p>
                             </div>
 
-                            <div data-aos-offset = {-300*scroll} data-aos = 'fade-left' data-aos-duration = '1000'>
+                            <div data-aos-offset = {-300*scroll} data-aos = 'fade-left' data-aos-duration = '3000'>
                                 <div style = {{display: 'flex', alignItems: 'center'}}>
                                     <Image src = './case2_ellipse.png' width = '31px' height = '31px' />
                                     <p className = {`${styles.mobile}`}>Mobile App</p>
@@ -79,7 +79,7 @@ export default function Case(props){
                                 <p className = {`${styles.read}`}>Read More</p>
                             </div>
 
-                            <div data-aos-offset = {-scroll*500} data-aos = 'fade-right' data-aos-duration = '1000'>
+                            <div data-aos-offset = {-scroll*500} data-aos = 'fade-right' data-aos-duration = '3000'>
                                 <div style = {{display: 'flex', alignItems: 'center'}}>
                                     <Image src = './case2_ellipse.png' width = '31px' height = '31px' />
                                     <p className = {`${styles.mobile}`}>Mobile App</p>
@@ -99,7 +99,7 @@ export default function Case(props){
                                 <p className = {`${styles.read}`}>Read More</p>
                             </div>
 
-                            <div data-aos-offset = {-scroll*500} data-aos = 'fade-left' data-aos-duration = '1000'> 
+                            <div data-aos-offset = {-scroll*500} data-aos = 'fade-left' data-aos-duration = '3000'> 
                                 <div style = {{display: 'flex', alignItems: 'center'}}>
                                     <Image src = './case2_ellipse.png' width = '31px' height = '31px' />
                                     <p className = {`${styles.mobile}`}>Mobile App</p>
