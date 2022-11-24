@@ -8,11 +8,19 @@ export default function Section3(props){
             <p data-aos-offset = {-scroll*400} data-aos = 'fade-up' data-aos-duration = '1000'  className = {`${styles.heading}`}>Our story been featured</p>
             <div data-aos-offset = {-scroll*400} data-aos = 'fade-up' data-aos-duration = '1000'  className = {`${styles.centerCenter}`}>
                 <div className = {`${styles.stretchBetween}`}>
-                    <Image src = './landing2_sec3_image1.png' width = '312px' height = '92px'/>
-                    <Image src = './landing2_sec3_image3.png' width = '407px' height = '92px'/>
-                    <Image src = './landing2_sec3_image2.png' width = '318px' height = '92px'/>
-                    <Image src = './landing2_sec3_image4.png' width = '227px' height = '92px'/>
-                    <Image src = './landing2_sec2_image5.png' width = '259px' height = '92px'/>
+                    <Image src = './collab1.png' width = '390px' height = '30px'/>
+                    <Image src = './collab2.png' width = '119px' height = '119px'/>
+                    <Image src = './collab3.png' width = '164px' height = '88px'/>
+                    <Image src = './collab5.png' width = '299px' height = '91.5px'/>
+                </div>
+            </div>
+            <div style = {{marginTop: '50px'}} data-aos-offset = {-scroll*400} data-aos = 'fade-up' data-aos-duration = '1000'  className = {`${styles.centerCenter}`}>
+                <div className = {`${styles.stretchBetween}`}>
+                    <Image src = './collab6.png' width = '400px' height = '55px'/>
+                    <Image src = './collab7.png' width = '311px' height = '72px'/>
+                    <div style = {{backgroundColor: 'black'}}>
+                        <Image src = './collab4.png' width = '307px' height = '86px'/>
+                    </div>
                 </div>
             </div>
         </div>

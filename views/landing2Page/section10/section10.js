@@ -34,8 +34,9 @@ export default function Section10(props){
                         <Image src = './landing2_sec10_tick.png' width = '32px' height = '32px' />
                         <p className = {`${styles.tickText}`}>How can I build a GTM strategy?</p>
                     </div>
-
-                    <p className = {`${styles.consult}`}>Consult now</p>
+                    <a href = "https://calendly.com/abdulceo/30min" target = 'blank'>
+                        <p className = {`${styles.consult}`}>Consult now</p>
+                    </a>
                 </div>
 
             </div>

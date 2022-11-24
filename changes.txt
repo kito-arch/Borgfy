@@ -1,21 +1,21 @@
 ./ -> done
 
 
-venture studio animation glowing
+venture studio animation glowing ./
 text animation in venture studio
 rocket upr neechay ./
-logo changes in venture
+logo changes in venture ./
 Our changes beeoch rahan featured ./
 featured gap ./
 blue border at images ./
 lets build contact ./
 button left right ./
-3d vector banda soch rahan
-borgfy logo
+3d vector banda soch rahan ./
+borgfy logo / nhi kr raha mein
 what our delivered -> what we delivered ./
 delivered -> committed ./
 
-content from slides
+content from slides ./
 startup ko right pr shift kro ./
 how we do it on left, replace it with we changes ./
 animation of how we do it with paani affect

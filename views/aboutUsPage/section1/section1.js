@@ -13,7 +13,7 @@ export default function Sectoin1(props){
 
 
             <div data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000' style = {{position: 'relative'}}>
-                <div style = {{position: 'absolute', top: '-20px', left: '160px'}}>
+                <div className = {`${styles.bell}`} style = {{position: 'absolute', top: '-20px', left: '160px'}}>
                     <Image src = './about_sec1_bell.png' width = '100px' height = '100px'/>
                 </div>
                 <p className = {`${styles.heading}`}>We Shape Visionary Ideas So That It Connects Dots in People life</p>

@@ -12,6 +12,14 @@ export default function Section8(props){
                 <div className = {`${styles.stretchBetween}`}>
 
                     <div data-aos-offset = {-scroll*3000} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                        <Image src = './startup1.png' width = '400px' height = '400px' />
+
+                        <p className = {`${styles.boxHeading}`}>Preneur Bay</p>
+                        <p className = {`${styles.boxText}`}>Preneurbay is a live and work spaces community leveraging business travel among entrepreneurs,digital nomads ,Investors and Working Professionals</p>
+                        <p className = {`${styles.view}`}>View More</p>
+                    </div>
+
+                    {/* <div data-aos-offset = {-scroll*3000} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
                         <Image src = './landing2_sec8_google.png' width = '400px' height = '48px' />
 
                         <p className = {`${styles.boxHeading}`}>Title Heading</p>
@@ -25,15 +33,7 @@ export default function Section8(props){
                         <p className = {`${styles.boxHeading}`}>Title Heading</p>
                         <p className = {`${styles.boxText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         <p className = {`${styles.view}`}>View More</p>
-                    </div>
-
-                    <div data-aos-offset = {-scroll*3000} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
-                        <Image src = './landing2_sec8_google.png' width = '400px' height = '48px' />
-
-                        <p className = {`${styles.boxHeading}`}>Title Heading</p>
-                        <p className = {`${styles.boxText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        <p className = {`${styles.view}`}>View More</p>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

@@ -11,17 +11,17 @@ export default function Section6(props){
             <div data-aos-offset = {-1400*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.centerCenter}`}>
                 <div className = {`${styles.stretchBetween}`}>
                     <div>
-                        <Image src = './about_sec6_image1.png' width = '354px' height = '300px'/>
-                        <p className = {`${styles.text}`}>(EGO) <span style = {{color: '#6E00FA'}}>Mike Kubra</span></p>
+                        <Image src = './me.png' width = '354px' height = '300px'/>
+                        <p className = {`${styles.text}`}>(CEO) <span style = {{color: '#6E00FA'}}>Abdullah Imran</span></p>
                     </div>
-                    <div>
+                    {/* <div>
                         <Image src = './about_sec6_image2.png' width = '354px' height = '300px'/>
                         <p className = {`${styles.text}`}>(CEO) <span style = {{color: '#6E00FA'}}>MR YOUSUF JAMIL</span></p>
                     </div>
                     <div>
                         <Image src = './about_sec6_image3.png' width = '354px' height = '300px'/>
                         <p className = {`${styles.text}`}>(CTO) <span style = {{color: '#6E00FA'}}>Micheal Watson</span></p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div style = {{position: 'absolute', top: '128px', left: '12rem'}}>

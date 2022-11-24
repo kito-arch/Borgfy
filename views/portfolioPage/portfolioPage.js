@@ -21,7 +21,14 @@ export default function PortfolioPage(props){
                 </div>
 
                 <PaddingLayout>
-                    <Image src = './port_back_1.png' layout = 'fill' />
+                    <Image src = './qool_qatar_back.png' layout = 'fill' />
+                    <div data-aos-offset = {-scroll*1500} data-aos = 'fade-right' data-aos-duration = '1000' className = {`${styles.centerEnd}`}>
+                        <Card1 backgroundColor = {'#00AAE8'} alternate = {true} heading = 'Qool Qatar' text = 'Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.' headingMarginBottom = '60px' textMarginBottom = '71px' />
+                    </div>
+                </PaddingLayout>
+
+                <PaddingLayout>
+                    <Image src = './atomic_back.png' layout = 'fill' />
                     <div data-aos-offset = {-scroll*300} data-aos = 'fade-right' data-aos-duration = '1000' className = {`${styles.centerStart}`}>
                         <Card1 heading = 'Atomic' subheading = 'Design   |   Development' text = 'Skrolled is an Influencer marketing and campaign management app that helps in running influencer campaigns, onboarding influencers, creating campaigns,' headingMarginBottom = '14px' textMarginBottom = '43px' />
                     </div>
@@ -42,14 +49,14 @@ export default function PortfolioPage(props){
                 </PaddingLayout>
 
                 <PaddingLayout>
-                    <Image src = './port_back_4.png' layout = 'fill' />
+                    <Image src = './ro_back.png' layout = 'fill' />
                     <div data-aos-offset = {-scroll*800} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.centerEnd}`}>
                         <Card1 heading = 'R.O.' text = 'Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.' headingMarginBottom = '60px' textMarginBottom = '68px' />
                     </div>
                 </PaddingLayout>
 
                 <PaddingLayout>
-                    <Image src = './port_back_5.png' layout = 'fill' />
+                    <Image src = './bizz_back.png' layout = 'fill' />
                     <div data-aos-offset = {-scroll*900} data-aos = 'fade-right' data-aos-duration = '1000' className = {`${styles.centerStart}`}>
                         <Card1 heading = 'Bizz App' text = 'Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.' headingMarginBottom = '60px' textMarginBottom = '71px' />
                     </div>
