@@ -3,6 +3,8 @@ import styles from './contactPage.module.css'
 import PaddingLayout from "../../layouts/paddingLayout/paddingLayout";
 import StandardLayout from "../../layouts/standardLayout/standardLayout";
 import Image from 'next/image';
+import { mail } from './functions';
+
 
 export default function ContactPage(props){
     return(

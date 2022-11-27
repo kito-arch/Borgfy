@@ -1,11 +1,10 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
-import PortfolioPage from '../views/portfolioPage/portfolioPage'
+import PolicyPage from '../views/policy/policy'
 
 
-
-export default function Portfolio() {
-
+export default function Policy() {
 
   return (
     <div className={styles.container}>
@@ -16,7 +15,7 @@ export default function Portfolio() {
       </Head>
 
       <main>
-        <PortfolioPage/>
+        <PolicyPage/>
       </main>
 
       

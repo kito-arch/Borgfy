@@ -19,6 +19,18 @@
     width: 608px;
 }
 
+.alternateContainer1{
+    background: #00AAE8;
+    box-shadow: 0px 4px 34px #00AAE8, inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 60px;
+    padding: 60px 48px 35px;
+    color: white;
+    width: 608px;
+}
+
 .heading{
     font-weight: 800;
     font-size: 72px;

@@ -16,7 +16,7 @@ export default function Section5(props){
                 <Image src = './landing2_sec5_back6.png' width = '130px' height = '170px' />
             </div>
 
-            <p data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Where</p>
+            <p data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Ideas Where</p>
             <p data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>We are best</p>
 
             <div className = {`${styles.startBetween}`}>
@@ -26,7 +26,7 @@ export default function Section5(props){
                         <div>
                             <Image src = './landing2_sec5_image1.png' width = '261px' height = '261px' />
                         </div>
-                        <p className = {`${styles.boxText}`}>We Are Dedicated Engineers Minds Devoted to Innovation, Bringing Sustainable</p>
+                        <p className = {`${styles.boxText}`}>We had great experiences in building consumer-tech app ideas to help them build scalable mobility & premium user experiences apps product for their customers</p>
                         <Link href = 'landing'>
                             <p className = {`${styles.button}`}>Read More</p>
                         </Link>
@@ -39,7 +39,7 @@ export default function Section5(props){
                         <div>
                             <Image src = './landing2_sec5_image2.png' width = '261px' height = '261px' />
                         </div>
-                        <p className = {`${styles.boxText}`}>We Are Dedicated Engineers Minds Devoted to Innovation, Bringing Sustainable</p>
+                        <p className = {`${styles.boxText}`}>Artificial intelligence is the way to go and lead the world with automation helping businesses and startups lead the future with better optimization and reduced cost of operations handled by AI Algorithm</p>
                         <Link href = 'ai'>
                             <p className = {`${styles.button}`}>Read More</p>
                         </Link>
@@ -52,7 +52,7 @@ export default function Section5(props){
                         <div style = {{paddingTop: '26px'}}>
                             <Image src = './landing2_sec5_image3.png' width = '261px' height = '261px' />
                         </div>
-                        <p className = {`${styles.boxText}`}>We Are Dedicated Engineers Minds Devoted to Innovation, Bringing Sustainable</p>
+                        <p className = {`${styles.boxText}`}>The world looks better when its design perfectly and we craft your ideas in best shape as possible</p>
                         <Link href = 'ui'>
                             <p className = {`${styles.button}`}>Read More</p>
                         </Link>
@@ -60,12 +60,12 @@ export default function Section5(props){
                 </div>
 
                 <div data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' >
-                    <p className = {`${styles.subtext}`}>Full Stack Development</p>
+                    <p className = {`${styles.subtext}`}>Full Product Development</p>
                     <div style = {{marginTop: '200px'}} className = {`${styles.box}`}>
                         <div style = {{paddingTop: '31px'}}>
                             <Image src = './landing2_sec5_image4.png' width = '261px' height = '261px' />
                         </div>
-                        <p className = {`${styles.boxText}`}>We Are Dedicated Engineers Minds Devoted to Innovation, Bringing Sustainable</p>
+                        <p className = {`${styles.boxText}`}>We build vision from inception to launch to craft imagination into a physical dimension with our multi-talented pool of designers, developers, strategists, and creatives.</p>
                         <Link href = 'fullstack'>
                             <p className = {`${styles.button}`}>Read More</p>
                         </Link>

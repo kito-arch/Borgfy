@@ -2,7 +2,7 @@
 
 
 venture studio animation glowing ./
-text animation in venture studio
+text animation in venture studio ./
 rocket upr neechay ./
 logo changes in venture ./
 Our changes beeoch rahan featured ./

@@ -4,6 +4,12 @@
     position: relative;
 }
 
+.revImageContainer{
+    position: relative;
+    width: 495px;
+    height: 593px;
+}
+
 .subheading{
     font-weight: 700;
     font-size: 20px;
@@ -69,4 +75,13 @@
     color: #757095;
 
 
+}
+
+
+.slideContainer{
+    width: 495px;
+    height: 593px;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
 }

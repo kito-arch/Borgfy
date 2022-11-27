@@ -95,7 +95,7 @@ export default function Section8(props){
             <p data-aos-offset = {-2200*scroll} data-aos = 'fade-up' data-aos-duration = '3000' style = {{marginTop: '104px', marginBottom: '40px'}} className = {`${styles.heading}`}>Why We are the Best AI Automation Company?</p>
             <div data-aos-offset = {-2200*scroll} data-aos = 'fade-up' data-aos-duration = '3000' style = {{width: 'fit-content', marginLeft: 'auto', marginRight: 'auto'}} className = {`${styles.flex}`}>
                 <Image src = './ai_sec8_tick.png' width = '34px' height = '40px' />
-                <p className = {`${styles.text} ${styles.tickText}`}>Stock Trading helps to predict behavior of market graph</p>
+                <p className = {`${styles.text} ${styles.tickText}`}>One Short Answer is let's discuss it out how we can integrate AI into your system to help it deliver best results</p>
             </div>
 
         </div>

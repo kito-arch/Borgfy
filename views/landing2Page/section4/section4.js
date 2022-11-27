@@ -13,39 +13,39 @@ export default function Section4(props){
 
             <div className = {`${styles.stretchBetween}`}>
                 <div data-aos-offset = {-scroll*600} data-aos = 'fade-right' data-aos-duration = '3000' >
-                    <Link href = 'landing'>
+                    <Link href = 'portfolio#ro'>
                         <div className = {styles.image}>
-                            <Image src = './landing2_sec4_image1.png' style = {{borderRadius: '40px'}} width = '747' height = '714px' />
+                            <Image src = './ro_back.png' style = {{borderRadius: '40px'}} width = '747px' height = '714px' />
                         </div>
                     </Link>
-                    <p className = {`${styles.text}`}><span style = {{fontWeight: '700'}}>Vencortex        </span>Redesigning a whole new customer experience for idea to investment.</p>
+                    <p className = {`${styles.text}`}><span style = {{fontWeight: '700'}}>RO</span></p>
                 </div>
                 <div data-aos-offset = {-scroll*600} data-aos = 'fade-left' data-aos-duration = '3000' >
-                    <Link href = 'landing'>
+                    <Link href = 'portfolio#bizz'>
                         <div className = {styles.image}>
-                            <Image src = './landing2_sec4_image2.png' style = {{borderRadius: '40px'}} width = '747' height = '714px' />
+                            <Image src = './bizz_back.png' style = {{borderRadius: '40px'}} width = '747px' height = '714px' />
                         </div>
                     </Link>
-                    <p className = {`${styles.text}`}><span style = {{fontWeight: '700'}}>Vencortex        </span>Redesigning a whole new customer experience for idea to investment.</p>
+                    <p className = {`${styles.text}`}><span style = {{fontWeight: '700'}}>Bizz</span></p>
                 </div>
             </div>
 
             <div className = {`${styles.stretchBetween}`}>
                 <div data-aos-offset = {-scroll*800} data-aos = 'fade-right' data-aos-duration = '3000'>
-                    <Link href = 'landing'>
+                    <Link href = 'portfolio#atomic'>
                         <div className = {styles.image}>
-                            <Image src = './landing2_sec4_image3.png' style = {{borderRadius: '40px'}} width = '747' height = '714px' />
+                            <Image src = './atomic_back.png' style = {{borderRadius: '40px'}} width = '747px' height = '714px' />
                         </div>
                     </Link>
-                    <p className = {`${styles.text}`}><span style = {{fontWeight: '700'}}>Vencortex        </span>Redesigning a whole new customer experience for idea to investment.</p>
+                    <p className = {`${styles.text}`}><span style = {{fontWeight: '700'}}>Atomic</span></p>
                 </div>
                 <div data-aos-offset = {-scroll*800} data-aos = 'fade-left' data-aos-duration = '3000'>
-                    <Link href = 'landing'>
+                    <Link href = 'portfolio#qool'>
                         <div className = {styles.image}>
-                            <Image src = './landing2_sec2_image4.png' style = {{borderRadius: '40px'}} width = '747' height = '714px' />
+                            <Image src = './qool_qatar.png' style = {{borderRadius: '40px'}} width = '747px' height = '714px' />
                         </div>
                     </Link>
-                    <p className = {`${styles.text}`}><span style = {{fontWeight: '700'}}>Vencortex        </span>Redesigning a whole new customer experience for idea to investment.</p>
+                    <p className = {`${styles.text}`}><span style = {{fontWeight: '700'}}>Qool Qatar</span></p>
                 </div>
             </div>
 

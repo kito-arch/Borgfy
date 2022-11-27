@@ -9,14 +9,14 @@
     border-radius: 300px;
     overflow: hidden;
     animation-name: glow;
-    animation-duration: 2s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
 
 .image{
     animation-name: move;
-    animation-duration: 2s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
