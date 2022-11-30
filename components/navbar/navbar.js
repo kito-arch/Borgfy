@@ -54,28 +54,32 @@ export default function Navbar(props){
                                 </Link>
                             </div>
                         </div>
-                        <div className = {`${styles.navLabelContainer} ${styles.between}`}>
-                            <p className = {`${styles.navLabels}`}>Blog</p>
-                            <div style = {{marginTop: '-5px'}}>
-                                <Image src = './arrowDown.png' width = '6px' height = '4px'/>
+                        <Link href = 'blogs'>
+                            <div className = {`${styles.navLabelContainer} ${styles.between}`}>
+                                <p className = {`${styles.navLabels}`}>Blog</p>
+                                <div style = {{marginTop: '-5px'}}>
+                                    <Image src = './arrowDown.png' width = '6px' height = '4px'/>
+                                </div>
                             </div>
-                        </div>
-                        <div className = {`${styles.navLabelContainer} ${styles.between}`}>
-                            <p className = {`${styles.navLabels}`}>Our Work</p>
-                            <div style = {{marginTop: '-5px'}}>
-                                <Image src = './arrowDown.png' width = '6px' height = '4px'/>
-                            </div>
-                            <div className = {`${styles.dropdownContainer} ${styles.one}`}>
-                                <Link href = 'portfolio'>
-                                    <div className = {`${styles.dropContainer}`}>
-                                        <p className = {`${styles.navLabels}`}>Portfolio</p>
-                                        <div style = {{display: 'flex', justifyContent: 'center'}}>
-                                            <div className = {`${styles.line}`}></div>
+                        </Link>
+                        <Link href = 'portfolio'>
+                            <div className = {`${styles.navLabelContainer} ${styles.between}`}>
+                                <p className = {`${styles.navLabels}`}>Our Work</p>
+                                <div style = {{marginTop: '-5px'}}>
+                                    <Image src = './arrowDown.png' width = '6px' height = '4px'/>
+                                </div>
+                                {/* <div className = {`${styles.dropdownContainer} ${styles.one}`}>
+                                    <Link href = 'portfolio'>
+                                        <div className = {`${styles.dropContainer}`}>
+                                            <p className = {`${styles.navLabels}`}>Portfolio</p>
+                                            <div style = {{display: 'flex', justifyContent: 'center'}}>
+                                                <div className = {`${styles.line}`}></div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Link>
+                                    </Link>
+                                </div> */}
                             </div>
-                        </div>
+                        </Link>
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Expertise</p>
                             <div style = {{marginTop: '-5px'}}>
