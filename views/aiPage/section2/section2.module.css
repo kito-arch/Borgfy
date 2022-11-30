@@ -17,7 +17,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
     margin-bottom: 75px;
     margin-left: auto;
@@ -27,7 +27,7 @@
 
 .text{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 28px;
 
     /* or 140% */

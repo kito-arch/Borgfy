@@ -12,7 +12,7 @@
 
 .heading{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 25px;
     padding-bottom: 16px;
     border-bottom: 2px solid white;
@@ -28,6 +28,6 @@
 .text{
     margin-top: 50px;
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
 }

@@ -9,7 +9,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 72px;
+    font-size: 4.5rem;
     line-height: 89px;
     color: black;
     width: 629px;
@@ -38,7 +38,7 @@
 
 .boxTitle{
     font-weight: 800;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 37px;
     color: #7D7D7D;
     margin-bottom: 10px;
@@ -46,7 +46,7 @@
 
 .boxText{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 30px;
     color: #000000;
     opacity: 0.6;
@@ -54,7 +54,7 @@
 
 .boxDate{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 30px;
 
     /* identical to box height, or 167% */

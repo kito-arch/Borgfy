@@ -29,12 +29,12 @@
     justify-content: center;
     margin-right: 20px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #666666;
 }
 .next{
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
 
     /* or 24px */

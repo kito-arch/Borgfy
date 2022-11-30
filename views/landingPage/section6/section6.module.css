@@ -4,7 +4,7 @@
 
 .topHeading{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 25px;
 
     color: #818182;
@@ -13,7 +13,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
     color: #010204;
     margin-bottom: 170px;
@@ -37,7 +37,7 @@
 
 .text{
     font-weight: 400;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
 
     /* identical to box height */

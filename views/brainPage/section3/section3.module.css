@@ -5,7 +5,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
     margin: auto;
     margin-bottom: 131px;
@@ -26,7 +26,7 @@
 
 .blueHeading{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
     color: #018DFE;
     margin-bottom: 56px;
@@ -34,7 +34,7 @@
 
 .text{
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.375rem;
     line-height: 36px;
 }
 

@@ -6,7 +6,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 72px;
+    font-size: 4.5rem;
     line-height: 89px;
     width: fit-content;
     /* margin: auto; */
@@ -17,7 +17,7 @@
 
 .text{
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.375rem;;
     line-height: 36px;
     width: 1056px;
     /* margin: auto; */
@@ -36,14 +36,14 @@
 
 .boxHeading{
     font-weight: 800;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 89px;
     margin-bottom: 20px;
 }
 
 .boxText{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 30px;
 }
 
@@ -59,7 +59,7 @@
     margin: auto;
     margin-top: 50px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 23px;
     color: white;
     background: #0055FF;

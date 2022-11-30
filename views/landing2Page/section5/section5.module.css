@@ -6,14 +6,14 @@
 
 .subheading{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 25px;
     margin-bottom: 12px;
 }
 
 .heading{
     font-weight: 800;
-    font-size: 72px;
+    font-size: 4.5rem;
     line-height: 89px;
     margin-bottom: 48px;
 }
@@ -26,7 +26,7 @@
 
 .subtext{
     font-weight: 800;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 30px;
     padding-bottom: 20px;
     width: 310px;
@@ -47,14 +47,14 @@
     margin-top: 22px;
     margin-bottom: 30px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 30px;
 }
 
 .button{
     padding: 8px 42px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 30px;
     border: 1px solid white;
     border-radius: 30px;

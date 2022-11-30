@@ -5,14 +5,14 @@
 
 .heading{
     font-weight: 700;
-    font-size: 96px;
+    font-size: 6rem;
     line-height: 114px;
     color: #2E2B2B;
 }
 
 .text{
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 43px;
 
     color: #000000;

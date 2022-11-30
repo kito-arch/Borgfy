@@ -10,7 +10,7 @@
 
 .heading{
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 63px;
     color: #000000;
     width: fit-content;
@@ -20,7 +20,7 @@
 
 .subheading{
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
     color: #000000;
     width: fit-content;
@@ -55,7 +55,7 @@
 .boxHeading{
     position: relative;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 45px;
     width: fit-content;
     margin: auto;
@@ -67,7 +67,7 @@
 .boxSubheading{
     position: relative;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 36px;
     text-align: center;
     width: 584px;
@@ -78,7 +78,7 @@
 
 .read{
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 40px;
     width: fit-content;
     margin: auto;
@@ -92,7 +92,7 @@
 
 .mobile{
     font-weight: 400;
-    font-size: 26px;
+    font-size: 1.625rem;
     line-height: 63px;
 
     color: #3842F8;
@@ -102,7 +102,7 @@
 
 .sure{
     font-weight: 500;
-    font-size: 50px;
+    font-size: 3.125rem;
     line-height: 63px;
 
     color: #000000;
@@ -114,7 +114,7 @@
 
 .gray{
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 63px;
     color: #8B8B8B;
 

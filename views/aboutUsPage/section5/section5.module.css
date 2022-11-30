@@ -6,7 +6,7 @@
 
 .heading{
     font-weight: 700;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
     margin-bottom: 41px;
     text-align: center;
@@ -14,7 +14,7 @@
 
 .text{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 27px;
 
     /* or 150% */
@@ -27,7 +27,7 @@
 
 .subheading{
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
 }
 
@@ -53,7 +53,7 @@
 
 .singleText{
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
     text-align: center;
 

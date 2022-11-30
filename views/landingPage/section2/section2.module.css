@@ -6,7 +6,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
     margin-bottom: 50px;
 }
@@ -39,7 +39,7 @@
 
 .boxHeading{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
     width: fit-content;
     margin: auto;
@@ -48,6 +48,6 @@
 
 .boxText{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 27px;
 }

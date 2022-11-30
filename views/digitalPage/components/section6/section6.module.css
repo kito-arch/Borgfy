@@ -6,7 +6,7 @@
 .heading{
     position: relative;
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
 
     /* identical to box height, or 171% */
@@ -32,7 +32,7 @@
 
 .text{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 36px;
 
     /* or 200% */

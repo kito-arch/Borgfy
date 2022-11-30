@@ -6,7 +6,7 @@
 
 .subheading{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 25px;
     text-align: center;
 
@@ -16,7 +16,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 72px;
+    font-size: 4.5rem;
     line-height: 89px;
     text-align: center;
     margin-bottom: 70px;
@@ -35,7 +35,7 @@
 
 .numberHeading{
     font-weight: 700;
-    font-size: 72px;
+    font-size: 4.5rem;
     line-height: 42px;
     margin-bottom: 45px;
 }
@@ -43,14 +43,14 @@
 
 .numberText{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
     margin-bottom: 11px;
 }
 
 .numberSubText{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28p;
     color: #A8A8A8;
 }
@@ -62,7 +62,7 @@
 
 .heading2{
     font-weight: 800;
-    font-size: 72px;
+    font-size: 4.5rem;
     line-height: 89px;
     margin-bottom: 3px;
     width: 529px;
@@ -70,7 +70,7 @@
 
 .subheading2{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 25px;
     text-align: right;
 
@@ -103,21 +103,21 @@
 
 .boxHeading1{
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 40px;
     margin-bottom: 8px;
 }
 
 .boxHeading2{
     font-weight: 800;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 50px;
     margin-bottom: 26px;
 }
 
 .boxHeading3{
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.375rem;;
     line-height: 24px;
 }
 
@@ -135,13 +135,13 @@
 
 .list{
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 40px;
 }
 
 .button{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 23px;
     padding: 19px 53px;
     border: 1px solid rgba(0, 0, 0, 0.3);

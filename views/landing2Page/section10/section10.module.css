@@ -11,7 +11,7 @@
 
 .subtext{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 25px;
 
     color: #818182;
@@ -21,7 +21,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 72px;
+    font-size: 4.5rem;
     line-height: 89px;
     margin-bottom: 62px;
     width: 668px;
@@ -36,7 +36,7 @@
 
 .tickText{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
     margin-left: 16px;
 }
@@ -44,7 +44,7 @@
 .consult{
     margin-top: 50px;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 23px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 100px;

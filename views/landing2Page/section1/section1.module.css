@@ -53,14 +53,14 @@
 
 .text{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 25px;
     margin-bottom: 12px;
 }
 
 .heading{
     font-weight: 800;
-    font-size: 72px;
+    font-size: 4.5rem;
     line-height: 89px;
 
     /* or 124% */

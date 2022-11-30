@@ -13,20 +13,20 @@
 
 .text{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 27px;
 }
 
 .subheading1{
     font-weight: 800;
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 30px;
     line-height: 89px;
 }
 
 .subheading2{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 41px;
     text-align: center;
     letter-spacing: 0.02em;

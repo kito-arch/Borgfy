@@ -5,7 +5,7 @@
 
 .heading{
     font-weight: 500;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 232.6%;
 
     /* identical to box height, or 121px */
@@ -32,7 +32,7 @@
 
 .text{
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 135%;
 
     /* identical to box height, or 22px */

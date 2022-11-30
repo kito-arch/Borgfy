@@ -12,7 +12,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
     width: fit-content;
     margin: auto;
@@ -21,7 +21,7 @@
 
 .text{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 25px;
     margin-bottom: 20px;
 }

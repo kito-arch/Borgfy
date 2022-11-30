@@ -5,14 +5,14 @@
 
 .heading{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
     white-space: nowrap;
 }
 
 .text{
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.375rem;;
     line-height: 36px;
 }
 

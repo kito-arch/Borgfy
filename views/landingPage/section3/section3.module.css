@@ -6,7 +6,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
     margin-bottom: 150px;
 }
@@ -45,13 +45,13 @@
 
 .number{
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
 }
 
 .boxHeading{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
 
     /* identical to box height */
@@ -64,7 +64,7 @@
 
 .boxText{
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 27px;
 
     /* or 135% */

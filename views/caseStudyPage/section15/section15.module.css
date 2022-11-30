@@ -6,7 +6,7 @@
 
 .heading{
     font-weight: 700;
-    font-size: 45px;
+    font-size: 2.8125rem;
     line-height: 57px;
     margin: auto;
     margin-bottom: 166px;
@@ -15,7 +15,7 @@
 
 .text{
     font-weight: 700;
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 96px;
     /* width: 345px; */
     /* margin-right: 108px; */
@@ -31,7 +31,7 @@
 
 .subtext{
     font-weight: 300;
-    font-size: 26px;
+    font-size: 1.625rem;
     line-height: 39px;
     color: #AEABAB;
 }

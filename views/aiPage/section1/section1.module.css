@@ -10,7 +10,7 @@
 
 .text{
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 25px;
     width: 51.4%;
     margin-bottom: 192px;
@@ -18,7 +18,7 @@
 
 .point{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 23px;
     margin-left: 20px;
 }
@@ -32,7 +32,7 @@
 
 .bottomText{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 21px;
 
     /* identical to box height */

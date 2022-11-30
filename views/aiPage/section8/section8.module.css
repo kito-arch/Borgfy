@@ -7,7 +7,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
 
     /* identical to box height, or 171% */
@@ -28,7 +28,7 @@
 
 .text{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 27px;
 
     /* or 135% */
@@ -48,7 +48,7 @@
 
 .blueHeading{
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
 
     /* identical to box height, or 171% */
@@ -72,7 +72,7 @@
 .boldText{
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 27px;
     letter-spacing: 0.02em;
     color: #000000;

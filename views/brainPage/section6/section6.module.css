@@ -15,7 +15,7 @@
     width: fit-content;
     margin: auto;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
     color: #018DFE;
     margin-bottom: 56px;
@@ -31,7 +31,7 @@
 
 .text{
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.375rem;;
     line-height: 36px;
     color: #000000;
 }

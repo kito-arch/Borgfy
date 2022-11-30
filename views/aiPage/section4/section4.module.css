@@ -6,7 +6,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 69px;
     margin-bottom: 50px;
     text-align: center;
@@ -14,7 +14,7 @@
 
 .text{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 27px;
 
     /* or 135% */
@@ -47,7 +47,7 @@
 
 .cardHeading{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
 
     /* identical to box height */
@@ -59,7 +59,7 @@
 
 .cardText{
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 27px;
 
     /* or 135% */

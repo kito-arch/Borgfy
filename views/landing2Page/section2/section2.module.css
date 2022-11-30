@@ -6,7 +6,7 @@
 
 .subtext{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 25px;
 
     color: #818182;
@@ -16,7 +16,7 @@
 
 .heading{
     font-weight: 800;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 89px;
     margin-bottom: 29px;
 }
@@ -38,7 +38,7 @@
 
 .text{
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.375rem;;
     line-height: 36px;
     margin-top: 30px;
     width: 338px;
@@ -53,14 +53,14 @@
 
 .bottomText{
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 36px;
     margin-bottom: 18px;
 }
 
 .by{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 36px;
 
     color: #818182;

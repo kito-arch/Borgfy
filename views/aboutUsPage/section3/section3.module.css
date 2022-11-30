@@ -5,7 +5,7 @@
 
 .title{
     font-weight: 500;
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 81px;
 
     /* identical to box height */
@@ -17,7 +17,7 @@
 
 .text{
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 45px;
 
     /* or 188% */
