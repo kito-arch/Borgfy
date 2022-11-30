@@ -8,14 +8,14 @@ export default function FooterBottom(props){
         <div className = {`${styles.container} ${styles.startBetween}`}>
             <Link href = 'landing2'>
                 <div style = {{position: 'absolute', top: '30px', left: '30px', cursor: 'pointer', zIndex: '100'}}>
-                    <Image src = './logo_white.png' width = '170px' height = '90px'/>
+                    <Image src = {props.double ? '../logo_white.png' : './logo_white.png'} width = '170px' height = '90px'/>
                 </div>
             </Link>
             <div className = {`${styles.column}`}>
                 <p className = {`${styles.heading}`}>Address</p>
-                <p className = {`${styles.text}`}>B-78, Near Saket Metro Station, Gate no, 2, New Delhi, 110030, India <Image src = './india.png' width = '20px' height = '16px'/></p>
+                <p className = {`${styles.text}`}>B-78, Near Saket Metro Station, Gate no, 2, New Delhi, 110030, India <Image src = {props.double ? '../india.png' : './india.png'} width = '20px' height = '16px'/></p>
                 <p className = {`${styles.text}`}>+91 813 093 7887</p>
-                <p className = {`${styles.text}`}>1216, Broadway, 2nd floor New York Down, NY, 10001, USA <Image src = './usa.png' width = '20px' height = '16px'/></p>
+                <p className = {`${styles.text}`}>1216, Broadway, 2nd floor New York Down, NY, 10001, USA <Image src = {props.double ? '../usa.png' : './usa.png'} width = '20px' height = '16px'/></p>
                 <p className = {`${styles.text}`}>+1 646 338 6179</p>
             </div>
             {/* <div className = {`${styles.column}`}>

@@ -1,0 +1,37 @@
+.container{
+    padding: 110px 0 200px;
+    border-bottom: 3px solid gray;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 3.125rem;
+    line-height: 63px;
+
+    color: #000000;
+
+    margin-bottom: 155px;
+}
+
+.headingContainer{
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.text{
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 40px;
+
+    color: #000000;
+    width: 700px;
+}
+
+.startBetween{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}

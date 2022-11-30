@@ -25,8 +25,8 @@ export default function Footer(props){
     return(
         <div style = {{zoom: zoom}} className = {`${styles.container}`}>
             <div className = {`${styles.innerContainer}`}>
-                <FooterTop/>
-                <FooterBottom/>
+                <FooterTop double = {props.double}/>
+                <FooterBottom double = {props.double}/>
             </div>
         </div>
     )

@@ -1,0 +1,29 @@
+.container{
+    padding: 164px 0 220px;
+    position: relative;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 114px;
+    color: #2E2B2B;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 43px;
+
+    color: #000000;
+    margin-right: 107px;
+    margin-top: 50px;
+
+}
+
+.startBetween{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 20%;
+}

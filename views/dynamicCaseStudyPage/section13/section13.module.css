@@ -1,0 +1,42 @@
+.container{
+    padding: 96px 0;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 3.125rem;
+    line-height: 63px;
+
+    color: #000000;
+
+    margin-bottom: 64px;
+}
+
+.headingContainer{
+    width: fit-content;
+    margin: auto;
+    position: relative;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 40px;
+    text-align: center;
+
+    color: #000000;
+    width: 1075px;
+    margin: auto;
+}
+
+@keyframes rocket {
+    0%   {transform: translate(0, 0);}
+    50%  {transform: translate(20px, -20px);}
+    100% {transform: translate(0, 0);}
+}
+
+.rocket{
+    animation-name: rocket;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
