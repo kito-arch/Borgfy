@@ -1,12 +1,29 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 import Logo from '../logo/logo';
 import styles from './navbar.module.css';
 
 export default function Navbar(props){
+
+    const router = useRouter()
+
+    const [zoom, setZoom] = useState("100%")
+
+    useEffect(() => {
+        if(router.pathname == "/portfolio"){
+            setZoom("85%")
+        }
+        else{
+            setZoom("100%")
+        }
+    }, [[router.pathname]])
+
+
     return(
-        <div className = {`${styles.container} ${styles.center}`}>
+        <div style = {{zoom: zoom}} className = {`${styles.container} ${styles.center}`}>
             <div className = {`${styles.innerContainer} ${styles.between}`}>
                 <div className = {`${styles.leftContainer} ${styles.between}`}>
                     <div>

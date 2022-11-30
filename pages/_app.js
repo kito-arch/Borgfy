@@ -15,23 +15,24 @@ function MyApp({ Component, pageProps }) {
     // aos
     AOS.init();
 
-    // // zoom
-    // if(router.pathname == "/portfolio"){
-    //   // zoom
-    //   let width = screen.width
-    //   let zoom = (width / 1920) * 100
-    //   console.log(zoom)
-    //   console.log(width)
-    //   let scale = zoom + "%"
-    //   document.body.style.zoom =  scale;    // Chrome, Opera, Safari
-    // }
-    // else{}
+    // zoom
+    if(router.pathname == "/portfolio"){
+      // zoom
+      let width = screen.width
+      let zoom = (width / 1920) * 100
+      console.log(zoom)
+      console.log(width)
+      let scale = zoom + "%"
+      document.body.style.zoom =  scale;    // Chrome, Opera, Safari
+    }
+    else{
       let width = screen.width
       let zoom = (width / 2304) * 100
       console.log(zoom)
       console.log(width)
       let scale = zoom + "%"
       document.body.style.zoom =  scale;    // Chrome, Opera, Safari
+    }
   }, [router.pathname])
 
   return <Component {...pageProps} />
