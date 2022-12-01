@@ -1,0 +1,62 @@
+.container{
+    margin-top: 43px;
+    padding: 29px 0 61px;
+    color: white;
+    position: relative;
+}
+
+.innerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.leftContainer{
+    width: 720px;
+    margin-right: 130px;
+}
+
+.divider{
+    width: 2px;
+    background-color: white;
+    height: 267px;
+    margin-right: 45px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 3.125rem;
+    margin-bottom: 21px;
+    line-height: 69px;
+}
+
+.subheading{
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin-bottom: 18px;
+    /* line-height: 65px; */
+}
+
+.text{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 30px;
+    
+    /* identical to box height, or 167% */
+    
+    color: #FFFFFF;
+    
+    
+}
+
+.textMargin{
+    margin-bottom: 15px;
+}
+
+.horizontalDivider{
+    margin-left: 2px;
+    height: 2px;
+    width: 617px;
+    background-color: white;
+    margin-bottom: 10px;
+}

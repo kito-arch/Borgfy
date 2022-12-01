@@ -1,0 +1,31 @@
+.container{
+    padding-bottom: 107px;
+    color: black;
+    position: relative;
+    /* overflow-x: hidden; */
+}
+
+.centerBetween{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 2.5625rem;
+    line-height: 89px;
+}
+
+.date{
+    font-weight: 500;
+    font-size: 1.875rem;
+    color: #377DFF;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 1.4375rem;
+    line-height: 36px;
+}
