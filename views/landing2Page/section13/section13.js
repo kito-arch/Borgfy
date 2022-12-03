@@ -15,7 +15,16 @@ export default function Section13(props){
 
     useEffect(()=>{
         document.getElementById("slider").scroll(495*current, 0)
+        setTimeout(()=>{
+            setCurrent(prev => {console.log(prev);  return ((prev + 1)%(reviews.length))})
+        }, 5000)
     }, [current])
+
+    useEffect(()=>{
+        setTimeout(()=>{
+            setCurrent(1)
+        }, 5000)
+    }, [])
     
 
     return(
@@ -35,10 +44,10 @@ export default function Section13(props){
                             return (reviews.length - 1)
                         else 
                             return ((prev - 1)%(reviews.length))
-                    })}} style = {{cursor: 'pointer', position: 'absolute', top: '300px', left: '0', zIndex: '100'}}>
+                    })}} style = {{cursor: 'pointer', position: 'absolute', top: '250px', left: '0', zIndex: '100'}}>
                         <Image src = './rev_left.png' width = '60px' height = '60px'/>
                     </div>
-                    <div onClick={()=>{setCurrent(prev => ((prev + 1)%(reviews.length)))}} style = {{cursor: 'pointer', position: 'absolute', top: '300px', right: '0', zIndex: '100'}}>
+                    <div onClick={()=>{setCurrent(prev => ((prev + 1)%(reviews.length)))}} style = {{cursor: 'pointer', position: 'absolute', top: '250px', right: '100px', zIndex: '100'}}>
                         <Image src = './rev_right.png' width = '60px' height = '60px'/>
                     </div>
                     <div id = 'slider' className = {`${styles.slideContainer}`}>
@@ -46,7 +55,7 @@ export default function Section13(props){
                             return(
                                 <div style = {{minWidth: '495px', height: '593px', position: 'relative'}}>
                                     <div style = {{position: 'absolute', top: '0', left: '0'}}>
-                                        <Image style = {{borderRadius: '10px'}} src = {rev.image} width = '495px' height = '593px' />
+                                        <Image style = {{borderRadius: '10px'}} src = {rev.image} width = '400px' height = '500px' />
                                     </div>
                                 </div>
                             )
@@ -54,8 +63,8 @@ export default function Section13(props){
                     </div>
                     
                 </div>
-                <div style = {{width: '60%'}} data-aos-offset = {-scroll*4600} data-aos = 'fade-left' data-aos-duration = '3000'>
-                    <div style = {{marginBottom: '20px', marginTop: '150px'}}>
+                <div style = {{width: '80%'}} data-aos-offset = {-scroll*4600} data-aos = 'fade-left' data-aos-duration = '3000'>
+                    <div style = {{marginBottom: '20px', marginTop: '100px'}}>
                         <Image src = './landing2_sec13_comma.png' width = '31px' height = '27px' />
                     </div>
                     <div style = {{width: '145px'}} className = {`${styles.srtretchBetween}`}>

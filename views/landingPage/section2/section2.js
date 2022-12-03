@@ -1,13 +1,24 @@
 import { scroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section2.module.css'
+import { useEffect, useState } from 'react'
 
 export default function Section2(props){
+
+    const [kon, setKon] = useState(0)
+
+    
+    useEffect(()=>{
+        let width = document.getElementById('secondslider').clientWidth
+        document.getElementById("secondslider").scroll((width * kon), 0)
+    }, [kon])
+
+
     return(
         <div className = {`${styles.container}`}>
             <p data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>How Can We Help?</p>
 
-            <div  className = {`${styles.stretchBetween}`}>
+            <div id = "secondslider" className = {`${styles.stretchBetween}`}>
 
                 <div className = {`${styles.innerContainer}`}>
 
@@ -82,14 +93,26 @@ export default function Section2(props){
 
 
             <div style = {{display: 'flex', alignItems: 'center', justifyContent: 'center', margin: 'auto', width: 'fit-content', marginTop: '40px'}}>
-                <div style = {{marginRight: '10px'}}>
-                    <Image src = './landing_sec2_empty_ellipse.png' width = '26px' height = '26px' />
+                <div onClick={()=>{setKon(0)}} style = {{marginRight: '10px', cursor: 'pointer'}}>
+                    {kon == 0 ? 
+                            <Image src = './landing_sec2_filled_ellipse.png' width = '26px' height = '26px' />
+                    :
+                            <Image src = './landing_sec2_empty_ellipse.png' width = '26px' height = '26px' />
+                    }
                 </div>
-                <div style = {{marginRight: '10px'}}>
-                    <Image src = './landing_sec2_filled_ellipse.png' width = '26px' height = '26px' />
+                <div onClick={()=>{setKon(1)}} style = {{marginRight: '10px', cursor: 'pointer'}}>
+                    {kon == 1 ? 
+                            <Image src = './landing_sec2_filled_ellipse.png' width = '26px' height = '26px' />
+                    :
+                            <Image src = './landing_sec2_empty_ellipse.png' width = '26px' height = '26px' />
+                    }
                 </div>
-                <div style = {{marginRight: '10px'}}>
-                    <Image src = './landing_sec2_empty_ellipse.png' width = '26px' height = '26px' />
+                <div onClick={()=>{setKon(2)}} style = {{marginRight: '10px', cursor: 'pointer'}}>
+                    {kon == 2 ? 
+                            <Image src = './landing_sec2_filled_ellipse.png' width = '26px' height = '26px' />
+                    :
+                            <Image src = './landing_sec2_empty_ellipse.png' width = '26px' height = '26px' />
+                    }
                 </div>
             </div>
 

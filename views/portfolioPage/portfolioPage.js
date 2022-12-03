@@ -36,14 +36,14 @@ export default function PortfolioPage(props){
 
                 {(category == 0 || category == 1) &&
                     <PaddingLayout>
-                        <Image src = './qool_qatar_back.png' layout = 'fill' />
+                        <Image src = './new_qq_back.png' layout = 'fill' />
                         <div id = "qool" data-aos-offset = {-scroll*1500} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.centerEnd}`}>
                             <Card1 backgroundColor = {'#00AAE8'} alternate = {true} heading = 'Qool Qatar' text = 'Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.' headingMarginBottom = '60px' textMarginBottom = '71px' />
                         </div>
                     </PaddingLayout>
                 }
 
-                {(category == 0 || category == 1) &&
+                {(category == 0 || category == 1 || category == 2) &&
                     <PaddingLayout>
                         <Image src = './port_back_1.png' layout = 'fill' />
                         <div id = "atomic" data-aos-offset = {-scroll*300} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.centerStart}`}>
@@ -52,7 +52,7 @@ export default function PortfolioPage(props){
                     </PaddingLayout>
                 }
 
-                {(category == 0 || category == 3) &&
+                {(category == 0 || category == 2) &&
                     <PaddingLayout>
                         <Image src = './port_back_2.png' layout = 'fill' />
                         <div data-aos-offset = {-scroll*5000} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.centerEnd}`}>
@@ -70,7 +70,7 @@ export default function PortfolioPage(props){
                     </PaddingLayout>
                 }
 
-                {(category == 0 || category == 1) &&
+                {(category == 0 || category == 1 || category == 2) &&
                     <PaddingLayout>
                         <Image src = './port_back_4.png' layout = 'fill' />
                         <div id = "ro" data-aos-offset = {-scroll*800} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.centerEnd}`}>
@@ -107,7 +107,7 @@ export default function PortfolioPage(props){
                     </PaddingLayout>
                 }
 
-                {(category == 0 || category == 3) &&
+                {(category == 0 || category == 2) &&
                 <PaddingLayout>
                         <Image src = './port_back_8.png' layout = 'fill' />
                         <div data-aos-offset = {-scroll*1600} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.centerEnd}`}>
@@ -116,7 +116,7 @@ export default function PortfolioPage(props){
                     </PaddingLayout>
                 }
 
-                {(category == 0 || category == 3) &&
+                {(category == 0 || category == 2) &&
                 <PaddingLayout>
                         <Image src = './port_back_9.png' layout = 'fill' />
                         <div data-aos-offset = {-scroll*1700} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.centerStart}`}>

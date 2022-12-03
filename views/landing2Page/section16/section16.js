@@ -6,7 +6,7 @@ export default function Section16(props){
     return(
         <div className = {`${styles.container}`}>
             <div className = {`${styles.innerContainer}`}>
-                <p data-aos-offset = {-scroll*6000} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>The moust Recent articles</p>
+                <p data-aos-offset = {-scroll*6000} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>The most Recent articles</p>
 
 
                 <div data-aos-offset = {-scroll*6000} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.stretchStart}`}>
