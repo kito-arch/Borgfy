@@ -110,7 +110,7 @@ export default function AddBlog() {
 
         {section.map((sec, index)=>{
             return( 
-                <React.Fragment>
+                <React.Fragment key = {index}>
                     <div style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start', marginBottom: '20px'}}>
                         <h1 style = {{marginRight: '10px'}}>Title</h1>
                         <textarea onChange={(event)=>{
