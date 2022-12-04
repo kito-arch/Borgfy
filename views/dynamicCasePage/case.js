@@ -40,8 +40,8 @@ export default function DynamicCasePage(props){
                             <Image src = './digital_right_triangle.png' width = '219.47px' height = '221.19px'/>
                         </div>
 
-                        <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Check In Depth - How we solved it</p>
-                        <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Case Studies</p>
+                        <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>Check In Depth - How we solved it</p>
+                        <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.subheading}`}>Case Studies</p>
 
 
                         <div className = {`${styles.stretchBetween}`}>
@@ -56,7 +56,7 @@ export default function DynamicCasePage(props){
 
                             {useCases.map((uc)=>{
                                 return(
-                                    <div data-aos-offset = {-300*scroll} data-aos = 'fade-right' data-aos-duration = '3000'>
+                                    <div data-aos-offset = {-300*scroll} data-aos = 'fade-right' data-aos-duration = '1000'>
                                         <div style = {{display: 'flex', alignItems: 'center'}}>
                                             <Image src = './case2_ellipse.png' width = '31px' height = '31px' />
                                             <p className = {`${styles.mobile}`}>{uc?.type}</p>

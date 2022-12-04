@@ -45,13 +45,13 @@ export default function DynamicBlogsPage(props){
                         <React.Fragment>
                         {i == 0 ?
                             <PaddingLayout backgroundColor = 'white'>
-                                <div data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000'>
+                                <div data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000'>
                                     <Section2 blog = {b} paddingTop = '80px' backgroundColor = 'black' headingColor = 'white' textColor = 'white'/>
                                 </div>
                             </PaddingLayout>
                         :
                             <PaddingLayout backgroundColor = 'white'>
-                                <div data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000'>
+                                <div data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000'>
                                     <Section2 blog = {b} paddingTop = '40px' backgroundColor = '#F3F5F5' headingColor = 'black' textColor = 'black'/>
                                 </div>
                             </PaddingLayout>

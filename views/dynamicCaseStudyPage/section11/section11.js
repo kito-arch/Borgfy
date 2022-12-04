@@ -14,7 +14,7 @@ export default function Section11(props){
                 <Image src = '../case_style_gray.png' width = '1227px' height = '1227px' />
             </div>
 
-            <div data-aos-offset = {-scroll*3200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.startBetween}`}>
+            <div data-aos-offset = {-scroll*3200} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.startBetween}`}>
                 <div className = {`${styles.headingContainer}`}>
                     <div style = {{position: 'absolute', left: '-25px', top: '0'}}>
                         <Image src = '../gray_ellipse.png' width = '61px' height = '61px'/>

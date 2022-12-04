@@ -20,8 +20,8 @@ export default function Section2(props){
             </div>
 
             <div className = {`${styles.innerContainer}`}>
-                <p  data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Machine Learning is Another name of AI Today</p>
-                <p  data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.text}`}>It is a modern way for machines to adapt and learn from their surroundings using the fundamentals of artificial intelligence. It allows the machines to predict better and more accurate outcomes for any given instance because they are specifically built to do this job.it usually a processing of training data to machine , so in layman ML it totally depends on training and reiterating process. </p>
+                <p  data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>Machine Learning is Another name of AI Today</p>
+                <p  data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.text}`}>It is a modern way for machines to adapt and learn from their surroundings using the fundamentals of artificial intelligence. It allows the machines to predict better and more accurate outcomes for any given instance because they are specifically built to do this job.it usually a processing of training data to machine , so in layman ML it totally depends on training and reiterating process. </p>
             </div>
 
         </div>

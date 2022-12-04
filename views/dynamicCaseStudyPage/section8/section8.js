@@ -12,13 +12,13 @@ export default function Section8(props){
                 <Image src = '../case_right_hand.png' width = '158px' height = '185px' />
             </div>
 
-            <div data-aos-offset = {-scroll*1800} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.headingContainer}`}>
+            <div data-aos-offset = {-scroll*1800} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.headingContainer}`}>
                 <div style = {{position: 'absolute', left: '-25px', top: '0'}}>
                     <Image src = '../gray_ellipse.png' width = '61px' height = '61px'/>
                 </div>
                 <p className = {`${styles.heading}`}>Approach</p>
             </div>
-            <p data-aos-offset = {-scroll*1800} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.text}`}>{props?.useCase?.approach_text}</p>
+            <p data-aos-offset = {-scroll*1800} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.text}`}>{props?.useCase?.approach_text}</p>
 
 
             <div className = {`${styles.centerCenter}`}>

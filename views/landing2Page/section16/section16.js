@@ -6,10 +6,10 @@ export default function Section16(props){
     return(
         <div className = {`${styles.container}`}>
             <div className = {`${styles.innerContainer}`}>
-                <p data-aos-offset = {-scroll*6000} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>The most Recent articles</p>
+                <p data-aos-offset = {-scroll*6000} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>The most Recent articles</p>
 
 
-                <div data-aos-offset = {-scroll*6000} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.stretchStart}`}>
+                <div data-aos-offset = {-scroll*6000} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.stretchStart}`}>
                     <div style = {{minWidth: '528px', marginRight: '43px', padding: '43px 63px'}} className = {`${styles.box}`}>
                         <div>
                             <p className = {`${styles.boxTitle}`}>Top 10 App Ideas for startups in  2022</p>

@@ -12,7 +12,7 @@ export default function Section9(props){
             </div>
 
             <div className = {`${styles.startBetween}`}>
-                <div data-aos-offset = {-scroll*2800} data-aos = 'fade-right' data-aos-duration = '3000'>
+                <div data-aos-offset = {-scroll*2800} data-aos = 'fade-right' data-aos-duration = '1000'>
                     <div className = {`${styles.headingContainer}`}>
                         <div style = {{position: 'absolute', left: '-25px', top: '0'}}>
                             <Image src = './gray_ellipse.png' width = '61px' height = '61px'/>

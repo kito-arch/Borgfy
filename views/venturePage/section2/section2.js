@@ -5,7 +5,7 @@ import styles from './section2.module.css'
 export default function Section2(props){
     return(
         <div className = {`${styles.container}`}>
-            <div data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.innerContainer}`}>
+            <div data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.innerContainer}`}>
                 <p className = {`${styles.heading}`}>Why Does A Business Require Digital Transformation?</p>
                 <p className = {`${styles.text}`}>
                     This is a digital era where people interact with technology to seek products, services, or any information. They use the internet to reach, communicate, and buy anything through smart devices. Moreover, the global digital transformation market is projected to reach a value of USD 2744.68 billion at a CAGR of 17.42% by 2026.

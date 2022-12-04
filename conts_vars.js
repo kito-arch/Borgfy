@@ -1,1 +1,1 @@
-export const scroll = 2
+export const scroll = 1.2
