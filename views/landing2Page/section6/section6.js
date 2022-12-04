@@ -2,8 +2,16 @@ import { scroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section6.module.css'
 import Link from 'next/link'
+import { myscroll } from './functions'
+import { useEffect } from 'react'
 
 export default function Section6(props){
+
+    useEffect(() => {
+      myscroll()  
+    }, [])
+    
+
     return(
         <div className = {`${styles.container}`}>
 
@@ -19,22 +27,31 @@ export default function Section6(props){
             <p data-aos-offset = {-scroll*1700} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.subheading}`}>COMMITTED</p>
             <p data-aos-offset = {-scroll*1700} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.heading}`}>What we delivered</p>
 
-            <div className = {`${styles.numberContainer}`}>
+            <div id = "nums" className = {`${styles.numberContainer}`}>
 
                 <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '3000' >
-                    <p className = {`${styles.numberHeading}`}>1.5k+</p>
+                    <div style = {{display: 'flex'}}>
+                        <p id = "num1" className = {`${styles.numberHeading}`}></p>
+                        <p className = {`${styles.numberHeading}`}>+</p>
+                    </div>
                     <p className = {`${styles.numberText}`}>Startup Ideas</p>
                     <p className = {`${styles.numberSubText}`}>Evaluated</p>
                 </div>
 
                 <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '3000' >
-                    <p className = {`${styles.numberHeading}`}>150+</p>
+                    <div style = {{display: 'flex'}}>
+                        <p id = "num2" className = {`${styles.numberHeading}`}></p>
+                        <p className = {`${styles.numberHeading}`}>+</p>
+                    </div>
                     <p className = {`${styles.numberText}`}>Technology Products</p>
                     <p className = {`${styles.numberSubText}`}>Developed</p>
                 </div>
 
                 <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '3000' >
-                    <p className = {`${styles.numberHeading}`}>30+</p>
+                    <div style = {{display: 'flex'}}>
+                        <p id = "num3" className = {`${styles.numberHeading}`}></p>
+                        <p className = {`${styles.numberHeading}`}>+</p>
+                    </div>
                     <p className = {`${styles.numberText}`}>Enterprise / Startup</p>
                     <p className = {`${styles.numberSubText}`}>Clients</p>
                 </div>
