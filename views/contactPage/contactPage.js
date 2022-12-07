@@ -9,7 +9,7 @@ import { mail } from './functions';
 export default function ContactPage(props){
     return(
 
-        <StandardLayout>
+        <StandardLayout contact = {true}>
             <div className = {`${styles.container}`}>
 
                 <PaddingLayout backgroundColor = 'black'>
@@ -27,8 +27,22 @@ export default function ContactPage(props){
 
                             
 
-                            <div style = {{position: 'absolute', top: '228px', right: '107px'}}>
+                            <div style = {{position: 'absolute', top: '170px', right: '107px'}}>
                                 <Image src = './contact_image1.png' width = '553px' height = '553px'/>
+                                <div style = {{display: 'flex'}}>
+                                    <div style = {{width : '200px', marginRight: '20px'}}>
+                                        <Image src = './india.png' width = '20px' height = '16px'/>
+                                        <p  style = {{marginTop: '20px'}} className = {`${styles.text}`}>B-78, Near Saket Metro Station, Gate no, 2, New Delhi, 110030, India </p>
+                                    </div>
+                                    <div style = {{width : '200px', marginRight: '20px'}}>
+                                        <Image src = './usa.png' width = '20px' height = '16px'/>
+                                        <p  style = {{marginTop: '20px'}} className = {`${styles.text}`}>1216, Broadway, 2nd floor New York Down, NY, 10001, USA </p>
+                                    </div>
+                                    <div style = {{width : '200px', marginRight: '20px'}}>
+                                        <Image src = './sau.png' width = '20px' height = '16px'/>
+                                        <p  style = {{marginTop: '20px'}} className = {`${styles.text}`}>5039 Abi Jafar Al Bati, Al Arid Dist, Riyadh - 1337, Saudi Arabia </p>
+                                    </div>
+                                </div>
                             </div>
 
                             <div className = {styles.bell} style = {{position: 'absolute', top: '87px', left: '127px'}}>

@@ -9,7 +9,7 @@ export default function Section10(props){
 
                 <Image src = './landing2_sec10_back.png' layout = 'fill'/>
 
-                <div data-aos-offset = {-scroll*3200} data-aos = 'fade-left' data-aos-duration = '1000' className = {`${styles.innerContainer}`}>
+                <div data-aos-offset = {-scroll*3200} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.innerContainer}`}>
                     <Image src = './landing2_sec10_bulb.png' width = '30px' height = '46px' />
                     <p className = {`${styles.subtext}`}>Already have a startup idea?</p>
                     <p className = {`${styles.heading}`}>Let's setup a FREE consultation call</p>

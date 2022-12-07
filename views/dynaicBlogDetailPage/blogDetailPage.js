@@ -51,7 +51,7 @@ export default function DynamicBlogDetailPage(props){
                     return(
                         
                         <PaddingLayout backgroundColor = 'white'>
-                            <div data-aos-offset = {-500*scroll} data-aos = 'fade-up' data-aos-duration = '1000'>
+                            <div data-aos-offset = {-500*scroll} data-aos = 'fade-up' data-aos-duration = '3000'>
                                 <Section3 title = {b?.title} date = {i == 0 ? date(b) : '' }text = {b?.description}/>
                             </div>
                         </PaddingLayout>

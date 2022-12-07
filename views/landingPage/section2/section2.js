@@ -16,13 +16,13 @@ export default function Section2(props){
 
     return(
         <div className = {`${styles.container}`}>
-            <p data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>How Can We Help?</p>
+            <p data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>How Can We Help?</p>
 
             <div id = "secondslider" className = {`${styles.stretchBetween}`}>
 
                 <div className = {`${styles.innerContainer}`}>
 
-                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.box}`}>
                         <div style = {{width: 'fit-content', margin: 'auto', marginBottom: '62px'}}>
                             <Image src = './landing_sec2_image1.png' width = '189px' height = '189px' />
                         </div>
@@ -30,7 +30,7 @@ export default function Section2(props){
                         <p className = {`${styles.boxText}`}>Our consultants will help you make the right technical decisions that are rewarding in the long run. All our experts are highly experienced and well-accustomed to all the latest app development trends and technologies.</p>
                     </div>
 
-                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.box}`}>
                         <div style = {{width: 'fit-content', margin: 'auto', marginBottom: '62px'}}>
                             <Image src = './landing_sec2_image2.png' width = '189px' height = '189px' />
                         </div>
@@ -38,7 +38,7 @@ export default function Section2(props){
                         <p className = {`${styles.boxText}`}>Let our creative ninjas design your application such that it reflects your brand identity. Having designed hundreds of mobile applications, we know what it takes to create an impeccable design that looks fresh and elegant.</p>
                     </div>
 
-                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.box}`}>
                         <div style = {{width: 'fit-content', margin: 'auto', marginBottom: '62px'}}>
                             <Image src = './landing_sec2_image3.png' width = '189px' height = '189px' />
                         </div>
@@ -50,7 +50,7 @@ export default function Section2(props){
 
                 <div className = {`${styles.innerContainer}`}>
 
-                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.box}`}>
                         <div style = {{width: 'fit-content', margin: 'auto', marginBottom: '62px'}}>
                             <Image src = './landing_sec2_image4.png' width = '189px' height = '189px' />
                         </div>
@@ -58,7 +58,7 @@ export default function Section2(props){
                         <p className = {`${styles.boxText}`}>We can develop high-performing mobile applications that are future-focused and intuitive. Whether you’re seeking to develop native applications or cross-platform apps, you can rely on us for creating robust mobile applications from the ground up.</p>
                     </div>
 
-                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.box}`}>
                         <div style = {{width: 'fit-content', margin: 'auto', marginBottom: '62px'}}>
                             <Image src = './landing_sec2_image5.png' width = '189px' height = '189px' />
                         </div>
@@ -66,7 +66,7 @@ export default function Section2(props){
                         <p className = {`${styles.boxText}`}>We can create bespoke and intuitive web applications  high performing saas products tailored to your audience. So far, we have worked with businesses of every size and scale to help them create impeccable web applications that are cutting-edge and futuristic . Hire us today and put our craft to work.</p>
                     </div>
 
-                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.box}`}>
                         <div style = {{width: 'fit-content', margin: 'auto', marginBottom: '62px'}}>
                             <Image src = './landing_sec2_image6.png' width = '189px' height = '189px' />
                         </div>
@@ -79,7 +79,7 @@ export default function Section2(props){
 
                 <div className = {`${styles.innerContainer}`}>
 
-                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.box}`}>
+                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.box}`}>
                         <div style = {{width: 'fit-content', margin: 'auto', marginBottom: '62px'}}>
                             <Image src = './landing_sec2_image6.png' width = '189px' height = '189px' />
                         </div>

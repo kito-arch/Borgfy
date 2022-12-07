@@ -34,8 +34,8 @@ export default function Section13(props){
                 <Image src = './landing2_sec13_left.png' width = '215px' height = '749px' />
             </div>
 
-            <p data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.subheading}`}>Testimonials</p>
-            <p data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '1000' className = {`${styles.heading}`}>Check what our clients are saying</p>
+            <p data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Testimonials</p>
+            <p data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Check what our clients are saying</p>
 
             <div className = {`${styles.stretchBetween}`}>
                 <div className = {`${styles.revImageContainer}`}>
@@ -63,7 +63,7 @@ export default function Section13(props){
                     </div>
                     
                 </div>
-                <div style = {{width: '80%'}} data-aos-offset = {-scroll*4600} data-aos = 'fade-left' data-aos-duration = '1000'>
+                <div style = {{width: '80%'}} data-aos-offset = {-scroll*4600} data-aos = 'fade-left' data-aos-duration = '3000'>
                     <div style = {{marginBottom: '20px', marginTop: '100px'}}>
                         <Image src = './landing2_sec13_comma.png' width = '31px' height = '27px' />
                     </div>

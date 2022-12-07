@@ -9,7 +9,7 @@ export default function StandardLayout(props){
         <div style = {{position: 'relative'}}>
             <Navbar double = {props.double} logo =  {props.logo}/>
                 {props.children}
-            <Footer double = {props.double} backgroundColor = {props.backgroundColor ?? 'white'}/>
+            <Footer contact = {props.contact} double = {props.double} backgroundColor = {props.backgroundColor ?? 'white'}/>
             <FooterTag/>
         </div>
     )

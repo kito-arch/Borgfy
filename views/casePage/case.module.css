@@ -29,7 +29,7 @@
 }
 
 .stretchBetween{
-    width: 1500px;
+    width: 1600px;
     margin: auto;
     display: flex;
     align-items: stretch;
@@ -38,12 +38,26 @@
     position: relative;
 }
 
-.box{
-    width: 730px;
-    padding: 82px 25px 25px;
-    min-height: 970px;
+.hover{
+    padding: 15px;
+    background-image: none;
+    transition: all 0.5s linear;
+    border-radius: 30px;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
     margin-bottom: 60px;
-    background: rgba(255, 255, 255, 0.8);
+}
+.hover:hover{
+    background-image: linear-gradient(to bottom, #7785ff, #fd2f31);
+}
+
+.box{
+
+    width: 710px;
+    padding: 62px 5px 5px;
+    min-height: 970px;
+    background: rgba(255, 255, 255, 1);
     box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(8px);
 

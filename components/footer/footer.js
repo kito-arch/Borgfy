@@ -1,4 +1,5 @@
 
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import styles from './footer.module.css'
@@ -24,8 +25,13 @@ export default function Footer(props){
 
     return(
         <div style = {{zoom: zoom}} className = {`${styles.container}`}>
+            {props.contact &&
+                <div style = {{position: 'absolute', top: '0', left: '0'}}>
+                    <Image src = {props.double ? '../contact_footer.png' : './contact_footer.png'} width = '2304px' height = '388px'/>
+                </div>
+            }
             <div className = {`${styles.innerContainer}`}>
-                <FooterTop double = {props.double}/>
+                <FooterTop contact = {props.contact} double = {props.double}/>
                 <FooterBottom double = {props.double}/>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import Image from 'next/image' 
 import Link from 'next/link'
+import React from 'react'
 
 import styles from './footerTop.module.css'
 export default function FooterTop(props){
@@ -28,16 +29,19 @@ export default function FooterTop(props){
                 <div style = {{cursor: 'pointer', position: 'absolute', top: '252px', left: '1586px', width: '155px', height: '127px', zIndex: '1000'}}/>
             </Link>
 
-
             <p className = {`${styles.desc}`}>“Be the viewer or be the changer it`s your choice”<br/>Don`t be just  a daydreamer let`s do it and build something great</p>
             <div>
-                <p className = {`${styles.have}`}>Have an Idea ?</p>
-                <Link href = 'contact'>
-                    <div className = {`${styles.chipContainer}`}>
-                        <p className = {`${styles.lets}`}>Lets Connect</p>
-                        <Image src = {props.double ? '../arrowRight.png' : './arrowRight.png'} width = '10px' height = '20px'/>
-                    </div>
-                </Link>
+                {!props.contact && 
+                <React.Fragment>
+                    <p className = {`${styles.have}`}>Have an Idea ?</p>
+                    <Link href = 'contact'>
+                        <div className = {`${styles.chipContainer}`}>
+                            <p className = {`${styles.lets}`}>Lets Connect</p>
+                            <Image src = {props.double ? '../arrowRight.png' : './arrowRight.png'} width = '10px' height = '20px'/>
+                        </div>
+                    </Link>
+                </React.Fragment>
+                }
             </div>
         </div>
     )
