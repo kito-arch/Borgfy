@@ -7,17 +7,23 @@ import styles from './section13.module.css'
 export default function Section13(props){
 
     const [reviews, setReviews] = useState([
-        {image: './rev1.jpeg', review: "The company will do what it takes to get the job done and satisfy it's customer.", name: 'Goy Sengmany', title: 'Realtor, Sengmany & Associates'},
-        {image: './rev2.png', review: 'The communication on the project was very professional and the logo was done in a timely manner.', name: 'Robb Cheeks', title: 'Consultant, Robb Cheeks Consulting'}
+        {image: '/../public/rev1.jpeg', review: "The company will do what it takes to get the job done and satisfy it's customer.", name: 'Goy Sengmany', title: 'Realtor, Sengmany & Associates'},
+        {image: '/../public/rev2.png', review: 'The communication on the project was very professional and the logo was done in a timely manner.', name: 'Robb Cheeks', title: 'Consultant, Robb Cheeks Consulting'}
     ])
 
     const [current, setCurrent] = useState(0)
 
+    const [ids, setIds] = useState([])
+
     useEffect(()=>{
+        ids.forEach((id)=>{
+            window.clearTimeout(id); // will do nothing if no timeout with id is present
+        }) 
         document.getElementById("slider").scroll(495*current, 0)
-        setTimeout(()=>{
-            setCurrent(prev => {console.log(prev);  return ((prev + 1)%(reviews.length))})
+        let new_id = setTimeout(()=>{
+            setCurrent(prev => {return ((prev + 1)%(reviews.length))})
         }, 5000)
+        setIds([...ids, new_id])
     }, [current])
 
     useEffect(()=>{
@@ -31,7 +37,7 @@ export default function Section13(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{position: 'absolute', top: '-90px', left: '-12rem'}}>
-                <Image src = './landing2_sec13_left.png' width = '215px' height = '749px' />
+                <Image src = '/../public/landing2_sec13_left.png' width = '215px' height = '749px' />
             </div>
 
             <p data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Testimonials</p>
@@ -45,10 +51,10 @@ export default function Section13(props){
                         else 
                             return ((prev - 1)%(reviews.length))
                     })}} style = {{cursor: 'pointer', position: 'absolute', top: '250px', left: '0', zIndex: '100'}}>
-                        <Image src = './rev_left.png' width = '60px' height = '60px'/>
+                        <Image src = '/../public/rev_left.png' width = '60px' height = '60px'/>
                     </div>
                     <div onClick={()=>{setCurrent(prev => ((prev + 1)%(reviews.length)))}} style = {{cursor: 'pointer', position: 'absolute', top: '250px', right: '100px', zIndex: '100'}}>
-                        <Image src = './rev_right.png' width = '60px' height = '60px'/>
+                        <Image src = '/../public/rev_right.png' width = '60px' height = '60px'/>
                     </div>
                     <div id = 'slider' className = {`${styles.slideContainer}`}>
                         {reviews.map((rev=>{
@@ -65,14 +71,14 @@ export default function Section13(props){
                 </div>
                 <div style = {{width: '80%'}} data-aos-offset = {-scroll*4600} data-aos = 'fade-left' data-aos-duration = '3000'>
                     <div style = {{marginBottom: '20px', marginTop: '100px'}}>
-                        <Image src = './landing2_sec13_comma.png' width = '31px' height = '27px' />
+                        <Image src = '/../public/landing2_sec13_comma.png' width = '31px' height = '27px' />
                     </div>
                     <div style = {{width: '145px'}} className = {`${styles.srtretchBetween}`}>
-                        <Image src = './landing2_sec13_star.png' width = '29px' height = '29px' />
-                        <Image src = './landing2_sec13_star.png' width = '29px' height = '29px' />
-                        <Image src = './landing2_sec13_star.png' width = '29px' height = '29px' />
-                        <Image src = './landing2_sec13_star.png' width = '29px' height = '29px' />
-                        <Image src = './landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
                     </div>
                     <div style = {{position: 'relative'}}>
                         {reviews.map((rev, index)=>{

@@ -26,14 +26,14 @@ export default function Navbar(props){
         <div style = {{zoom: zoom}} className = {`${styles.container} ${styles.center}`}>
             <div className = {`${styles.innerContainer} ${styles.between}`}>
                 <div className = {`${styles.leftContainer} ${styles.between}`}>
-                    <div>
+                    <div style = {{marginTop: '10px'}}>
                         <Logo double = {props.double} logo = {props.logo}/>
                     </div>
                     <div className = {`${styles.leftRightContainer} ${styles.between}`}>
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Who We Are</p>
                             <div style = {{marginTop: '-5px'}}>
-                                <Image src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
+                                <Image src = {props.double ? '/../public/arrowDown.png' : '/../public/arrowDown.png' }  width = '6px' height = '4px'/>
                             </div>
                             <div className = {`${styles.dropdownContainer} ${styles.two}`}>
                                 <Link href = 'about'>
@@ -58,7 +58,7 @@ export default function Navbar(props){
                             <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                                 <p className = {`${styles.navLabels}`}>Blog</p>
                                 <div style = {{marginTop: '-5px'}}>
-                                    <Image src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
+                                    <Image src = {props.double ? '/../public/arrowDown.png' : '/../public/arrowDown.png' }  width = '6px' height = '4px'/>
                                 </div>
                             </div>
                         </Link>
@@ -66,7 +66,7 @@ export default function Navbar(props){
                             <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                                 <p className = {`${styles.navLabels}`}>Our Work</p>
                                 <div style = {{marginTop: '-5px'}}>
-                                    <Image src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
+                                    <Image src = {props.double ? '/../public/arrowDown.png' : '/../public/arrowDown.png' }  width = '6px' height = '4px'/>
                                 </div>
                                 {/* <div className = {`${styles.dropdownContainer} ${styles.one}`}>
                                     <Link href = 'portfolio'>
@@ -83,7 +83,7 @@ export default function Navbar(props){
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Expertise</p>
                             <div style = {{marginTop: '-5px'}}>
-                                <Image src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
+                                <Image src = {props.double ? '/../public/arrowDown.png' : '/../public/arrowDown.png' }  width = '6px' height = '4px'/>
                             </div>
                             <div className = {`${styles.dropdownContainer} ${styles.four}`}>
                                 <Link href = 'ai'>
@@ -123,7 +123,7 @@ export default function Navbar(props){
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Resources</p>
                             <div style = {{marginTop: '-5px'}}>
-                                <Image src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
+                                <Image src = {props.double ? '/../public/arrowDown.png' : '/../public/arrowDown.png' }  width = '6px' height = '4px'/>
                             </div>
                             <div className = {`${styles.dropdownContainer} ${styles.two}`}>
                                 <Link href = 'case2'>
@@ -147,9 +147,11 @@ export default function Navbar(props){
                     </div>
                 </div>
             </div>
-            <div className = {`${styles.chip}`}>
-                <p className = {`${styles.chipLabel}`}>Have an idea?</p>
-            </div>
+            <Link href = 'contact'>
+                <div className = {`${styles.chip}`}>
+                    <p className = {`${styles.chipLabel}`}>Have an idea?</p>
+                </div>
+            </Link>
         </div>
     )
 }

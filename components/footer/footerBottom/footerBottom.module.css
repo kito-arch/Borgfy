@@ -1,3 +1,10 @@
+
+.width{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .container{
     background: rgba(255, 255, 255, 0.13);
     box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
@@ -8,6 +15,7 @@
 
     padding: 103px 50px 78px 300px;
     position: relative;
+    width: 1772px;
 }
 
 .startBetween{

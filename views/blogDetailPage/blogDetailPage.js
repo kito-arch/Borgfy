@@ -13,7 +13,7 @@ export default function BlogDetailPage(props){
         <StandardLayout>
             <div className = {`${styles.container}`}>
                 <PaddingLayout>
-                    <Image src = './blog_sec1_back.png' layout = 'fill'/>
+                    <Image src = '/../public/blog_sec1_back.png' layout = 'fill'/>
                     <Section1/>
                 </PaddingLayout>
 

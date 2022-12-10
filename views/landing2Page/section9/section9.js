@@ -17,7 +17,7 @@ export default function Section9(props){
                         <p className = {`${styles.boxHeading}`}>Our Visions Crafted Into Startups</p>
                         <p className = {`${styles.boxText}`}>Lorem ipsum doler sit</p>
                         <div style = {{position: 'absolute', bottom: '5px', left: '5px'}}>
-                            <Image src = './landing2_sec9_imageg1.png' width = '550px' height = '456px'/>
+                            <Image src = '/../public/landing2_sec9_imageg1.png' width = '550px' height = '456px'/>
                         </div>
                     </div>
 
@@ -25,7 +25,7 @@ export default function Section9(props){
                         <p className = {`${styles.boxHeading}`}>Our Visions Crafted Into Startups</p>
                         <p className = {`${styles.boxText}`}>Lorem ipsum doler sit</p>
                         <div style = {{position: 'absolute', bottom: '5px', left: '5px'}}>
-                            <Image src = './landing2_sec9_imageg1.png' width = '550px' height = '456px'/>
+                            <Image src = '/../public/landing2_sec9_imageg1.png' width = '550px' height = '456px'/>
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@ export default function Section9(props){
                         <p className = {`${styles.boxHeading}`}>Our Visions Crafted Into Startups</p>
                         <p className = {`${styles.boxText}`}>Lorem ipsum doler sit</p>
                         <div style = {{position: 'absolute', bottom: '5px', left: '5px'}}>
-                            <Image src = './landing2_sec9_imageg1.png' width = '550px' height = '456px'/>
+                            <Image src = '/../public/landing2_sec9_imageg1.png' width = '550px' height = '456px'/>
                         </div>
                     </div>
 

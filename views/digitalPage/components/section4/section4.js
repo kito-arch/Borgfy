@@ -8,16 +8,16 @@ export default function Section4(props){
     return( 
         <div className = {`${styles.container}`}>
             <div style = {{position: 'absolute', top: '-10px', left: '-12rem'}}>
-                <Image src = './venture_building_top_ellipse.png' width = '450px' height = '450px' />
+                <Image src = '/../public/venture_building_top_ellipse.png' width = '450px' height = '450px' />
             </div>
             <div style = {{position: 'absolute', bottom: '180px', left: '873px'}}>
-                <Image src = './venture_building_bottom_ellipse.png' width = '120px' height = '120px' />
+                <Image src = '/../public/venture_building_bottom_ellipse.png' width = '120px' height = '120px' />
             </div>
             <div style = {{position: 'absolute', bottom: '50px', right: '-180px'}}>
-                <Image src = './venture_building_right_ellipse.png' width = '400px' height = '400px' />
+                <Image src = '/../public/venture_building_right_ellipse.png' width = '400px' height = '400px' />
             </div>
             <div style = {{position: 'absolute', bottom: '140px', left: '-90px'}}>
-                <Image src = './venture_building_left_ellipse.png' width = '204px' height = '204px' />
+                <Image src = '/../public/venture_building_left_ellipse.png' width = '204px' height = '204px' />
             </div>
             <p data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Venture Building Journey/Process</p>
             <p data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.text}`}>Get through the venture building journey or strategies that we follow:</p>

@@ -8,7 +8,7 @@ export default function(props){
         <div data-aos-offset = {-1600*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.container}`}>
 
             <div style = {{zIndex: '1', position: 'absolute', top: '370px', left: '30%'}}>
-                <Image src = './brain_sec7_image.png' width = '734px' height = '450px'/>
+                <Image src = '/../public/brain_sec7_image.png' width = '734px' height = '450px'/>
             </div>            
 
             <p className = {`${styles.heading}`}>04. Go To Market Strategy/Customer Acquisition Strategy</p>

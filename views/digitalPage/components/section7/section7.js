@@ -9,10 +9,10 @@ export default function Section7(props){
         <div className = {`${styles.container}`}>
             <p data-aos-offset = {-scroll*2200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Advantages of Our Working With Borgfy  Venture Studio</p>
             <div style = {{position: 'absolute', top: '489px', left: '48px'}}>
-                <Image src = './venture_advantages_path.png' width = '248px' height = '1520px'/>
+                <Image src = '/../public/venture_advantages_path.png' width = '248px' height = '1520px'/>
             </div>
             <div style = {{position: 'absolute', bottom: '0px', right: '-12rem'}}>
-                <Image src = './venture_advantages_dot.png' width = '198px' height = '348px' />
+                <Image src = '/../public/venture_advantages_dot.png' width = '198px' height = '348px' />
             </div>
 
             <div data-aos-offset = {-scroll*2300} data-aos = 'fade-up' data-aos-duration = '3000'>

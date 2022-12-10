@@ -10,7 +10,7 @@ export default function Section5(props){
             <div className = {`${styles.textContainer}`}>
                 <p style = {{width: '47.75rem'}} className = {`${styles.text}`}>We leave no stone unturned to make your website interactive and user-friendly. With designs that appeal to the best of critiques, you are sure to line up customers and slay your business goals!</p>
                 <div style = {{marginTop: '-150px'}}>
-                    <Image src = './soch.png' width = '215.6px' height = '280px' />
+                    <Image src = '/../public/soch.png' width = '215.6px' height = '280px' />
                 </div>
             </div>
             <div className = {`${styles.center}`}>

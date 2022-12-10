@@ -19,17 +19,19 @@ const counterAnim = (qSelector, start = 0, end, duration = 3000) => {
 
 function isInViewport(element) {
     const rect = document.getElementById(element).getBoundingClientRect();
+    // console.log(rect)
     return (
         rect.top >= 0 &&
         rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+        //  && rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
 }
 
 
 export const myscroll = ()=>{
     document.addEventListener('scroll', function () {
+        console.log(isInViewport("nums"))
         if(isInViewport("nums")){
             counterAnim("#num1", 0, 1500)
             counterAnim("#num2", 0, 150)

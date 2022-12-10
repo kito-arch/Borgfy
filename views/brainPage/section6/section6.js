@@ -8,7 +8,7 @@ export default function Section6(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{zIndex: '1', position: 'absolute', bottom: '-100px', right: '-11rem'}}>
-                <Image src = './brain_sec6_image.png' width = '344px' height = '344px'/>
+                <Image src = '/../public/brain_sec6_image.png' width = '344px' height = '344px'/>
             </div>
 
             <div className = {`${styles.stretchBetween}`}>
