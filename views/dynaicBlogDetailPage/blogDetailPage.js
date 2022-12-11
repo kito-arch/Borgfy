@@ -39,7 +39,7 @@ export default function DynamicBlogDetailPage(props){
         <StandardLayout double = {true}>
             <div className = {`${styles.container}`}>
                 <PaddingLayout>
-                    <Image priority  src = '../blog_sec1_back.png' layout = 'fill'/>
+                    <Image priority  src = '/../public/blog_sec1_back.png' layout = 'fill'/>
                     <Section1/>
                 </PaddingLayout>
 
@@ -58,7 +58,7 @@ export default function DynamicBlogDetailPage(props){
                     )
                 })}
 
-                <PaddingLayout backgroundColor = 'white'>
+                {/* <PaddingLayout backgroundColor = 'white'>
                     <div className = {`${styles.paginationContainer}`}>
                         <div className = {`${styles.pageNumberContainer}`}>
                             <p style = {{background: '#377DFF', color: 'white'}} className = {`${styles.pageNumber}`}>1</p>
@@ -68,7 +68,7 @@ export default function DynamicBlogDetailPage(props){
                             <p className = {`${styles.next}`}>Next</p>
                         </div>
                     </div>
-                </PaddingLayout>
+                </PaddingLayout> */}
 
             </div>
         </StandardLayout>

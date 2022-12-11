@@ -290,7 +290,7 @@ export default function AddCase() {
         <textarea style = {{fontSize: '30px', height: '200px'}} ref = {quote_by_ref} ></textarea>
       </div>
 
-      <h2 onClick={submit} style = {{background: 'blue', padding: '10px', width: 'fit-content'}}>Submit</h2>
+      <h2 onClick={submit} style = {{background: 'blue', padding: '10px', width: 'fit-content', cursor: 'pointer'}}>Submit</h2>
         
       </main>
 

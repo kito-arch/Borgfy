@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/Zo2bwW4zQx-g-fm_PJ2Vs/_buildManifest.js",
-    "static/Zo2bwW4zQx-g-fm_PJ2Vs/_ssgManifest.js"
+    "static/UhpwMWFKciCdZVnMi3cO9/_buildManifest.js",
+    "static/UhpwMWFKciCdZVnMi3cO9/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -48,7 +48,7 @@
       "static/chunks/main-e7a7892cb0edc024.js",
       "static/chunks/594-70225951d7e7bcf1.js",
       "static/css/d75021b27ac2f47c.css",
-      "static/chunks/pages/addblog-4b4866902ee61553.js"
+      "static/chunks/pages/addblog-6de60196e5fea8cf.js"
     ],
     "/addcase": [
       "static/chunks/webpack-59c5c889f52620d6.js",
@@ -56,7 +56,7 @@
       "static/chunks/main-e7a7892cb0edc024.js",
       "static/chunks/594-70225951d7e7bcf1.js",
       "static/css/d75021b27ac2f47c.css",
-      "static/chunks/pages/addcase-2500625f5fb748a4.js"
+      "static/chunks/pages/addcase-5524311ee62ef7f6.js"
     ],
     "/ai": [
       "static/chunks/webpack-59c5c889f52620d6.js",
@@ -137,9 +137,9 @@
       "static/chunks/247-8928b3df83fc095e.js",
       "static/chunks/594-70225951d7e7bcf1.js",
       "static/chunks/980-240abf6a5b186785.js",
-      "static/chunks/439-26af9973c6e78bf3.js",
+      "static/chunks/439-da32692b2ce863da.js",
       "static/css/670b9818f1a05944.css",
-      "static/chunks/pages/dynamic-blog/[id]-3884b867875cf11d.js"
+      "static/chunks/pages/dynamic-blog/[id]-affe34293a45a07c.js"
     ],
     "/dynamic-blogs": [
       "static/chunks/webpack-59c5c889f52620d6.js",
@@ -149,7 +149,7 @@
       "static/chunks/594-70225951d7e7bcf1.js",
       "static/chunks/980-240abf6a5b186785.js",
       "static/css/8546b29f6bf81f81.css",
-      "static/chunks/pages/dynamic-blogs-d8176ed9a07dac3a.js"
+      "static/chunks/pages/dynamic-blogs-2fec09afa0a2e97d.js"
     ],
     "/dynamic-case/[id]": [
       "static/chunks/webpack-59c5c889f52620d6.js",
@@ -158,7 +158,7 @@
       "static/chunks/247-8928b3df83fc095e.js",
       "static/chunks/594-70225951d7e7bcf1.js",
       "static/chunks/980-240abf6a5b186785.js",
-      "static/chunks/439-26af9973c6e78bf3.js",
+      "static/chunks/439-da32692b2ce863da.js",
       "static/css/45e5cd957f0dbe13.css",
       "static/chunks/pages/dynamic-case/[id]-4ea6fcbcba56c82c.js"
     ],
@@ -170,7 +170,7 @@
       "static/chunks/594-70225951d7e7bcf1.js",
       "static/chunks/980-240abf6a5b186785.js",
       "static/css/24fe99e1d20cf73b.css",
-      "static/chunks/pages/dynamic-cases-cd019d225e6aad75.js"
+      "static/chunks/pages/dynamic-cases-151a46e177417364.js"
     ],
     "/fullstack": [
       "static/chunks/webpack-59c5c889f52620d6.js",

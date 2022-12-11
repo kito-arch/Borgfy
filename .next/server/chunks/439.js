@@ -301,7 +301,7 @@ function Section1(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_sec1_image1.png",
+                    src: "/../public/case_sec1_image1.png",
                     width: "219.47px",
                     height: "221.19px"
                 })
@@ -314,7 +314,7 @@ function Section1(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_sec1_imag2.png",
+                    src: "/../public/case_sec1_imag2.png",
                     width: "189px",
                     height: "320px"
                 })
@@ -327,7 +327,7 @@ function Section1(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_sec1_ellipse.png",
+                    src: "/../public/case_sec1_ellipse.png",
                     width: "650px",
                     height: "650px"
                 })
@@ -340,7 +340,7 @@ function Section1(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_sec1_ellipse2.png",
+                    src: "/../public/case_sec1_ellipse2.png",
                     width: "500px",
                     height: "500px"
                 })
@@ -395,7 +395,7 @@ function Section2(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_left_lines.png",
+                    src: "/../public/case_left_lines.png",
                     width: "300px",
                     height: "700px"
                 })
@@ -492,7 +492,7 @@ function Section3(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_sec3_text.png",
+                    src: "/../public/case_sec3_text.png",
                     width: "1000px",
                     height: "80px"
                 })
@@ -521,7 +521,7 @@ function Section4(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_objective_hand.png",
+                    src: "/../public/case_objective_hand.png",
                     width: "180px",
                     height: "263px"
                 })
@@ -540,7 +540,7 @@ function Section4(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "../gray_ellipse.png",
+                            src: "/../public/gray_ellipse.png",
                             width: "61px",
                             height: "61px"
                         })
@@ -583,7 +583,7 @@ function Section5(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_problem_target.png",
+                    src: "/../public/case_problem_target.png",
                     width: "256px",
                     height: "423px"
                 })
@@ -604,7 +604,7 @@ function Section5(props) {
                                 },
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     priority: true,
-                                    src: "../gray_ellipse.png",
+                                    src: "/../public/gray_ellipse.png",
                                     width: "61px",
                                     height: "61px"
                                 })
@@ -657,7 +657,7 @@ function Section6(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "../gray_ellipse.png",
+                            src: "/../public/gray_ellipse.png",
                             width: "61px",
                             height: "61px"
                         })
@@ -728,7 +728,7 @@ function Section7(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_sec8_image.png",
+                    src: "/../public/case_sec8_image.png",
                     width: "257px",
                     height: "257px"
                 })
@@ -750,7 +750,7 @@ function Section7(props) {
                                 },
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     priority: true,
-                                    src: "../gray_ellipse.png",
+                                    src: "/../public/gray_ellipse.png",
                                     width: "61px",
                                     height: "61px"
                                 })
@@ -792,7 +792,7 @@ function Section8(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_right_hand.png",
+                    src: "/../public/case_right_hand.png",
                     width: "158px",
                     height: "185px"
                 })
@@ -811,7 +811,7 @@ function Section8(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "../gray_ellipse.png",
+                            src: "/../public/gray_ellipse.png",
                             width: "61px",
                             height: "61px"
                         })
@@ -887,7 +887,7 @@ function Section9(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_sketching_gray.png",
+                    src: "/../public/case_sketching_gray.png",
                     width: "1227px",
                     height: "1227px"
                 })
@@ -911,7 +911,7 @@ function Section9(props) {
                                         },
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             priority: true,
-                                            src: "../gray_ellipse.png",
+                                            src: "/../public/gray_ellipse.png",
                                             width: "61px",
                                             height: "61px"
                                         })
@@ -976,7 +976,7 @@ function Section10(props) {
                                     },
                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         priority: true,
-                                        src: "../gray_ellipse.png",
+                                        src: "/../public/gray_ellipse.png",
                                         width: "61px",
                                         height: "61px"
                                     })
@@ -1019,7 +1019,7 @@ function Section11(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_left_hand.png",
+                    src: "/../public/case_left_hand.png",
                     width: "158px",
                     height: "185px"
                 })
@@ -1033,7 +1033,7 @@ function Section11(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_style_gray.png",
+                    src: "/../public/case_style_gray.png",
                     width: "1227px",
                     height: "1227px"
                 })
@@ -1055,7 +1055,7 @@ function Section11(props) {
                                 },
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     priority: true,
-                                    src: "../gray_ellipse.png",
+                                    src: "/../public/gray_ellipse.png",
                                     width: "61px",
                                     height: "61px"
                                 })
@@ -1130,7 +1130,7 @@ function Section12(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_left_hand.png",
+                    src: "/../public/case_left_hand.png",
                     width: "158px",
                     height: "185px"
                 })
@@ -1149,7 +1149,7 @@ function Section12(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "../gray_ellipse.png",
+                            src: "/../public/gray_ellipse.png",
                             width: "61px",
                             height: "61px"
                         })
@@ -1203,7 +1203,7 @@ function Section13(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_conclusion_gray.png",
+                    src: "/../public/case_conclusion_gray.png",
                     width: "1227px",
                     height: "4027px"
                 })
@@ -1222,7 +1222,7 @@ function Section13(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "../gray_ellipse.png",
+                            src: "/../public/gray_ellipse.png",
                             width: "61px",
                             height: "61px"
                         })
@@ -1240,7 +1240,7 @@ function Section13(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "../case_sec13_icon.png",
+                            src: "/../public/case_sec13_icon.png",
                             width: "342px",
                             height: "134px"
                         })
@@ -1303,7 +1303,7 @@ function Section15(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_bottom_lines.png",
+                    src: "/../public/case_bottom_lines.png",
                     width: "300px",
                     height: "500px"
                 })
@@ -1317,7 +1317,7 @@ function Section15(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "../case_left_hand.png",
+                    src: "/../public/case_left_hand.png",
                     width: "158px",
                     height: "185px"
                 })
@@ -1358,7 +1358,7 @@ function Section15(props) {
                                     },
                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         priority: true,
-                                        src: "../case_sec15_underline.png",
+                                        src: "/../public/case_sec15_underline.png",
                                         width: "171px",
                                         height: "20px"
                                     })
@@ -1386,7 +1386,7 @@ function Section15(props) {
                                     },
                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         priority: true,
-                                        src: "../case_sec15_underline.png",
+                                        src: "/../public/case_sec15_underline.png",
                                         width: "171px",
                                         height: "20px"
                                     })
@@ -1414,7 +1414,7 @@ function Section15(props) {
                                     },
                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         priority: true,
-                                        src: "../case_sec15_underline.png",
+                                        src: "/../public/case_sec15_underline.png",
                                         width: "171px",
                                         height: "20px"
                                     })
@@ -1505,7 +1505,7 @@ function DynamicCaseStudyPage(props) {
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "../case_sec3_back.png",
+                            src: "/../public/case_sec3_back.png",
                             layout: "fill"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx(Section3, {
@@ -1584,7 +1584,7 @@ function DynamicCaseStudyPage(props) {
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "../case_sec15_back.png",
+                            src: "/../public/case_sec15_back.png",
                             layout: "fill"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx(Section15, {
@@ -1598,7 +1598,7 @@ function DynamicCaseStudyPage(props) {
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "../case_sec16_back.png",
+                            src: "/../public/case_sec16_back.png",
                             layout: "fill"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx(Section16, {

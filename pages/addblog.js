@@ -141,7 +141,7 @@ export default function AddBlog() {
             }} style = {{background: 'blue', padding: '10px', width: 'fit-content', cursor: 'pointer'}}>Add</h2>
 
 
-        <h2 onClick={submit} style = {{background: 'blue', padding: '10px', width: 'fit-content'}}>Submit</h2>
+        <h2 onClick={submit} style = {{background: 'blue', padding: '10px', width: 'fit-content', cursor: 'pointer'}}>Submit</h2>
 
 
       </main>

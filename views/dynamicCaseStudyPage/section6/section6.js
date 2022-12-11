@@ -8,7 +8,7 @@ export default function Section6(props){
         <div className = {`${styles.container}`}>
             <div data-aos-offset = {-scroll*1000} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.headingContainer}`}>
                 <div style = {{position: 'absolute', left: '-25px', top: '0'}}>
-                    <Image priority  src = '../gray_ellipse.png' width = '61px' height = '61px'/>
+                    <Image priority  src = '/../public/gray_ellipse.png' width = '61px' height = '61px'/>
                 </div>
                 <p className = {`${styles.heading}`}>Challenges</p>
             </div>

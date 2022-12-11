@@ -13,7 +13,7 @@ export default function Section3(props){
                 </div>
             }
             <div data-aos-offset = {-scroll*600} data-aos = 'fade-up' data-aos-duration = '3000' style = {{position: 'absolute', bottom: '120px', right: '30%'}}>
-                <Image priority  src = '../case_sec3_text.png' width = '1000px' height = '80px' />
+                <Image priority  src = '/../public/case_sec3_text.png' width = '1000px' height = '80px' />
             </div>
         </div>
     )

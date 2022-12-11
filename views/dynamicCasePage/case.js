@@ -67,7 +67,7 @@ export default function DynamicCasePage(props){
                                         </div>
                                         <div className = {`${styles.hover}`}>
                                             <div className = {`${styles.box}`}>
-                                                <Image priority  src = "/../public/case2_box_back.png" layout = 'fill'/>
+                                                {/* <Image priority  src = "/../public/case2_box_back.png" layout = 'fill'/> */}
                                                 <p className = {`${styles.boxHeading}`}>{uc?.title}</p>
                                                 <p className = {`${styles.boxSubheading}`}>{uc?.description}</p>
                                                 <div style = {{width: 'fit-content', margin: 'auto'}}>

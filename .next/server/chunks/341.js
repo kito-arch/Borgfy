@@ -215,11 +215,6 @@ function DynamicCasePage(props) {
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                         className: `${(_case_module_css__WEBPACK_IMPORTED_MODULE_7___default().box)}`,
                                                         children: [
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                                                priority: true,
-                                                                src: "/../public/case2_box_back.png",
-                                                                layout: "fill"
-                                                            }),
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                 className: `${(_case_module_css__WEBPACK_IMPORTED_MODULE_7___default().boxHeading)}`,
                                                                 children: uc?.title
