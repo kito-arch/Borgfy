@@ -6,13 +6,13 @@ export default function Section5(props){
     return(
         <div className = {`${styles.container}`}>
             <div style = {{position: 'absolute', top: '21px', left: '-12rem'}}>
-                <Image src = '/../public/venture_left_dots.png' width = '137px' height = '273px'/>
+                <Image priority  src = '/../public/venture_left_dots.png' width = '137px' height = '273px'/>
             </div>
             <div style = {{position: 'absolute', bottom: '4px', right: '-12rem'}}>
-                <Image src = '/../public/venture_right_dots.png' width = '174px' height = '348px'/>
+                <Image priority  src = '/../public/venture_right_dots.png' width = '174px' height = '348px'/>
             </div>
             <div style = {{position: 'absolute', bottom: '70px', right: '400px'}}>
-                <Image src = '/../public/venture_arrow.png' width = '100px' height = '90px'/>
+                <Image priority  src = '/../public/venture_arrow.png' width = '100px' height = '90px'/>
             </div>
             <p data-aos-offset = {-scroll*1500} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Lets Us Help You Build Your Digital Transformation Era</p>
             <p data-aos-offset = {-scroll*1500} data-aos = 'fade-up' data-aos-duration = '3000' style = {{marginBottom: '3rem'}} className = {`${styles.text}`}>

@@ -15,7 +15,7 @@ export default function DynamicBlogsPage(props){
     const [blogs, setBlogs] = useState([])
 
     useEffect(()=>{
-        axios.get("http://localhost:3000/blogs")
+        axios.get("https://admin.borgfy.com/blogs")
         .then((res)=>{
             setBlogs(res.data)
         })
@@ -28,15 +28,15 @@ export default function DynamicBlogsPage(props){
             <div className = {`${styles.container}`}>
 
                 <div style = {{position: 'absolute', bottom: '-100px', left : '6rem', zIndex: '10'}}>
-                    <Image src = '/../public/blog_sec2_ellipse.png' width = '500px' height = '500px' />
+                    <Image priority  src = '/../public/blog_sec2_ellipse.png' width = '500px' height = '500px' />
                 </div>
 
                 <div style = {{position: 'absolute', bottom: '-100px', right : '0', zIndex: '10'}}>
-                    <Image src = '/../public/blog_sec2_ellipse.png' width = '500px' height = '500px' />
+                    <Image priority  src = '/../public/blog_sec2_ellipse.png' width = '500px' height = '500px' />
                 </div>
 
                 <PaddingLayout>
-                    <Image src = '/../public/blog_sec1_back.png' layout = 'fill'/>
+                    <Image priority  src = '/../public/blog_sec1_back.png' layout = 'fill'/>
                     <Section1 blogs = {blogs}/>
                 </PaddingLayout>
 

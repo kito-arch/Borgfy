@@ -14,7 +14,7 @@ export default function DynamicBlog() {
 
     useEffect(() => {
         const { id } = router.query
-        axios.get(`http://localhost:3000/blogs/${id}`)
+        axios.get(`https://admin.borgfy.com/blogs/${id}`)
         .then((res)=>{
             setUseCase(res.data[0])
         })

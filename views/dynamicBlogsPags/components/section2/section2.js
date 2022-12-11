@@ -36,7 +36,7 @@ export default function Section2(props){
                 {props.blog.image1 &&
                     <div className = {`${styles.rightContainer}`}>
                         <div className = {`${styles.rightInnerContainer}`}>
-                            <Image src = {`http://localhost:3000/uploads/${props.blog.image1}`} width = '597px' height = '374px' />
+                            <Image priority  src = {`https://admin.borgfy.com/uploads/${props.blog.image1}`} width = '597px' height = '374px' />
                         </div>
                     </div>
                 }

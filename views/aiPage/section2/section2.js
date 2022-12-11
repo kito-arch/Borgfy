@@ -8,15 +8,15 @@ export default function Section2(props){
         <div className = {`${styles.container}`}>
             
             <div style = {{position: 'absolute', left: '850px', top: '-10px'}}>
-                <Image src = '/../public/ai_sec2_top.png' width = '215px' height = '215px' />
+                <Image priority  src = '/../public/ai_sec2_top.png' width = '215px' height = '215px' />
             </div>
 
             <div style = {{position: 'absolute', right: '-100px', top: '350px'}}>
-                <Image src = '/../public/ai_sec2_bottom_right.png' width = '215px' height = '215px' />
+                <Image priority  src = '/../public/ai_sec2_bottom_right.png' width = '215px' height = '215px' />
             </div>
 
             <div style = {{position: 'absolute', left: '28px', top: '260px'}}>
-                <Image src = '/../public/ai_sec2_bottom_left.png' width = '116px' height = '116px' />
+                <Image priority  src = '/../public/ai_sec2_bottom_left.png' width = '116px' height = '116px' />
             </div>
 
             <div className = {`${styles.innerContainer}`}>

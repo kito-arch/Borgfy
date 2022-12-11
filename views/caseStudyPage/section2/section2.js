@@ -8,7 +8,7 @@ export default function Section2(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{zIndex: '100', position: 'absolute', left: '-12rem', top: '600px'}}>
-                <Image src = '/../public/case_left_lines.png' width = '300px' height = '700px' />
+                <Image priority  src = '/../public/case_left_lines.png' width = '300px' height = '700px' />
             </div>
 
             <div className = {`${styles.centerCenter}`}>
@@ -26,7 +26,7 @@ export default function Section2(props){
                             <p className = {`${styles.heading}`}>Interested</p>
                         </div>
                     </div>
-                    <Image src = '/../public/case_sec2_image.png' width = '566px' height = '349px'/>
+                    <Image priority  src = '/../public/case_sec2_image.png' width = '566px' height = '349px'/>
                 </div>
             </div>
         </div>

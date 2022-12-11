@@ -73,7 +73,7 @@ axios__WEBPACK_IMPORTED_MODULE_5__ = (__webpack_async_dependencies__.then ? (awa
 function DynamicCasePage(props) {
     const { 0: useCases , 1: setUseCases  } = (0,react__WEBPACK_IMPORTED_MODULE_4__.useState)([]);
     (0,react__WEBPACK_IMPORTED_MODULE_4__.useEffect)(()=>{
-        axios__WEBPACK_IMPORTED_MODULE_5__["default"].get("http://localhost:3000/cases").then((res)=>{
+        axios__WEBPACK_IMPORTED_MODULE_5__["default"].get("https://admin.borgfy.com/cases").then((res)=>{
             setUseCases(res.data);
         }).catch((err)=>{
             alert("Error Occured While Fetching Use Cases");
@@ -92,6 +92,7 @@ function DynamicCasePage(props) {
                             right: "0rem"
                         },
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
+                            priority: true,
                             src: "/../public/case2_hifi.png",
                             width: "300px",
                             height: "300px"
@@ -107,6 +108,7 @@ function DynamicCasePage(props) {
                                     left: "-4rem"
                                 },
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
+                                    priority: true,
                                     src: "/../public/digital_left_triangle.png",
                                     width: "219.47px",
                                     height: "221.19px"
@@ -119,6 +121,7 @@ function DynamicCasePage(props) {
                                     right: "0rem"
                                 },
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
+                                    priority: true,
                                     src: "/../public/digital_right_triangle.png",
                                     width: "219.47px",
                                     height: "221.19px"
@@ -148,6 +151,7 @@ function DynamicCasePage(props) {
                                             left: "-24rem"
                                         },
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
+                                            priority: true,
                                             src: "/../public/case2_ellipse1.png",
                                             width: "600px",
                                             height: "3000px"
@@ -160,6 +164,7 @@ function DynamicCasePage(props) {
                                             right: "-348px"
                                         },
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
+                                            priority: true,
                                             src: "/../public/case2_ellipse2.png",
                                             width: "600px",
                                             height: "600px"
@@ -178,6 +183,7 @@ function DynamicCasePage(props) {
                                                     },
                                                     children: [
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
+                                                            priority: true,
                                                             src: "/../public/case2_ellipse.png",
                                                             width: "31px",
                                                             height: "31px"
@@ -210,6 +216,7 @@ function DynamicCasePage(props) {
                                                         className: `${(_case_module_css__WEBPACK_IMPORTED_MODULE_7___default().box)}`,
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
+                                                                priority: true,
                                                                 src: "/../public/case2_box_back.png",
                                                                 layout: "fill"
                                                             }),
@@ -227,7 +234,8 @@ function DynamicCasePage(props) {
                                                                     margin: "auto"
                                                                 },
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                                                    src: `http://localhost:3000/uploads/${uc?.image}`,
+                                                                    priority: true,
+                                                                    src: `https://admin.borgfy.com/uploads/${uc?.image}`,
                                                                     width: "668px",
                                                                     height: "525px"
                                                                 })

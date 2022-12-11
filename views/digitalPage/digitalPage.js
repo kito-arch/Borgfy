@@ -38,7 +38,7 @@ export default function DigitalPage(props){
                 </PaddingLayout>
 
                 <PaddingLayout backgroundColor = 'white'>
-                    <Image src = '/../public/venture_business_back.png' layout = 'fill'/>
+                    <Image priority  src = '/../public/venture_business_back.png' layout = 'fill'/>
                     <Section6/>
                 </PaddingLayout>
 

@@ -9,7 +9,7 @@ export default function Section4(props){
         <div className = {`${styles.container}`}>
 
             {/* <div style = {{position: 'absolute', top: 0, left: '-12rem'}}>
-                <Image src = '/../public/digital_advantages_back.png' width = '3000px' height = '900px'/>
+                <Image priority  src = '/../public/digital_advantages_back.png' width = '3000px' height = '900px'/>
             </div> */}
 
             <p data-aos-offset = {-scroll*1000} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Advantages of Digital Transformation</p>

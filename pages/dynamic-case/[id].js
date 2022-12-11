@@ -13,7 +13,7 @@ export default function DynamicCase() {
 
     useEffect(() => {
         const { id } = router.query
-        axios.get(`http://localhost:3000/cases/${id}`)
+        axios.get(`https://admin.borgfy.com/cases/${id}`)
         .then((res)=>{
             setUseCase(res.data[0])
         })

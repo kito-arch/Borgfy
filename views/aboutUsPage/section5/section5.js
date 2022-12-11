@@ -8,15 +8,15 @@ export default function Section5(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{position: 'absolute', top: '100px', left: '-12rem'}}>
-                <Image src = '/../public/about_sec5_ellipse1.png' width = '250px' height = '300px'/>
+                <Image priority  src = '/../public/about_sec5_ellipse1.png' width = '250px' height = '300px'/>
             </div>
 
             <div style = {{position: 'absolute', bottom: '-160px', right: '-60px'}}>
-                <Image src = '/../public/about_sec5_ellipse2.png' width = '400px' height = '350px'/>
+                <Image priority  src = '/../public/about_sec5_ellipse2.png' width = '400px' height = '350px'/>
             </div>
 
             <div style = {{position: 'absolute', bottom: '-100px', left: '-50px'}}>
-                <Image src = '/../public/about_sec5_semi.png' width = '204px' height = '204px'/>
+                <Image priority  src = '/../public/about_sec5_semi.png' width = '204px' height = '204px'/>
             </div>
 
             <p data-aos-offset = {-900*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Why we different from others</p>
@@ -26,11 +26,11 @@ export default function Section5(props){
 
                 <div className = {`${styles.stretchBetween}`}>
                     <div data-aos-offset = {-1000*scroll} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.single}`}>
-                        <Image src = '/../public/about_sec5_image2.png' width = '119px' height = '119px'/>
+                        <Image priority  src = '/../public/about_sec5_image2.png' width = '119px' height = '119px'/>
                         <p className = {`${styles.singleText}`}>Skills and Innovative Mindset </p>
                     </div>
                     <div data-aos-offset = {-1000*scroll} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.single}`}>
-                        <Image src = '/../public/about_sec5_image2.png' width = '119px' height = '119px'/>
+                        <Image priority  src = '/../public/about_sec5_image2.png' width = '119px' height = '119px'/>
                         <p className = {`${styles.singleText}`}>Transform as Per Market Dynamics </p>
                     </div>
                 </div>
@@ -41,11 +41,11 @@ export default function Section5(props){
 
                 <div className = {`${styles.stretchBetween}`}>
                     <div data-aos-offset = {-1200*scroll} data-aos = 'fade-right' data-aos-duration = '3000' style = {{marginLeft: '-30px'}} className = {`${styles.single}`}>
-                        <Image src = '/../public/about_sec5_image3.png' width = '55px' height = '92px'/>
+                        <Image priority  src = '/../public/about_sec5_image3.png' width = '55px' height = '92px'/>
                         <p className = {`${styles.singleText}`}>Research & Make It Sustainable </p>
                     </div>
                     <div data-aos-offset = {-1200*scroll} data-aos = 'fade-left' data-aos-duration = '3000' style = {{paddingRight: '100px'}} className = {`${styles.single}`}>
-                        <Image src = '/../public/about_sec5_image4.png' width = '76px' height = '76px'/>
+                        <Image priority  src = '/../public/about_sec5_image4.png' width = '76px' height = '76px'/>
                         <p className = {`${styles.singleText}`}>Scalability & Progress</p>
                     </div>
                 </div>

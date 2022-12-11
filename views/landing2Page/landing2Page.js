@@ -31,7 +31,7 @@ export default function Landing2Page(props){
                 </PaddingLayout>
 
                 <PaddingLayout backgroundColor = 'white'>
-                    <Image style = {{opacity: '0.7'}} src = '/../public/landing2_sec2_back.png' layout = 'fill' />
+                    <Image priority  style = {{opacity: '0.7'}} src = '/../public/landing2_sec2_back.png' layout = 'fill' />
                     <Section2/>
                 </PaddingLayout>
 
@@ -65,7 +65,7 @@ export default function Landing2Page(props){
 
                 <PaddingLayout backgroundColor = '#EDF1F4'>
                     <div style = {{position: 'absolute', left: 0, top: '0'}}>
-                        <Image src = '/../public/landing2_sec11_top.png' width = '2304px' height = '90px' />
+                        <Image priority  src = '/../public/landing2_sec11_top.png' width = '2304px' height = '90px' />
                     </div>
                     <Section11/>
                 </PaddingLayout>

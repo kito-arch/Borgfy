@@ -175,6 +175,7 @@ function Logo(props) {
     return /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
         href: "landing2",
         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+            priority: true,
             style: {
                 cursor: "pointer"
             },
@@ -245,6 +246,7 @@ function Navbar(props) {
                                                 marginTop: "-5px"
                                             },
                                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                priority: true,
                                                 src: props.double ? "/../public/arrowDown.png" : "/../public/arrowDown.png",
                                                 width: "6px",
                                                 height: "4px"
@@ -313,6 +315,7 @@ function Navbar(props) {
                                                     marginTop: "-5px"
                                                 },
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                    priority: true,
                                                     src: props.double ? "/../public/arrowDown.png" : "/../public/arrowDown.png",
                                                     width: "6px",
                                                     height: "4px"
@@ -335,6 +338,7 @@ function Navbar(props) {
                                                     marginTop: "-5px"
                                                 },
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                    priority: true,
                                                     src: props.double ? "/../public/arrowDown.png" : "/../public/arrowDown.png",
                                                     width: "6px",
                                                     height: "4px"
@@ -355,6 +359,7 @@ function Navbar(props) {
                                                 marginTop: "-5px"
                                             },
                                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                priority: true,
                                                 src: props.double ? "/../public/arrowDown.png" : "/../public/arrowDown.png",
                                                 width: "6px",
                                                 height: "4px"
@@ -463,6 +468,7 @@ function Navbar(props) {
                                                 marginTop: "-5px"
                                             },
                                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                priority: true,
                                                 src: props.double ? "/../public/arrowDown.png" : "/../public/arrowDown.png",
                                                 width: "6px",
                                                 height: "4px"
@@ -564,6 +570,7 @@ function FooterBottom(props) {
                             zIndex: "100"
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: props.double ? "/../public/logo_white.png" : "/../public/logo_white.png",
                             width: "170px",
                             height: "90px"
@@ -588,6 +595,7 @@ function FooterBottom(props) {
                             children: "India "
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: props.double ? "/../public/india.png" : "/../public/india.png",
                             width: "20px",
                             height: "16px"
@@ -603,6 +611,7 @@ function FooterBottom(props) {
                             children: "USA "
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: props.double ? "/../public/usa.png" : "/../public/usa.png",
                             width: "20px",
                             height: "16px"
@@ -618,6 +627,7 @@ function FooterBottom(props) {
                             children: "Saudi Arabia "
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: props.double ? "/../public/sau.png" : "/../public/sau.png",
                             width: "20px",
                             height: "16px"
@@ -772,6 +782,7 @@ function FooterTop(props) {
                     right: "-12rem"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: props.double ? "/../public/hand.png" : "/../public/hand.png",
                     width: "190px",
                     height: "228px"
@@ -784,6 +795,7 @@ function FooterTop(props) {
                     left: "-12rem"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: props.double ? "/../public/footer_line.png" : "/../public/footer_line.png",
                     width: "2500px",
                     height: "122.68px"
@@ -799,6 +811,7 @@ function FooterTop(props) {
                         cursor: "pointer"
                     },
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        priority: true,
                         src: "/../public/footer_facebook.png",
                         width: "103px",
                         height: "103px"
@@ -815,6 +828,7 @@ function FooterTop(props) {
                         cursor: "pointer"
                     },
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        priority: true,
                         src: "/../public/footer_insta.png",
                         width: "132px",
                         height: "121px"
@@ -831,6 +845,7 @@ function FooterTop(props) {
                         cursor: "pointer"
                     },
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        priority: true,
                         src: "/../public/footer_pin.png",
                         width: "128.20000000000002px",
                         height: "128.20000000000002px"
@@ -847,6 +862,7 @@ function FooterTop(props) {
                         cursor: "pointer"
                     },
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        priority: true,
                         src: "/../public/footer_linked.png",
                         width: "103px",
                         height: "103px"
@@ -863,6 +879,7 @@ function FooterTop(props) {
                         cursor: "pointer"
                     },
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        priority: true,
                         src: "/../public/footer_twiiter.png",
                         width: "132px",
                         height: "132px"
@@ -894,6 +911,7 @@ function FooterTop(props) {
                                         children: "Lets Connect"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                        priority: true,
                                         src: props.double ? "/../public/arrowRight.png" : "/../public/arrowRight.png",
                                         width: "10px",
                                         height: "20px"
@@ -944,6 +962,7 @@ function Footer(props) {
                     left: "0"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: props.double ? "/../public/contact_footer.png" : "/../public/contact_footer.png",
                     width: "2304px",
                     height: "388px"

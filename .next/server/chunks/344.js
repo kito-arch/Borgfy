@@ -202,6 +202,7 @@ function Section2(props) {
             className: `${(section2_module_default()).innerContainer}`,
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "/../public/blog_detail_sec2_back.png",
                     layout: "fill"
                 }),
@@ -212,6 +213,7 @@ function Section2(props) {
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: `${(section2_module_default()).iconContainer}`,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    priority: true,
                                     src: "/../public/blog_detail_icon_1.png",
                                     width: "45px",
                                     height: "45px"
@@ -220,6 +222,7 @@ function Section2(props) {
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: `${(section2_module_default()).iconContainer}`,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    priority: true,
                                     src: "/../public/blog_detail_icon_2.png",
                                     width: "45px",
                                     height: "45px"
@@ -228,6 +231,7 @@ function Section2(props) {
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: `${(section2_module_default()).iconContainer}`,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    priority: true,
                                     src: "/../public/blog_detail_icon_3.png",
                                     width: "45px",
                                     height: "45px"
@@ -236,6 +240,7 @@ function Section2(props) {
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: `${(section2_module_default()).iconContainer}`,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    priority: true,
                                     src: "/../public/blog_detail_icon_4.png",
                                     width: "45px",
                                     height: "45px"
@@ -253,6 +258,7 @@ function Section2(props) {
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                priority: true,
                                 src: "/../public/blog_detail_icon_share.png.png",
                                 width: "51px",
                                 height: "54px"
@@ -285,6 +291,7 @@ function Section3(props) {
                     right: props.right ?? "unset"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: props.image,
                     width: "600px",
                     height: "600px"
@@ -331,6 +338,7 @@ function BlogDetailPage(props) {
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)(paddingLayout/* default */.Z, {
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: "/../public/blog_sec1_back.png",
                             layout: "fill"
                         }),

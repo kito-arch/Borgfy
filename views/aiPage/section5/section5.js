@@ -9,11 +9,11 @@ export default function Section5(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{position: 'absolute', top: '150px', right: '-12rem'}}>
-                <Image src = '/../public/ai_sec6_icon1.png' width = '200px' height = '200px'/>
+                <Image priority  src = '/../public/ai_sec6_icon1.png' width = '200px' height = '200px'/>
             </div>
 
             <div style = {{position: 'absolute', bottom: '0', left: '-12rem'}}>
-                <Image src = '/../public/ai_sec6_icon2.png' width = '150px' height = '190px'/>
+                <Image priority  src = '/../public/ai_sec6_icon2.png' width = '150px' height = '190px'/>
             </div>
 
             <p  data-aos-offset = {-800*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Working Of Artificial Intelligence</p>

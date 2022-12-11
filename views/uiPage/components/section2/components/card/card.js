@@ -7,7 +7,7 @@ export default function Card(props){
         <div className = {`${styles.container}`}>
             <div className = {`${styles.center}`}>
                 <div className = {`${styles.iconContainer}`}>
-                    <Image src = {props.image} width = '85px' height = '85px'/>
+                    <Image priority  src = {props.image} width = '85px' height = '85px'/>
                 </div>
             </div>
             <p className = {`${styles.heading}`}>{props.heading}</p>

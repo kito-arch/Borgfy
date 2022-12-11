@@ -8,13 +8,13 @@ export default function Section7(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{position: 'absolute', bottom: '100px', left: '0'}}>
-                <Image src = '../case_sec8_image.png' width = '257px' height = '257px' />
+                <Image priority  src = '../case_sec8_image.png' width = '257px' height = '257px' />
             </div>
 
             <div data-aos-offset = {-scroll*1400} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.startBetween}`}>
                 <div className = {`${styles.headingContainer}`}>
                     <div style = {{position: 'absolute', left: '-25px', top: '0'}}>
-                        <Image src = '../gray_ellipse.png' width = '61px' height = '61px'/>
+                        <Image priority  src = '../gray_ellipse.png' width = '61px' height = '61px'/>
                     </div>
                     <p className = {`${styles.heading}`}>Our Solution</p>
                 </div>

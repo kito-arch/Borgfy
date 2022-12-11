@@ -8,7 +8,7 @@ export function Section2(props){
     return(
         <div className = {`${styles.container}`}>
             {/* <div style = {{position: 'absolute', top: '50px', left: '-12rem'}}>
-                <Image src = '/../public/full_stack_dots.png' width = '2304px' height = '2000px'/>
+                <Image priority  src = '/../public/full_stack_dots.png' width = '2304px' height = '2000px'/>
             </div> */}
             <div data-aos-offset = {-scroll*350} data-aos = 'fade-up' data-aos-duration = '3000'>
                 <Row left = {true} heading = 'Idea Evaluation' text = {<span>Whether it is a startup or a highly successful business, the core thing in creating any product for them is to evaluate their idea properly. Idea evaluation provides the reliability of the full stack product development and the resources to target for bringing the product to life. <br/>It is also necessary for checking the viability of the project. This process creates a model for providing steps of construction and ensures every part of the idea can be put into execution. <br/>The idea evaluation process serves as a vital pillar in full-stack product development. We at Borgfy understand this and help in providing the perfect idea evaluation for a successful and viable result.</span>} image = './full_stack_2.png' width = '512px' height = '512px' imagePaddingTop = '62px' imagePaddingLeft = '116px' textPaddingTop = '133px' textPaddingLeft = '47px' textPaddingBottom = '137px'/>

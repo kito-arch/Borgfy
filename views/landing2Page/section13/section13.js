@@ -37,7 +37,7 @@ export default function Section13(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{position: 'absolute', top: '-90px', left: '-12rem'}}>
-                <Image src = '/../public/landing2_sec13_left.png' width = '215px' height = '749px' />
+                <Image priority  src = '/../public/landing2_sec13_left.png' width = '215px' height = '749px' />
             </div>
 
             <p data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Testimonials</p>
@@ -51,17 +51,17 @@ export default function Section13(props){
                         else 
                             return ((prev - 1)%(reviews.length))
                     })}} style = {{cursor: 'pointer', position: 'absolute', top: '250px', left: '0', zIndex: '100'}}>
-                        <Image src = '/../public/rev_left.png' width = '60px' height = '60px'/>
+                        <Image priority  src = '/../public/rev_left.png' width = '60px' height = '60px'/>
                     </div>
                     <div onClick={()=>{setCurrent(prev => ((prev + 1)%(reviews.length)))}} style = {{cursor: 'pointer', position: 'absolute', top: '250px', right: '100px', zIndex: '100'}}>
-                        <Image src = '/../public/rev_right.png' width = '60px' height = '60px'/>
+                        <Image priority  src = '/../public/rev_right.png' width = '60px' height = '60px'/>
                     </div>
                     <div id = 'slider' className = {`${styles.slideContainer}`}>
                         {reviews.map((rev=>{
                             return(
                                 <div style = {{minWidth: '495px', height: '593px', position: 'relative'}}>
                                     <div style = {{position: 'absolute', top: '0', left: '0'}}>
-                                        <Image style = {{borderRadius: '10px'}} src = {rev.image} width = '400px' height = '500px' />
+                                        <Image priority  style = {{borderRadius: '10px'}} src = {rev.image} width = '400px' height = '500px' />
                                     </div>
                                 </div>
                             )
@@ -71,14 +71,14 @@ export default function Section13(props){
                 </div>
                 <div style = {{width: '80%'}} data-aos-offset = {-scroll*4600} data-aos = 'fade-left' data-aos-duration = '3000'>
                     <div style = {{marginBottom: '20px', marginTop: '100px'}}>
-                        <Image src = '/../public/landing2_sec13_comma.png' width = '31px' height = '27px' />
+                        <Image priority  src = '/../public/landing2_sec13_comma.png' width = '31px' height = '27px' />
                     </div>
                     <div style = {{width: '145px'}} className = {`${styles.srtretchBetween}`}>
-                        <Image src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
-                        <Image src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
-                        <Image src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
-                        <Image src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
-                        <Image src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image priority  src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image priority  src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image priority  src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image priority  src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image priority  src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
                     </div>
                     <div style = {{position: 'relative'}}>
                         {reviews.map((rev, index)=>{

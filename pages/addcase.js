@@ -52,7 +52,7 @@ export default function AddCase() {
 
 
   const submit = ()=>{
-      axios.post("http://localhost:3000/cases/add", {
+      axios.post("https://admin.borgfy.com/cases/add", {
        app_name : app_name_ref.current.value,
        type : type_ref.current.value,
        type2 : type2_ref.current.value,

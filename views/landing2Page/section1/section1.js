@@ -21,7 +21,7 @@ export default function Section1(props){
     return(
         <div className = {`${styles.container}`}>
             <div className = {`${styles.imageContainer}`} style = {{zIndex: '1', position: 'absolute', top: '150px', right: '0'}}>
-                <Image className = {`${styles.image}`} src = '/../public/venture_animate.png' width = '844px' height = '496px'  layout='fixed'/>
+                <Image priority  className = {`${styles.image}`} src = '/../public/venture_animate.png' width = '844px' height = '496px'  layout='fixed'/>
             </div>
             <p style = {{marginTop: '-100px'}} data-aos-offset = {-scroll*300} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.text}`}>WE SHAPE VISIONS</p>
             <p style = {{marginLeft: '-150px', opacity: headingNumber == 2  ? '1' : '0'}} data-aos-offset = {-scroll*300} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.heading}`}>Bring your ideas to life</p>

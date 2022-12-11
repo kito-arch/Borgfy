@@ -8,7 +8,7 @@ export default function Section2(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{zIndex: '100', position: 'absolute', left: '-12rem', top: '600px'}}>
-                <Image src = '../case_left_lines.png' width = '300px' height = '700px' />
+                <Image priority  src = '../case_left_lines.png' width = '300px' height = '700px' />
             </div>
 
             <div className = {`${styles.centerCenter}`}>
@@ -27,7 +27,7 @@ export default function Section2(props){
                         </div>
                     </div>
                     {props?.useCase?.contribution_image &&
-                        <Image src = {`http://localhost:3000/uploads/${props?.useCase?.contribution_image}`} width = '566px' height = '349px'/>
+                        <Image priority  src = {`https://admin.borgfy.com/uploads/${props?.useCase?.contribution_image}`} width = '566px' height = '349px'/>
                     }
                 </div>
             </div>

@@ -9,7 +9,7 @@ export default function FooterBottom(props){
             <div className = {`${styles.container} ${styles.startBetween}`}>
                 <Link href = 'landing2'>
                     <div style = {{position: 'absolute', top: '160px', left: '30px', cursor: 'pointer', zIndex: '100'}}>
-                        <Image src = {props.double ? '/../public/logo_white.png' : '/../public/logo_white.png'} width = '170px' height = '90px'/>
+                        <Image priority  src = {props.double ? '/../public/logo_white.png' : '/../public/logo_white.png'} width = '170px' height = '90px'/>
                     </div>
                 </Link>
                 <div className = {`${styles.column}`}>
@@ -17,16 +17,16 @@ export default function FooterBottom(props){
                     {/* <p className = {`${styles.text}`}>B-78, Near Saket Metro Station, Gate no, 2, New Delhi, 110030, India </p> */}
                     <br/>
                     <p style = {{marginBottom: '20px', display: 'inline-block', marginRight: '10px', paddingBottom: '10px'}}>India </p>
-                    <Image src = {props.double ? '/../public/india.png' : '/../public/india.png'} width = '20px' height = '16px'/>
+                    <Image priority  src = {props.double ? '/../public/india.png' : '/../public/india.png'} width = '20px' height = '16px'/>
                     {/* <p style = {{marginBottom: '20px'}} className = {`${styles.text}`}>+91 813 093 7887</p> */}
                     {/* <p className = {`${styles.text}`}>1216, Broadway, 2nd floor New York Down, NY, 10001, USA </p> */}
                     <br/>
                     <p style = {{marginBottom: '20px', display: 'inline-block', marginRight: '10px', paddingBottom: '10px'}}>USA </p>
-                    <Image src = {props.double ? '/../public/usa.png' : '/../public/usa.png'} width = '20px' height = '16px'/>
+                    <Image priority  src = {props.double ? '/../public/usa.png' : '/../public/usa.png'} width = '20px' height = '16px'/>
                     {/* <p style = {{marginBottom: '20px'}} className = {`${styles.text}`}>+1 646 338 6179</p> */}
                     <br/>
                     <p style = {{marginBottom: '20px', display: 'inline-block', marginRight: '10px', paddingBottom: '10px'}}>Saudi Arabia </p>
-                    <Image src = {props.double ? '/../public/sau.png' : '/../public/sau.png'} width = '20px' height = '16px'/>
+                    <Image priority  src = {props.double ? '/../public/sau.png' : '/../public/sau.png'} width = '20px' height = '16px'/>
                     {/* <p style = {{marginBottom: '20px'}} className = {`${styles.text}`}>+966 566 986 066</p> */}
                 </div>
                 {/* <div className = {`${styles.column}`}>

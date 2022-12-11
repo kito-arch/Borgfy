@@ -300,6 +300,7 @@ function Section1(props) {
                     right: "-12rem"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_sec1_image1.png",
                     width: "219.47px",
                     height: "221.19px"
@@ -312,6 +313,7 @@ function Section1(props) {
                     left: "-12rem"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_sec1_imag2.png",
                     width: "189px",
                     height: "320px"
@@ -324,6 +326,7 @@ function Section1(props) {
                     left: "-12rem"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_sec1_ellipse.png",
                     width: "650px",
                     height: "650px"
@@ -336,6 +339,7 @@ function Section1(props) {
                     right: "-12rem"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_sec1_ellipse2.png",
                     width: "500px",
                     height: "500px"
@@ -390,6 +394,7 @@ function Section2(props) {
                     top: "600px"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_left_lines.png",
                     width: "300px",
                     height: "700px"
@@ -439,7 +444,8 @@ function Section2(props) {
                             ]
                         }),
                         props?.useCase?.contribution_image && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            src: `http://localhost:3000/uploads/${props?.useCase?.contribution_image}`,
+                            priority: true,
+                            src: `https://admin.borgfy.com/uploads/${props?.useCase?.contribution_image}`,
                             width: "566px",
                             height: "349px"
                         })
@@ -469,7 +475,8 @@ function Section3(props) {
                     right: "250px"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: `http://localhost:3000/uploads/${props?.useCase?.brainstorm_image}`,
+                    priority: true,
+                    src: `https://admin.borgfy.com/uploads/${props?.useCase?.brainstorm_image}`,
                     width: "1083px",
                     height: "633px"
                 })
@@ -484,6 +491,7 @@ function Section3(props) {
                     right: "30%"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_sec3_text.png",
                     width: "1000px",
                     height: "80px"
@@ -512,6 +520,7 @@ function Section4(props) {
                     top: "-20px"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_objective_hand.png",
                     width: "180px",
                     height: "263px"
@@ -530,6 +539,7 @@ function Section4(props) {
                             top: "0"
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: "../gray_ellipse.png",
                             width: "61px",
                             height: "61px"
@@ -572,6 +582,7 @@ function Section5(props) {
                     top: "500px"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_problem_target.png",
                     width: "256px",
                     height: "423px"
@@ -592,6 +603,7 @@ function Section5(props) {
                                     top: "0"
                                 },
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    priority: true,
                                     src: "../gray_ellipse.png",
                                     width: "61px",
                                     height: "61px"
@@ -610,7 +622,8 @@ function Section5(props) {
                 ]
             }),
             props?.useCase?.problem_image && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                src: `http://localhost:3000/uploads/${props?.useCase?.problem_image}`,
+                priority: true,
+                src: `https://admin.borgfy.com/uploads/${props?.useCase?.problem_image}`,
                 width: "646px",
                 height: "530px"
             })
@@ -643,6 +656,7 @@ function Section6(props) {
                             top: "0"
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: "../gray_ellipse.png",
                             width: "61px",
                             height: "61px"
@@ -658,7 +672,8 @@ function Section6(props) {
                 className: `${(section6_module_default()).startBetween}`,
                 children: [
                     props?.useCase?.challenge1_image && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        src: `http://localhost:3000/uploads/${props?.useCase?.challenge1_image}`,
+                        priority: true,
+                        src: `https://admin.borgfy.com/uploads/${props?.useCase?.challenge1_image}`,
                         width: "803px",
                         height: "557px"
                     }),
@@ -682,7 +697,8 @@ function Section6(props) {
                         children: props?.useCase?.challenge2_text
                     }),
                     props?.useCase?.challenge2_image && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        src: `http://localhost:3000/uploads/${props?.useCase?.challenge2_image}`,
+                        priority: true,
+                        src: `https://admin.borgfy.com/uploads/${props?.useCase?.challenge2_image}`,
                         width: "696px",
                         height: "671px"
                     })
@@ -711,6 +727,7 @@ function Section7(props) {
                     left: "0"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_sec8_image.png",
                     width: "257px",
                     height: "257px"
@@ -732,6 +749,7 @@ function Section7(props) {
                                     top: "0"
                                 },
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    priority: true,
                                     src: "../gray_ellipse.png",
                                     width: "61px",
                                     height: "61px"
@@ -773,6 +791,7 @@ function Section8(props) {
                     top: "350px"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_right_hand.png",
                     width: "158px",
                     height: "185px"
@@ -791,6 +810,7 @@ function Section8(props) {
                             top: "0"
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: "../gray_ellipse.png",
                             width: "61px",
                             height: "61px"
@@ -812,7 +832,8 @@ function Section8(props) {
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: `${(section8_module_default()).centerCenter}`,
                 children: props?.useCase?.approach_image1 && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: `http://localhost:3000/uploads/${props?.useCase?.approach_image1}`,
+                    priority: true,
+                    src: `https://admin.borgfy.com/uploads/${props?.useCase?.approach_image1}`,
                     width: "1222px",
                     height: "591px"
                 })
@@ -827,12 +848,14 @@ function Section8(props) {
                     className: `${(section8_module_default()).stretchBetween}`,
                     children: [
                         props?.useCase?.approach_image2 && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            src: `http://localhost:3000/uploads/${props?.useCase?.approach_image2}`,
+                            priority: true,
+                            src: `https://admin.borgfy.com/uploads/${props?.useCase?.approach_image2}`,
                             width: "591px",
                             height: "600px"
                         }),
                         props?.useCase?.approach_image3 && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            src: `http://localhost:3000/uploads/${props?.useCase?.approach_image3}`,
+                            priority: true,
+                            src: `https://admin.borgfy.com/uploads/${props?.useCase?.approach_image3}`,
                             width: "591px",
                             height: "600px"
                         })
@@ -863,6 +886,7 @@ function Section9(props) {
                     top: "0px"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_sketching_gray.png",
                     width: "1227px",
                     height: "1227px"
@@ -886,6 +910,7 @@ function Section9(props) {
                                             top: "0"
                                         },
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            priority: true,
                                             src: "../gray_ellipse.png",
                                             width: "61px",
                                             height: "61px"
@@ -904,7 +929,8 @@ function Section9(props) {
                         ]
                     }),
                     props?.useCase?.sketching_image && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        src: `http://localhost:3000/uploads/${props?.useCase?.sketching_image}`,
+                        priority: true,
+                        src: `https://admin.borgfy.com/uploads/${props?.useCase?.sketching_image}`,
                         width: "900px",
                         height: "655px"
                     })
@@ -929,7 +955,8 @@ function Section10(props) {
             className: `${(section10_module_default()).startBetween}`,
             children: [
                 props?.useCase?.wireframe_image && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: `http://localhost:3000/uploads/${props?.useCase?.wireframe_image}`,
+                    priority: true,
+                    src: `https://admin.borgfy.com/uploads/${props?.useCase?.wireframe_image}`,
                     width: "900px",
                     height: "655px"
                 }),
@@ -948,6 +975,7 @@ function Section10(props) {
                                         top: "0"
                                     },
                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                        priority: true,
                                         src: "../gray_ellipse.png",
                                         width: "61px",
                                         height: "61px"
@@ -990,6 +1018,7 @@ function Section11(props) {
                     top: "800px"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_left_hand.png",
                     width: "158px",
                     height: "185px"
@@ -1003,6 +1032,7 @@ function Section11(props) {
                     top: "0px"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_style_gray.png",
                     width: "1227px",
                     height: "1227px"
@@ -1024,6 +1054,7 @@ function Section11(props) {
                                     top: "0"
                                 },
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    priority: true,
                                     src: "../gray_ellipse.png",
                                     width: "61px",
                                     height: "61px"
@@ -1044,7 +1075,8 @@ function Section11(props) {
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: `${(section11_module_default()).centerCenter}`,
                 children: props?.useCase?.style_image1 && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: `http://localhost:3000/uploads/${props?.useCase?.style_image1}`,
+                    priority: true,
+                    src: `https://admin.borgfy.com/uploads/${props?.useCase?.style_image1}`,
                     width: "1222px",
                     height: "591px"
                 })
@@ -1059,12 +1091,14 @@ function Section11(props) {
                     className: `${(section11_module_default()).stretchBetween}`,
                     children: [
                         props?.useCase?.style_image2 && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            src: `http://localhost:3000/uploads/${props?.useCase?.style_image2}`,
+                            priority: true,
+                            src: `https://admin.borgfy.com/uploads/${props?.useCase?.style_image2}`,
                             width: "591px",
                             height: "600px"
                         }),
                         props?.useCase?.style_image3 && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            src: `http://localhost:3000/uploads/${props?.useCase?.style_image3}`,
+                            priority: true,
+                            src: `https://admin.borgfy.com/uploads/${props?.useCase?.style_image3}`,
                             width: "591px",
                             height: "600px"
                         })
@@ -1095,6 +1129,7 @@ function Section12(props) {
                     top: "800px"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_left_hand.png",
                     width: "158px",
                     height: "185px"
@@ -1113,6 +1148,7 @@ function Section12(props) {
                             top: "0"
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: "../gray_ellipse.png",
                             width: "61px",
                             height: "61px"
@@ -1135,7 +1171,8 @@ function Section12(props) {
                         children: props?.useCase?.visual_text
                     }),
                     props?.useCase?.visual_image && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        src: `http://localhost:3000/uploads/${props?.useCase?.visual_image}`,
+                        priority: true,
+                        src: `https://admin.borgfy.com/uploads/${props?.useCase?.visual_image}`,
                         width: "799px",
                         height: "455px"
                     })
@@ -1165,6 +1202,7 @@ function Section13(props) {
                     top: "-1500px"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_conclusion_gray.png",
                     width: "1227px",
                     height: "4027px"
@@ -1183,6 +1221,7 @@ function Section13(props) {
                             top: "0"
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: "../gray_ellipse.png",
                             width: "61px",
                             height: "61px"
@@ -1200,6 +1239,7 @@ function Section13(props) {
                             top: "-50px"
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: "../case_sec13_icon.png",
                             width: "342px",
                             height: "134px"
@@ -1234,7 +1274,8 @@ function Section14(props) {
                 margin: "auto"
             },
             children: props?.useCase?.final_image && /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                src: `http://localhost:3000/uploads/${props?.useCase?.final_image}`,
+                priority: true,
+                src: `https://admin.borgfy.com/uploads/${props?.useCase?.final_image}`,
                 width: "1500px",
                 height: "300px"
             })
@@ -1261,6 +1302,7 @@ function Section15(props) {
                     bottom: "-400px"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_bottom_lines.png",
                     width: "300px",
                     height: "500px"
@@ -1274,6 +1316,7 @@ function Section15(props) {
                     top: "200px"
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    priority: true,
                     src: "../case_left_hand.png",
                     width: "158px",
                     height: "185px"
@@ -1314,6 +1357,7 @@ function Section15(props) {
                                         top: "90px"
                                     },
                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                        priority: true,
                                         src: "../case_sec15_underline.png",
                                         width: "171px",
                                         height: "20px"
@@ -1341,6 +1385,7 @@ function Section15(props) {
                                         top: "90px"
                                     },
                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                        priority: true,
                                         src: "../case_sec15_underline.png",
                                         width: "171px",
                                         height: "20px"
@@ -1368,6 +1413,7 @@ function Section15(props) {
                                         top: "90px"
                                     },
                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                        priority: true,
                                         src: "../case_sec15_underline.png",
                                         width: "171px",
                                         height: "20px"
@@ -1458,6 +1504,7 @@ function DynamicCaseStudyPage(props) {
                     backgroundColor: "white",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: "../case_sec3_back.png",
                             layout: "fill"
                         }),
@@ -1536,6 +1583,7 @@ function DynamicCaseStudyPage(props) {
                     backgroundColor: "black",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: "../case_sec15_back.png",
                             layout: "fill"
                         }),
@@ -1549,6 +1597,7 @@ function DynamicCaseStudyPage(props) {
                     backgroundColor: "white",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            priority: true,
                             src: "../case_sec16_back.png",
                             layout: "fill"
                         }),

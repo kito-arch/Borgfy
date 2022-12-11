@@ -7,7 +7,7 @@ export default function Section2(props){
     return(
         <div className = {`${styles.container}`}>
             <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000'>
-                <Image src = '/../public/UX.png' width = '208px' height = '60px'/>
+                <Image priority  src = '/../public/UX.png' width = '208px' height = '60px'/>
             </div>
             <p data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>How Can We Help?</p>
             <p data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.text}`}>We thrive on experimenting with the latest UI/UX design and customer retention strategies.</p>

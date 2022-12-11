@@ -13,7 +13,7 @@ export default function DynamicCasePage(props){
     const [useCases, setUseCases] = useState([])
 
     useEffect(()=>{
-        axios.get("http://localhost:3000/cases")
+        axios.get("https://admin.borgfy.com/cases")
         .then((res)=>{
             setUseCases(res.data)
         })
@@ -28,16 +28,16 @@ export default function DynamicCasePage(props){
                 <PaddingLayout backgroundColor = 'white'>
 
                     <div style = {{position: 'absolute', bottom: '250px', right: '0rem'}}>
-                        <Image src = '/../public/case2_hifi.png' width = '300px' height = '300px'/>
+                        <Image priority  src = '/../public/case2_hifi.png' width = '300px' height = '300px'/>
                     </div>
 
                     <div className = {`${styles.innerContainer}`}>
 
                         <div style = {{position: 'absolute', top: '400px', left: '-4rem'}}>
-                            <Image src = '/../public/digital_left_triangle.png' width = '219.47px' height = '221.19px'/>
+                            <Image priority  src = '/../public/digital_left_triangle.png' width = '219.47px' height = '221.19px'/>
                         </div>
                         <div style = {{position: 'absolute', top: 23, right: '0rem'}}>
-                            <Image src = '/../public/digital_right_triangle.png' width = '219.47px' height = '221.19px'/>
+                            <Image priority  src = '/../public/digital_right_triangle.png' width = '219.47px' height = '221.19px'/>
                         </div>
 
                         <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Check In Depth - How we solved it</p>
@@ -47,10 +47,10 @@ export default function DynamicCasePage(props){
                         <div className = {`${styles.stretchBetween}`}>
 
                             <div style = {{position: 'absolute', top: '200px', left: '-24rem'}}>
-                                <Image src = '/../public/case2_ellipse1.png' width = '600px' height = '3000px'/>
+                                <Image priority  src = '/../public/case2_ellipse1.png' width = '600px' height = '3000px'/>
                             </div>
                             <div style = {{position: 'absolute', top: '800px', right: '-348px'}}>
-                                <Image src = '/../public/case2_ellipse2.png' width = '600px' height = '600px'/>
+                                <Image priority  src = '/../public/case2_ellipse2.png' width = '600px' height = '600px'/>
                             </div>
 
 
@@ -58,7 +58,7 @@ export default function DynamicCasePage(props){
                                 return(
                                     <div data-aos-offset = {-300*scroll} data-aos = 'fade-right' data-aos-duration = '3000'>
                                         <div style = {{display: 'flex', alignItems: 'center'}}>
-                                            <Image src = '/../public/case2_ellipse.png' width = '31px' height = '31px' />
+                                            <Image priority  src = '/../public/case2_ellipse.png' width = '31px' height = '31px' />
                                             <p className = {`${styles.mobile}`}>{uc?.type}</p>
                                         </div>
                                         <div style = {{width: '730px'}} className = {`${styles.stretchBetween}`}>
@@ -67,11 +67,11 @@ export default function DynamicCasePage(props){
                                         </div>
                                         <div className = {`${styles.hover}`}>
                                             <div className = {`${styles.box}`}>
-                                                <Image src = "/../public/case2_box_back.png" layout = 'fill'/>
+                                                <Image priority  src = "/../public/case2_box_back.png" layout = 'fill'/>
                                                 <p className = {`${styles.boxHeading}`}>{uc?.title}</p>
                                                 <p className = {`${styles.boxSubheading}`}>{uc?.description}</p>
                                                 <div style = {{width: 'fit-content', margin: 'auto'}}>
-                                                    <Image src = {`http://localhost:3000/uploads/${uc?.image}`} width = '668px' height = '525px'/>
+                                                    <Image priority  src = {`https://admin.borgfy.com/uploads/${uc?.image}`} width = '668px' height = '525px'/>
                                                 </div>
                                             </div>
                                         </div>

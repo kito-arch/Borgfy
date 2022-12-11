@@ -10,7 +10,7 @@ export default function Section1(props){
     const [blogs, setBlogs] = useState([])
 
     useEffect(()=>{
-        axios.get("http://localhost:3000/blogs")
+        axios.get("https://admin.borgfy.com/blogs")
         .then((res)=>{
             setBlogs(res.data)
         })

@@ -16,7 +16,7 @@ export default function Section2(props){
                 </div>
                 <div className = {`${styles.rightContainer}`}>
                     <div className = {`${styles.rightInnerContainer}`}>
-                        <Image src = {props.image} width = '597px' height = '374px' />
+                        <Image priority  src = {props.image} width = '597px' height = '374px' />
                     </div>
                 </div>
             </div>

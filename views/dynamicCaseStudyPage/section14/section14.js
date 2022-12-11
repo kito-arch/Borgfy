@@ -7,7 +7,7 @@ export default function Section14(props){
         <div className = {`${styles.container}`}>
             <div style = {{width: 'fit-content', margin: 'auto'}}>
                 {props?.useCase?.final_image &&
-                    <Image src = {`http://localhost:3000/uploads/${props?.useCase?.final_image}`} width = '1500px' height = '300px' />
+                    <Image priority  src = {`https://admin.borgfy.com/uploads/${props?.useCase?.final_image}`} width = '1500px' height = '300px' />
                 }
             </div>
         </div>

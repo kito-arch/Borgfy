@@ -7,7 +7,7 @@ export default function Section3(props){
         <div className = {`${styles.container}`}>
 
             {/* <div style = {{zIndex: '20', position: 'absolute', bottom: props.bottom, left: props.left ?? 'unset', right: props.right ?? 'unset'}}>
-                <Image src = {props.image} width = '600px' height = '600px'/>
+                <Image priority  src = {props.image} width = '600px' height = '600px'/>
             </div> */}
 
             <div className = {`${styles.centerBetween}`}>
