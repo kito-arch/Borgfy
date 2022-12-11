@@ -15,6 +15,11 @@ export default function Section3(props){
                 <p className = {`${styles.date}`}>{props.date}</p>
             </div>
             <p className = {`${styles.text}`}>{props.text}</p>
+            {props.image &&
+                <div style = {{margin: 'auto', width: '100%'}}>
+                    <Image priority  src = {`https://admin.borgfy.com/uploads/${props.image}` } width = '1200px' height = '600px'/>
+                </div>
+            }
 
         </div>
     )

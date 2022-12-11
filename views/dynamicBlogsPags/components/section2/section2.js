@@ -30,7 +30,7 @@ export default function Section2(props){
                     </div>
                     <p style = {{color: props.textColor ?? 'white'}} className = {`${styles.text}`}>{props.blog.subtext}</p>
                     <Link href = {`dynamic-blog/${props.blog.link}`}>
-                        <p className = {`${styles.btn}`}>Read Full Post</p>
+                        <p style = {{cursor: 'pointer'}} className = {`${styles.btn}`}>Read Full Post</p>
                     </Link>
                 </div>
                 {props.blog.image1 &&

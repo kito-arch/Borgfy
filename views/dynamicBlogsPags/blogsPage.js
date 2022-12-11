@@ -27,7 +27,7 @@ export default function DynamicBlogsPage(props){
             
             <div className = {`${styles.container}`}>
 
-                <div style = {{position: 'absolute', bottom: '-100px', left : '6rem', zIndex: '10'}}>
+                <div style = {{position: 'absolute', bottom: '-100px', left : '-12rem', zIndex: '10'}}>
                     <Image priority  src = '/../public/blog_sec2_ellipse.png' width = '500px' height = '500px' />
                 </div>
 
@@ -39,14 +39,13 @@ export default function DynamicBlogsPage(props){
                     <Image priority  src = '/../public/blog_sec1_back.png' layout = 'fill'/>
                     <Section1 blogs = {blogs}/>
                 </PaddingLayout>
-
                 {blogs.map((b, i)=>{
                     return(
                         <React.Fragment>
                         {i == 0 ?
                             <PaddingLayout backgroundColor = 'white'>
                                 <div data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000'>
-                                    <Section2 blog = {b} paddingTop = '80px' backgroundColor = 'black' headingColor = 'white' textColor = 'white'/>
+                                    <Section2 blog = {b} paddingTop = '80px' backgroundColor = '#F3F5F5' headingColor = 'black' textColor = 'black'/>
                                 </div>
                             </PaddingLayout>
                         :
@@ -60,7 +59,9 @@ export default function DynamicBlogsPage(props){
                     )
                 })}
 
-                
+                <PaddingLayout backgroundColor = 'white'>
+                    <div style = {{height: '200px'}}></div>
+                </PaddingLayout>
 
                 {/* <PaddingLayout backgroundColor = 'white'>
                     <div className = {`${styles.paginationContainer}`}>

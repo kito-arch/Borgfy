@@ -13,26 +13,38 @@ export default function Section2(props){
                 <div className = {`${styles.iconsContainer}`}>
                     <div>
                         
-                        <Link href = {`${props?.blog?.facebook_link}`}>
-                            <div className = {`${styles.iconContainer}`}>
-                                <Image priority  src = '/../public/blog_detail_icon_1.png' width = '45px' height = '45px'/>
-                            </div>
-                        </Link>
-                        <Link href = {`${props?.blog?.instagram_link}`}>
-                            <div className = {`${styles.iconContainer}`}>
-                                <Image priority  src = '/../public/blog_detail_icon_2.png' width = '45px' height = '45px'/>
-                            </div>
-                        </Link>
-                        <Link href = {`${props?.blog?.twiiter_link}`}>
-                            <div className = {`${styles.iconContainer}`}>
-                                <Image priority  src = '/../public/blog_detail_icon_3.png' width = '45px' height = '45px'/>
-                            </div>
-                        </Link>
-                        <Link href = {`${props?.blog?.linkedin_link}`}>
-                            <div className = {`${styles.iconContainer}`}>
-                                <Image priority  src = '/../public/blog_detail_icon_4.png' width = '45px' height = '45px'/>
-                            </div>
-                        </Link>
+                        {props?.blog?.facebook_link &&
+                            <Link href = {`${props?.blog?.facebook_link}`}>
+                                <div style = {{cursor: 'pointer'}} className = {`${styles.iconContainer}`}>
+                                    <Image priority  src = '/../public/blog_detail_icon_1.png' width = '45px' height = '45px'/>
+                                </div>
+                            </Link>
+                        }
+
+                        {props?.blog?.instagram_link &&
+                            <Link href = {`${props?.blog?.instagram_link}`}>
+                                <div style = {{cursor: 'pointer'}} className = {`${styles.iconContainer}`}>
+                                    <Image priority  src = '/../public/blog_detail_icon_2.png' width = '45px' height = '45px'/>
+                                </div>
+                            </Link>
+                        }
+
+                        {props?.blog?.twiiter_link &&
+                            <Link href = {`${props?.blog?.twiiter_link}`}>
+                                <div style = {{cursor: 'pointer'}} className = {`${styles.iconContainer}`}>
+                                    <Image priority  src = '/../public/blog_detail_icon_3.png' width = '45px' height = '45px'/>
+                                </div>
+                            </Link>
+                        }
+
+                        {props?.blog?.linkedin_link &&
+                            <Link href = {`${props?.blog?.linkedin_link}`}>
+                                <div style = {{cursor: 'pointer'}} className = {`${styles.iconContainer}`}>
+                                    <Image priority  src = '/../public/blog_detail_icon_4.png' width = '45px' height = '45px'/>
+                                </div>
+                            </Link>
+                        }
+
                     </div>
                 </div>
 
