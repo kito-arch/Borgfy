@@ -62,7 +62,7 @@ export default function DynamicBlogsPage(props){
 
                 
 
-                <PaddingLayout backgroundColor = 'white'>
+                {/* <PaddingLayout backgroundColor = 'white'>
                     <div className = {`${styles.paginationContainer}`}>
                         <div className = {`${styles.pageNumberContainer}`}>
                             <p style = {{background: '#377DFF', color: 'white'}} className = {`${styles.pageNumber}`}>1</p>
@@ -72,7 +72,7 @@ export default function DynamicBlogsPage(props){
                             <p className = {`${styles.next}`}>Next</p>
                         </div>
                     </div>
-                </PaddingLayout>
+                </PaddingLayout> */}
 
             </div>
         </StandardLayout>
