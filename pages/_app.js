@@ -15,10 +15,14 @@ function MyApp({ Component, pageProps }) {
     // aos
     AOS.init();
 
+    let width = screen.width
+    if(width <= 480){
+      document.documentElement.style.setProperty('font-size', '8px');
+      return;
+    }
     // zoom
     if(router.pathname == "/portfolio"){
       // zoom
-      let width = screen.width
       let zoom = (width / 1920) * 100
       console.log(zoom)
       console.log(width)
@@ -26,7 +30,6 @@ function MyApp({ Component, pageProps }) {
       document.body.style.zoom =  scale;    // Chrome, Opera, Safari
     }
     else{
-      let width = screen.width
       let zoom = (width / 2304) * 100
       console.log(zoom)
       console.log(width)

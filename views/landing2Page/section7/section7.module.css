@@ -31,3 +31,14 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
+
+@media screen and (max-width: 480px) {
+    .rr{
+        right: 0 !important;
+    }
+    .subtext{
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+}

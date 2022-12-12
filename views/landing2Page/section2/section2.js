@@ -12,25 +12,29 @@ export default function Section2(props){
 
                 <div className = {`${styles.centerCenter}`}>
                     <div className = {`${styles.stretchBetween}`}>
-                        <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: '340px', position: 'relative', paddingTop: '60px'}}>
+                        <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: '340px', position: 'relative', paddingTop: '60px'}} className = {styles.nopad}>
                             <div style = {{width: 'fit-content', margin: 'auto'}}>
                                 <Image priority  src = '/../public/landing2_sec2_image1.png' width = '110px' height = '110px' />
                             </div>
-                            <div style = {{position: 'absolute', top: '200px', right: '-150px'}}>
+                            <div className = 'hide_in_mobile' style = {{position: 'absolute', top: '200px', right: '-150px'}}>
                                 <Image priority  src = '/../public/landing2_sec2_arrow1.png' width = '88px' height = '42px' />
                             </div>
                             <p className = {`${styles.text}`}>Venture Builders  and Digital Transformation Experts helping startups and enterprises</p>
                         </div>
                         <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: '340px', position: 'relative'}}>
-                            <Image priority  src = '/../public/landing2_sec2_image2.png' width = '110px' height = '110px' />
+                            <div className = {styles.cen}>
+                                <Image priority  src = '/../public/landing2_sec2_image2.png' width = '110px' height = '110px' />
+                            </div>
                             <p className = {`${styles.text}`}>with capabilities to quickly develop high quality technology products of any scale and complexity</p>
 
-                            <div style = {{position: 'absolute', top: '180px', right: '-150px'}}>
+                            <div className = 'hide_in_mobile' style = {{position: 'absolute', top: '180px', right: '-150px'}}>
                                 <Image priority  src = '/../public/landing2_sec2_arrow2.png' width = '76px' height = '59px' />
                             </div>
                         </div>
-                        <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: '340px', position: 'relative', paddingTop: '60px'}}>
-                            <Image priority  src = '/../public/landing2_sec2_image3.png' width = '110px' height = '110px' />
+                        <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: '340px', position: 'relative', paddingTop: '60px'}} className = {styles.nopad}>
+                            <div className = {styles.cen}>
+                                <Image priority  src = '/../public/landing2_sec2_image3.png' width = '110px' height = '110px' />
+                            </div>
                             <p className = {`${styles.text}`}>and business skills to launch and support digital ideas, initiatives,  & Ventures</p>
                         </div>
                     </div>
@@ -41,10 +45,10 @@ export default function Section2(props){
                 {/* <div style = {{position: 'absolute', top: '-100px', left: '-150px'}}>
                     <Image priority  src = '/../public/landing2_sec2_line.png' width = '1410px' height = '39px' />
                 </div> */}
-                <div style = {{position: 'absolute', top: '-50px', left: '-300px'}}>
+                <div className = {styles.st} style = {{position: 'absolute', top: '-50px', left: '-300px'}}>
                     <Image priority  src = '/../public/landing2_sec2_steve.png' width = '262px' height = '195px' />
                 </div>
-                <div className = {styles.rocket} style = {{position: 'absolute', top: '-100px', right: '-300px'}}>
+                <div className = {`${styles.rocket} hide_in_mobile`} style = {{position: 'absolute', top: '-100px', right: '-300px'}}>
                     <Image priority  src = '/../public/landing2_sec2_rocket.png' width = '214px' height = '214px' />
                 </div>
                 <p className = {`${styles.bottomText}`}>“Be a yardstick of quality. Some people aren't used to an environment where excellence is expected.”</p>

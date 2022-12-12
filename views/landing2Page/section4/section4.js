@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Section4(props){
     return(
         <div className = {`${styles.container}`}>
-            <div data-aos-offset = {-scroll*700} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: 'fit-content', margin: 'auto'}}>
+            <div className = {styles.fp} data-aos-offset = {-scroll*700} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: 'fit-content', margin: 'auto'}}>
                 <Image priority  src = '/../public/landing2_sec4_text.png' width = '480px' height = '71px' />
             </div>
             <p data-aos-offset = {-scroll*700} data-aos = 'fade-up' data-aos-duration = '3000'  className = {`${styles.subtext}`}>Scroll down for more</p>

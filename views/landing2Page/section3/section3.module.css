@@ -27,3 +27,9 @@
     width: 100%;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 480px) {
+    .heading{
+        margin-bottom: 20px;
+    }
+}

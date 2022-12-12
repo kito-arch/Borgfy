@@ -86,6 +86,7 @@
 .stretchBetween{
     display: flex;
     align-items: stretch;
+    /* flex-wrap: nowrap !important; */
     justify-content: space-between;
 }
 
@@ -151,4 +152,27 @@
     margin-top: 0;
     margin-bottom: 0;
     cursor: pointer;
+}
+
+.nowrap{
+    flex-wrap: nowrap !important;
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        padding: 48px 0px 70px;
+    }
+    .numberContainer{
+        padding: 10px;
+    }
+    .numberHeading{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    .howContainer{
+        padding: 0 5px;
+    }
+    .boxContainer{
+        margin-bottom: 20px;
+    }
 }

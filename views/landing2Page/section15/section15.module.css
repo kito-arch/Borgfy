@@ -34,3 +34,19 @@
     margin-bottom: 30px;
     width: 562px;
 }
+
+@media screen and (max-width: 480px) {
+    .stretchBetween{
+        width: 250px;
+        margin: auto;
+    }
+    .stretchBetween > div {
+        margin-bottom: 20px;
+        width: 100px;
+        /* margin-right: 10px; */
+    }
+    .container{
+        padding: 86.66666666666667px 0 71.66666666666667px;
+    }
+
+}

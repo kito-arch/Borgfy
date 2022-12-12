@@ -80,3 +80,25 @@
     margin-top: 77px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .box{
+        margin-bottom: 100px;
+        padding: 20px;
+    }
+    .im{
+        width: 100px;
+        height: 100px;
+        top: -50px !important;
+        left: 30px !important;
+    }
+    .the{
+        margin-bottom: 0px !important;
+    }
+    .heading{
+        margin-bottom: 30px !important;
+    }
+    .stretchBetween{
+        margin-bottom: 30px !important;
+    }
+}

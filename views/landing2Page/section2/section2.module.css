@@ -79,3 +79,25 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
+@media screen and (max-width: 480px) {
+    .cen{
+        margin: auto !important;
+        width: fit-content;
+    }
+    .container{
+        padding: 42px 31.5px 44px;
+    }
+    .nopad{
+        padding-top: 10px !important;
+    }
+    .st{
+        top: 80px !important;
+        left: 90px !important;
+        width: 100px !important;
+        height: 60.5px !important;
+    }
+    .bottomContainer{
+        width: fit-content;
+    }
+}

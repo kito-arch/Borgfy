@@ -39,17 +39,30 @@ export default function Section15(props){
             
 
             <div style = {{justifyContent: 'flex-start'}} className = {`${styles.stretchBetween}`}>
+                <div className='show_in_mobile' data-aos-offset = {-scroll*5500} data-aos = 'fade-left' data-aos-duration = '3000' style = {{width: '250px'}}>
+                    <p className = {`${styles.heading}`}>Our Client</p>
+                    <p className = {`${styles.text}`}>These People Trusted Us</p>
+                    {/* <p className = {`${styles.text}`}>The World is too noise tune to Borgy Signal</p> */}
+                </div>
                 <div>
                     <div className = {`${styles.stretchBetween}`}>
-                        <Image priority  src = '/../public/landing2_sec15_image1.png' width = '246px' height = '246px'/>
-                        <Image priority  src = '/../public/qq.jpg' width = '202px' height = '202px'/>
+                        <div>
+                            <Image priority  src = '/../public/landing2_sec15_image1.png' width = '246px' height = '246px'/>
+                        </div>
+                        <div>
+                            <Image priority  src = '/../public/qq.jpg' width = '202px' height = '202px'/>
+                        </div>
                     </div>
                     <div className = {`${styles.stretchBetween}`}>
-                        <Image priority  src = '/../public/landing2_sec15_image3.png' width = '247px' height = '247px'/>
-                        <Image priority  src = '/../public/landing2_sec15_image4.png' width = '260px' height = '260px'/>
+                        <div>
+                            <Image priority  src = '/../public/landing2_sec15_image3.png' width = '247px' height = '247px'/>
+                        </div>
+                        <div>
+                            <Image priority  src = '/../public/landing2_sec15_image4.png' width = '260px' height = '260px'/>
+                        </div>
                     </div>
                 </div>
-                <div data-aos-offset = {-scroll*5500} data-aos = 'fade-left' data-aos-duration = '3000' style = {{paddingLeft: '420px'}}>
+                <div className='hide_in_mobile' data-aos-offset = {-scroll*5500} data-aos = 'fade-left' data-aos-duration = '3000' style = {{paddingLeft: '420px'}}>
                     <p className = {`${styles.heading}`}>Our Client</p>
                     <p className = {`${styles.text}`}>These People Trusted Us</p>
                     {/* <p className = {`${styles.text}`}>The World is too noise tune to Borgy Signal</p> */}

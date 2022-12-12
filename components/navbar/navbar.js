@@ -29,7 +29,7 @@ export default function Navbar(props){
                     <div style = {{marginTop: '10px'}}>
                         <Logo double = {props.double} logo = {props.logo}/>
                     </div>
-                    <div className = {`${styles.leftRightContainer} ${styles.between}`}>
+                    <div className = {`${styles.leftRightContainer} ${styles.between} hide_in_mobile`}>
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                             <p className = {`${styles.navLabels}`}>Who We Are</p>
                             <div style = {{marginTop: '-5px'}}>
@@ -68,16 +68,6 @@ export default function Navbar(props){
                                 <div style = {{marginTop: '-5px'}}>
                                     <Image priority  src = {props.double ? '/../public/arrowDown.png' : '/../public/arrowDown.png' }  width = '6px' height = '4px'/>
                                 </div>
-                                {/* <div className = {`${styles.dropdownContainer} ${styles.one}`}>
-                                    <Link href = 'portfolio'>
-                                        <div className = {`${styles.dropContainer}`}>
-                                            <p className = {`${styles.navLabels}`}>Portfolio</p>
-                                            <div style = {{display: 'flex', justifyContent: 'center'}}>
-                                                <div className = {`${styles.line}`}></div>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div> */}
                             </div>
                         </Link>
                         <div className = {`${styles.navLabelContainer} ${styles.between}`}>
@@ -147,11 +137,13 @@ export default function Navbar(props){
                     </div>
                 </div>
             </div>
-            <Link href = 'contact'>
-                <div className = {`${styles.chip}`}>
-                    <p className = {`${styles.chipLabel}`}>Have an idea?</p>
-                </div>
-            </Link>
+            <div className = 'hide_in_mobile'>
+                <Link href = 'contact'>
+                    <div className = {`${styles.chip}`}>
+                        <p className = {`${styles.chipLabel}`}>Have an idea?</p>
+                    </div>
+                </Link>
+            </div>
         </div>
     )
 }

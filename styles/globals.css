@@ -48,3 +48,28 @@ p{
     background: black;
   }
 }
+
+
+
+.show_in_mobile{
+  display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+  * {
+    flex-wrap: wrap !important;
+  }
+
+  .hide_in_mobile{
+    display: none !important;
+  }
+  p{
+    width: fit-content !important;
+  }
+  .show_in_mobile{
+    display: block;
+  }
+}
+
+

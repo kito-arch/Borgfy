@@ -30,7 +30,7 @@ export default function Section6(props){
             <div id = "nums" className = {`${styles.numberContainer}`}>
 
                 <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '3000' >
-                    <div style = {{display: 'flex'}}>
+                    <div style = {{display: 'flex'}} className = {styles.nowrap}>
                         <p id = "num1" className = {`${styles.numberHeading}`}></p>
                         <p className = {`${styles.numberHeading}`}>+</p>
                     </div>
@@ -39,7 +39,7 @@ export default function Section6(props){
                 </div>
 
                 <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '3000' >
-                    <div style = {{display: 'flex'}}>
+                    <div style = {{display: 'flex'}} className = {styles.nowrap}>
                         <p id = "num2" className = {`${styles.numberHeading}`}></p>
                         <p className = {`${styles.numberHeading}`}>+</p>
                     </div>
@@ -48,7 +48,7 @@ export default function Section6(props){
                 </div>
 
                 <div data-aos-offset = {-scroll*1900} data-aos = 'fade-left' data-aos-duration = '3000' >
-                    <div style = {{display: 'flex'}}>
+                    <div style = {{display: 'flex'}}  className = {styles.nowrap}>
                         <p id = "num3" className = {`${styles.numberHeading}`}></p>
                         <p className = {`${styles.numberHeading}`}>+</p>
                     </div>

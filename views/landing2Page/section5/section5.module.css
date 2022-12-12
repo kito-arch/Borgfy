@@ -61,3 +61,17 @@
     width: fit-content;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .container{
+        padding: 75px 32px 85px;
+    }
+    .subtext{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding-bottom: 0px;
+    }
+    .box{
+        margin-top: 5px !important;
+    }
+}

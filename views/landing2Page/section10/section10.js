@@ -7,9 +7,10 @@ export default function Section10(props){
         
             <div className = {`${styles.container}`}>
 
-                <Image priority  src = '/../public/landing2_sec10_back.png' layout = 'fill'/>
+                <Image className = 'hide_in_mobile' priority  src = '/../public/landing2_sec10_back.png' layout = 'fill'/>
 
                 <div data-aos-offset = {-scroll*3200} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.innerContainer}`}>
+                    
                     <Image priority  src = '/../public/landing2_sec10_bulb.png' width = '30px' height = '46px' />
                     <p className = {`${styles.subtext}`}>Already have a startup idea?</p>
                     <p className = {`${styles.heading}`}>Let's setup a FREE consultation call</p>

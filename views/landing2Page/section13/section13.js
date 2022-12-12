@@ -36,7 +36,7 @@ export default function Section13(props){
     return(
         <div className = {`${styles.container}`}>
 
-            <div style = {{position: 'absolute', top: '-90px', left: '-12rem'}}>
+            <div className='hide_in_mobile' style = {{position: 'absolute', top: '-90px', left: '-12rem'}}>
                 <Image priority  src = '/../public/landing2_sec13_left.png' width = '215px' height = '749px' />
             </div>
 
@@ -50,18 +50,18 @@ export default function Section13(props){
                             return (reviews.length - 1)
                         else 
                             return ((prev - 1)%(reviews.length))
-                    })}} style = {{cursor: 'pointer', position: 'absolute', top: '250px', left: '0', zIndex: '100'}}>
+                    })}} className = {styles.arrowLeft}>
                         <Image priority  src = '/../public/rev_left.png' width = '60px' height = '60px'/>
                     </div>
-                    <div onClick={()=>{setCurrent(prev => ((prev + 1)%(reviews.length)))}} style = {{cursor: 'pointer', position: 'absolute', top: '250px', right: '100px', zIndex: '100'}}>
+                    <div onClick={()=>{setCurrent(prev => ((prev + 1)%(reviews.length)))}} className = {styles.arrowRight}>
                         <Image priority  src = '/../public/rev_right.png' width = '60px' height = '60px'/>
                     </div>
                     <div id = 'slider' className = {`${styles.slideContainer}`}>
                         {reviews.map((rev=>{
                             return(
                                 <div style = {{minWidth: '495px', height: '593px', position: 'relative'}}>
-                                    <div style = {{position: 'absolute', top: '0', left: '0'}}>
-                                        <Image priority  style = {{borderRadius: '10px'}} src = {rev.image} width = '400px' height = '500px' />
+                                    <div className={styles.mobsl} style = {{position: 'absolute', top: '0', left: '0', width: '400px', height: '500px' }}>
+                                        <Image priority  style = {{borderRadius: '10px'}} src = {rev.image} layout = 'fill'/>
                                     </div>
                                 </div>
                             )
@@ -70,7 +70,7 @@ export default function Section13(props){
                     
                 </div>
                 <div style = {{width: '80%'}} data-aos-offset = {-scroll*4600} data-aos = 'fade-left' data-aos-duration = '3000'>
-                    <div style = {{marginBottom: '20px', marginTop: '100px'}}>
+                    <div className={styles.commaContainer} style = {{marginBottom: '20px', marginTop: '100px'}}>
                         <Image priority  src = '/../public/landing2_sec13_comma.png' width = '31px' height = '27px' />
                     </div>
                     <div style = {{width: '145px'}} className = {`${styles.srtretchBetween}`}>

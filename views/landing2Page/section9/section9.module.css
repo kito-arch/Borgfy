@@ -79,3 +79,16 @@
     transform: matrix(1, 0, -0.01, 1, 0, 0);
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .container{
+        padding: 5px;
+    }
+    .box{
+        min-height: 400px;
+        margin-bottom: 20px;
+    }
+    .subtext{
+        margin-bottom: 40px;
+    }
+}

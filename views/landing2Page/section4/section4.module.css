@@ -59,3 +59,13 @@
     margin-right: 0;
     /* width: 10px; */
 }
+
+@media screen and (max-width: 480px) {
+    .fp{
+        width: 300px !important;
+        height: 50px !important;
+    }
+    .stretchBetween{
+        width: fit-content;
+    }
+}

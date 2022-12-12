@@ -1,90 +1,89 @@
-"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 9954:
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! aos */ \"aos\");\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! aos/dist/aos.css */ \"./node_modules/aos/dist/aos.css\");\n/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n// import 'bootstrap/dist/css/bootstrap.min.css';\n\n\n\nfunction MyApp({ Component , pageProps  }) {\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_5__.useRouter)();\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        // aos\n        aos__WEBPACK_IMPORTED_MODULE_3___default().init();\n        let width = screen.width;\n        if (width <= 480) {\n            document.documentElement.style.setProperty(\"font-size\", \"8px\");\n            return;\n        }\n        // zoom\n        if (router.pathname == \"/portfolio\") {\n            // zoom\n            let zoom = width / 1920 * 100;\n            console.log(zoom);\n            console.log(width);\n            let scale = zoom + \"%\";\n            document.body.style.zoom = scale; // Chrome, Opera, Safari\n        } else {\n            let zoom1 = width / 2304 * 100;\n            console.log(zoom1);\n            console.log(width);\n            let scale1 = zoom1 + \"%\";\n            document.body.style.zoom = scale1; // Chrome, Opera, Safari\n        }\n    }, [\n        router.pathname\n    ]);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n        ...pageProps\n    }, void 0, false, {\n        fileName: \"/home/husnain/MyThings/Data/up1/borgfy/pages/_app.js\",\n        lineNumber: 41,\n        columnNumber: 10\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUFpQztBQUNIO0FBQzlCLGlEQUFpRDtBQUMzQjtBQUNJO0FBQ2M7QUFHeEMsU0FBU0csS0FBSyxDQUFDLEVBQUVDLFNBQVMsR0FBRUMsU0FBUyxHQUFFLEVBQUU7SUFFdkMsTUFBTUMsTUFBTSxHQUFHSixzREFBUyxFQUFFO0lBRzFCRixnREFBUyxDQUFDLElBQUk7UUFDWixNQUFNO1FBQ05DLCtDQUFRLEVBQUUsQ0FBQztRQUVYLElBQUlPLEtBQUssR0FBR0MsTUFBTSxDQUFDRCxLQUFLO1FBQ3hCLElBQUdBLEtBQUssSUFBSSxHQUFHLEVBQUM7WUFDZEUsUUFBUSxDQUFDQyxlQUFlLENBQUNDLEtBQUssQ0FBQ0MsV0FBVyxDQUFDLFdBQVcsRUFBRSxLQUFLLENBQUMsQ0FBQztZQUMvRCxPQUFPO1FBQ1QsQ0FBQztRQUNELE9BQU87UUFDUCxJQUFHUCxNQUFNLENBQUNRLFFBQVEsSUFBSSxZQUFZLEVBQUM7WUFDakMsT0FBTztZQUNQLElBQUlDLElBQUksR0FBRyxLQUFNLEdBQUcsSUFBSSxHQUFJLEdBQUc7WUFDL0JDLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDRixJQUFJLENBQUM7WUFDakJDLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDVCxLQUFLLENBQUM7WUFDbEIsSUFBSVUsS0FBSyxHQUFHSCxJQUFJLEdBQUcsR0FBRztZQUN0QkwsUUFBUSxDQUFDUyxJQUFJLENBQUNQLEtBQUssQ0FBQ0csSUFBSSxHQUFJRyxLQUFLLENBQUMsQ0FBSSx3QkFBd0I7UUFDaEUsT0FDSTtZQUNGLElBQUlILEtBQUksR0FBRyxLQUFNLEdBQUcsSUFBSSxHQUFJLEdBQUc7WUFDL0JDLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDRixLQUFJLENBQUM7WUFDakJDLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDVCxLQUFLLENBQUM7WUFDbEIsSUFBSVUsTUFBSyxHQUFHSCxLQUFJLEdBQUcsR0FBRztZQUN0QkwsUUFBUSxDQUFDUyxJQUFJLENBQUNQLEtBQUssQ0FBQ0csSUFBSSxHQUFJRyxNQUFLLENBQUMsQ0FBSSx3QkFBd0I7UUFDaEUsQ0FBQztJQUNILENBQUMsRUFBRTtRQUFDWixNQUFNLENBQUNRLFFBQVE7S0FBQyxDQUFDO0lBRXJCLHFCQUFPLDhEQUFDVixTQUFTO1FBQUUsR0FBR0MsU0FBUzs7Ozs7WUFBSTtBQUNyQyxDQUFDO0FBRUQsaUVBQWVGLEtBQUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9ib3JnZnkvLi9wYWdlcy9fYXBwLmpzP2UwYWQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSAncmVhY3QnXG5pbXBvcnQgJy4uL3N0eWxlcy9nbG9iYWxzLmNzcydcbi8vIGltcG9ydCAnYm9vdHN0cmFwL2Rpc3QvY3NzL2Jvb3RzdHJhcC5taW4uY3NzJztcbmltcG9ydCBBT1MgZnJvbSAnYW9zJztcbmltcG9ydCAnYW9zL2Rpc3QvYW9zLmNzcyc7XG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICduZXh0L3JvdXRlcic7XG5cblxuZnVuY3Rpb24gTXlBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9KSB7XG5cbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKClcbiAgXG5cbiAgdXNlRWZmZWN0KCgpPT57XG4gICAgLy8gYW9zXG4gICAgQU9TLmluaXQoKTtcblxuICAgIGxldCB3aWR0aCA9IHNjcmVlbi53aWR0aFxuICAgIGlmKHdpZHRoIDw9IDQ4MCl7XG4gICAgICBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuc3R5bGUuc2V0UHJvcGVydHkoJ2ZvbnQtc2l6ZScsICc4cHgnKTtcbiAgICAgIHJldHVybjtcbiAgICB9XG4gICAgLy8gem9vbVxuICAgIGlmKHJvdXRlci5wYXRobmFtZSA9PSBcIi9wb3J0Zm9saW9cIil7XG4gICAgICAvLyB6b29tXG4gICAgICBsZXQgem9vbSA9ICh3aWR0aCAvIDE5MjApICogMTAwXG4gICAgICBjb25zb2xlLmxvZyh6b29tKVxuICAgICAgY29uc29sZS5sb2cod2lkdGgpXG4gICAgICBsZXQgc2NhbGUgPSB6b29tICsgXCIlXCJcbiAgICAgIGRvY3VtZW50LmJvZHkuc3R5bGUuem9vbSA9ICBzY2FsZTsgICAgLy8gQ2hyb21lLCBPcGVyYSwgU2FmYXJpXG4gICAgfVxuICAgIGVsc2V7XG4gICAgICBsZXQgem9vbSA9ICh3aWR0aCAvIDIzMDQpICogMTAwXG4gICAgICBjb25zb2xlLmxvZyh6b29tKVxuICAgICAgY29uc29sZS5sb2cod2lkdGgpXG4gICAgICBsZXQgc2NhbGUgPSB6b29tICsgXCIlXCJcbiAgICAgIGRvY3VtZW50LmJvZHkuc3R5bGUuem9vbSA9ICBzY2FsZTsgICAgLy8gQ2hyb21lLCBPcGVyYSwgU2FmYXJpXG4gICAgfVxuICB9LCBbcm91dGVyLnBhdGhuYW1lXSlcblxuICByZXR1cm4gPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPlxufVxuXG5leHBvcnQgZGVmYXVsdCBNeUFwcFxuIl0sIm5hbWVzIjpbInVzZUVmZmVjdCIsIkFPUyIsInVzZVJvdXRlciIsIk15QXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIiwicm91dGVyIiwiaW5pdCIsIndpZHRoIiwic2NyZWVuIiwiZG9jdW1lbnQiLCJkb2N1bWVudEVsZW1lbnQiLCJzdHlsZSIsInNldFByb3BlcnR5IiwicGF0aG5hbWUiLCJ6b29tIiwiY29uc29sZSIsImxvZyIsInNjYWxlIiwiYm9keSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
+/***/ }),
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-;// CONCATENATED MODULE: external "aos"
-const external_aos_namespaceObject = require("aos");
-var external_aos_default = /*#__PURE__*/__webpack_require__.n(external_aos_namespaceObject);
-// EXTERNAL MODULE: external "next/router"
-var router_ = __webpack_require__(1853);
-;// CONCATENATED MODULE: ./pages/_app.js
+/***/ "./node_modules/aos/dist/aos.css":
+/*!***************************************!*\
+  !*** ./node_modules/aos/dist/aos.css ***!
+  \***************************************/
+/***/ (() => {
 
-
-
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-
-function MyApp({ Component , pageProps  }) {
-    const router = (0,router_.useRouter)();
-    (0,external_react_.useEffect)(()=>{
-        // aos
-        external_aos_default().init();
-        // zoom
-        if (router.pathname == "/portfolio") {
-            // zoom
-            let width = screen.width;
-            let zoom = width / 1920 * 100;
-            console.log(zoom);
-            console.log(width);
-            let scale = zoom + "%";
-            document.body.style.zoom = scale; // Chrome, Opera, Safari
-        } else {
-            let width1 = screen.width;
-            let zoom1 = width1 / 2304 * 100;
-            console.log(zoom1);
-            console.log(width1);
-            let scale1 = zoom1 + "%";
-            document.body.style.zoom = scale1; // Chrome, Opera, Safari
-        }
-    }, [
-        router.pathname
-    ]);
-    return /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-        ...pageProps
-    });
-}
-/* harmony default export */ const _app = (MyApp);
 
 
 /***/ }),
 
-/***/ 1853:
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "aos":
+/*!**********************!*\
+  !*** external "aos" ***!
+  \**********************/
 /***/ ((module) => {
 
+"use strict";
+module.exports = require("aos");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
 module.exports = require("next/router");
 
 /***/ }),
 
-/***/ 6689:
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
-module.exports = require("react/jsx-runtime");
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -95,7 +94,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(9954));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();

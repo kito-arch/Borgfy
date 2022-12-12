@@ -73,3 +73,16 @@
 
 }
 
+
+
+@media screen and (max-width: 480px) {
+    .container{
+        padding: 115px 31.5px 131px;
+    }
+    /* .text{
+        margin: 0 !important;
+    } */
+    .heading{
+        margin: 0 !important;
+    }
+}
