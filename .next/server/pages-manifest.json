@@ -2,6 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/fullstack": "pages/fullstack.js",
-  "/ui": "pages/ui.js"
+  "/portfolio": "pages/portfolio.js"
 }

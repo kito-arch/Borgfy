@@ -24,3 +24,9 @@
     align-items: stretch;
     justify-content: space-between;
 }
+@media screen and (max-width: 480px){
+    .caCon{
+        width: fit-content !important;
+        margin-bottom: 20px;
+    }
+}

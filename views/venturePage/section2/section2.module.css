@@ -24,3 +24,9 @@
     line-height: 1.6875rem;
     width: 90%;
 }
+
+@media screen and (max-width: 480px){
+    .innerContainer{
+        width: fit-content;
+    }
+}

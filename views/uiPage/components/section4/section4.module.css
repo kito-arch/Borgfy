@@ -33,3 +33,18 @@
 
 /* or 150% */
 }
+
+@media screen and (max-width: 480px){
+    .tCon{
+        width: fit-content !important;
+    }
+    .container{
+        padding: 10px;
+    }
+    .heading{
+        margin-bottom: 5px;
+    }
+    .text{
+        margin-bottom: 20px;
+    }
+}

@@ -43,3 +43,15 @@
     color: #1E61F2;
     font-size: 3.75rem;
 }
+
+@media screen and (max-width: 480px){
+    .heading{
+        line-height: 30px;
+    }
+    .subheading1{
+        line-height: 20px;
+    }
+    .subheading2{
+        line-height: 20px;
+    }
+}

@@ -67,3 +67,19 @@
     align-items: center;
     justify-content: start;
 }
+
+@media screen and (max-width: 480px){
+    .subheading{
+        margin-bottom: 10px;
+        line-height: 15px;
+    }
+    .heading{
+        line-height: 30px;
+    }
+    .text{
+        line-height: 15px;
+    }
+    .container{
+        padding: 20px 16px 11.666666666666666px;
+    }
+}

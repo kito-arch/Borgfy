@@ -33,3 +33,24 @@
     
     color: #000103;   
 }
+@media screen and (max-width: 480px){
+    .container{
+        padding-left: 0 !important;
+    }
+    .image{
+        width: 100px;
+        margin: auto;
+    }
+    .desc{
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+    .subheading{
+        margin: auto;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+    .subtext{
+        line-height: 15px;
+    }
+}

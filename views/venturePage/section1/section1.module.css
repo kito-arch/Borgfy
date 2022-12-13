@@ -17,3 +17,12 @@
     line-height: 1.5625rem;
     width: 54%;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        padding: 2.4375rem 0px 3.7083333333333335rem;   
+    }
+    .heading{
+        line-height: 40px;
+    }
+}

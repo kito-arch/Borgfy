@@ -22,3 +22,16 @@
     line-height: 110px;
     /* font-family: 'Eudoxus Sans'; */
 }
+
+@media screen and (max-width: 480px){
+    .smallHeading{
+        margin-top: 60px !important;
+        line-height: 10px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .largeHeading{
+        font-size: 20px;
+
+    }
+}

@@ -42,3 +42,10 @@
 
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 480px){
+    .innerSingleContainer{
+        width: fit-content;
+        margin-bottom: 30px;
+    }
+}

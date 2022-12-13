@@ -18,3 +18,17 @@
     justify-content: space-between;
     margin-bottom: 2.5rem;
 }
+
+
+@media screen and (max-width: 480px){
+    .container{
+        padding: 2.21875rem 0 3.34375rem
+    }
+    .heading{
+        line-height: 30px;
+    }
+    .carCon{
+        width: fit-content !important;
+        margin-bottom: 20px;
+    }
+}

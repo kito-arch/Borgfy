@@ -26,3 +26,15 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 480px){
+    .container{
+        padding: 2.1875rem 0px 5.3125rem;
+    }
+    .heading{
+        line-height: 30px;
+    }
+    .cardCon{
+        width: fit-content !important;
+    }
+}
+

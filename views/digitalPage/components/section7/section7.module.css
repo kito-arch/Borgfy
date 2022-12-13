@@ -13,3 +13,13 @@
     color: #000103;
     text-align: center;
 }
+
+@media screen and (max-width: 480px){
+    .heading{
+        line-height: 30px;
+        font-size: 20px;
+    }
+    /* .imCon{
+        width: 150px;
+    } */
+}

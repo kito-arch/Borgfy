@@ -50,3 +50,12 @@
     justify-content: flex-end;
     width: 100%;
 }
+
+@media screen and (max-width: 480px){
+    .centerStart{
+        padding: 20px 5px;
+    }
+    .centerEnd{
+        padding: 20px 5px;
+    }
+}

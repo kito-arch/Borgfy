@@ -52,3 +52,10 @@
     
     text-align: left;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        width: max-content;
+        overflow-x: scroll;
+    }
+}
