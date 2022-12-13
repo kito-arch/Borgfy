@@ -8,12 +8,12 @@ export default function Section7Link(props){
         <div className = {`${styles.container}`}>
             <p className = {`${styles.text}`}>App Development</p>
             <Link href = 'landing'>
-                <div style = {{cursor: 'pointer', marginLeft: '30px', marginRight: '30px'}}>
+                <div className={styles.imCon} style = {{cursor: 'pointer', marginLeft: '30px', marginRight: '30px'}}>
                     <Image priority  src = '/../public/landing_sec7_left.png' width = '62px' height = '41px' />
                 </div>
             </Link>
             <Link href = 'fullstack'>
-                <div style = {{cursor: 'pointer', marginLeft: '30px', marginRight: '30px'}}>
+                <div className={styles.imCon} style = {{cursor: 'pointer', marginLeft: '30px', marginRight: '30px'}}>
                     <Image priority  src = '/../public/landing_sec7_right.png' width = '62px' height = '41px' />
                 </div>
             </Link>

@@ -24,3 +24,9 @@
     letter-spacing: 0.02em;
     margin-bottom: 65px;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        padding: 17.666666666666668px 0 23.666666666666668px;
+    }   
+}

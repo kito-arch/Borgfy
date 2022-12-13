@@ -13,3 +13,14 @@
     line-height: 50px;
     /* color: white !important; */
 }
+
+@media screen and (max-width: 480px){
+    .text{
+        font-size: 12px;
+    }
+    .imCon{
+        width: 20px;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+}

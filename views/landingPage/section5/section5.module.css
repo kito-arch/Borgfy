@@ -31,3 +31,16 @@
     font-size: 3.25rem;
     line-height: 89px;
 }
+
+@media screen and (max-width: 480px) {
+    .innerContainer{
+        padding: 22.5px 20px 27px;
+    }   
+    .stretchBetween{
+        margin-left: 0 !important;
+    }
+    .text{
+        margin-top: 5px !important;
+        line-height: 50px;
+    }
+}

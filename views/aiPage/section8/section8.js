@@ -7,16 +7,16 @@ export default function Section8(props){
     return(
         <div className = {`${styles.container}`}>
         
-            <div style = {{position: 'absolute', top: '450px', left: '-150px'}}>
+            <div className='hide_in_mobile' style = {{position: 'absolute', top: '450px', left: '-150px'}}>
                 <Image priority  src = '/../public/ai_sec8_icon1.png' width = '300px' height = '314px'/>
             </div>
-            <div style = {{position: 'absolute', top: '800px', right: '-150px'}}>
+            <div className='hide_in_mobile' style = {{position: 'absolute', top: '800px', right: '-150px'}}>
                 <Image priority  src = '/../public/ai_sec8_icon2.png' width = '250px' height = '250px'/>
             </div>
-            <div style = {{position: 'absolute', bottom: '130px', left: '-150px'}}>
+            <div className='hide_in_mobile' style = {{position: 'absolute', bottom: '130px', left: '-150px'}}>
                 <Image priority  src = '/../public/ai_sec8_icon4.png' width = '200px' height = '200px'/>
             </div>
-            <div style = {{position: 'absolute', bottom: '60px', right: '-150px'}}>
+            <div className='hide_in_mobile' style = {{position: 'absolute', bottom: '60px', right: '-150px'}}>
                 <Image priority  src = '/../public/ai_sec8_icon5.png' width = '300px' height = '314px'/>
             </div>
 
@@ -26,10 +26,18 @@ export default function Section8(props){
 
                 <div style = {{marginBottom: '73px'}} className = {`${styles.centerBetween}`}>
 
-                    <Image priority  src = '/../public/ai_sec8_com1.png' width = '353px' height = '144px' />
-                    <Image priority  src = '/../public/ai_sec8_com2.png' width = '296px' height = '159px' />
-                    <Image priority  src = '/../public/ai_sec8_com3.png' width = '307px' height = '287px' />
-                    <Image priority  src = '/../public/ai_sec8_com4.png' width = '370px' height = '127px' />
+                    <div className = {styles.imCon}>
+                        <Image priority  src = '/../public/ai_sec8_com1.png' width = '353px' height = '144px' />
+                    </div>
+                    <div className = {styles.imCon}>
+                        <Image priority  src = '/../public/ai_sec8_com2.png' width = '296px' height = '159px' />
+                    </div>
+                    <div className = {styles.imCon}>
+                        <Image priority  src = '/../public/ai_sec8_com3.png' width = '307px' height = '287px' />
+                    </div>
+                    <div className = {styles.imCon}>
+                        <Image priority  src = '/../public/ai_sec8_com4.png' width = '370px' height = '127px' />
+                    </div>
 
                 </div>
             </div>
@@ -40,7 +48,7 @@ export default function Section8(props){
             </div>
 
             <div className = {`${styles.stretchBetween}`}>
-                <div data-aos-offset = {-1900*scroll} data-aos = 'fade-right' data-aos-duration = '3000' style = {{width: '45%'}}>
+                <div className = {styles.ecCon} data-aos-offset = {-1900*scroll} data-aos = 'fade-right' data-aos-duration = '3000' style = {{width: '45%'}}>
                     <div style = {{position: 'relative'}}>
 
                     <div style = {{position: 'absolute', top: '8px', left: '320px'}}>
@@ -67,7 +75,7 @@ export default function Section8(props){
                     </div>
 
                 </div>
-                <div data-aos-offset = {-1900*scroll} data-aos = 'fade-left' data-aos-duration = '3000' style = {{width: '45%'}}>
+                <div className = {styles.ecCon} data-aos-offset = {-1900*scroll} data-aos = 'fade-left' data-aos-duration = '3000' style = {{width: '45%'}}>
                     
                     <p className = {`${styles.blueHeading}`}>Fintech</p>
                     <p style = {{textAlign: 'left', marginBottom: '10px'}} className = {`${styles.text}`}>Finance is the leading industry which is transforming rapidly with use of machine learning giving companies better decisions on financial situation like,</p>

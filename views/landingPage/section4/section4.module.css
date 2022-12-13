@@ -25,3 +25,10 @@
     line-height: 25px;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    .innerContainer{
+        padding: 22.5px 20px 27px;
+    }
+    
+}

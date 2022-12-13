@@ -23,3 +23,12 @@
     width: 46.875%;
     /* or 167% */
 }
+@media screen and (max-width: 480px){
+    .container{
+        padding: 45px 0 67.5px;
+    }
+    .heading{
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+}

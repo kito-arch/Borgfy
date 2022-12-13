@@ -52,3 +52,12 @@
     font-size: 1.25rem;
     line-height: 27px;
 }
+@media screen and (max-width: 480px) {
+    .container{
+        padding: 37.75px 0 33.25px;
+    }
+    .box{
+        width: fit-content;
+        margin-bottom: 20px;
+    }
+}

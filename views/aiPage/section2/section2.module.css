@@ -39,3 +39,19 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        padding: 27.333333333333332px 0 46px;
+    }
+    .innerContainer{
+        padding: 29.5px 0 32px;
+    }
+    .heading{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .text{
+        font-size: 13px;
+    }
+}

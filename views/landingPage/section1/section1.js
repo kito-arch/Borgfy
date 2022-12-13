@@ -6,39 +6,39 @@ export default function Section1(props){
     return(
         <div className = {`${styles.container}`}>
 
-            <div style = {{position: 'absolute', top: '0px', right: '-12rem'}}>
+            <div className = 'hide_in_mobile' style = {{position: 'absolute', top: '0px', right: '-12rem'}}>
                 <Image priority  src = '/../public/landing_sec1_back.png' width = '1410px' height = '750px' />
             </div>
 
 
-            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '600px'}}>
+            <div className = 'hide_in_mobile' style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '600px'}}>
                 <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
-            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '680px'}}>
+            <div className = 'hide_in_mobile' style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '680px'}}>
                 <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
-            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '760px'}}>
+            <div className = 'hide_in_mobile' style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '760px'}}>
                 <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
-            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '840px'}}>
+            <div className = 'hide_in_mobile' style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '840px'}}>
                 <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
-            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '920px'}}>
+            <div className = 'hide_in_mobile' style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '920px'}}>
                 <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
-            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1000px'}}>
+            <div className = 'hide_in_mobile' style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1000px'}}>
                 <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
-            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1080px'}}>
+            <div className = 'hide_in_mobile' style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1080px'}}>
                 <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
-            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1160px'}}>
+            <div className = 'hide_in_mobile' style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1160px'}}>
                 <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
-            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1240px'}}>
+            <div className = 'hide_in_mobile' style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1240px'}}>
                 <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
-            <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1320px'}}>
+            <div className = 'hide_in_mobile' style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1320px'}}>
                 <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
             

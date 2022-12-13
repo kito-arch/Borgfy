@@ -36,3 +36,11 @@
     cursor: pointer;
 
 }
+
+@media screen and (max-width: 480px){
+    .button{
+        padding: 10px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}

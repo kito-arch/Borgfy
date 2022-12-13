@@ -92,7 +92,7 @@ export default function Section2(props){
             </div>
 
 
-            <div style = {{display: 'flex', alignItems: 'center', justifyContent: 'center', margin: 'auto', width: 'fit-content', marginTop: '40px'}}>
+            <div className='hide_in_mobile' style = {{display: 'flex', alignItems: 'center', justifyContent: 'center', margin: 'auto', width: 'fit-content', marginTop: '40px'}}>
                 <div onClick={()=>{setKon(0)}} style = {{marginRight: '10px', cursor: 'pointer'}}>
                     {kon == 0 ? 
                             <Image priority  src = '/../public/landing_sec2_filled_ellipse.png' width = '26px' height = '26px' />

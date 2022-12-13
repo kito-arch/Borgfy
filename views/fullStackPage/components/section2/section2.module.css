@@ -2,3 +2,9 @@
     padding-top: 269px;
     position: relative;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        padding-top: 67.25px;
+    }      
+}

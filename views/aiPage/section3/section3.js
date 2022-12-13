@@ -7,7 +7,7 @@ export default function Section3(props){
     return(
         <div className = {`${styles.container}`}>
 
-            <div style = {{position: 'absolute', bottom: '-4px', right: '-100px'}}>
+            <div className='hide_in_mobile' style = {{position: 'absolute', bottom: '-4px', right: '-100px'}}>
                 <Image priority  src = '/../public/ai_sec3_back.png' width = '992px' height = '711px' />
             </div>
 

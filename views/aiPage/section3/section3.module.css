@@ -24,3 +24,15 @@
     /* or 135% */
     letter-spacing: 0.02em;
 }
+
+@media screen and (max-width: 480px){
+    .innerContainer{
+        width: fit-content;
+    }
+    .container{
+        padding: 50px 0 41.5px;
+    }
+    .heading{
+        margin-bottom: 10px;
+    }
+}

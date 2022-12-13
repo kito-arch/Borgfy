@@ -80,3 +80,27 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        padding: 13.75px 0 69.25px;
+    }
+    .centerBetween{
+        width: 200px;
+        margin: auto;
+    }
+    .imCon{
+        margin-bottom: 20px;
+    }
+    .heading{
+        line-height: 30px;
+        font-size: 20px;
+        margin-bottom: 10px !important;
+    }
+    .ecCon{
+        width: fit-content !important;
+    }
+    .blueHeading{
+        margin: 10px;
+    }
+}

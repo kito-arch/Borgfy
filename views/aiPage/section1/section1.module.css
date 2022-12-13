@@ -41,3 +41,14 @@
     margin-top: 68px;
 
 }
+@media screen and (max-width: 480px){
+    .container{
+        padding: 76px 4px 49.5px;   
+    }
+    .centerStart{
+        margin-bottom: 10px;
+    }
+    .text{
+        margin-bottom: 30px;
+    }
+}

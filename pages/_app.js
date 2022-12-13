@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
   useEffect(()=>{
     // aos
     AOS.init();
-
+    
     let width = screen.width
     if(width <= 480){
       document.documentElement.style.setProperty('font-size', '8px');

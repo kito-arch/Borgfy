@@ -28,3 +28,25 @@
     font-size: 1.125rem;
     line-height: 30px;
 }
+
+@media screen and (max-width: 480px){
+    .textContainer{
+        width: fit-content;
+    }
+    .heading{
+        margin-bottom: 0px;
+        line-height: 40px;
+    }
+    .tCon{
+        padding: 0 !important;
+        margin-bottom: 30px;
+    }
+    .immmCon{
+        padding: 0 !important;
+        width: fit-content !important;
+        margin: auto !important;
+    }
+    .imageContainer{
+        width: fit-content;
+    }
+}
