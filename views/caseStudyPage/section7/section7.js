@@ -7,7 +7,7 @@ export default function Section7(props){
     return(
         <div className = {`${styles.container}`}>
 
-            <div style = {{position: 'absolute', bottom: '100px', left: '0'}}>
+            <div className='hide_in_mobile' style = {{position: 'absolute', bottom: '100px', left: '0'}}>
                 <Image priority  src = '/../public/case_sec8_image.png' width = '257px' height = '257px' />
             </div>
 

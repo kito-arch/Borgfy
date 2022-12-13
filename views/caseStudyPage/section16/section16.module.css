@@ -27,3 +27,13 @@
 
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 480px){
+    .heading{
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .text{
+        margin: auto;
+    }
+}

@@ -134,3 +134,34 @@
 
 
 }
+
+@media screen and (max-width: 480px){
+    .heading{
+        line-height: 30px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .box{
+        width: fit-content !important;
+        /* margin: auto; */
+        min-height: unset;
+    }
+    .stretchBetween{
+        width: fit-content !important;
+        margin: 0;
+    }
+    .anon{
+        width: -webkit-fill-available !important;
+        /* margin: auto !important; */
+    }
+    .read{
+        margin-bottom: 100px;
+        padding: 10px 20px;
+    }
+    .hover{
+        margin-bottom: 5px;
+    }
+    /* .cen{
+        justify-content: center;
+    } */
+}

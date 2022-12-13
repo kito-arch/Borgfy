@@ -8,7 +8,7 @@ export default function Section8(props){
     return(
         <div className = {`${styles.container}`}>
 
-            <div style = {{zIndex: '10', position: 'absolute', right: '0rem', top: '350px'}}>
+            <div className='hide_in_mobile' style = {{zIndex: '10', position: 'absolute', right: '0rem', top: '350px'}}>
                 <Image priority  src = '/../public/case_right_hand.png' width = '158px' height = '185px' />
             </div>
 

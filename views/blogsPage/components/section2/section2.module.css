@@ -62,3 +62,16 @@
 .rightInnerContainer{
     border-radius: 20px;
 }
+
+@media screen and (max-width: 480px){
+    .btn{
+        margin-bottom: 10px;
+    }
+    .heading{
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .leftContainer{
+        width: fit-content;
+    }
+}

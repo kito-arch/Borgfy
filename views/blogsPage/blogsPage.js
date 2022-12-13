@@ -45,7 +45,7 @@ export default function BlogsPage(props){
                 </PaddingLayout>
 
                 <PaddingLayout backgroundColor = 'white'>
-                    <div className = {`${styles.paginationContainer}`}>
+                    <div className = {`${styles.paginationContainer} hide_in_mobile`}>
                         <div className = {`${styles.pageNumberContainer}`}>
                             <p style = {{background: '#377DFF', color: 'white'}} className = {`${styles.pageNumber}`}>1</p>
                             <p className = {`${styles.pageNumber}`}>2</p>

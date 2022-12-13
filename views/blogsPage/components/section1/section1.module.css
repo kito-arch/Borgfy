@@ -60,3 +60,13 @@
     background-color: white;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 480px){
+    .heading{
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .text{
+        line-height: 20px;
+    }
+}

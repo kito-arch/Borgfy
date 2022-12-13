@@ -7,7 +7,7 @@ export default function Section5(props){
     return(
         <div className = {`${styles.container}`}>
 
-            <div style = {{zIndex: '10', position: 'absolute', right: '0rem', top: '500px'}}>
+            <div className='hide_in_mobile' style = {{zIndex: '10', position: 'absolute', right: '0rem', top: '500px'}}>
                 <Image priority  src = '/../public/case_problem_target.png' width = '256px' height = '423px' />
             </div>
 
