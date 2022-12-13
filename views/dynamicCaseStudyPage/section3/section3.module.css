@@ -2,3 +2,18 @@
     min-height: 727px;
     position: relative;
 }
+
+@media screen and (max-width: 480px){
+    .heading{
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .imCon{
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .container{
+        min-height: 300px;
+    }
+}

@@ -40,3 +40,22 @@
     75% {transform: rotate(-2deg);}
     100% {transform: rotate(0);}
 }
+
+@media screen and (max-width: 480px){
+    .bell{
+        width: 50px !important;
+        top: -50px !important;
+        left: 0px !important;
+    }
+    .container{
+        padding: 75px 0 19px;   
+    }
+    /* .emojiCon{
+        left: 280px !important;
+        width: 20px;
+    } */
+    .text{
+        width: fit-content;
+        margin: auto;
+    }
+}

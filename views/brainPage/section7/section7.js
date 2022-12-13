@@ -7,7 +7,7 @@ export default function(props){
     return(
         <div data-aos-offset = {-1600*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.container}`}>
 
-            <div style = {{zIndex: '1', position: 'absolute', top: '370px', left: '30%'}}>
+            <div className='hide_in_mobile' style = {{zIndex: '1', position: 'absolute', top: '370px', left: '30%'}}>
                 <Image priority  src = '/../public/brain_sec7_image.png' width = '734px' height = '450px'/>
             </div>            
 
@@ -29,7 +29,7 @@ export default function(props){
             </div>
 
 
-            <div style = {{margin: 'auto', marginTop: '200px', width: '40%', textAlign: 'center'}}>
+            <div className={styles.bottomCon} style = {{margin: 'auto', marginTop: '200px', width: '40%', textAlign: 'center'}}>
                 <div style = {{width: '100%'}} className = {`${styles.innerContainer}`}>
                     <p style = {{marginLeft: 'auto', marginRight: 'auto'}} className = {`${styles.text} ${styles.button}`}>Branding Communication</p>
                     <p className = {`${styles.text}`}>

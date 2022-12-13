@@ -87,3 +87,19 @@
     width: 100%;
     margin-top: 24px;
 }
+
+@media screen and (max-width: 480px){
+    .heading{
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .innerContainer{
+        width: fit-content;
+    }
+    .blueHeading{
+        white-space: normal;
+        text-align: center;
+        width: fit-content;
+        margin: auto !important;
+    }
+}

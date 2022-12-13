@@ -29,3 +29,10 @@
     width: 1075px;
     margin: auto;
 }
+
+@media screen and (max-width: 480px){
+    .heading{
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+}

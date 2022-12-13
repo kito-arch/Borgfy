@@ -45,3 +45,13 @@
     width: 56%;
 
 }
+
+@media screen and (max-width: 480px){
+    .heading{
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .container{
+        padding: 55px 0 73px;
+    }
+}

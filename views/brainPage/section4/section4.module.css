@@ -27,3 +27,14 @@
     line-height: 36px;
     color: #000000;
 }
+
+
+@media screen and (max-width: 480px){
+    .innerContainer{
+        width: fit-content;
+        margin-bottom: 30px;
+    }
+    .heading{
+        margin-bottom: 10px;
+    }
+}

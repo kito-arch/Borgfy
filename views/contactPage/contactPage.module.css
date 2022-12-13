@@ -68,3 +68,34 @@
     75% {transform: rotate(-2deg);}
     100% {transform: rotate(0);}
 }
+
+@media screen and (max-width: 480px){
+    .box{
+        padding: 10px;   
+    }
+    .input{
+        width: -webkit-fill-available;
+    }
+    .container{
+        margin-bottom: 100px;
+    }
+    .submit{
+        padding: 2px 15px;
+    }
+    .bell{
+        width: 40px;
+        top: -40px !important;
+        left: 10px !important;
+    }
+    .ano{
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+
+    .oo{
+        /* margin: auto; */
+        margin-bottom: 30px;
+        /* text-align: center; */
+    }
+}

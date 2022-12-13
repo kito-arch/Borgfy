@@ -7,7 +7,7 @@ export default function Sectoin1(props){
     return(
         <div className = {`${styles.container}`}>
 
-            <div style = {{position: 'absolute', top: '250px', right: '0'}}>
+            <div className='hide_in_mobile' style = {{position: 'absolute', top: '250px', right: '0'}}>
                 <Image priority  src = '/../public/about_sec1_hand.png' width = '192px' height = '192px'/>
             </div>
 
@@ -23,17 +23,17 @@ export default function Sectoin1(props){
             <br/>
             <div data-aos-offset = {-400*scroll} data-aos = 'fade-up' data-aos-duration = '3000' style = {{position: 'relative'}}>
                 <p style = {{marginBottom: '40px'}} className = {`${styles.text}`}>You know why? Cause it sell more</p>
-                <div style = {{position: 'absolute', top: '0px', right: '670px'}}>
+                <div className='hide_in_mobile' style = {{position: 'absolute', top: '0px', right: '670px'}}>
                     <Image priority  src = '/../public/about_sec1_emoji.png' width = '35px' height = '35px'/>
                 </div>
             </div>
             <div style = {{width: 'fit-content', margin: 'auto'}}>
             <Image priority  src = '/../public/about_sec1_image1.png' width = '786' height = '496px'/>
             </div>
-            <div style = {{position: 'absolute', bottom: '218px', left: '-12rem'}}>
+            <div className='hide_in_mobile' style = {{position: 'absolute', bottom: '218px', left: '-12rem'}}>
                 <Image priority  src = '/../public/digital_left_triangle.png' width = '219.47px' height = '221.19px'/>
             </div>
-            <div style = {{position: 'absolute', top: 23, right: '-12rem'}}>
+            <div className='hide_in_mobile' style = {{position: 'absolute', top: 23, right: '-12rem'}}>
                 <Image priority  src = '/../public/digital_right_triangle.png' width = '219.47px' height = '221.19px'/>
             </div>
         </div>

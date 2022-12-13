@@ -60,3 +60,22 @@
     color: #FFFFFF;
     margin-top: 27px;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        padding: 36.5px 0 119px;
+    }
+    .heading{
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .single{
+        width: fit-content !important;
+        margin: auto !important;
+        padding: 0 !important;
+        margin-bottom: 20px !important;
+    }
+}

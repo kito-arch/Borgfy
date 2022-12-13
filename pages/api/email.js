@@ -19,7 +19,7 @@ export default function handler(req, res) {
    client.send(
      {
        text: `Just for testing purpose`,
-       from: 'husnainbusiness315@gmail.com',
+       from: '',
        to: email,
        subject: 'testing emailjs',
       

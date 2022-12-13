@@ -8,7 +8,7 @@
     padding: 0 35px;
     border-radius: 20px;
     padding: 53px 61px;
-    min-height: 915px;
+    height: 915px;
     position: relative;
     overflow: hidden;
 }
@@ -35,4 +35,20 @@
     font-size: 3.125rem;
     z-index: 10;
     line-height: 69px;
+}
+
+@media screen and (max-width: 480px){
+    .innerContainer{
+        padding: 10px 10px;
+        height: 500px !important;
+    }
+    .iconsContainer{
+        height: 400px;
+    }
+    .heading{
+        line-height: 30px;
+    }
+    .bottomContainer{
+        flex-wrap: nowrap !important;
+    }
 }

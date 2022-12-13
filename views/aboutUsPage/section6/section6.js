@@ -24,11 +24,11 @@ export default function Section6(props){
                     </div> */}
                 </div>
 
-                <div style = {{position: 'absolute', top: '128px', left: '12rem'}}>
+                <div className='hide_in_mobile' style = {{position: 'absolute', top: '128px', left: '12rem'}}>
                     <Image priority  src = '/../public/about_sec6_left.png' width = '58px' height = '58px' />
                 </div>
 
-                <div style = {{position: 'absolute', top: '122px', right: '12rem'}}>
+                <div className='hide_in_mobile' style = {{position: 'absolute', top: '122px', right: '12rem'}}>
                     <Image priority  src = '/../public/about_sec6_right.png' width = '90px' height = '90px' />
                 </div>
 

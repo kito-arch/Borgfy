@@ -52,3 +52,16 @@
     z-index: 10;
     width: 67.4%;
 }
+@media screen and (max-width: 480px){
+    .topHeading{
+        line-height: 20px;
+    }
+    .innerContainer{
+        padding: 10px 10px 10px;
+    }
+    .heading{
+        line-height: 30px;
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+}

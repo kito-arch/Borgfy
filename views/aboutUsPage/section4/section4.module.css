@@ -28,3 +28,13 @@
     width: 1463px;
     margin: auto;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        padding-bottom: 27.5px;
+    }
+    .title{
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+}

@@ -9,11 +9,11 @@ export default function Section2(props){
             <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.topHeading}`}>Borgfy Has a Team of Daydreamers to Keep Dreaming New Ideas!</p>
 
             <div className = {`${styles.innerContainer}`}>
-
+                
                 <Image priority  src = '/../public/brain_sec2_back.png' layout='fill'/>
 
                 <div style = {{position: 'relative'}}>
-                    <div style = {{position: 'absolute', top: '150px', right: '50px'}}>
+                    <div className='hide_in_mobile' style = {{position: 'absolute', top: '150px', right: '50px'}}>
                         <Image priority  src = '/../public/brain_sec2_image.png' width = '512px' height = '512px'/>
                     </div>
                     <div style = {{position: 'absolute', top: '0px', left: '-12rem'}}>

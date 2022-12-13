@@ -29,3 +29,15 @@
     font-size: 1.4375rem;
     line-height: 36px;
 }
+
+@media screen and (max-width: 480px){
+    .centerBetween{
+        margin-bottom: 10px;
+    }
+    .heading{
+        line-height: 25px;
+    }
+    .text{
+        line-height: 20px;
+    }
+}

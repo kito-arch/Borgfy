@@ -25,3 +25,16 @@
 
     width: 640px;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        padding: 73px 0 125px;
+    }
+    .title{
+        margin-bottom: 20px;
+    }
+    .imCon{
+        position: relative !important;
+        top: 0 !important;
+    }
+}

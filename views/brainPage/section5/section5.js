@@ -5,7 +5,7 @@ import styles from './section5.module.css'
 export default function Section5(props){
     return(
         <div className = {`${styles.container}`}>
-            <p data-aos-offset = {-900*scroll} data-aos = 'fade-up' data-aos-duration = '3000' style = {{marginBottom: '30px'}} className = {`${styles.heading}`}>Development Phase</p>
+            <p data-aos-offset = {-900*scroll} data-aos = 'fade-up' data-aos-duration = '3000' style = {{marginBottom: '30px'}} className = {`${styles.heading} ${styles.anHeading}`}>Development Phase</p>
             <p data-aos-offset = {-900*scroll} data-aos = 'fade-up' data-aos-duration = '3000' style = {{marginBottom: '156px'}} className = {`${styles.text}`}>
                 Once the design is approved, we finally move to the development phase. In this phase, we work with individuals in different tech roles to finally make the product live.
             </p>

@@ -16,7 +16,7 @@ export default function Section13(props){
                     <Image priority  src = '/../public/gray_ellipse.png' width = '61px' height = '61px'/>
                 </div>
                 <p className = {`${styles.heading}`}>Conclusion</p>
-                <div className = {`${styles.rocket}`} style = {{position: 'absolute', right: '-300px', top: '-50px'}}>
+                <div className = {`${styles.rocket} hide_in_mobile`} style = {{position: 'absolute', right: '-300px', top: '-50px'}}>
                     <Image priority  src = '/../public/case_sec13_icon.png' width = '342px' height = '134px'/>
                 </div>
             </div>

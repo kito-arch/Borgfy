@@ -29,3 +29,9 @@
     line-height: 25px;
     width: 55.2%;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        padding: 60.5px 24px 217.5px;
+    }
+}

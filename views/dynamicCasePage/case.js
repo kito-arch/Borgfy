@@ -27,16 +27,16 @@ export default function DynamicCasePage(props){
                 
                 <PaddingLayout backgroundColor = 'white'>
 
-                    <div style = {{position: 'absolute', bottom: '250px', right: '0rem'}}>
+                    <div className='hide_in_mobile' style = {{position: 'absolute', bottom: '250px', right: '0rem'}}>
                         <Image priority  src = '/../public/case2_hifi.png' width = '300px' height = '300px'/>
                     </div>
 
                     <div className = {`${styles.innerContainer}`}>
 
-                        <div style = {{position: 'absolute', top: '400px', left: '-4rem'}}>
+                        <div className='hide_in_mobile' style = {{position: 'absolute', top: '400px', left: '-4rem'}}>
                             <Image priority  src = '/../public/digital_left_triangle.png' width = '219.47px' height = '221.19px'/>
                         </div>
-                        <div style = {{position: 'absolute', top: 23, right: '0rem'}}>
+                        <div className='hide_in_mobile' style = {{position: 'absolute', top: 23, right: '0rem'}}>
                             <Image priority  src = '/../public/digital_right_triangle.png' width = '219.47px' height = '221.19px'/>
                         </div>
 
@@ -44,7 +44,7 @@ export default function DynamicCasePage(props){
                         <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Case Studies</p>
 
 
-                        <div className = {`${styles.stretchBetween}`}>
+                        <div className = {`${styles.stretchBetween} ${styles.cen}`}>
 
                             <div style = {{position: 'absolute', top: '200px', left: '-24rem'}}>
                                 <Image priority  src = '/../public/case2_ellipse1.png' width = '600px' height = '3000px'/>
@@ -61,7 +61,7 @@ export default function DynamicCasePage(props){
                                             <Image priority  src = '/../public/case2_ellipse.png' width = '31px' height = '31px' />
                                             <p className = {`${styles.mobile}`}>{uc?.type}</p>
                                         </div>
-                                        <div style = {{width: '730px'}} className = {`${styles.stretchBetween}`}>
+                                        <div style = {{width: '730px'}} className = {`${styles.stretchBetween} ${styles.anon}`}>
                                             <p className = {`${styles.sure}`}>{uc?.app_name}</p>
                                             <p className = {`${styles.gray}`}>{uc?.type2}</p>
                                         </div>
