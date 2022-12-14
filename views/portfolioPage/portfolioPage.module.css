@@ -58,4 +58,13 @@
     .centerEnd{
         padding: 20px 5px;
     }
+    .category{
+        padding: 2px 15px;
+    }
+    .topContainer{
+        padding: 10px;
+    }
+    .container{
+        padding-top: 70px;
+    }
 }

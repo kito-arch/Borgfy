@@ -64,21 +64,21 @@ export default function FooterTop(props){
                 }
             </div>
 
-            <div className='show_in_mobile' style = {{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+            <div className={`show_in_mobile ${styles.ff}`}>
                 <div style = {{marginRight: '10px', marginTop: '30px'}}>
-                    <Image priority  src = '/../public/footer_facebook.png' width = '70px' height = '70px'/>
+                    <Image priority  src = '/../public/footer_facebook.png' width = '40px' height = '40px'/>
                 </div>
                 <div style = {{marginRight: '10px', marginTop: '30px'}}>
-                    <Image priority  src = '/../public/footer_insta.png' width = '70px' height = '70px'/>
+                    <Image priority  src = '/../public/footer_insta.png' width = '40px' height = '40px'/>
                 </div>
                 <div style = {{marginRight: '10px', marginTop: '30px'}}>
-                    <Image priority  src = '/../public/footer_pin.png' width = '70px' height = '70px'/>
+                    <Image priority  src = '/../public/footer_pin.png' width = '40px' height = '40px'/>
                 </div>
                 <div style = {{marginRight: '10px', marginTop: '30px'}}>
-                    <Image priority  src = '/../public/footer_linked.png' width = '70px' height = '70px'/>
+                    <Image priority  src = '/../public/footer_linked.png' width = '40px' height = '40px'/>
                 </div>
                 <div style = {{marginRight: '10px', marginTop: '30px'}}>
-                    <Image priority  src = '/../public/footer_twiiter.png' width = '70px' height = '70px'/>
+                    <Image priority  src = '/../public/footer_twiiter.png' width = '40px' height = '40px'/>
                 </div>
             </div>
 
