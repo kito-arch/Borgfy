@@ -75,11 +75,22 @@
     }
     .heading{
         line-height: 30px;
+        margin-bottom: 20px !important;
     }
     .text{
         line-height: 15px;
+        margin-bottom: 20px !important;
     }
     .container{
         padding: 20px 16px 11.666666666666666px;
+    }
+    .small{
+        width: 20px;
+    }
+    .alternateContainer1, .alternateContainer{
+        padding: 40px;
+    }
+    .alternateContainer1, .alternateContainer, .container{
+        margin-bottom: 20px;
     }
 }

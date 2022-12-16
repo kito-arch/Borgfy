@@ -4,17 +4,15 @@ import '../styles/globals.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useRouter } from 'next/router';
+import "swiper/css";
+import "swiper/css/bundle";
 
 
 function MyApp({ Component, pageProps }) {
 
   const router = useRouter()
-  
 
-  useEffect(()=>{
-    // aos
-    AOS.init();
-    
+  const widthChanger = ()=>{
     let width = screen.width
     if(width <= 480){
       document.documentElement.style.setProperty('font-size', '8px');
@@ -36,6 +34,16 @@ function MyApp({ Component, pageProps }) {
       let scale = zoom + "%"
       document.body.style.zoom =  scale;    // Chrome, Opera, Safari
     }
+  }
+  
+
+  useEffect(()=>{
+    // AOS
+    AOS.init()
+    // window.addEventListener('load', ()=>{widthChanger()});
+    widthChanger()
+
+    
   }, [router.pathname])
 
   return <Component {...pageProps} />

@@ -18,6 +18,9 @@ export default function Section14(props){
                 <div style = {{padding: '29px 52px 28px 43px'}} className = {`${styles.whiteBox} hide_in_mobile`}>
                     <Image priority  src = '/../public/landing2_sec14_image1.png' width = '120px' height = '148px' />
                 </div>
+                <div style = {{padding: '20px'}} className = {`${styles.whiteHiddenBox} show_in_mobile`}>
+                    <Image priority  src = '/../public/landing2_sec14_image1.png' width = '40px' height = '49.333333333333336px' />
+                </div>
                 <div>
                     <p style = {{width: '439px', paddingBottom: '60px'}} className = {`${styles.whiteText}`}>Trust and Quality</p>
                 </div>
@@ -29,6 +32,9 @@ export default function Section14(props){
                 <div className='hide_in_mobile' style = {{position: 'absolute', top: '-415px', left: '81px'}}>
                     <Image priority  src = '/../public/landing2_sec14_image2.png' width = '296px' height = '527px' />
                 </div>
+                <div style = {{marginRight: '20px'}} className='show_in_mobile'>
+                    <Image priority  src = '/../public/landing2_sec14_image2.png' width = '59.2px' height = '105.4px' />
+                </div>
                 <div>
                     <p style = {{width: '305px', paddingBottom: '24px'}} className = {`${styles.whiteText}`}>Dedication</p>
                 </div>
@@ -39,6 +45,9 @@ export default function Section14(props){
                 <div className='hide_in_mobile' style = {{position: 'absolute', top: '-194px', left: '81px'}}>
                     <Image priority  src = '/../public/landing2_sec14_image3.png' width = '254px' height = '168px' />
                 </div>
+                <div style = {{marginRight: '20px'}} className='show_in_mobile'>
+                    <Image priority  src = '/../public/landing2_sec14_image3.png' width = '84.66666666666667px' height = '56px' />
+                </div>
                 <div>
                     <p style = {{ paddingBottom: '19px'}} className = {`${styles.whiteText}`}>Commitment</p>
                 </div>
@@ -48,6 +57,9 @@ export default function Section14(props){
             <div data-aos-offset = {-scroll*5300} data-aos = 'fade-up' data-aos-duration = '3000' style = {{padding: '19px 16px', paddingRight: '69px', marginLeft: 'auto'}} className = {`${styles.box}`}>
                 <div style = {{padding: '8px 16px 12px 12px'}} className = {`${styles.whiteBox} hide_in_mobile`}>
                     <Image priority  src = '/../public/landing2_sec14_image4.png' width = '187px' height = '187px' />
+                </div>
+                <div style = {{padding: '20px'}} className = {`${styles.whiteHiddenBox} show_in_mobile`}>
+                    <Image priority  src = '/../public/landing2_sec14_image4.png' width = '62.333333333333336px' height = '62.333333333333336px' />
                 </div>
                 <div>
                     <p style = {{width: '501px', paddingBottom: '60px'}} className = {`${styles.whiteText}`}>Imaginary Minds</p>

@@ -69,7 +69,7 @@ export default function Section13(props){
                     </div>
                     
                 </div>
-                <div style = {{width: '80%'}} data-aos-offset = {-scroll*4600} data-aos = 'fade-left' data-aos-duration = '3000'>
+                <div className={styles.comCm} style = {{width: '80%'}} data-aos-offset = {-scroll*4600} data-aos = 'fade-left' data-aos-duration = '3000'>
                     <div className={styles.commaContainer} style = {{marginBottom: '20px', marginTop: '100px'}}>
                         <Image priority  src = '/../public/landing2_sec13_comma.png' width = '31px' height = '27px' />
                     </div>

@@ -175,4 +175,15 @@
     .boxContainer{
         margin-bottom: 20px;
     }
+    .subheading, .heading, .subheading2, .heading2, .boxHeading1, .boxHeading2, .boxHeading3{
+        line-height: normal !important;
+        /* margin: auto; */
+    }
+    .boxTop, .boxBottom{
+        padding: 30px;   
+        min-height: unset;
+    }
+    .button{
+        padding: 5px 20px;
+    }
 }

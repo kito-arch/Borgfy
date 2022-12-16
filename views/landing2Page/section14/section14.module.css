@@ -36,7 +36,7 @@
     position: relative;
 }
 
-.whiteBox{
+.whiteBox, .whiteHiddenBox{
     background: #FFFFFF;
     box-shadow: 0px 19px 28px 16px rgba(0, 0, 0, 0.15);
     border-radius: 24px;
@@ -46,6 +46,10 @@
     justify-content: center;
     margin-right: 45px;
 
+}
+
+.whiteHiddenBox{
+    display: none;
 }
 
 .whiteText{
@@ -62,21 +66,47 @@
         padding: 17px 0 43.333333333333336px;
     }
     .container > div {
-        padding: 20px 50px !important;
+        padding: 20px 20px !important;
         width: -webkit-fill-available;
         margin-bottom: 10px !important;
     }
     .container > div > div{
         width: fit-content;
-        margin: auto;
+        /* margin: auto; */
         /* margin-top: 2px;
         margin-bottom: 2px; */
     }
     .container > div > div > p{
-        padding-bottom: 2px !important;
+        /* padding-bottom: 2px !important; */
         margin: auto !important;
     }
     .subheading{
         margin-bottom: 20px;
+    }
+    .whiteBox, .whiteHiddenBox{
+        /* margin: auto; */
+        margin-right: 20px;
+        /* margin-left: 20px; */
+    }
+    .box  p{
+        line-height: normal;
+        padding-bottom: 10px !important;
+        /* margin-left: 40px !important; */
+    }
+    .box{
+        justify-content: space-between;
+    }
+    .whiteHiddenBox{
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 380px){
+    .box{
+        justify-content: center;
+    }
+    .whiteBox, .whiteHiddenBox{
+        margin-bottom: 10px !important;
     }
 }

@@ -29,6 +29,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    
+    .container p {
+        line-height: normal;
+    }
     .heading{
         margin-bottom: 20px;
     }

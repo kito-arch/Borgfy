@@ -160,6 +160,11 @@
     }
     .hover{
         margin-bottom: 5px;
+        padding: 5px;
+        border-radius: 25px;
+    }
+    .container p{
+        line-height: normal;
     }
     /* .cen{
         justify-content: center;

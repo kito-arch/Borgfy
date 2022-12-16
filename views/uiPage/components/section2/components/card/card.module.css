@@ -36,4 +36,7 @@
         margin: 0.5625rem 0 1.15625rem;
         line-height: 20px;
     }
+    .text{
+        line-height: normal;
+    }
 }

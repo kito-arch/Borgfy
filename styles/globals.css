@@ -56,6 +56,7 @@ p{
 }
 
 
+
 @media screen and (max-width: 480px) {
   * {
     flex-wrap: wrap !important;
@@ -66,9 +67,16 @@ p{
   }
   p{
     width: fit-content !important;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    /* line-height: normal !important; */
+    /* margin-bottom: 10px; */
   }
   .show_in_mobile{
     display: block;
+  }
+  .swiper-wrapper{
+    flex-wrap: nowrap !important;
   }
 }
 

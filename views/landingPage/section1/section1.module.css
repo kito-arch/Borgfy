@@ -24,4 +24,7 @@
     .container{
         padding: 47px 0 79px;
     }
+    .heading{
+        line-height: normal;
+    }
 }

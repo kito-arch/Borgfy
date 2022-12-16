@@ -61,11 +61,50 @@
 }
 
 @media screen and (max-width: 480px) {
+    .container p {
+        line-height: normal;
+    }
     .fp{
         width: 300px !important;
         height: 50px !important;
     }
     .stretchBetween{
         width: fit-content;
+        margin-bottom: 0;
+    }
+    .text{
+        margin-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 30px;
+    }
+
+
+    .image{
+        /* padding-right: 5px;
+        padding-bottom: 0px; */
+        /* transition: all 0.5s linear; */
+        /* background-color: #dce6fe; */
+        /* padding: 0px !important; */
+        border-radius: 50px;
+        /* width: 767px;
+        height: 734px; */
+        cursor: pointer;
+        margin-bottom: 45px;
+        box-shadow: #dce6fe 5px 25px 20px;
+        position: relative;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    
+    .image:hover{
+        padding: 10px;
+        background-image: linear-gradient(to bottom, #7785ff, #fd2f31);
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 35px;
+        margin-right: 0;
+        /* width: 10px; */
     }
 }

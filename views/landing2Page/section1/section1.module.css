@@ -76,6 +76,9 @@
 
 
 @media screen and (max-width: 480px) {
+    .container p {
+        line-height: normal;
+    }
     .container{
         padding: 115px 31.5px 131px;
     }
@@ -86,3 +89,4 @@
         margin: 0 !important;
     }
 }
+

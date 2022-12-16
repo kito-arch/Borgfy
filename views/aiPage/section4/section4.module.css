@@ -77,5 +77,10 @@
         width: fit-content;
         margin-bottom: 0px;
         margin-top: 10px;
+        padding: 20px;
+    }
+    .cardHeading{
+        margin: auto;
+        margin-bottom: 30px;
     }
 }

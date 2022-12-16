@@ -38,7 +38,10 @@
         right: 0 !important;
     }
     .subtext{
-        margin-top: 100px;
-        margin-bottom: 0px;
+        margin-top: 200px;
+        margin-bottom: 20px;
+    }
+    .container p{
+        line-height: normal;
     }
 }

@@ -81,6 +81,10 @@
 }
 
 @media screen and (max-width: 480px) {
+
+    .container p {
+        line-height: normal;
+    }
     .cen{
         margin: auto !important;
         width: fit-content;
@@ -99,5 +103,11 @@
     }
     .bottomContainer{
         width: fit-content;
+        height: 200px;
+    }
+    .rocket{
+        right: 30px !important;
+        width: 100px;
+        top: -130px !important;
     }
 }

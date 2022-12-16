@@ -66,6 +66,7 @@
         padding: 36.5px 0 119px;
     }
     .heading{
+        margin: auto;
         margin-bottom: 10px;
         line-height: 25px;
     }
@@ -73,9 +74,12 @@
         font-size: 12px;
     }
     .single{
-        width: fit-content !important;
+        width: 100% !important;
         margin: auto !important;
         padding: 0 !important;
         margin-bottom: 20px !important;
+    }
+    .centerCenter{
+        margin-bottom: 10px !important;
     }
 }

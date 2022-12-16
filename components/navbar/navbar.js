@@ -31,7 +31,13 @@ export default function Navbar(props){
             <div style = {{zoom: zoom}} className = {`${styles.container} ${styles.center}`}>
                 <div className = {`${styles.innerContainer} ${styles.between}`}>
                     <div className = {`${styles.leftContainer} ${styles.between}`}>
-                        <div style = {{marginTop: '10px'}}>
+                        <div className='hide_in_mobile' style = {{marginTop: '10px'}}>
+                            <Logo double = {props.double} logo = {props.logo}/>
+                        </div>
+                        <div className={`${styles.fle} show_in_mobile`} style = {{marginTop: '10px', justifyContent: 'center', alignItems: 'center'}}>
+                            <div style = {{marginRight: '15px'}} onClick={()=>{setMobMenu(true)}} className='show_in_mobile'>
+                                <Image src = '/../public/ham_icon.png' width = '20px' height = '20px' />
+                            </div>
                             <Logo double = {props.double} logo = {props.logo}/>
                         </div>
                         <div className = {`${styles.leftRightContainer} ${styles.between} hide_in_mobile`}>
@@ -149,46 +155,33 @@ export default function Navbar(props){
                         </div>
                     </Link>
                 </div>
-                <div onClick={()=>{setMobMenu(true)}} className='show_in_mobile'>
-                    <Image src = '/../public/ham_icon.png' width = '20px' height = '20px' />
-                </div>
             </div>
 
 
-            <div style = {{left: mobMenu ? '0' : '100vw'}} className={styles.mobMenuContainer}>
+            <div style = {{left: mobMenu ? '0vw' : '-100vw'}} className={styles.mobMenuContainer}>
                 <div onClick={()=>{setMobMenu(false)}} className={styles.cross}>
                     <p className = {`${styles.navLabels}`}>X</p>
                 </div>
                 <div>
-                    <div>
-                        <Link href = 'about'>
-                            <div className = {`${styles.dropContainer}`}>
-                                <p className = {`${styles.navLabels}`}>About Us</p>
-                                <div style = {{display: 'flex', justifyContent: 'center'}}>
-                                    <div className = {`${styles.line}`}></div>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link href = 'contact'>
-                            <div className = {`${styles.dropContainer}`}>
-                                <p className = {`${styles.navLabels}`}>Contact Us</p>
-                                <div style = {{display: 'flex', justifyContent: 'center'}}>
-                                    <div className = {`${styles.line}`}></div>
-                                </div>
-                            </div>
-                        </Link>
-                    </div>    
-                    <div>
-                        <Link href = 'blogs'>
+                    {/* <div> */}
+                        
+                    {/* </div>     */}
+                    {/* <div> */}
+                        {/* <Link href = 'blogs'>
                             <div className = {`${styles.dropContainer}`}>
                                 <p className = {`${styles.navLabels}`}>Blog</p>
                                 <div style = {{display: 'flex', justifyContent: 'center'}}>
                                     <div className = {`${styles.line}`}></div>
                                 </div>
                             </div>
+                        </Link> */}
+                    {/* </div>     */}
+                    {/* <div> */}
+                        <Link href = 'portfolio'>
+                            <div className = {`${styles.dropContainer}`}>
+                                <p className = {`${styles.navLabels}`}>Our Work</p>
+                            </div>  
                         </Link>
-                    </div>    
-                    <div>
                         <Link href = 'ai'>
                             <div className = {`${styles.dropContainer}`}>
                                 <p className = {`${styles.navLabels}`}>AI</p>
@@ -221,8 +214,8 @@ export default function Navbar(props){
                                 </div>
                             </div>
                         </Link>
-                    </div>    
-                    <div>
+                    {/* </div>     */}
+                    {/* <div> */}
                         <Link href = 'case2'>
                             <div className = {`${styles.dropContainer}`}>
                                 <p className = {`${styles.navLabels}`}>Cases Studies</p>
@@ -239,7 +232,23 @@ export default function Navbar(props){
                                 </div>
                             </div>
                         </Link>
-                    </div>
+                        <Link href = 'about'>
+                            <div className = {`${styles.dropContainer}`}>
+                                <p className = {`${styles.navLabels}`}>About Us</p>
+                                <div style = {{display: 'flex', justifyContent: 'center'}}>
+                                    <div className = {`${styles.line}`}></div>
+                                </div>
+                            </div>
+                        </Link>
+                        <Link href = 'contact'>
+                            <div className = {`${styles.dropContainer}`}>
+                                <p className = {`${styles.navLabels}`}>Contact Us</p>
+                                <div style = {{display: 'flex', justifyContent: 'center'}}>
+                                    <div className = {`${styles.line}`}></div>
+                                </div>
+                            </div>
+                        </Link>
+                    {/* </div> */}
                 </div>    
             </div>
         </React.Fragment>

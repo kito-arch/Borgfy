@@ -68,11 +68,11 @@ export default function Section6(props){
                     <div data-aos-offset = {-scroll*2100} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.boxContainer}`}>
                         <div style = {{backgroundColor: '#A5CEFF'}} className = {`${styles.boxTop}`}>
 
-                            <div style = {{position: 'absolute', top: '0', left: '50px'}}>
+                            <div className='hide_in_mobile' style = {{position: 'absolute', top: '0', left: '50px'}}>
                                 <Image priority  src = '/../public/landing2_sec5_back1.png' width = '100px' height = '50px' />
                             </div>
 
-                            <div style = {{position: 'absolute', bottom: '-4px', right: '100px'}}>
+                            <div className='hide_in_mobile' style = {{position: 'absolute', bottom: '-4px', right: '100px'}}>
                                 <Image priority  src = '/../public/landing2_sec5_back2.png' width = '100px' height = '50px' />
                             </div>
 
@@ -106,11 +106,11 @@ export default function Section6(props){
                     <div data-aos-offset = {-scroll*2100} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.boxContainer}`}>
                         <div style = {{backgroundColor: '#A0FFEE'}} className = {`${styles.boxTop}`}>
 
-                            <div style = {{position: 'absolute', bottom: '-4px', left: '100px'}}>
+                            <div className='hide_in_mobile' style = {{position: 'absolute', bottom: '-4px', left: '100px'}}>
                                 <Image priority  src = '/../public/landing2_sec5_back3.png' width = '100px' height = '50px' />
                             </div>
 
-                            <div style = {{position: 'absolute', top: '0', right: '50px'}}>
+                            <div className='hide_in_mobile' style = {{position: 'absolute', top: '0', right: '50px'}}>
                                 <Image priority  src = '/../public/landing2_sec5_back4.png' width = '100px' height = '50px' />
                             </div>
 

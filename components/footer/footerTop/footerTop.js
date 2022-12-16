@@ -50,10 +50,24 @@ export default function FooterTop(props){
             </Link>
 
             <p className = {`${styles.desc}`}>“Be the viewer or be the changer it`s your choice”<br/>Don`t be just  a daydreamer let`s do it and build something great</p>
-            <div>
+            <div className='hide_in_mobile'>
                 {!props.contact && 
                 <React.Fragment>
                     <p className = {`${styles.have}`}>Have an Idea ?</p>
+                    <Link href = 'contact'>
+                        <div className = {`${styles.chipContainer}`}>
+                            <p className = {`${styles.lets}`}>Lets Connect</p>
+                            <Image priority  src = {props.double ? '/../public/arrowRight.png' : '/../public/arrowRight.png'} width = '10px' height = '20px'/>
+                        </div>
+                    </Link>
+                </React.Fragment>
+                }
+            </div>
+
+            <div style = {{flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', marginTop: '10px', marginBottom: '10px'}} className={` ${styles.fle} show_in_mobile`}>
+                {!props.contact && 
+                <React.Fragment>
+                    <p  style = {{marginBottom: '0px', marginRight: '10px'}} className = {`${styles.have}`}>Have an Idea ?</p>
                     <Link href = 'contact'>
                         <div className = {`${styles.chipContainer}`}>
                             <p className = {`${styles.lets}`}>Lets Connect</p>

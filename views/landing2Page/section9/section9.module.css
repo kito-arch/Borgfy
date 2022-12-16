@@ -87,8 +87,16 @@
     .box{
         min-height: 400px;
         margin-bottom: 20px;
+        padding: 10px;
+        width: fit-content;
+        box-shadow: none;
     }
     .subtext{
         margin-bottom: 40px;
+    }
+    .readmore{
+        padding: 5px 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 }

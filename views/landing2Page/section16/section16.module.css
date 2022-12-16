@@ -69,7 +69,9 @@
         padding: 20px !important;
         margin: auto !important;
         margin-bottom: 10px !important;
-        min-width: 250px !important;
+        min-width: fit-content !important;
+        box-shadow: none;
+        min-height: 444px;
     }
 
     .stretchStart{
@@ -77,6 +79,17 @@
     }
     .container{
         padding: 0 !important;
+    }
+    .heading{
+        line-height: normal;
+        margin: auto;
+        font-size: 24px;
+        margin-bottom: 10px;
+        width: fit-content;
+    }
+    .container p{
+        line-height: normal;
+        margin-top: 5px;
     }
     
 }

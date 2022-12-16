@@ -6,3 +6,9 @@
 .border{
     border-bottom: 2px solid #6D6D6D;
 }
+
+@media screen and (max-width: 480px){
+    .container p{
+        line-height: normal;
+    }
+}

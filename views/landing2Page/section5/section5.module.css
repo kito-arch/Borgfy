@@ -74,4 +74,17 @@
     .box{
         margin-top: 5px !important;
     }
+    .startBetween{
+        justify-content: center;
+    }
+    .boxText, .heading, .subheading {
+        line-height: normal !important;
+    }
+    .button{
+        padding: 5px 30px;
+    }
+    .box > div{
+        width: 150px;
+        margin: auto;
+    }
 }

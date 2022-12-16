@@ -56,4 +56,11 @@
     .innerContainer{
         padding: 10px 10px;
     }
+    .heading{
+        line-height: normal;
+    }
+    .consult{
+        padding: 5px 20px;
+        margin: auto;
+    }
 }

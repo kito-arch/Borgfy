@@ -115,7 +115,7 @@
 
     .slideContainer{
         flex-wrap: nowrap !important;
-        width: 100%;
+        width: 350px !important;
         /* padding-right: 10px;
         padding-left: 10px; */
     }
@@ -129,12 +129,24 @@
     }
     .arrowRight{
         top: 200px;
-        right: 140px;
+        right: 10px;
     }
     .revImageContainer{
         height: 420px;
+        width: fit-content;
+        margin: auto;
     }
     .commaContainer{
         margin-top: 20px !important;
     }
+
+    .heading, .rev{
+        line-height: normal;
+    }
+
+    .comCm{
+        margin: auto;
+    }
+
+
 }

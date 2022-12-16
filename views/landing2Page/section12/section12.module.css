@@ -57,3 +57,10 @@
     justify-content: space-between;
     width: 70%;
 }
+
+@media screen and (max-width: 480px) {
+    .heading, .text{
+        line-height: normal;
+        /* font-size: 16px; */
+    }
+}

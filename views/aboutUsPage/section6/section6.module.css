@@ -51,4 +51,8 @@
         line-height: 20px;
         margin-top: 10px;
     }
+    .stretchBetween{
+        width: fit-content;
+        margin: auto;
+    }
 }

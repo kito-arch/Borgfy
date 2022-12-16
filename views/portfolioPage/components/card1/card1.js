@@ -10,10 +10,12 @@ export default function (props){
             <p style = {{marginTop: props.textMarginTop ?? '0', marginBottom: props.textMarginBottom ?? '0'}} className = {`${styles.text}`}>{props.text}</p>
             {!props.noIcon &&
                 <div className = {`${styles.centerStart}`}>
-                    <div style = {{marginRight: '20px'}}>
+                    <div className = {styles.small} style = {{marginRight: '20px'}}>
                         <Image priority  src = '/../public/apple_icon.png' width = '44px' height = '44px' />
                     </div>
-                    <Image priority  src = '/../public/playstore_icon.png' width = '44px' height = '44px' />
+                    <div className = {styles.small}>
+                        <Image priority  src = '/../public/playstore_icon.png' width = '44px' height = '44px' />
+                    </div>
                 </div>
             }   
         </div>
