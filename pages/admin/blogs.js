@@ -78,7 +78,7 @@ export default function AddBlog() {
                     <tbody>
                     {blogs.map((blog)=>{
                         return(
-                                <tr>
+                                <tr key = {blog.id}>
                                     <td><h2>{blog.title}</h2></td>
                                     <td>
                                         <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
