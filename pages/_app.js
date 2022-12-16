@@ -19,6 +19,11 @@ function MyApp({ Component, pageProps }) {
       return;
     }
     // zoom
+
+    if(router.pathname.includes("/admin")){
+      return;
+    }
+
     if(router.pathname == "/portfolio"){
       // zoom
       let zoom = (width / 1920) * 100
