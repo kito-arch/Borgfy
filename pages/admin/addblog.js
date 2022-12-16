@@ -61,7 +61,7 @@ export default function AddBlog() {
         }
 
 
-        axios.post("http://localhost:3000/blogs/add", formData,
+        axios.post("https://admin.borgfy.com/blogs/add", formData,
         {
             headers: {
                 'Content-Type': 'multipart/form-data'

@@ -16,7 +16,7 @@ export default function EditBlog() {
     const [blog, setBlog] = useState(null)
 
     useEffect(()=>{
-        axios.get("http://localhost:3000/blogs/" + router.query.id)
+        axios.get("https://admin.borgfy.com/blogs/" + router.query.id)
         .then(res=>{
             setBlog(res.data[0])
             setSection(res.data[0]?.sections ?? [])
@@ -54,7 +54,7 @@ export default function EditBlog() {
     }
 
     let removeBlog = (link) => {
-        axios.post("http://localhost:3000/blogs/delete/" + link)
+        axios.post("https://admin.borgfy.com/blogs/delete/" + link)
     }
 
     let submit = ()=>{
@@ -79,7 +79,7 @@ export default function EditBlog() {
         }
 
 
-        axios.post("http://localhost:3000/blogs/add", formData,
+        axios.post("https://admin.borgfy.com/blogs/add", formData,
         {
             headers: {
                 'Content-Type': 'multipart/form-data'

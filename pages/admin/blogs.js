@@ -18,7 +18,7 @@ export default function AddBlog() {
     }, [])
 
     let get = ()=>{
-        axios.get("http://localhost:3000/blogs/")
+        axios.get("https://admin.borgfy.com/blogs/")
         .then((res)=>{
             setBlogs(res.data)
             console.log(res.data)
@@ -30,7 +30,7 @@ export default function AddBlog() {
 
 
     let remove = (link) => {
-        axios.post("http://localhost:3000/blogs/delete/" + link)
+        axios.post("https://admin.borgfy.com/blogs/delete/" + link)
         .then(res=>{get()})
         .catch((err)=>{
             alert("Some Error Occured While Deleting Blog")
