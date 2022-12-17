@@ -817,8 +817,8 @@ function FooterBottom(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: props.double ? "/../public/logo_white.png" : "/../public/logo_white.png",
-                            width: "170px",
+                            src: props.double ? "/../public/footer_icon.png" : "/../public/footer_icon.png",
+                            width: "90px",
                             height: "90px"
                         })
                     })

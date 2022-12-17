@@ -4,6 +4,7 @@ import styles from './section4.module.css'
 import Link from 'next/link'
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from 'swiper';
 
 
 export default function Section4(props){
@@ -56,7 +57,7 @@ export default function Section4(props){
 
 
 
-            <Swiper className="mySwiper show_in_mobile">
+            <Swiper className="mySwiper show_in_mobile" >
                 <SwiperSlide>
                     <div data-aos-offset = {-scroll*600} data-aos = 'fade-right' data-aos-duration = '3000' >
                         <Link href = 'portfolio#ro'>

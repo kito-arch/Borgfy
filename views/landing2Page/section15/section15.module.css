@@ -45,6 +45,9 @@
         width: 100px;
         /* margin-right: 10px; */
     }
+    .heading{
+        line-height: 20px;
+    }
     .container{
         padding: 86.66666666666667px 0 71.66666666666667px;
     }

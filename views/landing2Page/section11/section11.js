@@ -24,7 +24,7 @@ export default function Section11(props){
                 <Image priority  src = '/../public/landing2_sec11_back.png' width = '307.5px' height = '320.5px' />
             </div>
 
-            {/* <p data-aos-offset = {-scroll*3650} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.the}`}>The way we do</p> */}
+            <p data-aos-offset = {-scroll*3650} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.the}`}>THE WAY</p>
             <p data-aos-offset = {-scroll*3650} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>We can</p>
 
             <div style = {{marginBottom: '398px'}} className = {`${styles.stretchBetween}`}>

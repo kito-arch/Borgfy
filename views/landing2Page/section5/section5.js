@@ -16,7 +16,7 @@ export default function Section5(props){
                 <Image priority  src = '/../public/landing2_sec5_back6.png' width = '130px' height = '170px' />
             </div>
 
-            <p data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Ideas Where</p>
+            <p data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>IDEAS WHERE</p>
             <p data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>We are best</p>
 
             <div className = {`${styles.startBetween}`}>

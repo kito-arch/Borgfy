@@ -70,4 +70,7 @@
     .fle{
         display: flex;
     }
+    .desc{
+        line-height: 20px;
+    }
 }

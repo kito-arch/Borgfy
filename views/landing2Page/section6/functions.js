@@ -33,9 +33,9 @@ export const myscroll = ()=>{
     document.addEventListener('scroll', function () {
         console.log(isInViewport("nums"))
         if(isInViewport("nums")){
-            counterAnim("#num1", 0, 1500)
-            counterAnim("#num2", 0, 150)
-            counterAnim("#num3", 0, 30)
+            counterAnim("#num1", 0, 15)
+            counterAnim("#num2", 0, 10)
+            counterAnim("#num3", 0, 12)
         }
     }, {
         passive: true

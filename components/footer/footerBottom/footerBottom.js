@@ -9,7 +9,7 @@ export default function FooterBottom(props){
             <div className = {`${styles.container} ${styles.startBetween}`}>
                 <Link href = 'landing2'>
                     <div className={styles.ll} style = {{position: 'absolute', top: '160px', left: '30px', cursor: 'pointer', zIndex: '100'}}>
-                        <Image priority  src = {props.double ? '/../public/logo_white.png' : '/../public/logo_white.png'} width = '170px' height = '90px'/>
+                        <Image priority  src = {props.double ? '/../public/footer_icon.png' : '/../public/footer_icon.png'} width = '90px' height = '90px'/>
                     </div>
                 </Link>
                 <div className = {`${styles.column}`}>

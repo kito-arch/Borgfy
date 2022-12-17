@@ -6,12 +6,17 @@ export default function Section14(props){
     return(
         <div className = {`${styles.container}`}>
 
-            <div style = {{position: 'absolute', top: '250px', right: '350px'}}>
+            <div className='hide_in_mobile' style = {{position: 'absolute', top: '250px', right: '350px'}}>
                 <Image priority  src = '/../public/landing2_sec14_arrow.png' width = '100px' height = '104px' />
             </div>
 
-            <p data-aos-offset = {-scroll*4800} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>You need to Choose Us</p>
-            <p data-aos-offset = {-scroll*4800} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>The World is too noisy, tune to Borgy Signal</p>
+            <div className='show_in_mobile' style = {{position: 'absolute', top: '50px', left: '-10px'}}>
+                <Image priority  src = '/../public/landing2_sec14_arrow.png' width = '20px' height = '20px' />
+            </div>
+            
+
+            <p data-aos-offset = {-scroll*4800} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>You need to choose us</p>
+            <p data-aos-offset = {-scroll*4800} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>The world is too noisy, tune to Borgy signal</p>
 
 
             <div data-aos-offset = {-scroll*5000} data-aos = 'fade-up' data-aos-duration = '3000' style = {{padding: '19px 16px', paddingRight: '131px', marginBottom: '93px'}} className = {`${styles.box}`}>
@@ -32,9 +37,12 @@ export default function Section14(props){
                 <div className='hide_in_mobile' style = {{position: 'absolute', top: '-415px', left: '81px'}}>
                     <Image priority  src = '/../public/landing2_sec14_image2.png' width = '296px' height = '527px' />
                 </div>
-                <div style = {{marginRight: '20px'}} className='show_in_mobile'>
-                    <Image priority  src = '/../public/landing2_sec14_image2.png' width = '59.2px' height = '105.4px' />
+                <div className='show_in_mobile' style = {{position: 'absolute', top: '-140px', margin: 'auto'}}>
+                    <Image priority  src = '/../public/landing2_sec14_image2.png' width = '98.66666666666667px' height = '175.66666666666666px' />
                 </div>
+                {/* <div style = {{marginRight: '20px'}} className='show_in_mobile'>
+                    <Image priority  src = '/../public/landing2_sec14_image2.png' width = '59.2px' height = '105.4px' />
+                </div> */}
                 <div>
                     <p style = {{width: '305px', paddingBottom: '24px'}} className = {`${styles.whiteText}`}>Dedication</p>
                 </div>
@@ -45,9 +53,12 @@ export default function Section14(props){
                 <div className='hide_in_mobile' style = {{position: 'absolute', top: '-194px', left: '81px'}}>
                     <Image priority  src = '/../public/landing2_sec14_image3.png' width = '254px' height = '168px' />
                 </div>
-                <div style = {{marginRight: '20px'}} className='show_in_mobile'>
+                <div className='show_in_mobile' style = {{position: 'absolute', top: '-60px', margin: 'auto'}}>
                     <Image priority  src = '/../public/landing2_sec14_image3.png' width = '84.66666666666667px' height = '56px' />
                 </div>
+                {/* <div style = {{marginRight: '20px'}} className='show_in_mobile'>
+                    <Image priority  src = '/../public/landing2_sec14_image3.png' width = '84.66666666666667px' height = '56px' />
+                </div> */}
                 <div>
                     <p style = {{ paddingBottom: '19px'}} className = {`${styles.whiteText}`}>Commitment</p>
                 </div>

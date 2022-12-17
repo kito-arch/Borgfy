@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from './section16.module.css'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay } from 'swiper'
 
 export default function Section16(props){
     return(
@@ -51,7 +52,7 @@ export default function Section16(props){
                 </div>
 
 
-                <Swiper spaceBetween={40} className = 'show_in_mobile'>
+                <Swiper spaceBetween={40} className = 'show_in_mobile' autoplay={{delay: 4000, disableOnInteraction: false}} modules={[Autoplay]}>
 
                     <SwiperSlide>
                         <div style = {{minWidth: '414px', marginRight: '30px', padding: '124px 16px 43px'}} className = {`${styles.box}`}>

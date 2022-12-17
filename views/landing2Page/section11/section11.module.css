@@ -20,7 +20,9 @@
     font-size: 1.5625rem;
     line-height: 50px;
     opacity: 0.5;
-    margin-bottom: 44px;
+    margin-bottom: 5px;
+    color: #818182;
+
 }
 
 .text{
@@ -94,6 +96,7 @@
     }
     .the{
         margin-bottom: 0px !important;
+        line-height: 0px;
     }
     .heading{
         margin-bottom: 30px !important;

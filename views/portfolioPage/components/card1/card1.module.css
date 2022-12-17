@@ -5,6 +5,7 @@
     padding: 60px 48px 35px;
     color: white;
     width: 608px;
+    border-radius: 60px;
 }
 
 .alternateContainer{
@@ -83,12 +84,14 @@
     }
     .container{
         padding: 20px 16px 11.666666666666666px;
+        border-radius: 20px;
     }
     .small{
         width: 20px;
     }
     .alternateContainer1, .alternateContainer{
-        padding: 40px;
+        padding: 40px 20px;
+        border-radius: 20px;
     }
     .alternateContainer1, .alternateContainer, .container{
         margin-bottom: 20px;

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from './section9.module.css'
 import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay } from 'swiper'
 
 export default function Section9(props){
     return(
@@ -41,7 +42,7 @@ export default function Section9(props){
                 </div>
             </div>
 
-            <Swiper className = 'show_in_mobile'>
+            <Swiper className = 'show_in_mobile' autoplay={{delay: 4000, disableOnInteraction: false}} modules={[Autoplay]} >
                 <SwiperSlide>
                     <div data-aos-offset = {-scroll*3200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.box}`}>
                         <p className = {`${styles.boxHeading}`}>Our Visions Crafted Into Startups</p>

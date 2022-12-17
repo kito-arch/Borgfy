@@ -38,7 +38,7 @@
 
 .whiteBox, .whiteHiddenBox{
     background: #FFFFFF;
-    box-shadow: 0px 19px 28px 16px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0px 19px 28px 16px rgba(0, 0, 0, 0.15); */
     border-radius: 24px;
 
     display: flex;
@@ -68,7 +68,7 @@
     .container > div {
         padding: 20px 20px !important;
         width: -webkit-fill-available;
-        margin-bottom: 10px !important;
+        margin-bottom: 150px !important;
     }
     .container > div > div{
         width: fit-content;
@@ -80,8 +80,14 @@
         /* padding-bottom: 2px !important; */
         margin: auto !important;
     }
+    .heading{
+        font-size: 30px;
+        line-height: 20px;
+    }
     .subheading{
+        font-size: 16px;
         margin-bottom: 20px;
+        line-height: 20px;
     }
     .whiteBox, .whiteHiddenBox{
         /* margin: auto; */
@@ -94,7 +100,8 @@
         /* margin-left: 40px !important; */
     }
     .box{
-        justify-content: space-between;
+        justify-content: center;
+        box-shadow: none;
     }
     .whiteHiddenBox{
         display: flex;

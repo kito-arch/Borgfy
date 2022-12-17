@@ -498,7 +498,7 @@ __webpack_async_result__();
 
 
 function Section1(props) {
-    const { 0: headingNumber , 1: setHeadingNumber  } = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(2);
+    const { 0: headingNumber , 1: setHeadingNumber  } = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(0);
     (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(()=>{
         setInterval(()=>{
             update();
@@ -527,50 +527,137 @@ function Section1(props) {
                     layout: "fixed"
                 })
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                style: {
-                    marginTop: "-100px"
-                },
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                 "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_4__/* .scroll */ .A * 300,
                 "data-aos": "fade-right",
                 "data-aos-duration": "3000",
-                className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().text)}`,
-                children: "WE SHAPE VISIONS"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 style: {
-                    marginLeft: "-150px",
-                    opacity: headingNumber == 2 ? "1" : "0"
-                },
-                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_4__/* .scroll */ .A * 300,
-                "data-aos": "fade-right",
-                "data-aos-duration": "3000",
-                className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().heading)}`,
-                children: "Bring your ideas to life"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                style: {
-                    marginTop: "0px",
-                    opacity: headingNumber == 1 ? "1" : "0"
-                },
-                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_4__/* .scroll */ .A * 300,
-                "data-aos": "fade-right",
-                "data-aos-duration": "3000",
-                className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().heading)}`,
-                children: "Step up your digital transformation"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                style: {
-                    marginLeft: "150px",
-                    marginTop: "0px",
-                    marginBottom: "0px",
                     opacity: headingNumber == 0 ? "1" : "0"
                 },
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        style: {
+                            marginTop: "-100px"
+                        },
+                        className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().text)}`,
+                        children: "We SHAPE VISIONS"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        style: {
+                            marginLeft: "-150px"
+                        },
+                        className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().heading)}`,
+                        children: "Bring your ideas to life"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "hide_in_mobile",
                 "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_4__/* .scroll */ .A * 300,
                 "data-aos": "fade-right",
                 "data-aos-duration": "3000",
-                className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().heading)}`,
-                children: "Grow your business"
+                style: {
+                    opacity: headingNumber == 1 ? "1" : "0"
+                },
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        style: {
+                            marginTop: "-50px",
+                            marginLeft: "150px"
+                        },
+                        className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().text)}`,
+                        children: "LEVERAGE INNOVATION"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        style: {
+                            marginTop: "0px"
+                        },
+                        className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().heading)}`,
+                        children: "Step up your digital transformation"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "hide_in_mobile",
+                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_4__/* .scroll */ .A * 300,
+                "data-aos": "fade-right",
+                "data-aos-duration": "3000",
+                style: {
+                    opacity: headingNumber == 2 ? "1" : "0"
+                },
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        style: {
+                            marginTop: "100px",
+                            marginLeft: "300px"
+                        },
+                        className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().text)}`,
+                        children: "SELL WITH EMPATHY"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        style: {
+                            marginLeft: "150px",
+                            marginTop: "0px",
+                            marginBottom: "0px"
+                        },
+                        className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().heading)}`,
+                        children: "Grow your business"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "show_in_mobile",
+                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_4__/* .scroll */ .A * 300,
+                "data-aos": "fade-right",
+                "data-aos-duration": "3000",
+                style: {
+                    opacity: headingNumber == 1 ? "1" : "0"
+                },
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        style: {
+                            marginTop: "50px",
+                            marginLeft: "150px"
+                        },
+                        className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().text)}`,
+                        children: "LEVERAGE INNOVATION"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        style: {
+                            marginTop: "100px"
+                        },
+                        className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().heading)}`,
+                        children: "Step up your digital transformation"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "show_in_mobile",
+                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_4__/* .scroll */ .A * 300,
+                "data-aos": "fade-right",
+                "data-aos-duration": "3000",
+                style: {
+                    opacity: headingNumber == 2 ? "1" : "0"
+                },
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        style: {
+                            marginTop: "50px",
+                            marginLeft: "300px"
+                        },
+                        className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().text)}`,
+                        children: "SELL WITH EMPATHY"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        style: {
+                            marginLeft: "150px",
+                            marginTop: "100px",
+                            marginBottom: "0px"
+                        },
+                        className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().heading)}`,
+                        children: "Grow your business"
+                    })
+                ]
             })
         ]
     });
@@ -784,6 +871,13 @@ function Section11(props) {
                     width: "307.5px",
                     height: "320.5px"
                 })
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_4__/* .scroll */ .A * 3650,
+                "data-aos": "fade-up",
+                "data-aos-duration": "3000",
+                className: `${(_section11_module_css__WEBPACK_IMPORTED_MODULE_3___default().the)}`,
+                children: "THE WAY"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_4__/* .scroll */ .A * 3650,
@@ -1328,6 +1422,7 @@ function Section14(props) {
         className: `${(_section14_module_css__WEBPACK_IMPORTED_MODULE_2___default().container)}`,
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                className: "hide_in_mobile",
                 style: {
                     position: "absolute",
                     top: "250px",
@@ -1340,19 +1435,33 @@ function Section14(props) {
                     height: "104px"
                 })
             }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                className: "show_in_mobile",
+                style: {
+                    position: "absolute",
+                    top: "50px",
+                    left: "-10px"
+                },
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
+                    priority: true,
+                    src: "/../public/landing2_sec14_arrow.png",
+                    width: "20px",
+                    height: "20px"
+                })
+            }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_3__/* .scroll */ .A * 4800,
                 "data-aos": "fade-up",
                 "data-aos-duration": "3000",
                 className: `${(_section14_module_css__WEBPACK_IMPORTED_MODULE_2___default().heading)}`,
-                children: "You need to Choose Us"
+                children: "You need to choose us"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_3__/* .scroll */ .A * 4800,
                 "data-aos": "fade-up",
                 "data-aos-duration": "3000",
                 className: `${(_section14_module_css__WEBPACK_IMPORTED_MODULE_2___default().subheading)}`,
-                children: "The World is too noisy, tune to Borgy Signal"
+                children: "The world is too noisy, tune to Borgy signal"
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                 "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_3__/* .scroll */ .A * 5000,
@@ -1427,15 +1536,17 @@ function Section14(props) {
                         })
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        style: {
-                            marginRight: "20px"
-                        },
                         className: "show_in_mobile",
+                        style: {
+                            position: "absolute",
+                            top: "-140px",
+                            margin: "auto"
+                        },
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                             priority: true,
                             src: "/../public/landing2_sec14_image2.png",
-                            width: "59.2px",
-                            height: "105.4px"
+                            width: "98.66666666666667px",
+                            height: "175.66666666666666px"
                         })
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -1475,10 +1586,12 @@ function Section14(props) {
                         })
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        style: {
-                            marginRight: "20px"
-                        },
                         className: "show_in_mobile",
+                        style: {
+                            position: "absolute",
+                            top: "-60px",
+                            margin: "auto"
+                        },
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                             priority: true,
                             src: "/../public/landing2_sec14_image3.png",
@@ -1822,14 +1935,16 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _conts_vars__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4513);
+/* harmony import */ var _conts_vars__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4513);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5675);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _section16_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6205);
-/* harmony import */ var _section16_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_section16_module_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _section16_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6205);
+/* harmony import */ var _section16_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_section16_module_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3015);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_2__]);
-swiper_react__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3877);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_2__, swiper__WEBPACK_IMPORTED_MODULE_3__]);
+([swiper_react__WEBPACK_IMPORTED_MODULE_2__, swiper__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
 
 
 
@@ -1837,22 +1952,22 @@ swiper_react__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then
 
 function Section16(props) {
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().container)}`,
+        className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().container)}`,
         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().innerContainer)}`,
+            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().innerContainer)}`,
             children: [
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                    "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_4__/* .scroll */ .A * 6000,
+                    "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 6000,
                     "data-aos": "fade-up",
                     "data-aos-duration": "3000",
-                    className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().heading)}`,
+                    className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().heading)}`,
                     children: "The most recent articles"
                 }),
                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_4__/* .scroll */ .A * 6000,
+                    "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 6000,
                     "data-aos": "fade-left",
                     "data-aos-duration": "3000",
-                    className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().stretchStart)} hide_in_mobile`,
+                    className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().stretchStart)} hide_in_mobile`,
                     children: [
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             style: {
@@ -1860,7 +1975,7 @@ function Section16(props) {
                                 marginRight: "30px",
                                 padding: "124px 16px 43px"
                             },
-                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().box)}`,
+                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().box)}`,
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
@@ -1871,15 +1986,15 @@ function Section16(props) {
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxDate)}`,
+                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxDate)}`,
                                             children: "January 08, 2022"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxTitle)}`,
+                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxTitle)}`,
                                             children: "8 Steps To Consider on Evaluation of your startup idea"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxText)}`,
+                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxText)}`,
                                             children: "An important aspect of every company’s success nowadays is to have the greatest "
                                         })
                                     ]
@@ -1892,7 +2007,7 @@ function Section16(props) {
                                 marginRight: "30px",
                                 padding: "43px 16px"
                             },
-                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().box)}`,
+                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().box)}`,
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
@@ -1903,15 +2018,15 @@ function Section16(props) {
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxDate)}`,
+                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxDate)}`,
                                             children: "January 08, 2022"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxTitle)}`,
+                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxTitle)}`,
                                             children: "If as a business owner, why do you need influencer marketing?"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxText)}`,
+                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxText)}`,
                                             children: "An important aspect of every company’s success nowadays is to have the greatest "
                                         })
                                     ]
@@ -1924,7 +2039,7 @@ function Section16(props) {
                                 marginRight: "30px",
                                 padding: "43px 16px"
                             },
-                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().box)}`,
+                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().box)}`,
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
@@ -1935,15 +2050,15 @@ function Section16(props) {
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxDate)}`,
+                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxDate)}`,
                                             children: "January 08, 2022"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxTitle)}`,
+                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxTitle)}`,
                                             children: "8 Steps To Consider on Evaluation of your startup idea"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxText)}`,
+                                            className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxText)}`,
                                             children: "An important aspect of every company’s success nowadays is to have the greatest "
                                         })
                                     ]
@@ -1955,6 +2070,13 @@ function Section16(props) {
                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(swiper_react__WEBPACK_IMPORTED_MODULE_2__.Swiper, {
                     spaceBetween: 40,
                     className: "show_in_mobile",
+                    autoplay: {
+                        delay: 4000,
+                        disableOnInteraction: false
+                    },
+                    modules: [
+                        swiper__WEBPACK_IMPORTED_MODULE_3__.Autoplay
+                    ],
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_2__.SwiperSlide, {
                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -1963,7 +2085,7 @@ function Section16(props) {
                                     marginRight: "30px",
                                     padding: "124px 16px 43px"
                                 },
-                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().box)}`,
+                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().box)}`,
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
@@ -1974,15 +2096,15 @@ function Section16(props) {
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxDate)}`,
+                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxDate)}`,
                                                 children: "January 08, 2022"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxTitle)}`,
+                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxTitle)}`,
                                                 children: "8 Steps To Consider on Evaluation of your startup idea"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxText)}`,
+                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxText)}`,
                                                 children: "An important aspect of every company’s success nowadays is to have the greatest "
                                             })
                                         ]
@@ -1997,7 +2119,7 @@ function Section16(props) {
                                     marginRight: "30px",
                                     padding: "43px 16px"
                                 },
-                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().box)}`,
+                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().box)}`,
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
@@ -2008,15 +2130,15 @@ function Section16(props) {
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxDate)}`,
+                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxDate)}`,
                                                 children: "January 08, 2022"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxTitle)}`,
+                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxTitle)}`,
                                                 children: "If as a business owner, why do you need influencer marketing?"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxText)}`,
+                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxText)}`,
                                                 children: "An important aspect of every company’s success nowadays is to have the greatest "
                                             })
                                         ]
@@ -2031,7 +2153,7 @@ function Section16(props) {
                                     marginRight: "30px",
                                     padding: "43px 16px"
                                 },
-                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().box)}`,
+                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().box)}`,
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
@@ -2042,15 +2164,15 @@ function Section16(props) {
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxDate)}`,
+                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxDate)}`,
                                                 children: "January 08, 2022"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxTitle)}`,
+                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxTitle)}`,
                                                 children: "8 Steps To Consider on Evaluation of your startup idea"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_3___default().boxText)}`,
+                                                className: `${(_section16_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxText)}`,
                                                 children: "An important aspect of every company’s success nowadays is to have the greatest "
                                             })
                                         ]
@@ -2554,16 +2676,18 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _conts_vars__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4513);
+/* harmony import */ var _conts_vars__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4513);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5675);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _section4_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4599);
-/* harmony import */ var _section4_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_section4_module_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _section4_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4599);
+/* harmony import */ var _section4_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_section4_module_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1664);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3015);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_3__]);
-swiper_react__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3877);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_3__, swiper__WEBPACK_IMPORTED_MODULE_4__]);
+([swiper_react__WEBPACK_IMPORTED_MODULE_3__, swiper__WEBPACK_IMPORTED_MODULE_4__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
 
 
 
@@ -2572,11 +2696,11 @@ swiper_react__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then
 
 function Section4(props) {
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().container)}`,
+        className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().container)}`,
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().fp),
-                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 700,
+                className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().fp),
+                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 700,
                 "data-aos": "fade-up",
                 "data-aos-duration": "3000",
                 style: {
@@ -2591,34 +2715,34 @@ function Section4(props) {
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 700,
+                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 700,
                 "data-aos": "fade-up",
                 "data-aos-duration": "3000",
-                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().subtext)} hide_in_mobile`,
+                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().subtext)} hide_in_mobile`,
                 children: "Scroll down for more"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 style: {
                     marginBottom: "15px"
                 },
-                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 700,
+                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 700,
                 "data-aos": "fade-up",
                 "data-aos-duration": "3000",
-                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().subtext)} show_in_mobile`,
+                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().subtext)} show_in_mobile`,
                 children: "Swipe for more"
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().stretchBetween)} hide_in_mobile`,
+                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().stretchBetween)} hide_in_mobile`,
                 children: [
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 600,
+                        "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 600,
                         "data-aos": "fade-right",
                         "data-aos-duration": "3000",
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                 href: "portfolio#ro",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().image),
+                                    className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
                                         src: "/../public/ro_back.png",
@@ -2631,7 +2755,7 @@ function Section4(props) {
                                 })
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().text)}`,
+                                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().text)}`,
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         style: {
@@ -2645,14 +2769,14 @@ function Section4(props) {
                         ]
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 600,
+                        "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 600,
                         "data-aos": "fade-left",
                         "data-aos-duration": "3000",
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                 href: "portfolio#bizz",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().image),
+                                    className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
                                         src: "/../public/bizz_back.png",
@@ -2665,7 +2789,7 @@ function Section4(props) {
                                 })
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().text)}`,
+                                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().text)}`,
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         style: {
@@ -2681,17 +2805,17 @@ function Section4(props) {
                 ]
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().stretchBetween)} hide_in_mobile`,
+                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().stretchBetween)} hide_in_mobile`,
                 children: [
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 800,
+                        "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 800,
                         "data-aos": "fade-right",
                         "data-aos-duration": "3000",
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                 href: "portfolio#atomic",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().image),
+                                    className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
                                         src: "/../public/atomic_back.png",
@@ -2704,7 +2828,7 @@ function Section4(props) {
                                 })
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().text)}`,
+                                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().text)}`,
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         style: {
@@ -2718,14 +2842,14 @@ function Section4(props) {
                         ]
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 800,
+                        "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 800,
                         "data-aos": "fade-left",
                         "data-aos-duration": "3000",
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                 href: "portfolio#qool",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().image),
+                                    className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
                                         src: "/../public/qool_qatar.png",
@@ -2738,7 +2862,7 @@ function Section4(props) {
                                 })
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().text)}`,
+                                className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().text)}`,
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         style: {
@@ -2758,14 +2882,14 @@ function Section4(props) {
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 600,
+                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 600,
                             "data-aos": "fade-right",
                             "data-aos-duration": "3000",
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                     href: "portfolio#ro",
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().image),
+                                        className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
                                             src: "/../public/ro_back.png",
@@ -2778,7 +2902,7 @@ function Section4(props) {
                                     })
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                    className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().text)}`,
+                                    className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().text)}`,
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                             style: {
@@ -2794,14 +2918,14 @@ function Section4(props) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 600,
+                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 600,
                             "data-aos": "fade-left",
                             "data-aos-duration": "3000",
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                     href: "portfolio#bizz",
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().image),
+                                        className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
                                             src: "/../public/bizz_back.png",
@@ -2814,7 +2938,7 @@ function Section4(props) {
                                     })
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                    className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().text)}`,
+                                    className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().text)}`,
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                             style: {
@@ -2830,14 +2954,14 @@ function Section4(props) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 800,
+                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 800,
                             "data-aos": "fade-right",
                             "data-aos-duration": "3000",
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                     href: "portfolio#atomic",
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().image),
+                                        className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
                                             src: "/../public/atomic_back.png",
@@ -2850,7 +2974,7 @@ function Section4(props) {
                                     })
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                    className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().text)}`,
+                                    className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().text)}`,
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                             style: {
@@ -2866,14 +2990,14 @@ function Section4(props) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 800,
+                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 800,
                             "data-aos": "fade-left",
                             "data-aos-duration": "3000",
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                     href: "portfolio#qool",
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().image),
+                                        className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
                                             src: "/../public/qool_qatar.png",
@@ -2886,7 +3010,7 @@ function Section4(props) {
                                     })
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                    className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_4___default().text)}`,
+                                    className: `${(_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().text)}`,
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                             style: {
@@ -2967,7 +3091,7 @@ function Section5(props) {
                 "data-aos": "fade-up",
                 "data-aos-duration": "3000",
                 className: `${(_section5_module_css__WEBPACK_IMPORTED_MODULE_3___default().subheading)}`,
-                children: "Ideas Where"
+                children: "IDEAS WHERE"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_4__/* .scroll */ .A * 1200,
@@ -3188,9 +3312,9 @@ const myscroll = ()=>{
     document.addEventListener("scroll", function() {
         console.log(isInViewport("nums"));
         if (isInViewport("nums")) {
-            counterAnim("#num1", 0, 1500);
-            counterAnim("#num2", 0, 150);
-            counterAnim("#num3", 0, 30);
+            counterAnim("#num1", 0, 15);
+            counterAnim("#num2", 0, 10);
+            counterAnim("#num3", 0, 12);
         }
     }, {
         passive: true
@@ -3683,7 +3807,7 @@ function Section7(props) {
                 "data-aos": "fade-right",
                 "data-aos-duration": "3000",
                 className: `${(_section7_module_css__WEBPACK_IMPORTED_MODULE_2___default().subtext)}`,
-                children: "Startup to the Moon"
+                children: "STARTUP TO THE MOON"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_3__/* .scroll */ .A * 2600,
@@ -3790,16 +3914,18 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _conts_vars__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4513);
+/* harmony import */ var _conts_vars__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4513);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5675);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _section9_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5559);
-/* harmony import */ var _section9_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_section9_module_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _section9_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5559);
+/* harmony import */ var _section9_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_section9_module_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1664);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3015);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_3__]);
-swiper_react__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3877);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_3__, swiper__WEBPACK_IMPORTED_MODULE_4__]);
+([swiper_react__WEBPACK_IMPORTED_MODULE_3__, swiper__WEBPACK_IMPORTED_MODULE_4__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
 
 
 
@@ -3808,39 +3934,39 @@ swiper_react__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then
 
 function Section9(props) {
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().container)}`,
+        className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().container)}`,
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 3200,
+                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 3200,
                 "data-aos": "fade-up",
                 "data-aos-duration": "3000",
-                className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().heading)}`,
+                className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().heading)}`,
                 children: "Check In Depth - How we solved it"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 3200,
+                "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 3200,
                 "data-aos": "fade-up",
                 "data-aos-duration": "3000",
-                className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().subtext)}`,
+                className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().subtext)}`,
                 children: "Case Studies"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().centerCenter)} hide_in_mobile`,
+                className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().centerCenter)} hide_in_mobile`,
                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().stretchBetween)}`,
+                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().stretchBetween)}`,
                     children: [
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 3200,
+                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 3200,
                             "data-aos": "fade-up",
                             "data-aos-duration": "3000",
-                            className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().box)}`,
+                            className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().box)}`,
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxHeading)}`,
+                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().boxHeading)}`,
                                     children: "Our Visions Crafted Into Startups"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxText)}`,
+                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().boxText)}`,
                                     children: "Lorem ipsum doler sit"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -3859,17 +3985,17 @@ function Section9(props) {
                             ]
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 3200,
+                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 3200,
                             "data-aos": "fade-up",
                             "data-aos-duration": "3000",
-                            className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().box)}`,
+                            className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().box)}`,
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxHeading)}`,
+                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().boxHeading)}`,
                                     children: "Our Visions Crafted Into Startups"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxText)}`,
+                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().boxText)}`,
                                     children: "Lorem ipsum doler sit"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -3888,17 +4014,17 @@ function Section9(props) {
                             ]
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 3200,
+                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 3200,
                             "data-aos": "fade-up",
                             "data-aos-duration": "3000",
-                            className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().box)}`,
+                            className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().box)}`,
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxHeading)}`,
+                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().boxHeading)}`,
                                     children: "Our Visions Crafted Into Startups"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxText)}`,
+                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().boxText)}`,
                                     children: "Lorem ipsum doler sit"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -3921,20 +4047,27 @@ function Section9(props) {
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(swiper_react__WEBPACK_IMPORTED_MODULE_3__.Swiper, {
                 className: "show_in_mobile",
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false
+                },
+                modules: [
+                    swiper__WEBPACK_IMPORTED_MODULE_4__.Autoplay
+                ],
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 3200,
+                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 3200,
                             "data-aos": "fade-up",
                             "data-aos-duration": "3000",
-                            className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().box)}`,
+                            className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().box)}`,
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxHeading)}`,
+                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().boxHeading)}`,
                                     children: "Our Visions Crafted Into Startups"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxText)}`,
+                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().boxText)}`,
                                     children: "Lorem ipsum doler sit"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -3950,17 +4083,17 @@ function Section9(props) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 3200,
+                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 3200,
                             "data-aos": "fade-up",
                             "data-aos-duration": "3000",
-                            className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().box)}`,
+                            className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().box)}`,
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxHeading)}`,
+                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().boxHeading)}`,
                                     children: "Our Visions Crafted Into Startups"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxText)}`,
+                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().boxText)}`,
                                     children: "Lorem ipsum doler sit"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -3976,17 +4109,17 @@ function Section9(props) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_5__/* .scroll */ .A * 3200,
+                            "data-aos-offset": -_conts_vars__WEBPACK_IMPORTED_MODULE_6__/* .scroll */ .A * 3200,
                             "data-aos": "fade-up",
                             "data-aos-duration": "3000",
-                            className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().box)}`,
+                            className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().box)}`,
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxHeading)}`,
+                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().boxHeading)}`,
                                     children: "Our Visions Crafted Into Startups"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().boxText)}`,
+                                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().boxText)}`,
                                     children: "Lorem ipsum doler sit"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -4005,7 +4138,7 @@ function Section9(props) {
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                 href: "case2",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_4___default().readmore)}`,
+                    className: `${(_section9_module_css__WEBPACK_IMPORTED_MODULE_5___default().readmore)}`,
                     children: "Read More"
                 })
             })

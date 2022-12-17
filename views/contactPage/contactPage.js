@@ -4,9 +4,64 @@ import PaddingLayout from "../../layouts/paddingLayout/paddingLayout";
 import StandardLayout from "../../layouts/standardLayout/standardLayout";
 import Image from 'next/image';
 import { mail } from './functions';
+import axios from 'axios';
+import { useRef, useState } from 'react';
 
 
 export default function ContactPage(props){
+
+
+    const [opacity, setOpacity] = useState(0)
+    const [success, setSuccess] = useState(true)
+
+    const nameRef = useRef(null);
+    const emailRef = useRef(null);
+    const subjectRef = useRef(null);
+    const messageRef = useRef(null);
+
+
+    let sendEmail = ()=>{
+        axios.post("https://api.sendinblue.com/v3/smtp/email", {
+            sender:{  
+                name:"From Borgfy",
+                email:"borgfy@borgfy.com"
+             },
+             to:[{  
+                   email:"husnainbusiness315@gmail.com",
+                   name:"Husnain Business"
+                }],
+             subject:"Borgfy",
+             htmlContent:`<html><head></head><body><p><b>Name<b/>: ${nameRef.current.value}</p><p><b>Email<b/>: ${emailRef.current.value}</p><p><b>Subject<b/>: ${subjectRef.current.value}</p><p><b>Message<b/>: ${messageRef.current.value}</p></body></html>`
+          },
+          {
+            headers: {
+                "api-key": "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",
+                "Content-Type": "application/json",
+                "accept": "application/json"
+            }
+          }
+        )
+        .then((res)=>{
+            setSuccess(true)
+            setOpacity(1)
+            setTimeout(()=>{
+                setOpacity(0)
+            }, 3000)
+            nameRef.current.value = ""
+            emailRef.current.value = ""
+            messageRef.current.value = ""
+            subjectRef.current.value = ""
+        })
+        .catch((err)=>{
+            setSuccess(false)
+            setOpacity(1)
+            setTimeout(()=>{
+                setOpacity(0)
+            }, 3000)
+            console.log(err)
+        })
+    }
+
     return(
 
         <StandardLayout contact = {true}>
@@ -25,7 +80,10 @@ export default function ContactPage(props){
 
                         <div className = {`${styles.box}`}>
 
-                            
+                            <div style = {{opacity: opacity, backgroundColor: success ? 'lightgreen' : "#FF7F7F", borderRadius: '10px', display: 'flex', justifyContent: 'center', padding: '10px 25px'}}>
+                                <p style = {{color: 'black', fontSize: '20px'}}>{success ? "Thank you for being interested. We will reach you soon." : "Some Error Occured"}</p>
+                            </div>
+
 
                             
 
@@ -34,14 +92,14 @@ export default function ContactPage(props){
                             </div>
 
                             <p className = {`${styles.contact}`}>Contact Us</p>
-                            <input className = {`${styles.input}`} placeholder = 'Name'/>
+                            <input ref = {nameRef} className = {`${styles.input}`} placeholder = 'Name'/>
                             <br/>
-                            <input className = {`${styles.input}`} placeholder = 'Subject'/>
+                            <input ref = {subjectRef} className = {`${styles.input}`} placeholder = 'Subject'/>
                             <br/>
-                            <input className = {`${styles.input}`} placeholder = 'Email'/>
+                            <input ref = {emailRef} className = {`${styles.input}`} placeholder = 'Email'/>
                             <br/>
-                            <textarea className = {`${styles.input} ${styles.textArea}`} placeholder = 'Write Something...'></textarea>
-                            <p className = {`${styles.submit}`}>Submit</p>
+                            <textarea ref = {messageRef} className = {`${styles.input} ${styles.textArea}`} placeholder = 'Write Something...'></textarea>
+                            <p onClick = {()=>{sendEmail()}} style = {{cursor: 'pointer'}} className = {`${styles.submit}`}>Submit</p>
 
 
                             <div className={styles.ano} style = {{position: 'absolute', top: '170px', right: '107px'}}>

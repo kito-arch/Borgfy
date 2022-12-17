@@ -8,7 +8,7 @@ const nextConfig = {
   // images:{
   //   unoptimized: true
   // },
-  // assetPrefix: '/../public/'
+  // assetPrefix: './'
 }
 
 module.exports = nextConfig
