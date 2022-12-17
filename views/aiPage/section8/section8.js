@@ -8,16 +8,16 @@ export default function Section8(props){
         <div className = {`${styles.container}`}>
         
             <div className='hide_in_mobile' style = {{position: 'absolute', top: '450px', left: '-150px'}}>
-                <Image priority  src = '/../public/ai_sec8_icon1.png' width = '300px' height = '314px'/>
+                <Image priority  src = './ai_sec8_icon1.png' width = '300px' height = '314px'/>
             </div>
             <div className='hide_in_mobile' style = {{position: 'absolute', top: '800px', right: '-150px'}}>
-                <Image priority  src = '/../public/ai_sec8_icon2.png' width = '250px' height = '250px'/>
+                <Image priority  src = './ai_sec8_icon2.png' width = '250px' height = '250px'/>
             </div>
             <div className='hide_in_mobile' style = {{position: 'absolute', bottom: '130px', left: '-150px'}}>
-                <Image priority  src = '/../public/ai_sec8_icon4.png' width = '200px' height = '200px'/>
+                <Image priority  src = './ai_sec8_icon4.png' width = '200px' height = '200px'/>
             </div>
             <div className='hide_in_mobile' style = {{position: 'absolute', bottom: '60px', right: '-150px'}}>
-                <Image priority  src = '/../public/ai_sec8_icon5.png' width = '300px' height = '314px'/>
+                <Image priority  src = './ai_sec8_icon5.png' width = '300px' height = '314px'/>
             </div>
 
 
@@ -27,16 +27,16 @@ export default function Section8(props){
                 <div style = {{marginBottom: '73px'}} className = {`${styles.centerBetween}`}>
 
                     <div className = {styles.imCon}>
-                        <Image priority  src = '/../public/ai_sec8_com1.png' width = '353px' height = '144px' />
+                        <Image priority  src = './ai_sec8_com1.png' width = '353px' height = '144px' />
                     </div>
                     <div className = {styles.imCon}>
-                        <Image priority  src = '/../public/ai_sec8_com2.png' width = '296px' height = '159px' />
+                        <Image priority  src = './ai_sec8_com2.png' width = '296px' height = '159px' />
                     </div>
                     <div className = {styles.imCon}>
-                        <Image priority  src = '/../public/ai_sec8_com3.png' width = '307px' height = '287px' />
+                        <Image priority  src = './ai_sec8_com3.png' width = '307px' height = '287px' />
                     </div>
                     <div className = {styles.imCon}>
-                        <Image priority  src = '/../public/ai_sec8_com4.png' width = '370px' height = '127px' />
+                        <Image priority  src = './ai_sec8_com4.png' width = '370px' height = '127px' />
                     </div>
 
                 </div>
@@ -52,7 +52,7 @@ export default function Section8(props){
                     <div style = {{position: 'relative'}}>
 
                     <div style = {{position: 'absolute', top: '8px', left: '320px'}}>
-                        <Image priority  src = '/../public/ai_sec8_icon3.png' width = '68px' height = '68px'/>
+                        <Image priority  src = './ai_sec8_icon3.png' width = '68px' height = '68px'/>
                     </div>
 
                         <p className = {`${styles.blueHeading}`}>Ecommerce</p>
@@ -60,17 +60,17 @@ export default function Section8(props){
                     <p style = {{textAlign: 'left', marginBottom: '10px'}} className = {`${styles.text}`}>Now comes the use of AI in eCommerce. With the use of AI, it becomes easy to add products by recommending you Products based on your interest  to their respective categories. It also becomes easy to promote business on a wide area.</p>
 
                     <div className = {`${styles.flex}`}>
-                        <Image priority  src = '/../public/ai_sec8_tick.png' width = '34px' height = '40px' />
+                        <Image priority  src = './ai_sec8_tick.png' width = '34px' height = '40px' />
                         <p className = {`${styles.text} ${styles.tickText}`}>Helps in recommending products</p>
                     </div>
 
                     <div className = {`${styles.flex}`}>
-                        <Image priority  src = '/../public/ai_sec8_tick.png' width = '34px' height = '40px' />
+                        <Image priority  src = './ai_sec8_tick.png' width = '34px' height = '40px' />
                         <p className = {`${styles.text} ${styles.tickText}`}>Analysis of customer purchasing behaviour</p>
                     </div>
 
                     <div className = {`${styles.flex}`}>
-                        <Image priority  src = '/../public/ai_sec8_tick.png' width = '34px' height = '40px' />
+                        <Image priority  src = './ai_sec8_tick.png' width = '34px' height = '40px' />
                         <p className = {`${styles.text} ${styles.tickText}`}>Chatbot Customer Support</p>
                     </div>
 
@@ -81,17 +81,17 @@ export default function Section8(props){
                     <p style = {{textAlign: 'left', marginBottom: '10px'}} className = {`${styles.text}`}>Finance is the leading industry which is transforming rapidly with use of machine learning giving companies better decisions on financial situation like,</p>
 
                     <div className = {`${styles.flex}`}>
-                        <Image priority  src = '/../public/ai_sec8_tick.png' width = '34px' height = '40px' />
+                        <Image priority  src = './ai_sec8_tick.png' width = '34px' height = '40px' />
                         <p className = {`${styles.text} ${styles.tickText}`}>Banks uses it do determine customer churn rate</p>
                     </div>
 
                     <div className = {`${styles.flex}`}>
-                        <Image priority  src = '/../public/ai_sec8_tick.png' width = '34px' height = '40px' />
+                        <Image priority  src = './ai_sec8_tick.png' width = '34px' height = '40px' />
                         <p className = {`${styles.text} ${styles.tickText}`}>Loan repaying capabilities</p>
                     </div>
 
                     <div className = {`${styles.flex}`}>
-                        <Image priority  src = '/../public/ai_sec8_tick.png' width = '34px' height = '40px' />
+                        <Image priority  src = './ai_sec8_tick.png' width = '34px' height = '40px' />
                         <p className = {`${styles.text} ${styles.tickText}`}>Stock Trading helps to predict behavior of market graph</p>
                     </div>
 
@@ -102,7 +102,7 @@ export default function Section8(props){
 
             <p data-aos-offset = {-2200*scroll} data-aos = 'fade-up' data-aos-duration = '3000' style = {{marginTop: '104px', marginBottom: '40px'}} className = {`${styles.heading}`}>Why We are the Best AI Automation Company?</p>
             <div data-aos-offset = {-2200*scroll} data-aos = 'fade-up' data-aos-duration = '3000' style = {{width: 'fit-content', marginLeft: 'auto', marginRight: 'auto'}} className = {`${styles.flex}`}>
-                <Image priority  src = '/../public/ai_sec8_tick.png' width = '34px' height = '40px' />
+                <Image priority  src = './ai_sec8_tick.png' width = '34px' height = '40px' />
                 <p className = {`${styles.text} ${styles.tickText}`}>One Short Answer is let's discuss it out how we can integrate AI into your system to help it deliver best results</p>
             </div>
 

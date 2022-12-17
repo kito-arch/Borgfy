@@ -5,10 +5,10 @@ const nextConfig = {
   images: {
     domains: ['admin.borgfy.com'],
   },
-  // images:{
-  //   unoptimized: true
-  // },
-  // assetPrefix: './'
+  images:{
+    unoptimized: true
+  },
+  assetPrefix: './'
 }
 
 module.exports = nextConfig

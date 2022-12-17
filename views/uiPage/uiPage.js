@@ -13,9 +13,9 @@ import styles from './uiPage.module.css'
 
 export default function UIPage(props){
     return(
-        <StandardLayout logo = '/../public/logo_black.png'>
+        <StandardLayout logo = './logo_black.png'>
             <PaddingLayout>
-                <Image priority  src = '/../public/ui_sec1_back.png' layout = 'fill'/>
+                <Image priority  src = './ui_sec1_back.png' layout = 'fill'/>
                 <Section1/>
             </PaddingLayout>
             <PaddingLayout>
@@ -28,7 +28,7 @@ export default function UIPage(props){
                 <source src={'render.mp4'} type="video/mp4" />
             </video>
             {/* <div style = {{position: 'relative', minHeight: '1080px', marginBottom: '26.875rem'}}>
-                <Image priority  src = '/../public/ui_sec3_back.png' layout="fill"/>
+                <Image priority  src = './ui_sec3_back.png' layout="fill"/>
             </div> */}
             <PaddingLayout backgroundColor = 'white'>
                 <Section4/>

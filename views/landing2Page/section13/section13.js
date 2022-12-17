@@ -7,8 +7,8 @@ import styles from './section13.module.css'
 export default function Section13(props){
 
     const [reviews, setReviews] = useState([
-        {image: '/../public/rev1.jpeg', review: "The company will do what it takes to get the job done and satisfy it's customer.", name: 'Goy Sengmany', title: 'Realtor, Sengmany & Associates'},
-        {image: '/../public/rev2.png', review: 'The communication on the project was very professional and the logo was done in a timely manner.', name: 'Robb Cheeks', title: 'Consultant, Robb Cheeks Consulting'}
+        {image: './rev1.jpeg', review: "The company will do what it takes to get the job done and satisfy it's customer.", name: 'Goy Sengmany', title: 'Realtor, Sengmany & Associates'},
+        {image: './rev2.png', review: 'The communication on the project was very professional and the logo was done in a timely manner.', name: 'Robb Cheeks', title: 'Consultant, Robb Cheeks Consulting'}
     ])
 
     const [current, setCurrent] = useState(0)
@@ -37,7 +37,7 @@ export default function Section13(props){
         <div className = {`${styles.container}`}>
 
             <div className='hide_in_mobile' style = {{position: 'absolute', top: '-90px', left: '-12rem'}}>
-                <Image priority  src = '/../public/landing2_sec13_left.png' width = '215px' height = '749px' />
+                <Image priority  src = './landing2_sec13_left.png' width = '215px' height = '749px' />
             </div>
 
             <p data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Testimonials</p>
@@ -51,10 +51,10 @@ export default function Section13(props){
                         else 
                             return ((prev - 1)%(reviews.length))
                     })}} className = {styles.arrowLeft}>
-                        <Image priority  src = '/../public/rev_left.png' width = '60px' height = '60px'/>
+                        <Image priority  src = './rev_left.png' width = '60px' height = '60px'/>
                     </div>
                     <div onClick={()=>{setCurrent(prev => ((prev + 1)%(reviews.length)))}} className = {styles.arrowRight}>
-                        <Image priority  src = '/../public/rev_right.png' width = '60px' height = '60px'/>
+                        <Image priority  src = './rev_right.png' width = '60px' height = '60px'/>
                     </div>
                     <div id = 'slider' className = {`${styles.slideContainer}`}>
                         {reviews.map((rev=>{
@@ -71,14 +71,14 @@ export default function Section13(props){
                 </div>
                 <div className={styles.comCm} style = {{width: '80%'}} data-aos-offset = {-scroll*4600} data-aos = 'fade-left' data-aos-duration = '3000'>
                     <div className={styles.commaContainer} style = {{marginBottom: '20px', marginTop: '100px'}}>
-                        <Image priority  src = '/../public/landing2_sec13_comma.png' width = '31px' height = '27px' />
+                        <Image priority  src = './landing2_sec13_comma.png' width = '31px' height = '27px' />
                     </div>
                     <div style = {{width: '145px'}} className = {`${styles.srtretchBetween}`}>
-                        <Image priority  src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
-                        <Image priority  src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
-                        <Image priority  src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
-                        <Image priority  src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
-                        <Image priority  src = '/../public/landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image priority  src = './landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image priority  src = './landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image priority  src = './landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image priority  src = './landing2_sec13_star.png' width = '29px' height = '29px' />
+                        <Image priority  src = './landing2_sec13_star.png' width = '29px' height = '29px' />
                     </div>
                     <div style = {{position: 'relative'}}>
                         {reviews.map((rev, index)=>{

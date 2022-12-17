@@ -45,7 +45,7 @@ export default function BrainPage(props){
                 </PaddingLayout>
 
                 <PaddingLayout backgroundColor = 'white'>
-                    <Image priority  src = '/../public/brain_sec8_back.png' layout = 'fill'/>
+                    <Image priority  src = './brain_sec8_back.png' layout = 'fill'/>
                     <Section8/>
                 </PaddingLayout>
 

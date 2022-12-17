@@ -185,7 +185,7 @@ function Logo(props) {
                 style: {
                     cursor: "pointer"
                 },
-                src: props.logo ?? (props.double ? "/../public/logo_white.png" : "/../public/logo_white.png"),
+                src: props.logo ?? (props.double ? "../logo_white.png" : "./logo_white.png"),
                 width: !props.logo ? "159px" : "170px",
                 height: !props.logo ? "70px" : "90px"
             })
@@ -260,7 +260,7 @@ function Navbar(props) {
                                             },
                                             className: "show_in_mobile",
                                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                src: "/../public/ham_icon.png",
+                                                src: "./ham_icon.png",
                                                 width: "20px",
                                                 height: "20px"
                                             })
@@ -287,7 +287,7 @@ function Navbar(props) {
                                                     },
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                         priority: true,
-                                                        src: props.double ? "/../public/arrowDown.png" : "/../public/arrowDown.png",
+                                                        src: props.double ? "../arrowDown.png" : "./arrowDown.png",
                                                         width: "6px",
                                                         height: "4px"
                                                     })
@@ -356,7 +356,7 @@ function Navbar(props) {
                                                         },
                                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                             priority: true,
-                                                            src: props.double ? "/../public/arrowDown.png" : "/../public/arrowDown.png",
+                                                            src: props.double ? "../arrowDown.png" : "./arrowDown.png",
                                                             width: "6px",
                                                             height: "4px"
                                                         })
@@ -379,7 +379,7 @@ function Navbar(props) {
                                                         },
                                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                             priority: true,
-                                                            src: props.double ? "/../public/arrowDown.png" : "/../public/arrowDown.png",
+                                                            src: props.double ? "../arrowDown.png" : "./arrowDown.png",
                                                             width: "6px",
                                                             height: "4px"
                                                         })
@@ -400,7 +400,7 @@ function Navbar(props) {
                                                     },
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                         priority: true,
-                                                        src: props.double ? "/../public/arrowDown.png" : "/../public/arrowDown.png",
+                                                        src: props.double ? "../arrowDown.png" : "./arrowDown.png",
                                                         width: "6px",
                                                         height: "4px"
                                                     })
@@ -509,7 +509,7 @@ function Navbar(props) {
                                                     },
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                         priority: true,
-                                                        src: props.double ? "/../public/arrowDown.png" : "/../public/arrowDown.png",
+                                                        src: props.double ? "../arrowDown.png" : "./arrowDown.png",
                                                         width: "6px",
                                                         height: "4px"
                                                     })
@@ -817,7 +817,7 @@ function FooterBottom(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: props.double ? "/../public/footer_icon.png" : "/../public/footer_icon.png",
+                            src: props.double ? "../footer_icon.png" : "./footer_icon.png",
                             width: "90px",
                             height: "90px"
                         })
@@ -845,7 +845,7 @@ function FooterBottom(props) {
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: props.double ? "/../public/india.png" : "/../public/india.png",
+                            src: props.double ? "../india.png" : "./india.png",
                             width: "20px",
                             height: "16px"
                         }),
@@ -865,7 +865,7 @@ function FooterBottom(props) {
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: props.double ? "/../public/usa.png" : "/../public/usa.png",
+                            src: props.double ? "../usa.png" : "./usa.png",
                             width: "20px",
                             height: "16px"
                         }),
@@ -885,7 +885,7 @@ function FooterBottom(props) {
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: props.double ? "/../public/sau.png" : "/../public/sau.png",
+                            src: props.double ? "../sau.png" : "./sau.png",
                             width: "20px",
                             height: "16px"
                         })
@@ -1041,7 +1041,7 @@ function FooterTop(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: props.double ? "/../public/hand.png" : "/../public/hand.png",
+                    src: props.double ? "../hand.png" : "./hand.png",
                     width: "190px",
                     height: "228px"
                 })
@@ -1055,7 +1055,7 @@ function FooterTop(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: props.double ? "/../public/footer_line.png" : "/../public/footer_line.png",
+                    src: props.double ? "../footer_line.png" : "./footer_line.png",
                     width: "2500px",
                     height: "122.68px"
                 })
@@ -1072,7 +1072,7 @@ function FooterTop(props) {
                     },
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         priority: true,
-                        src: "/../public/footer_facebook.png",
+                        src: "./footer_facebook.png",
                         width: "103px",
                         height: "103px"
                     })
@@ -1090,7 +1090,7 @@ function FooterTop(props) {
                     },
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         priority: true,
-                        src: "/../public/footer_insta.png",
+                        src: "./footer_insta.png",
                         width: "132px",
                         height: "121px"
                     })
@@ -1108,7 +1108,7 @@ function FooterTop(props) {
                     },
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         priority: true,
-                        src: "/../public/footer_pin.png",
+                        src: "./footer_pin.png",
                         width: "128.20000000000002px",
                         height: "128.20000000000002px"
                     })
@@ -1126,7 +1126,7 @@ function FooterTop(props) {
                     },
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         priority: true,
-                        src: "/../public/footer_linked.png",
+                        src: "./footer_linked.png",
                         width: "103px",
                         height: "103px"
                     })
@@ -1144,7 +1144,7 @@ function FooterTop(props) {
                     },
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         priority: true,
-                        src: "/../public/footer_twiiter.png",
+                        src: "./footer_twiiter.png",
                         width: "132px",
                         height: "132px"
                     })
@@ -1177,7 +1177,7 @@ function FooterTop(props) {
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         priority: true,
-                                        src: props.double ? "/../public/arrowRight.png" : "/../public/arrowRight.png",
+                                        src: props.double ? "../arrowRight.png" : "./arrowRight.png",
                                         width: "10px",
                                         height: "20px"
                                     })
@@ -1217,7 +1217,7 @@ function FooterTop(props) {
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         priority: true,
-                                        src: props.double ? "/../public/arrowRight.png" : "/../public/arrowRight.png",
+                                        src: props.double ? "../arrowRight.png" : "./arrowRight.png",
                                         width: "10px",
                                         height: "20px"
                                     })
@@ -1237,7 +1237,7 @@ function FooterTop(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "/../public/footer_facebook.png",
+                            src: "./footer_facebook.png",
                             width: "40px",
                             height: "40px"
                         })
@@ -1249,7 +1249,7 @@ function FooterTop(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "/../public/footer_insta.png",
+                            src: "./footer_insta.png",
                             width: "40px",
                             height: "40px"
                         })
@@ -1261,7 +1261,7 @@ function FooterTop(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "/../public/footer_pin.png",
+                            src: "./footer_pin.png",
                             width: "40px",
                             height: "40px"
                         })
@@ -1273,7 +1273,7 @@ function FooterTop(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "/../public/footer_linked.png",
+                            src: "./footer_linked.png",
                             width: "40px",
                             height: "40px"
                         })
@@ -1285,7 +1285,7 @@ function FooterTop(props) {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "/../public/footer_twiiter.png",
+                            src: "./footer_twiiter.png",
                             width: "40px",
                             height: "40px"
                         })
@@ -1333,7 +1333,7 @@ function Footer(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: props.double ? "/../public/contact_footer.png" : "/../public/contact_footer.png",
+                    src: props.double ? "../contact_footer.png" : "./contact_footer.png",
                     width: "2304px",
                     height: "388px"
                 })

@@ -34,7 +34,7 @@ export default function CaseStudyPage(props){
                 </PaddingLayout>
 
                 <PaddingLayout backgroundColor = 'white'>
-                    <Image priority  src = '/../public/case_sec3_back.png' layout = 'fill' />
+                    <Image priority  src = './case_sec3_back.png' layout = 'fill' />
                     <Section3/>
                 </PaddingLayout>
 
@@ -84,12 +84,12 @@ export default function CaseStudyPage(props){
                 </PaddingLayout>
 
                 <PaddingLayout backgroundColor = 'black'>
-                    <Image priority  src = '/../public/case_sec15_back.png' layout = 'fill'/>
+                    <Image priority  src = './case_sec15_back.png' layout = 'fill'/>
                     <Section15/>
                 </PaddingLayout>
 
                 <PaddingLayout zIndex = '15' backgroundColor = 'white'>
-                    <Image priority  src = '/../public/case_sec16_back.png' layout = 'fill'/>
+                    <Image priority  src = './case_sec16_back.png' layout = 'fill'/>
                     <Section16/>
                 </PaddingLayout>
 

@@ -15,7 +15,7 @@ export default function Section2(props){
                 </p>
             </div>
             <div className='hide_in_mobile' style = {{position: 'absolute', top: '-4px', left: '-12rem', zIndex: '1', height: '100%', overflowY: 'hidden'}}>
-                <Image priority  src = '/../public/digital_music_back_edited.png' width = '2000px' height = '930px'/>
+                <Image priority  src = './digital_music_back_edited.png' width = '2000px' height = '930px'/>
             </div>
         </div>  
     )

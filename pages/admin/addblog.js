@@ -82,7 +82,7 @@ export default function AddBlog() {
       <main style = {{backgroundColor: 'white', color: 'black'}}>
 
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', backgroundColor: 'lightblue', padding: '10px'}}>
-            <Image src = '/../public/logo_white.png' width = '159px' height = '70px'/>
+            <Image src = './logo_white.png' width = '159px' height = '70px'/>
         </div>
 
         <div style = {{padding: '20px'}}>
@@ -131,7 +131,7 @@ export default function AddBlog() {
                             <div style = {{display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'fit-content'}}>
                                 <h4 style = {{marginBottom: '2px'}}>Title of Section</h4>
                                 <div onClick={()=>{remove(sec)}} style = {{marginLeft: '30px', cursor: 'pointer'}}>
-                                    <Image src = '/../public/rm_icon.png' width = '24px' height = '24px' />
+                                    <Image src = './rm_icon.png' width = '24px' height = '24px' />
                                 </div>
                             </div>
                             <input value={section[index].title} style={{fontSize: '20px'}} onChange={(event)=>{

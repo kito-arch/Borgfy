@@ -8,7 +8,7 @@ export default function Section3(props){
         <div className = {`${styles.container}`}>
 
             <div className='hide_in_mobile' style = {{position: 'absolute', bottom: '-4px', right: '-100px'}}>
-                <Image priority  src = '/../public/ai_sec3_back.png' width = '992px' height = '711px' />
+                <Image priority  src = './ai_sec3_back.png' width = '992px' height = '711px' />
             </div>
 
             <div  data-aos-offset = {-500*scroll} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.innerContainer}`}>

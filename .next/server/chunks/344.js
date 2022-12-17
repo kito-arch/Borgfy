@@ -203,7 +203,7 @@ function Section2(props) {
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "/../public/blog_detail_sec2_back.png",
+                    src: "./blog_detail_sec2_back.png",
                     layout: "fill"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -214,7 +214,7 @@ function Section2(props) {
                                 className: `${(section2_module_default()).iconContainer}`,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     priority: true,
-                                    src: "/../public/blog_detail_icon_1.png",
+                                    src: "./blog_detail_icon_1.png",
                                     width: "45px",
                                     height: "45px"
                                 })
@@ -223,7 +223,7 @@ function Section2(props) {
                                 className: `${(section2_module_default()).iconContainer}`,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     priority: true,
-                                    src: "/../public/blog_detail_icon_2.png",
+                                    src: "./blog_detail_icon_2.png",
                                     width: "45px",
                                     height: "45px"
                                 })
@@ -232,7 +232,7 @@ function Section2(props) {
                                 className: `${(section2_module_default()).iconContainer}`,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     priority: true,
-                                    src: "/../public/blog_detail_icon_3.png",
+                                    src: "./blog_detail_icon_3.png",
                                     width: "45px",
                                     height: "45px"
                                 })
@@ -241,7 +241,7 @@ function Section2(props) {
                                 className: `${(section2_module_default()).iconContainer}`,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     priority: true,
-                                    src: "/../public/blog_detail_icon_4.png",
+                                    src: "./blog_detail_icon_4.png",
                                     width: "45px",
                                     height: "45px"
                                 })
@@ -259,7 +259,7 @@ function Section2(props) {
                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 priority: true,
-                                src: "/../public/blog_detail_icon_share.png.png",
+                                src: "./blog_detail_icon_share.png.png",
                                 width: "51px",
                                 height: "54px"
                             })
@@ -339,7 +339,7 @@ function BlogDetailPage(props) {
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             priority: true,
-                            src: "/../public/blog_sec1_back.png",
+                            src: "./blog_sec1_back.png",
                             layout: "fill"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx(Section1, {})
@@ -356,7 +356,7 @@ function BlogDetailPage(props) {
                         "data-aos": "fade-up",
                         "data-aos-duration": "3000",
                         children: /*#__PURE__*/ jsx_runtime_.jsx(Section3, {
-                            image: "/../public/blog_detail_blue_ellipse.png",
+                            image: "./blog_detail_blue_ellipse.png",
                             bottom: "-200px",
                             left: "-12rem",
                             title: "Our new design system",
@@ -372,7 +372,7 @@ function BlogDetailPage(props) {
                         "data-aos": "fade-up",
                         "data-aos-duration": "3000",
                         children: /*#__PURE__*/ jsx_runtime_.jsx(Section3, {
-                            image: "/../public/blog_detail_blue_ellipse_2.png",
+                            image: "./blog_detail_blue_ellipse_2.png",
                             bottom: "-200px",
                             right: "-12rem",
                             title: "Our new design system",

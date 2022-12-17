@@ -9,7 +9,7 @@ export default function FooterBottom(props){
             <div className = {`${styles.container} ${styles.startBetween}`}>
                 <Link href = 'landing2'>
                     <div className={styles.ll} style = {{position: 'absolute', top: '160px', left: '30px', cursor: 'pointer', zIndex: '100'}}>
-                        <Image priority  src = {props.double ? '/../public/footer_icon.png' : '/../public/footer_icon.png'} width = '90px' height = '90px'/>
+                        <Image priority  src = {props.double ? '../footer_icon.png' : './footer_icon.png'} width = '90px' height = '90px'/>
                     </div>
                 </Link>
                 <div className = {`${styles.column}`}>
@@ -17,18 +17,18 @@ export default function FooterBottom(props){
                     {/* <p className = {`${styles.text}`}>B-78, Near Saket Metro Station, Gate no, 2, New Delhi, 110030, India </p> */}
                     <p className={styles.countries} style = {{marginBottom: '20px', display: 'inline-block', marginRight: '10px', paddingBottom: '10px'}}>India </p>
                     <br className='show_in_mobile' />
-                    <Image priority  src = {props.double ? '/../public/india.png' : '/../public/india.png'} width = '20px' height = '16px'/>
+                    <Image priority  src = {props.double ? '../india.png' : './india.png'} width = '20px' height = '16px'/>
                     {/* <p style = {{marginBottom: '20px'}} className = {`${styles.text}`}>+91 813 093 7887</p> */}
                     {/* <p className = {`${styles.text}`}>1216, Broadway, 2nd floor New York Down, NY, 10001, USA </p> */}
                     <br/>
                     <p className={styles.countries} style = {{marginBottom: '20px', display: 'inline-block', marginRight: '10px', paddingBottom: '10px'}}>USA </p>
                     <br className='show_in_mobile' />
-                    <Image priority  src = {props.double ? '/../public/usa.png' : '/../public/usa.png'} width = '20px' height = '16px'/>
+                    <Image priority  src = {props.double ? '../usa.png' : './usa.png'} width = '20px' height = '16px'/>
                     {/* <p style = {{marginBottom: '20px'}} className = {`${styles.text}`}>+1 646 338 6179</p> */}
                     <br/>
                     <p className={styles.countries} style = {{marginBottom: '20px', display: 'inline-block', marginRight: '10px', paddingBottom: '10px'}}>Saudi Arabia </p>
                     <br className='show_in_mobile' />
-                    <Image priority  src = {props.double ? '/../public/sau.png' : '/../public/sau.png'} width = '20px' height = '16px'/>
+                    <Image priority  src = {props.double ? '../sau.png' : './sau.png'} width = '20px' height = '16px'/>
                     {/* <p style = {{marginBottom: '20px'}} className = {`${styles.text}`}>+966 566 986 066</p> */}
                 </div>
                 {/* <div className = {`${styles.column}`}>

@@ -36,7 +36,7 @@ export default function Navbar(props){
                         </div>
                         <div className={`${styles.fle} show_in_mobile`} style = {{marginTop: '10px', justifyContent: 'center', alignItems: 'center'}}>
                             <div style = {{marginRight: '15px'}} onClick={()=>{setMobMenu(true)}} className='show_in_mobile'>
-                                <Image src = '/../public/ham_icon.png' width = '20px' height = '20px' />
+                                <Image src = './ham_icon.png' width = '20px' height = '20px' />
                             </div>
                             <Logo double = {props.double} logo = {props.logo}/>
                         </div>
@@ -44,7 +44,7 @@ export default function Navbar(props){
                             <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                                 <p className = {`${styles.navLabels}`}>Who We Are</p>
                                 <div style = {{marginTop: '-5px'}}>
-                                    <Image priority  src = {props.double ? '/../public/arrowDown.png' : '/../public/arrowDown.png' }  width = '6px' height = '4px'/>
+                                    <Image priority  src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
                                 </div>
                                 <div className = {`${styles.dropdownContainer} ${styles.two}`}>
                                     <Link href = 'about'>
@@ -69,7 +69,7 @@ export default function Navbar(props){
                                 <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                                     <p className = {`${styles.navLabels}`}>Blog</p>
                                     <div style = {{marginTop: '-5px'}}>
-                                        <Image priority  src = {props.double ? '/../public/arrowDown.png' : '/../public/arrowDown.png' }  width = '6px' height = '4px'/>
+                                        <Image priority  src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
                                     </div>
                                 </div>
                             </Link>
@@ -77,14 +77,14 @@ export default function Navbar(props){
                                 <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                                     <p className = {`${styles.navLabels}`}>Our Work</p>
                                     <div style = {{marginTop: '-5px'}}>
-                                        <Image priority  src = {props.double ? '/../public/arrowDown.png' : '/../public/arrowDown.png' }  width = '6px' height = '4px'/>
+                                        <Image priority  src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
                                     </div>
                                 </div>
                             </Link>
                             <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                                 <p className = {`${styles.navLabels}`}>Expertise</p>
                                 <div style = {{marginTop: '-5px'}}>
-                                    <Image priority  src = {props.double ? '/../public/arrowDown.png' : '/../public/arrowDown.png' }  width = '6px' height = '4px'/>
+                                    <Image priority  src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
                                 </div>
                                 <div className = {`${styles.dropdownContainer} ${styles.four}`}>
                                     <Link href = 'ai'>
@@ -124,7 +124,7 @@ export default function Navbar(props){
                             <div className = {`${styles.navLabelContainer} ${styles.between}`}>
                                 <p className = {`${styles.navLabels}`}>Resources</p>
                                 <div style = {{marginTop: '-5px'}}>
-                                    <Image priority  src = {props.double ? '/../public/arrowDown.png' : '/../public/arrowDown.png' }  width = '6px' height = '4px'/>
+                                    <Image priority  src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
                                 </div>
                                 <div className = {`${styles.dropdownContainer} ${styles.two}`}>
                                     <Link href = 'case2'>

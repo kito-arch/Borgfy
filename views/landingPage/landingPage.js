@@ -24,13 +24,13 @@ export default function LandingPage(props){
                 </PaddingLayout>
 
                 <PaddingLayout backgroundColor = 'white'>
-                    <Image priority  style = {{opacity: '0.4'}} src = '/../public/landing_sec2_back.png' layout='fill'/>
+                    <Image priority  style = {{opacity: '0.4'}} src = './landing_sec2_back.png' layout='fill'/>
                     <Section2/>
                 </PaddingLayout>
 
                 <PaddingLayout backgroundColor = 'white'>
                     <div style = {{zIndex: '1', position: 'absolute', top: '0', left: '0'}}>
-                        <Image priority  src = '/../public/landing_sec3_back.png' width = '2400px' height = '1300px' />
+                        <Image priority  src = './landing_sec3_back.png' width = '2400px' height = '1300px' />
                     </div>
                     <Section3/>
                 </PaddingLayout>

@@ -8,16 +8,16 @@ export default function Section11(props){
         <div className = {`${styles.container}`}>
 
             <div  className='hide_in_mobile' style = {{zIndex: '10', position: 'absolute', left: '0rem', top: '800px'}}>
-                <Image priority  src = '/../public/case_left_hand.png' width = '158px' height = '185px' />
+                <Image priority  src = './case_left_hand.png' width = '158px' height = '185px' />
             </div>
             <div style = {{zIndex: '10', position: 'absolute', left: '-28rem', top: '0px'}}>
-                <Image priority  src = '/../public/case_style_gray.png' width = '1227px' height = '1227px' />
+                <Image priority  src = './case_style_gray.png' width = '1227px' height = '1227px' />
             </div>
 
             <div data-aos-offset = {-scroll*3200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.startBetween}`}>
                 <div className = {`${styles.headingContainer}`}>
                     <div style = {{position: 'absolute', left: '-25px', top: '0'}}>
-                        <Image priority  src = '/../public/gray_ellipse.png' width = '61px' height = '61px'/>
+                        <Image priority  src = './gray_ellipse.png' width = '61px' height = '61px'/>
                     </div>
                     <p className = {`${styles.heading}`}>Style Guide</p>
                 </div>

@@ -37,7 +37,7 @@ export default function DynamicCaseStudyPage(props){
 
                 {props?.useCase?.brainstorm_image &&
                     <PaddingLayout backgroundColor = 'white'>
-                        <Image priority  src = '/../public/case_sec3_back.png' layout = 'fill' />
+                        <Image priority  src = './case_sec3_back.png' layout = 'fill' />
                         <Section3 useCase = {props?.useCase}/>
                     </PaddingLayout>
                 }
@@ -113,14 +113,14 @@ export default function DynamicCaseStudyPage(props){
 
                 {(props?.useCase?.funding || props?.useCase?.onboarding || props?.useCase?.revenue) &&
                     <PaddingLayout backgroundColor = 'black'>
-                        <Image priority  src = '/../public/case_sec15_back.png' layout = 'fill'/>
+                        <Image priority  src = './case_sec15_back.png' layout = 'fill'/>
                         <Section15 useCase = {props?.useCase}/>
                     </PaddingLayout>
                 }
 
                 {props?.useCase?.quote &&
                     <PaddingLayout zIndex = '15' backgroundColor = 'white'>
-                        <Image priority  src = '/../public/case_sec16_back.png' layout = 'fill'/>
+                        <Image priority  src = './case_sec16_back.png' layout = 'fill'/>
                         <Section16 useCase = {props?.useCase}/>
                     </PaddingLayout>
                 }

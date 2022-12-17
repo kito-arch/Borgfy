@@ -13,7 +13,7 @@ export default function Section8(props){
 
                     <div data-aos-offset = {-scroll*3000} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.box}`}>
                         <div style = {{display: 'flex', justifyContent: 'center'}}>
-                            <Image priority  src = '/../public/startup1.png' width = '150px' height = '150px' />
+                            <Image priority  src = './startup1.png' width = '150px' height = '150px' />
                         </div>
 
                         <p className = {`${styles.boxHeading}`}>Preneur Bay</p>
@@ -22,7 +22,7 @@ export default function Section8(props){
                     </div>
 
                     {/* <div data-aos-offset = {-scroll*3000} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.box}`}>
-                        <Image priority  src = '/../public/landing2_sec8_google.png' width = '400px' height = '48px' />
+                        <Image priority  src = './landing2_sec8_google.png' width = '400px' height = '48px' />
 
                         <p className = {`${styles.boxHeading}`}>Title Heading</p>
                         <p className = {`${styles.boxText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -30,7 +30,7 @@ export default function Section8(props){
                     </div>
 
                     <div data-aos-offset = {-scroll*3000} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.box}`}>
-                        <Image priority  src = '/../public/landing2_sec8_google.png' width = '400px' height = '48px' />
+                        <Image priority  src = './landing2_sec8_google.png' width = '400px' height = '48px' />
 
                         <p className = {`${styles.boxHeading}`}>Title Heading</p>
                         <p className = {`${styles.boxText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>

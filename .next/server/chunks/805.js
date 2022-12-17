@@ -395,7 +395,7 @@ function Landing2Page(props) {
                             style: {
                                 opacity: "0.7"
                             },
-                            src: "/../public/landing2_sec2_back.png",
+                            src: "./landing2_sec2_back.png",
                             layout: "fill"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_section2_section2__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {})
@@ -438,7 +438,7 @@ function Landing2Page(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
                                 priority: true,
-                                src: "/../public/landing2_sec11_top.png",
+                                src: "./landing2_sec11_top.png",
                                 width: "2304px",
                                 height: "90px"
                             })
@@ -521,7 +521,7 @@ function Section1(props) {
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
                     className: `${(_section1_module_css__WEBPACK_IMPORTED_MODULE_3___default().image)}`,
-                    src: "/../public/venture_animate.png",
+                    src: "./venture_animate.png",
                     width: "844px",
                     height: "496px",
                     layout: "fixed"
@@ -691,7 +691,7 @@ function Section10(props) {
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                 className: "hide_in_mobile",
                 priority: true,
-                src: "/../public/landing2_sec10_back.png",
+                src: "./landing2_sec10_back.png",
                 layout: "fill"
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -702,7 +702,7 @@ function Section10(props) {
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                         priority: true,
-                        src: "/../public/landing2_sec10_bulb.png",
+                        src: "./landing2_sec10_bulb.png",
                         width: "30px",
                         height: "46px"
                     }),
@@ -723,7 +723,7 @@ function Section10(props) {
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/landing2_sec10_tick.png",
+                                src: "./landing2_sec10_tick.png",
                                 width: "32px",
                                 height: "32px"
                             }),
@@ -738,7 +738,7 @@ function Section10(props) {
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/landing2_sec10_tick.png",
+                                src: "./landing2_sec10_tick.png",
                                 width: "32px",
                                 height: "32px"
                             }),
@@ -753,7 +753,7 @@ function Section10(props) {
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/landing2_sec10_tick.png",
+                                src: "./landing2_sec10_tick.png",
                                 width: "32px",
                                 height: "32px"
                             }),
@@ -768,7 +768,7 @@ function Section10(props) {
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/landing2_sec10_tick.png",
+                                src: "./landing2_sec10_tick.png",
                                 width: "32px",
                                 height: "32px"
                             }),
@@ -828,7 +828,7 @@ function Section11(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing2_sec11_back1.png",
+                    src: "./landing2_sec11_back1.png",
                     width: "307.5px",
                     height: "320.5px"
                 })
@@ -841,7 +841,7 @@ function Section11(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing2_sec11_back2.png",
+                    src: "./landing2_sec11_back2.png",
                     width: "307.5px",
                     height: "320.5px"
                 })
@@ -854,7 +854,7 @@ function Section11(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing2_sec11_back3.png",
+                    src: "./landing2_sec11_back3.png",
                     width: "307.5px",
                     height: "320.5px"
                 })
@@ -867,7 +867,7 @@ function Section11(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing2_sec11_back.png",
+                    src: "./landing2_sec11_back.png",
                     width: "307.5px",
                     height: "320.5px"
                 })
@@ -907,7 +907,7 @@ function Section11(props) {
                                 },
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
-                                    src: "/../public/landing2_sec11_image1.png",
+                                    src: "./landing2_sec11_image1.png",
                                     width: "228px",
                                     height: "197px"
                                 })
@@ -937,7 +937,7 @@ function Section11(props) {
                                 },
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
-                                    src: "/../public/landing2_sec11_image2.png",
+                                    src: "./landing2_sec11_image2.png",
                                     width: "231px",
                                     height: "199px"
                                 })
@@ -972,7 +972,7 @@ function Section11(props) {
                                 },
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
-                                    src: "/../public/landing2_sec11_image3.png",
+                                    src: "./landing2_sec11_image3.png",
                                     width: "326px",
                                     height: "326px"
                                 })
@@ -1002,7 +1002,7 @@ function Section11(props) {
                                 },
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
-                                    src: "/../public/landing2_sec11_image4.png",
+                                    src: "./landing2_sec11_image4.png",
                                     width: "227px",
                                     height: "227px"
                                 })
@@ -1080,7 +1080,7 @@ function Section12(props) {
                                     },
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec12_image1.png",
+                                        src: "./landing2_sec12_image1.png",
                                         width: "250px",
                                         height: "250px"
                                     })
@@ -1112,7 +1112,7 @@ function Section12(props) {
                                     },
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec12_image2.png",
+                                        src: "./landing2_sec12_image2.png",
                                         width: "250px",
                                         height: "250px"
                                     })
@@ -1165,13 +1165,13 @@ function Section12(props) {
 function Section13(props) {
     const { 0: reviews , 1: setReviews  } = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)([
         {
-            image: "/../public/rev1.jpeg",
+            image: "./rev1.jpeg",
             review: "The company will do what it takes to get the job done and satisfy it's customer.",
             name: "Goy Sengmany",
             title: "Realtor, Sengmany & Associates"
         },
         {
-            image: "/../public/rev2.png",
+            image: "./rev2.png",
             review: "The communication on the project was very professional and the logo was done in a timely manner.",
             name: "Robb Cheeks",
             title: "Consultant, Robb Cheeks Consulting"
@@ -1213,7 +1213,7 @@ function Section13(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing2_sec13_left.png",
+                    src: "./landing2_sec13_left.png",
                     width: "215px",
                     height: "749px"
                 })
@@ -1248,7 +1248,7 @@ function Section13(props) {
                                 className: (_section13_module_css__WEBPACK_IMPORTED_MODULE_3___default().arrowLeft),
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
-                                    src: "/../public/rev_left.png",
+                                    src: "./rev_left.png",
                                     width: "60px",
                                     height: "60px"
                                 })
@@ -1260,7 +1260,7 @@ function Section13(props) {
                                 className: (_section13_module_css__WEBPACK_IMPORTED_MODULE_3___default().arrowRight),
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
-                                    src: "/../public/rev_right.png",
+                                    src: "./rev_right.png",
                                     width: "60px",
                                     height: "60px"
                                 })
@@ -1315,7 +1315,7 @@ function Section13(props) {
                                 },
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
-                                    src: "/../public/landing2_sec13_comma.png",
+                                    src: "./landing2_sec13_comma.png",
                                     width: "31px",
                                     height: "27px"
                                 })
@@ -1328,31 +1328,31 @@ function Section13(props) {
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec13_star.png",
+                                        src: "./landing2_sec13_star.png",
                                         width: "29px",
                                         height: "29px"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec13_star.png",
+                                        src: "./landing2_sec13_star.png",
                                         width: "29px",
                                         height: "29px"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec13_star.png",
+                                        src: "./landing2_sec13_star.png",
                                         width: "29px",
                                         height: "29px"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec13_star.png",
+                                        src: "./landing2_sec13_star.png",
                                         width: "29px",
                                         height: "29px"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec13_star.png",
+                                        src: "./landing2_sec13_star.png",
                                         width: "29px",
                                         height: "29px"
                                     })
@@ -1430,7 +1430,7 @@ function Section14(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing2_sec14_arrow.png",
+                    src: "./landing2_sec14_arrow.png",
                     width: "100px",
                     height: "104px"
                 })
@@ -1444,7 +1444,7 @@ function Section14(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing2_sec14_arrow.png",
+                    src: "./landing2_sec14_arrow.png",
                     width: "20px",
                     height: "20px"
                 })
@@ -1481,7 +1481,7 @@ function Section14(props) {
                         className: `${(_section14_module_css__WEBPACK_IMPORTED_MODULE_2___default().whiteBox)} hide_in_mobile`,
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                             priority: true,
-                            src: "/../public/landing2_sec14_image1.png",
+                            src: "./landing2_sec14_image1.png",
                             width: "120px",
                             height: "148px"
                         })
@@ -1493,7 +1493,7 @@ function Section14(props) {
                         className: `${(_section14_module_css__WEBPACK_IMPORTED_MODULE_2___default().whiteHiddenBox)} show_in_mobile`,
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                             priority: true,
-                            src: "/../public/landing2_sec14_image1.png",
+                            src: "./landing2_sec14_image1.png",
                             width: "40px",
                             height: "49.333333333333336px"
                         })
@@ -1530,7 +1530,7 @@ function Section14(props) {
                         },
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                             priority: true,
-                            src: "/../public/landing2_sec14_image2.png",
+                            src: "./landing2_sec14_image2.png",
                             width: "296px",
                             height: "527px"
                         })
@@ -1544,7 +1544,7 @@ function Section14(props) {
                         },
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                             priority: true,
-                            src: "/../public/landing2_sec14_image2.png",
+                            src: "./landing2_sec14_image2.png",
                             width: "98.66666666666667px",
                             height: "175.66666666666666px"
                         })
@@ -1580,7 +1580,7 @@ function Section14(props) {
                         },
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                             priority: true,
-                            src: "/../public/landing2_sec14_image3.png",
+                            src: "./landing2_sec14_image3.png",
                             width: "254px",
                             height: "168px"
                         })
@@ -1594,7 +1594,7 @@ function Section14(props) {
                         },
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                             priority: true,
-                            src: "/../public/landing2_sec14_image3.png",
+                            src: "./landing2_sec14_image3.png",
                             width: "84.66666666666667px",
                             height: "56px"
                         })
@@ -1628,7 +1628,7 @@ function Section14(props) {
                         className: `${(_section14_module_css__WEBPACK_IMPORTED_MODULE_2___default().whiteBox)} hide_in_mobile`,
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                             priority: true,
-                            src: "/../public/landing2_sec14_image4.png",
+                            src: "./landing2_sec14_image4.png",
                             width: "187px",
                             height: "187px"
                         })
@@ -1640,7 +1640,7 @@ function Section14(props) {
                         className: `${(_section14_module_css__WEBPACK_IMPORTED_MODULE_2___default().whiteHiddenBox)} show_in_mobile`,
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                             priority: true,
-                            src: "/../public/landing2_sec14_image4.png",
+                            src: "./landing2_sec14_image4.png",
                             width: "62.333333333333336px",
                             height: "62.333333333333336px"
                         })
@@ -1695,7 +1695,7 @@ function Section15(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing_sec1_circle.png",
+                    src: "./landing_sec1_circle.png",
                     width: "70px",
                     height: "70px"
                 })
@@ -1709,7 +1709,7 @@ function Section15(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing_sec1_circle.png",
+                    src: "./landing_sec1_circle.png",
                     width: "70px",
                     height: "70px"
                 })
@@ -1723,7 +1723,7 @@ function Section15(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing_sec1_circle.png",
+                    src: "./landing_sec1_circle.png",
                     width: "70px",
                     height: "70px"
                 })
@@ -1737,7 +1737,7 @@ function Section15(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing_sec1_circle.png",
+                    src: "./landing_sec1_circle.png",
                     width: "70px",
                     height: "70px"
                 })
@@ -1751,7 +1751,7 @@ function Section15(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing_sec1_circle.png",
+                    src: "./landing_sec1_circle.png",
                     width: "70px",
                     height: "70px"
                 })
@@ -1765,7 +1765,7 @@ function Section15(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing_sec1_circle.png",
+                    src: "./landing_sec1_circle.png",
                     width: "70px",
                     height: "70px"
                 })
@@ -1779,7 +1779,7 @@ function Section15(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing_sec1_circle.png",
+                    src: "./landing_sec1_circle.png",
                     width: "70px",
                     height: "70px"
                 })
@@ -1793,7 +1793,7 @@ function Section15(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing_sec1_circle.png",
+                    src: "./landing_sec1_circle.png",
                     width: "70px",
                     height: "70px"
                 })
@@ -1807,7 +1807,7 @@ function Section15(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing_sec1_circle.png",
+                    src: "./landing_sec1_circle.png",
                     width: "70px",
                     height: "70px"
                 })
@@ -1821,7 +1821,7 @@ function Section15(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing_sec1_circle.png",
+                    src: "./landing_sec1_circle.png",
                     width: "70px",
                     height: "70px"
                 })
@@ -1859,7 +1859,7 @@ function Section15(props) {
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
-                                            src: "/../public/landing2_sec15_image1.png",
+                                            src: "./landing2_sec15_image1.png",
                                             width: "246px",
                                             height: "246px"
                                         })
@@ -1867,7 +1867,7 @@ function Section15(props) {
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
-                                            src: "/../public/qq.jpg",
+                                            src: "./qq.jpg",
                                             width: "202px",
                                             height: "202px"
                                         })
@@ -1880,7 +1880,7 @@ function Section15(props) {
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
-                                            src: "/../public/landing2_sec15_image3.png",
+                                            src: "./landing2_sec15_image3.png",
                                             width: "247px",
                                             height: "247px"
                                         })
@@ -1888,7 +1888,7 @@ function Section15(props) {
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
-                                            src: "/../public/landing2_sec15_image4.png",
+                                            src: "./landing2_sec15_image4.png",
                                             width: "260px",
                                             height: "260px"
                                         })
@@ -1979,7 +1979,7 @@ function Section16(props) {
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
-                                    src: "/../public/landing2_sec16_mage2.png",
+                                    src: "./landing2_sec16_mage2.png",
                                     width: "398px",
                                     height: "223px"
                                 }),
@@ -2011,7 +2011,7 @@ function Section16(props) {
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
-                                    src: "/../public/landing2_sec16_image3.png",
+                                    src: "./landing2_sec16_image3.png",
                                     width: "367px",
                                     height: "367px"
                                 }),
@@ -2043,7 +2043,7 @@ function Section16(props) {
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
-                                    src: "/../public/landing2_sec16_image1.png",
+                                    src: "./landing2_sec16_image1.png",
                                     width: "419px",
                                     height: "317px"
                                 }),
@@ -2089,7 +2089,7 @@ function Section16(props) {
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec16_mage2.png",
+                                        src: "./landing2_sec16_mage2.png",
                                         width: "398px",
                                         height: "223px"
                                     }),
@@ -2123,7 +2123,7 @@ function Section16(props) {
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec16_image3.png",
+                                        src: "./landing2_sec16_image3.png",
                                         width: "367px",
                                         height: "367px"
                                     }),
@@ -2157,7 +2157,7 @@ function Section16(props) {
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec16_image1.png",
+                                        src: "./landing2_sec16_image1.png",
                                         width: "419px",
                                         height: "317px"
                                     }),
@@ -2256,7 +2256,7 @@ function Section2(props) {
                                             },
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                 priority: true,
-                                                src: "/../public/landing2_sec2_image1.png",
+                                                src: "./landing2_sec2_image1.png",
                                                 width: "110px",
                                                 height: "110px"
                                             })
@@ -2270,7 +2270,7 @@ function Section2(props) {
                                             },
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                 priority: true,
-                                                src: "/../public/landing2_sec2_arrow1.png",
+                                                src: "./landing2_sec2_arrow1.png",
                                                 width: "88px",
                                                 height: "42px"
                                             })
@@ -2294,7 +2294,7 @@ function Section2(props) {
                                             className: (_section2_module_css__WEBPACK_IMPORTED_MODULE_2___default().cen),
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                 priority: true,
-                                                src: "/../public/landing2_sec2_image2.png",
+                                                src: "./landing2_sec2_image2.png",
                                                 width: "110px",
                                                 height: "110px"
                                             })
@@ -2312,7 +2312,7 @@ function Section2(props) {
                                             },
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                 priority: true,
-                                                src: "/../public/landing2_sec2_arrow2.png",
+                                                src: "./landing2_sec2_arrow2.png",
                                                 width: "76px",
                                                 height: "59px"
                                             })
@@ -2334,7 +2334,7 @@ function Section2(props) {
                                             className: (_section2_module_css__WEBPACK_IMPORTED_MODULE_2___default().cen),
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                 priority: true,
-                                                src: "/../public/landing2_sec2_image3.png",
+                                                src: "./landing2_sec2_image3.png",
                                                 width: "110px",
                                                 height: "110px"
                                             })
@@ -2365,7 +2365,7 @@ function Section2(props) {
                         },
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                             priority: true,
-                            src: "/../public/landing2_sec2_steve.png",
+                            src: "./landing2_sec2_steve.png",
                             width: "262px",
                             height: "195px"
                         })
@@ -2379,7 +2379,7 @@ function Section2(props) {
                         },
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                             priority: true,
-                            src: "/../public/landing2_sec2_rocket.png",
+                            src: "./landing2_sec2_rocket.png",
                             width: "214px",
                             height: "214px"
                         })
@@ -2451,7 +2451,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab1.png",
+                                src: "./collab1.png",
                                 width: "390px",
                                 height: "30px"
                             })
@@ -2462,7 +2462,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab2.png",
+                                src: "./collab2.png",
                                 width: "119px",
                                 height: "119px"
                             })
@@ -2473,7 +2473,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab3.png",
+                                src: "./collab3.png",
                                 width: "164px",
                                 height: "88px"
                             })
@@ -2484,7 +2484,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab5.png",
+                                src: "./collab5.png",
                                 width: "299px",
                                 height: "91.5px"
                             })
@@ -2509,7 +2509,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab6.png",
+                                src: "./collab6.png",
                                 width: "400px",
                                 height: "55px"
                             })
@@ -2520,7 +2520,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab7.png",
+                                src: "./collab7.png",
                                 width: "311px",
                                 height: "72px"
                             })
@@ -2531,7 +2531,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab4.png",
+                                src: "./collab4.png",
                                 width: "307px",
                                 height: "86px"
                             })
@@ -2559,7 +2559,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab1.png",
+                                src: "./collab1.png",
                                 width: "390px",
                                 height: "30px"
                             })
@@ -2574,7 +2574,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab2.png",
+                                src: "./collab2.png",
                                 width: "119px",
                                 height: "119px"
                             })
@@ -2589,7 +2589,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab3.png",
+                                src: "./collab3.png",
                                 width: "164px",
                                 height: "88px"
                             })
@@ -2604,7 +2604,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab5.png",
+                                src: "./collab5.png",
                                 width: "299px",
                                 height: "91.5px"
                             })
@@ -2619,7 +2619,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab6.png",
+                                src: "./collab6.png",
                                 width: "400px",
                                 height: "55px"
                             })
@@ -2634,7 +2634,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab7.png",
+                                src: "./collab7.png",
                                 width: "311px",
                                 height: "72px"
                             })
@@ -2649,7 +2649,7 @@ function Section3(props) {
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 priority: true,
-                                src: "/../public/collab4.png",
+                                src: "./collab4.png",
                                 width: "307px",
                                 height: "86px"
                             })
@@ -2709,7 +2709,7 @@ function Section4(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing2_sec4_text.png",
+                    src: "./landing2_sec4_text.png",
                     width: "480px",
                     height: "71px"
                 })
@@ -2745,7 +2745,7 @@ function Section4(props) {
                                     className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/ro_back.png",
+                                        src: "./ro_back.png",
                                         style: {
                                             borderRadius: "40px"
                                         },
@@ -2779,7 +2779,7 @@ function Section4(props) {
                                     className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/bizz_back.png",
+                                        src: "./bizz_back.png",
                                         style: {
                                             borderRadius: "40px"
                                         },
@@ -2818,7 +2818,7 @@ function Section4(props) {
                                     className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/atomic_back.png",
+                                        src: "./atomic_back.png",
                                         style: {
                                             borderRadius: "40px"
                                         },
@@ -2852,7 +2852,7 @@ function Section4(props) {
                                     className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/qool_qatar.png",
+                                        src: "./qool_qatar.png",
                                         style: {
                                             borderRadius: "40px"
                                         },
@@ -2892,7 +2892,7 @@ function Section4(props) {
                                         className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
-                                            src: "/../public/ro_back.png",
+                                            src: "./ro_back.png",
                                             style: {
                                                 borderRadius: "40px"
                                             },
@@ -2928,7 +2928,7 @@ function Section4(props) {
                                         className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
-                                            src: "/../public/bizz_back.png",
+                                            src: "./bizz_back.png",
                                             style: {
                                                 borderRadius: "40px"
                                             },
@@ -2964,7 +2964,7 @@ function Section4(props) {
                                         className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
-                                            src: "/../public/atomic_back.png",
+                                            src: "./atomic_back.png",
                                             style: {
                                                 borderRadius: "40px"
                                             },
@@ -3000,7 +3000,7 @@ function Section4(props) {
                                         className: (_section4_module_css__WEBPACK_IMPORTED_MODULE_5___default().image),
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
-                                            src: "/../public/qool_qatar.png",
+                                            src: "./qool_qatar.png",
                                             style: {
                                                 borderRadius: "40px"
                                             },
@@ -3068,7 +3068,7 @@ function Section5(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing2_sec5_back5.png",
+                    src: "./landing2_sec5_back5.png",
                     width: "120px",
                     height: "170px"
                 })
@@ -3081,7 +3081,7 @@ function Section5(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing2_sec5_back6.png",
+                    src: "./landing2_sec5_back6.png",
                     width: "130px",
                     height: "170px"
                 })
@@ -3118,7 +3118,7 @@ function Section5(props) {
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
-                                            src: "/../public/landing2_sec5_image1.png",
+                                            src: "./landing2_sec5_image1.png",
                                             width: "261px",
                                             height: "261px"
                                         })
@@ -3156,7 +3156,7 @@ function Section5(props) {
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
-                                            src: "/../public/landing2_sec5_image2.png",
+                                            src: "./landing2_sec5_image2.png",
                                             width: "261px",
                                             height: "261px"
                                         })
@@ -3194,7 +3194,7 @@ function Section5(props) {
                                         },
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
-                                            src: "/../public/landing2_sec5_image3.png",
+                                            src: "./landing2_sec5_image3.png",
                                             width: "261px",
                                             height: "261px"
                                         })
@@ -3235,7 +3235,7 @@ function Section5(props) {
                                         },
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             priority: true,
-                                            src: "/../public/landing2_sec5_image4.png",
+                                            src: "./landing2_sec5_image4.png",
                                             width: "261px",
                                             height: "261px"
                                         })
@@ -3346,7 +3346,7 @@ function Section6(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "/../public/landing2_sec5_back5.png",
+                    src: "./landing2_sec5_back5.png",
                     width: "120px",
                     height: "170px"
                 })
@@ -3359,7 +3359,7 @@ function Section6(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     priority: true,
-                    src: "/../public/landing2_sec5_back6.png",
+                    src: "./landing2_sec5_back6.png",
                     width: "130px",
                     height: "170px"
                 })
@@ -3518,7 +3518,7 @@ function Section6(props) {
                                                 },
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     priority: true,
-                                                    src: "/../public/landing2_sec5_back1.png",
+                                                    src: "./landing2_sec5_back1.png",
                                                     width: "100px",
                                                     height: "50px"
                                                 })
@@ -3532,7 +3532,7 @@ function Section6(props) {
                                                 },
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     priority: true,
-                                                    src: "/../public/landing2_sec5_back2.png",
+                                                    src: "./landing2_sec5_back2.png",
                                                     width: "100px",
                                                     height: "50px"
                                                 })
@@ -3633,7 +3633,7 @@ function Section6(props) {
                                                 },
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     priority: true,
-                                                    src: "/../public/landing2_sec5_back3.png",
+                                                    src: "./landing2_sec5_back3.png",
                                                     width: "100px",
                                                     height: "50px"
                                                 })
@@ -3647,7 +3647,7 @@ function Section6(props) {
                                                 },
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     priority: true,
-                                                    src: "/../public/landing2_sec5_back4.png",
+                                                    src: "./landing2_sec5_back4.png",
                                                     width: "100px",
                                                     height: "50px"
                                                 })
@@ -3783,7 +3783,7 @@ function Section7(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/landing2_sec7_image1.png",
+                    src: "./landing2_sec7_image1.png",
                     width: "886px",
                     height: "734px"
                 })
@@ -3797,7 +3797,7 @@ function Section7(props) {
                 },
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                     priority: true,
-                    src: "/../public/moon_rocket.png",
+                    src: "./moon_rocket.png",
                     width: "212px",
                     height: "212px"
                 })
@@ -3876,7 +3876,7 @@ function Section8(props) {
                                 },
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     priority: true,
-                                    src: "/../public/startup1.png",
+                                    src: "./startup1.png",
                                     width: "150px",
                                     height: "150px"
                                 })
@@ -3977,7 +3977,7 @@ function Section9(props) {
                                     },
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec9_imageg1.png",
+                                        src: "./landing2_sec9_imageg1.png",
                                         width: "550px",
                                         height: "456px"
                                     })
@@ -4006,7 +4006,7 @@ function Section9(props) {
                                     },
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec9_imageg1.png",
+                                        src: "./landing2_sec9_imageg1.png",
                                         width: "550px",
                                         height: "456px"
                                     })
@@ -4035,7 +4035,7 @@ function Section9(props) {
                                     },
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec9_imageg1.png",
+                                        src: "./landing2_sec9_imageg1.png",
                                         width: "550px",
                                         height: "456px"
                                     })
@@ -4073,7 +4073,7 @@ function Section9(props) {
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec9_imageg1.png",
+                                        src: "./landing2_sec9_imageg1.png",
                                         width: "550px",
                                         height: "456px"
                                     })
@@ -4099,7 +4099,7 @@ function Section9(props) {
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec9_imageg1.png",
+                                        src: "./landing2_sec9_imageg1.png",
                                         width: "550px",
                                         height: "456px"
                                     })
@@ -4125,7 +4125,7 @@ function Section9(props) {
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         priority: true,
-                                        src: "/../public/landing2_sec9_imageg1.png",
+                                        src: "./landing2_sec9_imageg1.png",
                                         width: "550px",
                                         height: "456px"
                                     })

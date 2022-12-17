@@ -20,7 +20,7 @@ export default function FullStackPage (props){
 
                 <PaddingLayout backgroundColor = '#0B0000'>
                     <div className='hide_in_mobile' style = {{position: 'absolute', top: '0', left: '50%'}}>
-                        <Image priority  src = '/../public/full_stack_line.png' width = '10px' height = '4900px'/>
+                        <Image priority  src = './full_stack_line.png' width = '10px' height = '4900px'/>
                     </div>
                     <Section2/>
                 </PaddingLayout>

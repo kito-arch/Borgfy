@@ -28,15 +28,15 @@ export default function DynamicBlogsPage(props){
             <div className = {`${styles.container}`}>
 
                 <div style = {{position: 'absolute', bottom: '-100px', left : '-12rem', zIndex: '10'}}>
-                    <Image priority  src = '/../public/blog_sec2_ellipse.png' width = '500px' height = '500px' />
+                    <Image priority  src = './blog_sec2_ellipse.png' width = '500px' height = '500px' />
                 </div>
 
                 <div style = {{position: 'absolute', bottom: '-100px', right : '0', zIndex: '10'}}>
-                    <Image priority  src = '/../public/blog_sec2_ellipse.png' width = '500px' height = '500px' />
+                    <Image priority  src = './blog_sec2_ellipse.png' width = '500px' height = '500px' />
                 </div>
 
                 <PaddingLayout>
-                    <Image priority  src = '/../public/blog_sec1_back.png' layout = 'fill'/>
+                    <Image priority  src = './blog_sec1_back.png' layout = 'fill'/>
                     <Section1 blogs = {blogs}/>
                 </PaddingLayout>
                 {blogs.map((b, i)=>{

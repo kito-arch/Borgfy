@@ -7,34 +7,34 @@ export default function Section15(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '600px'}}>
-                <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+                <Image priority  src = './landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
             <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '680px'}}>
-                <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+                <Image priority  src = './landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
             <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '760px'}}>
-                <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+                <Image priority  src = './landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
             <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '840px'}}>
-                <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+                <Image priority  src = './landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
             <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '920px'}}>
-                <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+                <Image priority  src = './landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
             <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1000px'}}>
-                <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+                <Image priority  src = './landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
             <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1080px'}}>
-                <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+                <Image priority  src = './landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
             <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1160px'}}>
-                <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+                <Image priority  src = './landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
             <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1240px'}}>
-                <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+                <Image priority  src = './landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
             <div style = {{zIndex: '1', position: 'absolute', bottom: '-32px', left: '1320px'}}>
-                <Image priority  src = '/../public/landing_sec1_circle.png' width = '70px' height = '70px' />
+                <Image priority  src = './landing_sec1_circle.png' width = '70px' height = '70px' />
             </div>
             
 
@@ -47,18 +47,18 @@ export default function Section15(props){
                 <div>
                     <div className = {`${styles.stretchBetween}`}>
                         <div>
-                            <Image priority  src = '/../public/landing2_sec15_image1.png' width = '246px' height = '246px'/>
+                            <Image priority  src = './landing2_sec15_image1.png' width = '246px' height = '246px'/>
                         </div>
                         <div>
-                            <Image priority  src = '/../public/qq.jpg' width = '202px' height = '202px'/>
+                            <Image priority  src = './qq.jpg' width = '202px' height = '202px'/>
                         </div>
                     </div>
                     <div className = {`${styles.stretchBetween}`}>
                         <div>
-                            <Image priority  src = '/../public/landing2_sec15_image3.png' width = '247px' height = '247px'/>
+                            <Image priority  src = './landing2_sec15_image3.png' width = '247px' height = '247px'/>
                         </div>
                         <div>
-                            <Image priority  src = '/../public/landing2_sec15_image4.png' width = '260px' height = '260px'/>
+                            <Image priority  src = './landing2_sec15_image4.png' width = '260px' height = '260px'/>
                         </div>
                     </div>
                 </div>

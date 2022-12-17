@@ -54,7 +54,7 @@ export default function AddBlog() {
       <main style = {{backgroundColor: 'white', color: 'black'}}>
 
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', backgroundColor: 'lightblue', padding: '10px'}}>
-            <Image src = '/../public/logo_white.png' width = '159px' height = '70px'/>
+            <Image src = './logo_white.png' width = '159px' height = '70px'/>
         </div>
 
         <div style = {{padding: '20px'}}>
@@ -83,10 +83,10 @@ export default function AddBlog() {
                                     <td>
                                         <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                                             <div onClick={()=>{edit(blog.link)}} style = {{cursor: 'pointer', marginRight: '30px'}}>
-                                                <Image src = '/../public/edit_icon.png' width = '24px' height = '24px' />
+                                                <Image src = './edit_icon.png' width = '24px' height = '24px' />
                                             </div>
                                             <div onClick={()=>{remove(blog.link)}} style = {{cursor: 'pointer'}}>
-                                                <Image src = '/../public/rm_icon.png' width = '24px' height = '24px' />
+                                                <Image src = './rm_icon.png' width = '24px' height = '24px' />
                                             </div>
                                         </div>
                                     </td>

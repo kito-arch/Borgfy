@@ -95,7 +95,7 @@ function DynamicCasePage(props) {
                         },
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
                             priority: true,
-                            src: "/../public/case2_hifi.png",
+                            src: "./case2_hifi.png",
                             width: "300px",
                             height: "300px"
                         })
@@ -112,7 +112,7 @@ function DynamicCasePage(props) {
                                 },
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
                                     priority: true,
-                                    src: "/../public/digital_left_triangle.png",
+                                    src: "./digital_left_triangle.png",
                                     width: "219.47px",
                                     height: "221.19px"
                                 })
@@ -126,7 +126,7 @@ function DynamicCasePage(props) {
                                 },
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
                                     priority: true,
-                                    src: "/../public/digital_right_triangle.png",
+                                    src: "./digital_right_triangle.png",
                                     width: "219.47px",
                                     height: "221.19px"
                                 })
@@ -156,7 +156,7 @@ function DynamicCasePage(props) {
                                         },
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
                                             priority: true,
-                                            src: "/../public/case2_ellipse1.png",
+                                            src: "./case2_ellipse1.png",
                                             width: "600px",
                                             height: "3000px"
                                         })
@@ -169,7 +169,7 @@ function DynamicCasePage(props) {
                                         },
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
                                             priority: true,
-                                            src: "/../public/case2_ellipse2.png",
+                                            src: "./case2_ellipse2.png",
                                             width: "600px",
                                             height: "600px"
                                         })
@@ -188,7 +188,7 @@ function DynamicCasePage(props) {
                                                     children: [
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
                                                             priority: true,
-                                                            src: "/../public/case2_ellipse.png",
+                                                            src: "./case2_ellipse.png",
                                                             width: "31px",
                                                             height: "31px"
                                                         }),

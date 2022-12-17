@@ -8,11 +8,11 @@ export default function Section3(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{position: 'absolute', top: 0, left: '-12rem'}}>
-                <Image priority  src = '/../public/journey_eclipse_1.png' width = '499px' height = '609px'/>
+                <Image priority  src = './journey_eclipse_1.png' width = '499px' height = '609px'/>
             </div>
 
             <div style = {{position: 'absolute', bottom: 0, right: '-12rem'}}>
-                <Image priority  src = '/../public/journey_eclipse_2.png.png' width = '542px' height = '696px'/>
+                <Image priority  src = './journey_eclipse_2.png.png' width = '542px' height = '696px'/>
             </div>
 
             <p data-aos = 'fade-up' data-aos-duration = '3000' data-aos-offset = {-scroll*500} className = {`${styles.heading}`}>Journey of Digital Transformation that We Define</p>
