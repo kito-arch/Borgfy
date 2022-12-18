@@ -23,14 +23,14 @@ export default function ContactPage(props){
     let sendEmail = ()=>{
         axios.post("https://api.sendinblue.com/v3/smtp/email", {
             sender:{  
-                name:"From Borgfy",
-                email:"borgfy@borgfy.com"
+                name:"Borgfy",
+                email:"husnainbusiness315.com"
              },
              to:[{  
-                   email:"husnainbusiness315@gmail.com",
-                   name:"Husnain Business"
+                   email:"info@borgfy.com",
+                   name:"Borgfy"
                 }],
-             subject:"Borgfy",
+             subject:"From Borgfy",
              htmlContent:`<html><head></head><body><p><b>Name<b/>: ${nameRef.current.value}</p><p><b>Email<b/>: ${emailRef.current.value}</p><p><b>Subject<b/>: ${subjectRef.current.value}</p><p><b>Message<b/>: ${messageRef.current.value}</p></body></html>`
           },
           {
