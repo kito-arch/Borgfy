@@ -149,3 +149,14 @@ table.boostrap4_dark_striped tbody tr:nth-of-type(odd) {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+.grecaptcha-badge{
+  overflow: visible !important;
+  bottom: 130px !important;
+  z-index: 40 !important;
+}
+
+.grecaptcha-logo iframe{
+  height: auto !important;
+}

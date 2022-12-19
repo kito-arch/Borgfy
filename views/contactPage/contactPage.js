@@ -5,7 +5,7 @@ import StandardLayout from "../../layouts/standardLayout/standardLayout";
 import Image from 'next/image';
 import { mail } from './functions';
 import axios from 'axios';
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 
 export default function ContactPage(props){
@@ -13,11 +13,80 @@ export default function ContactPage(props){
 
     const [opacity, setOpacity] = useState(0)
     const [success, setSuccess] = useState(true)
+    const [reFail, setReFail] = useState(false)
+    const [showSubmit, setShowSubmit] = useState(false)
 
     const nameRef = useRef(null);
     const emailRef = useRef(null);
     const subjectRef = useRef(null);
     const messageRef = useRef(null);
+
+
+    useEffect(() => {
+        const loadScriptByURL = (id, url, callback) => {
+            const isScriptExist = document.getElementById(id);
+            
+            if (!isScriptExist) {
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.src = url;
+                script.id = id;
+                script.onload = function () {
+                    if (callback) callback();
+                };
+                document.body.appendChild(script);
+            }
+            
+            if (isScriptExist && callback) callback();
+        }
+        
+        // load the script by passing the URL
+        loadScriptByURL("6Le_AZAjAAAAAI1_3cckuVFbxaLrrNQs8hddCSus", `https://www.google.com/recaptcha/api.js?render=6Le_AZAjAAAAAI1_3cckuVFbxaLrrNQs8hddCSus`, function () {
+            console.log("Script loaded!");
+            setShowSubmit(true)
+        });
+    }, []);
+
+
+    const handleOnClick = e => {
+        e.preventDefault();
+        window.grecaptcha.ready(() => {
+            window.grecaptcha.execute("6Le_AZAjAAAAAI1_3cckuVFbxaLrrNQs8hddCSus", { action: 'submit' }).then(token => {
+                submitData(token);
+            });
+        });
+    }
+        
+    const submitData = token => {
+        axios.post("http://localhost:3000/api/recaptcha", {
+            token
+        })
+        .then((res)=>{
+            if(res.data.success && res.data.score >=0.5){
+                sendEmail()
+            }
+            else{
+                setSuccess(false)
+                setReFail(true)
+                setOpacity(1)
+                setTimeout(()=>{
+                    setReFail(false)
+                    setOpacity(0)
+                }, 3000)
+            }
+        })
+        .catch((err)=>{
+            console.log(err)
+            setSuccess(false)
+            setReFail(true)
+            setOpacity(1)
+            setTimeout(()=>{
+                setReFail(false)
+                setOpacity(0)
+            }, 3000)
+        })
+        // console.log(token)
+    }
 
 
     let sendEmail = ()=>{
@@ -35,7 +104,7 @@ export default function ContactPage(props){
           },
           {
             headers: {
-                "api-key": "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",
+                "api-key": `${process.env.NEXT_PUBLIC_APIKEY}`,
                 "Content-Type": "application/json",
                 "accept": "application/json"
             }
@@ -53,6 +122,7 @@ export default function ContactPage(props){
             subjectRef.current.value = ""
         })
         .catch((err)=>{
+            // console.log(process.env.NEXT_PUBLIC_APIKEY)
             setSuccess(false)
             setOpacity(1)
             setTimeout(()=>{
@@ -81,7 +151,7 @@ export default function ContactPage(props){
                         <div className = {`${styles.box}`}>
 
                             <div style = {{opacity: opacity, backgroundColor: success ? 'lightgreen' : "#FF7F7F", borderRadius: '10px', display: 'flex', justifyContent: 'center', padding: '10px 25px'}}>
-                                <p style = {{color: 'black', fontSize: '20px'}}>{success ? "Thank you for being interested. We will reach you soon." : "Some Error Occured"}</p>
+                                <p style = {{color: 'black', fontSize: '20px'}}>{reFail ? 'Recaptcha Failed, Try Again!' : (success ? "Thank you for being interested. We will reach you soon." : "Some Error Occured")}</p>
                             </div>
 
 
@@ -99,7 +169,11 @@ export default function ContactPage(props){
                             <input ref = {emailRef} className = {`${styles.input}`} placeholder = 'Email'/>
                             <br/>
                             <textarea ref = {messageRef} className = {`${styles.input} ${styles.textArea}`} placeholder = 'Write Something...'></textarea>
-                            <p onClick = {()=>{sendEmail()}} style = {{cursor: 'pointer'}} className = {`${styles.submit}`}>Submit</p>
+                            <p onClick = {(event)=>{
+                                if(!showSubmit)
+                                    return;
+                                handleOnClick(event)
+                            }} style = {{cursor: 'pointer', background: showSubmit ? 'linear-gradient(90deg, #018DFE 37.43%, #2F5FCF 98.63%)' : 'gray'}}  className = {`${styles.submit}`}>Submit</p>
 
 
                             <div className={styles.ano} style = {{position: 'absolute', top: '170px', right: '107px'}}>
