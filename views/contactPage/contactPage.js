@@ -24,7 +24,7 @@ export default function ContactPage(props){
         axios.post("https://api.sendinblue.com/v3/smtp/email", {
             sender:{  
                 name:"Borgfy",
-                email:"husnainbusiness315.com"
+                email:"husnainbusiness315@gmail.com"
              },
              to:[{  
                    email:"info@borgfy.com",
@@ -35,7 +35,7 @@ export default function ContactPage(props){
           },
           {
             headers: {
-                "api-key": "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",
+                "api-key": "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",
                 "Content-Type": "application/json",
                 "accept": "application/json"
             }
