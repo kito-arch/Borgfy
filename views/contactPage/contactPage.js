@@ -58,7 +58,7 @@ export default function ContactPage(props){
     }
         
     const submitData = token => {
-        axios.post("http://localhost:3001/api/recaptcha", {
+        axios.post("/api/recaptcha", {
             token
         })
         .then((res)=>{
