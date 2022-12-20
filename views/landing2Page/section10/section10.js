@@ -1,4 +1,4 @@
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section10.module.css'
 
@@ -9,7 +9,7 @@ export default function Section10(props){
 
                 <Image className = 'hide_in_mobile' priority  src = './landing2_sec10_back.png' layout = 'fill'/>
 
-                <div data-aos-offset = {-scroll*3200} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.innerContainer}`}>
+                <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*3200} data-aos = 'fade-left' data-aos-duration = '3000' className = {`${styles.innerContainer}`}>
                     
                     <Image priority  src = './landing2_sec10_bulb.png' width = '30px' height = '46px' />
                     <p className = {`${styles.subtext}`}>Already have a startup idea?</p>

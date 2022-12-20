@@ -1,4 +1,4 @@
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section15.module.css'
 
@@ -39,7 +39,7 @@ export default function Section15(props){
             
 
             <div style = {{justifyContent: 'flex-start'}} className = {`${styles.stretchBetween}`}>
-                <div className='show_in_mobile' data-aos-offset = {-scroll*5500} data-aos = 'fade-left' data-aos-duration = '3000' style = {{width: '250px'}}>
+                <div className='show_in_mobile' data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*5500} data-aos = 'fade-left' data-aos-duration = '3000' style = {{width: '250px'}}>
                     <p className = {`${styles.heading}`}>Our Client</p>
                     <p className = {`${styles.text}`}>These People Trusted Us</p>
                     {/* <p className = {`${styles.text}`}>The World is too noise tune to Borgy Signal</p> */}
@@ -62,7 +62,7 @@ export default function Section15(props){
                         </div>
                     </div>
                 </div>
-                <div className='hide_in_mobile' data-aos-offset = {-scroll*5500} data-aos = 'fade-left' data-aos-duration = '3000' style = {{paddingLeft: '420px'}}>
+                <div className='hide_in_mobile' data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*5500} data-aos = 'fade-left' data-aos-duration = '3000' style = {{paddingLeft: '420px'}}>
                     <p className = {`${styles.heading}`}>Our Client</p>
                     <p className = {`${styles.text}`}>These People Trusted Us</p>
                     {/* <p className = {`${styles.text}`}>The World is too noise tune to Borgy Signal</p> */}

@@ -1,4 +1,4 @@
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section4.module.css'
 import Link from 'next/link'
@@ -10,14 +10,14 @@ import { Autoplay } from 'swiper';
 export default function Section4(props){
     return(
         <div className = {`${styles.container}`}>
-            <div className = {styles.fp} data-aos-offset = {-scroll*700} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: 'fit-content', margin: 'auto'}}>
+            <div className = {styles.fp} data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*700} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: 'fit-content', margin: 'auto'}}>
                 <Image priority  src = './landing2_sec4_text.png' width = '480px' height = '71px' />
             </div>
-            <p data-aos-offset = {-scroll*700} data-aos = 'fade-up' data-aos-duration = '3000'  className = {`${styles.subtext} hide_in_mobile`}>Scroll down for more</p>
-            <p style = {{marginBottom: '15px'}} data-aos-offset = {-scroll*700} data-aos = 'fade-up' data-aos-duration = '3000'  className = {`${styles.subtext} show_in_mobile`}>Swipe for more</p>
+            <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*700} data-aos = 'fade-up' data-aos-duration = '3000'  className = {`${styles.subtext} hide_in_mobile`}>Scroll down for more</p>
+            <p style = {{marginBottom: '15px'}} data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*700} data-aos = 'fade-up' data-aos-duration = '3000'  className = {`${styles.subtext} show_in_mobile`}>Swipe for more</p>
 
             <div className = {`${styles.stretchBetween} hide_in_mobile`}>
-                <div data-aos-offset = {-scroll*600} data-aos = 'fade-right' data-aos-duration = '3000' >
+                <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*600} data-aos = 'fade-right' data-aos-duration = '3000' >
                     <Link href = 'portfolio#ro'>
                         <div className = {styles.image}>
                             <Image priority  src = './ro_back.png' style = {{borderRadius: '40px'}} width = '747px' height = '714px' />
@@ -25,7 +25,7 @@ export default function Section4(props){
                     </Link>
                     <p className = {`${styles.text}`}><span style = {{fontWeight: '700'}}>RO --</span>   The Infleuncer Booking App UI/UX Designed For Better Impression and Performance</p>
                 </div>
-                <div data-aos-offset = {-scroll*600} data-aos = 'fade-left' data-aos-duration = '3000' >
+                <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*600} data-aos = 'fade-left' data-aos-duration = '3000' >
                     <Link href = 'portfolio#bizz'>
                         <div className = {styles.image}>
                             <Image priority  src = './bizz_back.png' style = {{borderRadius: '40px'}} width = '747px' height = '714px' />
@@ -36,7 +36,7 @@ export default function Section4(props){
             </div>
 
             <div className = {`${styles.stretchBetween} hide_in_mobile`}>
-                <div data-aos-offset = {-scroll*800} data-aos = 'fade-right' data-aos-duration = '3000'>
+                <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*800} data-aos = 'fade-right' data-aos-duration = '3000'>
                     <Link href = 'portfolio#atomic'>
                         <div className = {styles.image}>
                             <Image priority  src = './atomic_back.png' style = {{borderRadius: '40px'}} width = '747px' height = '714px' />
@@ -44,7 +44,7 @@ export default function Section4(props){
                     </Link>
                     <p className = {`${styles.text}`}><span style = {{fontWeight: '700'}}>Atomic --</span>   A Blockhain Social App Designed In Dark Theme To Give Elegant Look and Feel</p>
                 </div>
-                <div data-aos-offset = {-scroll*800} data-aos = 'fade-left' data-aos-duration = '3000'>
+                <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*800} data-aos = 'fade-left' data-aos-duration = '3000'>
                     <Link href = 'portfolio#qool'>
                         <div className = {styles.image}>
                             <Image priority  src = './qool_qatar.png' style = {{borderRadius: '40px'}} width = '747px' height = '714px' />
@@ -57,9 +57,9 @@ export default function Section4(props){
 
 
 
-            <Swiper className="mySwiper show_in_mobile" >
+            <Swiper className="mySwiper show_in_mobile" autoplay={{delay: 4000, disableOnInteraction: false}} modules={[Autoplay]}>
                 <SwiperSlide>
-                    <div data-aos-offset = {-scroll*600} data-aos = 'fade-right' data-aos-duration = '3000' >
+                    <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*600} data-aos = 'fade-right' data-aos-duration = '3000' >
                         <Link href = 'portfolio#ro'>
                             <div className = {styles.image}>
                                 <Image priority  src = './ro_back.png' style = {{borderRadius: '40px'}} width = '747px' height = '714px' />
@@ -70,7 +70,7 @@ export default function Section4(props){
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div data-aos-offset = {-scroll*600} data-aos = 'fade-left' data-aos-duration = '3000' >
+                    <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*600} data-aos = 'fade-left' data-aos-duration = '3000' >
                         <Link href = 'portfolio#bizz'>
                             <div className = {styles.image}>
                                 <Image priority  src = './bizz_back.png' style = {{borderRadius: '40px'}} width = '747px' height = '714px' />
@@ -81,7 +81,7 @@ export default function Section4(props){
                 </SwiperSlide>
                 
                 <SwiperSlide>
-                    <div data-aos-offset = {-scroll*800} data-aos = 'fade-right' data-aos-duration = '3000'>
+                    <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*800} data-aos = 'fade-right' data-aos-duration = '3000'>
                         <Link href = 'portfolio#atomic'>
                             <div className = {styles.image}>
                                 <Image priority  src = './atomic_back.png' style = {{borderRadius: '40px'}} width = '747px' height = '714px' />
@@ -92,7 +92,7 @@ export default function Section4(props){
                 </SwiperSlide>
                 
                 <SwiperSlide>
-                    <div data-aos-offset = {-scroll*800} data-aos = 'fade-left' data-aos-duration = '3000'>
+                    <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*800} data-aos = 'fade-left' data-aos-duration = '3000'>
                         <Link href = 'portfolio#qool'>
                             <div className = {styles.image}>
                                 <Image priority  src = './qool_qatar.png' style = {{borderRadius: '40px'}} width = '747px' height = '714px' />

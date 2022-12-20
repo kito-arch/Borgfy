@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import styles from './section13.module.css'
 
 export default function Section13(props){
@@ -11,7 +11,7 @@ export default function Section13(props){
                 <Image priority  src = './case_conclusion_gray.png' width = '1227px' height = '4027px' />
             </div>
 
-            <div data-aos-offset = {-scroll*4200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.headingContainer}`}>
+            <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*4200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.headingContainer}`}>
                 <div style = {{position: 'absolute', left: '-20px', top: '0'}}>
                     <Image priority  src = './gray_ellipse.png' width = '61px' height = '61px'/>
                 </div>
@@ -20,7 +20,7 @@ export default function Section13(props){
                     <Image priority  src = './case_sec13_icon.png' width = '342px' height = '134px'/>
                 </div>
             </div>
-            <p data-aos-offset = {-scroll*4200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.text}`}>{props?.useCase?.brainstorm_text}</p>
+            <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*4200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.text}`}>{props?.useCase?.brainstorm_text}</p>
         </div>
     )
 }

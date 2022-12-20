@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import styles from './section1.module.css'
 
 export default function Section1(props){
@@ -19,7 +19,7 @@ export default function Section1(props){
                 <Image priority  src = './case_sec1_ellipse2.png' width = '500px' height = '500px'/>
             </div>
 
-            <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.startBetween}`}>
+            <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*300} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.startBetween}`}>
                 <p className = {`${styles.text}`}>ISHFAR VR<br/><span style = {{fontWeight: '200'}}>New Delhi,<br/>India</span></p>
                 <p className = {`${styles.heading}`}>Acheive your<br/>Desired Look</p>
             </div>

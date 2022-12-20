@@ -1,4 +1,4 @@
-const counterAnim = (qSelector, start = 0, end, duration = 3000) => {
+const counterAnim = (qSelector, start = 0, end, duration = 1500) => {
 
     if(document.querySelector(qSelector).innerText != "")
         return;
@@ -29,7 +29,7 @@ function isInViewport(element) {
 }
 
 
-export const myscroll = ()=>{
+export const onMyScroll = ()=>{
     document.addEventListener('scroll', function () {
         console.log(isInViewport("nums"))
         if(isInViewport("nums")){

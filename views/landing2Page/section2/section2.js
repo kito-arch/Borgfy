@@ -1,4 +1,4 @@
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section2.module.css'
 
@@ -7,12 +7,12 @@ export default function Section2(props){
         <div className = {`${styles.container}`}>
 
             <div style = {{position: 'relative'}}>
-                <p data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000'  className = {`${styles.subtext}`}>WHO WE ARE</p>
-                <p data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000'  className = {`${styles.heading}`}>WE ARE</p>
+                <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*300} data-aos = 'fade-up' data-aos-duration = '3000'  className = {`${styles.subtext}`}>WHO WE ARE</p>
+                <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*300} data-aos = 'fade-up' data-aos-duration = '3000'  className = {`${styles.heading}`}>WE ARE</p>
 
                 <div className = {`${styles.centerCenter}`}>
                     <div className = {`${styles.stretchBetween}`}>
-                        <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: '340px', position: 'relative', paddingTop: '60px'}} className = {styles.nopad}>
+                        <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*300} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: '340px', position: 'relative', paddingTop: '60px'}} className = {styles.nopad}>
                             <div style = {{width: 'fit-content', margin: 'auto'}}>
                                 <Image priority  src = './landing2_sec2_image1.png' width = '110px' height = '110px' />
                             </div>
@@ -21,7 +21,7 @@ export default function Section2(props){
                             </div>
                             <p className = {`${styles.text}`}>Venture Builders  and Digital Transformation Experts helping startups and enterprises</p>
                         </div>
-                        <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: '340px', position: 'relative'}}>
+                        <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*300} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: '340px', position: 'relative'}}>
                             <div className = {styles.cen}>
                                 <Image priority  src = './landing2_sec2_image2.png' width = '110px' height = '110px' />
                             </div>
@@ -31,7 +31,7 @@ export default function Section2(props){
                                 <Image priority  src = './landing2_sec2_arrow2.png' width = '76px' height = '59px' />
                             </div>
                         </div>
-                        <div data-aos-offset = {-scroll*300} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: '340px', position: 'relative', paddingTop: '60px'}} className = {styles.nopad}>
+                        <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*300} data-aos = 'fade-up' data-aos-duration = '3000'  style = {{width: '340px', position: 'relative', paddingTop: '60px'}} className = {styles.nopad}>
                             <div className = {styles.cen}>
                                 <Image priority  src = './landing2_sec2_image3.png' width = '110px' height = '110px' />
                             </div>
@@ -41,7 +41,7 @@ export default function Section2(props){
                 </div>
             </div>
 
-            <div data-aos-offset = {-scroll*400} data-aos = 'fade-up' data-aos-duration = '3000'  className = {`${styles.bottomContainer}`}>
+            <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*400} data-aos = 'fade-up' data-aos-duration = '3000'  className = {`${styles.bottomContainer}`}>
                 {/* <div style = {{position: 'absolute', top: '-100px', left: '-150px'}}>
                     <Image priority  src = './landing2_sec2_line.png' width = '1410px' height = '39px' />
                 </div> */}

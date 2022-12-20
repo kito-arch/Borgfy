@@ -3,7 +3,7 @@ import axios from 'axios'
 import Image from 'next/image'
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { scroll } from '../../conts_vars'
+import { myscroll, mobscroll } from '../../conts_vars'
 import PaddingLayout from '../../layouts/paddingLayout/paddingLayout'
 import StandardLayout from '../../layouts/standardLayout/standardLayout'
 import styles from './blogsPage.module.css'
@@ -44,13 +44,13 @@ export default function DynamicBlogsPage(props){
                         <React.Fragment>
                         {i == 0 ?
                             <PaddingLayout backgroundColor = 'white'>
-                                <div data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000'>
+                                <div data-aos-offset = {-300*(screen.width <= 480 ? mobscroll : myscroll)} data-aos = 'fade-up' data-aos-duration = '3000'>
                                     <Section2 blog = {b} paddingTop = '80px' backgroundColor = '#F3F5F5' headingColor = 'black' textColor = 'black'/>
                                 </div>
                             </PaddingLayout>
                         :
                             <PaddingLayout backgroundColor = 'white'>
-                                <div data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000'>
+                                <div data-aos-offset = {-300*(screen.width <= 480 ? mobscroll : myscroll)} data-aos = 'fade-up' data-aos-duration = '3000'>
                                     <Section2 blog = {b} paddingTop = '40px' backgroundColor = '#F3F5F5' headingColor = 'black' textColor = 'black'/>
                                 </div>
                             </PaddingLayout>

@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import styles from './section2.module.css'
 
 export default function Section2(props){
@@ -13,7 +13,7 @@ export default function Section2(props){
 
             <div className = {`${styles.centerCenter}`}>
                 <div className = {`${styles.stretchStart}`}>
-                    <div data-aos-offset = {-scroll*300} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.column}`}>
+                    <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*300} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.column}`}>
                         <div>
                             <p className = {`${styles.heading}`}>Our Contribution</p>
                             <p className = {`${styles.text}`}>{props?.useCase?.contribution_text}</p>

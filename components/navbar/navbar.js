@@ -24,6 +24,12 @@ export default function Navbar(props){
         }
     }, [[router.pathname]])
 
+    const [who, setWho] = useState(false)
+    const [blog, setBlog] = useState(false)
+    const [our, setOur] = useState(false)
+    const [exp, setExp] = useState(false)
+    const [res, setRes] = useState(false)
+
 
     return(
         <React.Fragment>
@@ -160,95 +166,124 @@ export default function Navbar(props){
 
             <div style = {{left: mobMenu ? '0vw' : '-100vw'}} className={styles.mobMenuContainer}>
                 <div onClick={()=>{setMobMenu(false)}} className={styles.cross}>
-                    <p className = {`${styles.navLabels}`}>X</p>
+                    <p style = {{margin: '0'}} className = {`${styles.navLabels}`}>X</p>
                 </div>
                 <div>
-                    {/* <div> */}
-                        
-                    {/* </div>     */}
-                    {/* <div> */}
-                        {/* <Link href = 'blogs'>
-                            <div className = {`${styles.dropContainer}`}>
-                                <p className = {`${styles.navLabels}`}>Blog</p>
-                                <div style = {{display: 'flex', justifyContent: 'center'}}>
-                                    <div className = {`${styles.line}`}></div>
-                                </div>
+
+                    <div  style = {{height: who ? '71px' : '13.6px' ,overflowY: 'hidden', transition: 'all 0.3s linear', marginBottom: '50px'}}>
+                        <div onClick={()=>{setWho(prev => !prev)}} style = {{marginBottom: '10px'}} className = {`${styles.between}`}>
+                            <p className = {`${styles.navLabels} ${styles.bigger}`}>Who We Are</p>
+                            <div style = {{marginTop: '-5px'}}>
+                                <Image priority  src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
                             </div>
-                        </Link> */}
-                    {/* </div>     */}
-                    {/* <div> */}
-                        <Link href = 'portfolio'>
-                            <div className = {`${styles.dropContainer}`}>
-                                <p className = {`${styles.navLabels}`}>Our Work</p>
-                            </div>  
-                        </Link>
-                        <Link href = 'ai'>
-                            <div className = {`${styles.dropContainer}`}>
-                                <p className = {`${styles.navLabels}`}>AI</p>
-                                <div style = {{display: 'flex', justifyContent: 'center'}}>
-                                    <div className = {`${styles.line}`}></div>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link href = 'ui'>
-                            <div className = {`${styles.dropContainer}`}>
-                                <p className = {`${styles.navLabels}`}>UI/UX</p>
-                                <div style = {{display: 'flex', justifyContent: 'center'}}>
-                                    <div className = {`${styles.line}`}></div>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link href = 'landing'>
-                            <div className = {`${styles.dropContainer}`}>
-                                <p className = {`${styles.navLabels}`}>App Development</p>
-                                <div style = {{display: 'flex', justifyContent: 'center'}}>
-                                    <div className = {`${styles.line}`}></div>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link href = 'fullstack'>
-                            <div className = {`${styles.dropContainer}`}>
-                                <p className = {`${styles.navLabels}`}>Full Stack Development</p>
-                                <div style = {{display: 'flex', justifyContent: 'center'}}>
-                                    <div className = {`${styles.line}`}></div>
-                                </div>
-                            </div>
-                        </Link>
-                    {/* </div>     */}
-                    {/* <div> */}
-                        <Link href = 'case2'>
-                            <div className = {`${styles.dropContainer}`}>
-                                <p className = {`${styles.navLabels}`}>Cases Studies</p>
-                                <div style = {{display: 'flex', justifyContent: 'center'}}>
-                                    <div className = {`${styles.line}`}></div>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link href = 'blogs'>
-                            <div className = {`${styles.dropContainer}`}>
-                                <p className = {`${styles.navLabels}`}>Blogs</p>
-                                <div style = {{display: 'flex', justifyContent: 'center'}}>
-                                    <div className = {`${styles.line}`}></div>
-                                </div>
-                            </div>
-                        </Link>
+                        </div>
                         <Link href = 'about'>
-                            <div className = {`${styles.dropContainer}`}>
-                                <p className = {`${styles.navLabels}`}>About Us</p>
+                            <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
+                                <p className = {`${styles.navLabels} ${styles.bigger}`}>About Us</p>
                                 <div style = {{display: 'flex', justifyContent: 'center'}}>
                                     <div className = {`${styles.line}`}></div>
                                 </div>
                             </div>
                         </Link>
                         <Link href = 'contact'>
-                            <div className = {`${styles.dropContainer}`}>
-                                <p className = {`${styles.navLabels}`}>Contact Us</p>
+                            <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
+                                <p className = {`${styles.navLabels} ${styles.bigger}`}>Contact Us</p>
                                 <div style = {{display: 'flex', justifyContent: 'center'}}>
                                     <div className = {`${styles.line}`}></div>
                                 </div>
                             </div>
                         </Link>
-                    {/* </div> */}
+                    </div>
+
+
+                    <Link href = 'blogs'>
+                        <div style = {{overflowY: 'hidden', transition: 'all 0.3s linear', marginBottom: '50px'}}>
+                                <div className = {`${styles.between}`}>
+                                    <p className = {`${styles.navLabels} ${styles.bigger}`}>Blog</p>
+                                </div>
+                        </div>
+                    </Link>
+
+                    <Link href = 'portfolio'>
+                        <div style = {{overflowY: 'hidden', transition: 'all 0.3s linear', marginBottom: '50px'}}>
+                                <div className = {`${styles.between}`}>
+                                    <p className = {`${styles.navLabels} ${styles.bigger}`}>Our Work</p>
+                                </div>
+                        </div>
+                    </Link>
+
+
+                    <div  style = {{height: exp ? '142px' : '13.6px' ,overflowY: 'hidden', transition: 'all 0.3s linear', marginBottom: '50px'}}>
+                        <div onClick={()=>{setExp(prev => !prev)}} style = {{marginBottom: '10px'}} className = {`${styles.between}`}>
+                            <p className = {`${styles.navLabels} ${styles.bigger}`}>Expertise</p>
+                            <div style = {{marginTop: '-5px'}}>
+                                <Image priority  src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
+                            </div>
+                        </div>
+                        <Link href = 'ai'>
+                            <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
+                                <p className = {`${styles.navLabels} ${styles.bigger}`}>AI</p>
+                                <div style = {{display: 'flex', justifyContent: 'center'}}>
+                                    <div className = {`${styles.line}`}></div>
+                                </div>
+                            </div>
+                        </Link>
+                        <Link href = 'ui'>
+                            <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
+                                <p className = {`${styles.navLabels} ${styles.bigger}`}>UI/UX</p>
+                                <div style = {{display: 'flex', justifyContent: 'center'}}>
+                                    <div className = {`${styles.line}`}></div>
+                                </div>
+                            </div>
+                        </Link>
+                        <Link href = 'landing'>
+                            <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
+                                <p className = {`${styles.navLabels} ${styles.bigger}`}>App Development</p>
+                                <div style = {{display: 'flex', justifyContent: 'center'}}>
+                                    <div className = {`${styles.line}`}></div>
+                                </div>
+                            </div>
+                        </Link>
+                        <Link href = 'fullstack'>
+                            <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
+                                <p className = {`${styles.navLabels} ${styles.bigger}`}>Full Stack Development</p>
+                                <div style = {{display: 'flex', justifyContent: 'center'}}>
+                                    <div className = {`${styles.line}`}></div>
+                                </div>
+                            </div>
+                        </Link>
+                    </div>
+
+
+                    <div  style = {{height: res ? '71px' : '13.6px' ,overflowY: 'hidden', transition: 'all 0.3s linear'}}>
+                        <div onClick={()=>{setRes(prev => !prev)}} style = {{marginBottom: '10px'}} className = {`${styles.between}`}>
+                            <p className = {`${styles.navLabels} ${styles.bigger}`}>Resources</p>
+                            <div style = {{marginTop: '-5px'}}>
+                                <Image priority  src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
+                            </div>
+                        </div>
+                        <Link href = 'case2'>
+                            <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
+                                <p className = {`${styles.navLabels} ${styles.bigger}`}>Case Studies</p>
+                                <div style = {{display: 'flex', justifyContent: 'center'}}>
+                                    <div className = {`${styles.line}`}></div>
+                                </div>
+                            </div>
+                        </Link>
+                        <Link href = 'blogs'>
+                            <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
+                                <p className = {`${styles.navLabels} ${styles.bigger}`}>Blogs</p>
+                                <div style = {{display: 'flex', justifyContent: 'center'}}>
+                                    <div className = {`${styles.line}`}></div>
+                                </div>
+                            </div>
+                        </Link>
+                    </div>
+
+
+
+                        
+                       
                 </div>    
             </div>
         </React.Fragment>

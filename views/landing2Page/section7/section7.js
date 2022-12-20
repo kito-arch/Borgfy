@@ -1,4 +1,4 @@
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section7.module.css'
 
@@ -11,8 +11,8 @@ export default function Section7(props){
             <div className = {`${styles.rocket} hide_in_mobile`} style = {{position: 'absolute', top: '70px', left: '450px'}}>
                 <Image priority  src = './moon_rocket.png' width = '212px' height = '212px'/>
             </div>
-            <p data-aos-offset = {-scroll*2600} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.subtext}`}>STARTUP TO THE MOON</p>
-            <p data-aos-offset = {-scroll*2600} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.text}`}>AI is not just a new technology! It is a phenomenon that teaches us how to build a scalable brand that has great product-market fit.</p>
+            <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*2600} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.subtext}`}>STARTUP TO THE MOON</p>
+            <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*2600} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.text}`}>AI is not just a new technology! It is a phenomenon that teaches us how to build a scalable brand that has great product-market fit.</p>
         </div>
     )
 }

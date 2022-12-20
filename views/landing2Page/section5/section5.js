@@ -1,4 +1,4 @@
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section5.module.css'
 import Link from 'next/link'
@@ -16,11 +16,11 @@ export default function Section5(props){
                 <Image priority  src = './landing2_sec5_back6.png' width = '130px' height = '170px' />
             </div>
 
-            <p data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>IDEAS WHERE</p>
-            <p data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>We are best</p>
+            <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*1200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>IDEAS WHERE</p>
+            <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*1200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>We are best</p>
 
             <div className = {`${styles.startBetween}`}>
-                <div data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' >
+                <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*1200} data-aos = 'fade-up' data-aos-duration = '3000' >
                     <p className = {`${styles.subtext}`}>App Development</p>
                     <div className = {`${styles.box}`}>
                         <div>
@@ -33,7 +33,7 @@ export default function Section5(props){
                     </div>
                 </div>
 
-                <div data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' >
+                <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*1200} data-aos = 'fade-up' data-aos-duration = '3000' >
                     <p className = {`${styles.subtext}`}>AI Automation</p>
                     <div style = {{marginTop: '200px'}} className = {`${styles.box}`}>
                         <div>
@@ -46,7 +46,7 @@ export default function Section5(props){
                     </div>
                 </div>
 
-                <div data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' >
+                <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*1200} data-aos = 'fade-up' data-aos-duration = '3000' >
                     <p className = {`${styles.subtext}`}>UI/UX Design</p>
                     <div className = {`${styles.box}`}>
                         <div style = {{paddingTop: '26px'}}>
@@ -59,7 +59,7 @@ export default function Section5(props){
                     </div>
                 </div>
 
-                <div data-aos-offset = {-scroll*1200} data-aos = 'fade-up' data-aos-duration = '3000' >
+                <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*1200} data-aos = 'fade-up' data-aos-duration = '3000' >
                     <p className = {`${styles.subtext}`}>Full Product Development</p>
                     <div style = {{marginTop: '200px'}} className = {`${styles.box}`}>
                         <div style = {{paddingTop: '31px'}}>

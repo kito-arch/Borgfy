@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import styles from './section3.module.css'
 
 export default function Section3(props){
@@ -11,7 +11,7 @@ export default function Section3(props){
                 <Image priority  src = './ai_sec3_back.png' width = '992px' height = '711px' />
             </div>
 
-            <div  data-aos-offset = {-500*scroll} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.innerContainer}`}>
+            <div  data-aos-offset = {-500*(screen.width <= 480 ? mobscroll : myscroll)} data-aos = 'fade-right' data-aos-duration = '3000' className = {`${styles.innerContainer}`}>
                 <p className = {`${styles.heading}`}>How AI Works</p>
                 <p className = {`${styles.text}`}>
                     The hype of AI solutions has increased so much. That's why today every vendor wants to use AI to sell their services and products. Machine learning is the most common form of AI.

@@ -3,7 +3,7 @@ import styles from './case.module.css'
 import PaddingLayout from "../../layouts/paddingLayout/paddingLayout";
 import StandardLayout from "../../layouts/standardLayout/standardLayout";
 import Image from 'next/image';
-import { scroll } from '../../conts_vars';
+import { myscroll, mobscroll } from '../../conts_vars';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Link from 'next/link';
@@ -40,8 +40,8 @@ export default function DynamicCasePage(props){
                             <Image priority  src = './digital_right_triangle.png' width = '219.47px' height = '221.19px'/>
                         </div>
 
-                        <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Check In Depth - How we solved it</p>
-                        <p data-aos-offset = {-300*scroll} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Case Studies</p>
+                        <p data-aos-offset = {-300*(screen.width <= 480 ? mobscroll : myscroll)} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Check In Depth - How we solved it</p>
+                        <p data-aos-offset = {-300*(screen.width <= 480 ? mobscroll : myscroll)} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Case Studies</p>
 
 
                         <div className = {`${styles.stretchBetween} ${styles.cen}`}>
@@ -56,7 +56,7 @@ export default function DynamicCasePage(props){
 
                             {useCases.map((uc)=>{
                                 return(
-                                    <div data-aos-offset = {-300*scroll} data-aos = 'fade-right' data-aos-duration = '3000'>
+                                    <div data-aos-offset = {-300*(screen.width <= 480 ? mobscroll : myscroll)} data-aos = 'fade-right' data-aos-duration = '3000'>
                                         <div style = {{display: 'flex', alignItems: 'center'}}>
                                             <Image priority  src = './case2_ellipse.png' width = '31px' height = '31px' />
                                             <p className = {`${styles.mobile}`}>{uc?.type}</p>

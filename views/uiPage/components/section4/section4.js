@@ -1,4 +1,4 @@
-import { scroll } from '../../../../conts_vars'
+import { myscroll, mobscroll } from '../../../../conts_vars'
 import Image from 'next/image'
 import styles from './section4.module.css'
 
@@ -9,7 +9,7 @@ export default function Section4(props){
 
                 <Image priority  src = './ui_sec4_back.jpg' width = '1537px' height = '691px' layout = 'fill'/>
 
-                <div data-aos-offset = {-scroll*1000} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.innerContainer}`}>
+                <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*1000} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.innerContainer}`}>
                     <div className = {styles.tCon} style = {{width: '30%', zIndex: '10', marginRight: '3%'}}>
                         <p className = {`${styles.heading}`}>Analysis</p>
                         <p className = {`${styles.text}`}>By collecting all information about your needs and discussing it thoroughly, we ensure there is no scope of error.</p>
@@ -26,7 +26,7 @@ export default function Section4(props){
                     </div>
                 </div>
 
-                <div data-aos-offset = {-scroll*1000} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.innerContainer}`}>
+                <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*1000} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.innerContainer}`}>
                     <div className = {styles.tCon} style = {{width: '30%', zIndex: '10', marginRight: '3%'}}>
                         <p className = {`${styles.heading}`}>Prototyping</p>
                         <p className = {`${styles.text}`}>We test your ideas before they are fully developed to provide the best user experience.</p>

@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import styles from './section11.module.css'
 
 export default function Section11(props){
@@ -14,7 +14,7 @@ export default function Section11(props){
                 <Image priority  src = './case_style_gray.png' width = '1227px' height = '1227px' />
             </div>
 
-            <div data-aos-offset = {-scroll*3200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.startBetween}`}>
+            <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*3200} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.startBetween}`}>
                 <div className = {`${styles.headingContainer}`}>
                     <div style = {{position: 'absolute', left: '-25px', top: '0'}}>
                         <Image priority  src = './gray_ellipse.png' width = '61px' height = '61px'/>

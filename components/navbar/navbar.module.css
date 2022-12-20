@@ -173,6 +173,9 @@
     display: none;
     transition: all 0.7s ease-in-out;
 }
+.bigger{
+    font-size: 12px;
+}
 
 @media screen and (max-width: 480px){
     .innerContainer{
@@ -185,7 +188,9 @@
         /* left: 100vw; */
         width: 40vw;
         height: 100vh;
-        background-color: #141821;
+        background: rgba(30, 36, 51, 0.40);
+        box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(8px);
         z-index: 100;
         justify-content: space-between;
         align-items: center;
@@ -200,12 +205,16 @@
     }
     .cross{
         position: absolute;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
         top: 20px;
-        left: 20px;
-        padding: 10px;
+        left: 15px;
+        width: 30px !important;
+        height: 30px;
         border: 1px solid white;
         border-radius: 5px;
-        width: fit-content !important;
+        /* width: fit-content !important; */
     }
     .dropContainer{
         margin-bottom: 30px;

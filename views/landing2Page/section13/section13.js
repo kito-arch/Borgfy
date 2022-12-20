@@ -1,7 +1,7 @@
 
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import styles from './section13.module.css'
 
 export default function Section13(props){
@@ -40,8 +40,8 @@ export default function Section13(props){
                 <Image priority  src = './landing2_sec13_left.png' width = '215px' height = '749px' />
             </div>
 
-            <p data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Testimonials</p>
-            <p data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Check what our clients are saying</p>
+            <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.subheading}`}>Testimonials</p>
+            <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Check what our clients are saying</p>
 
             <div className = {`${styles.stretchBetween}`}>
                 <div className = {`${styles.revImageContainer}`}>
@@ -69,7 +69,7 @@ export default function Section13(props){
                     </div>
                     
                 </div>
-                <div className={styles.comCm} style = {{width: '80%'}} data-aos-offset = {-scroll*4600} data-aos = 'fade-left' data-aos-duration = '3000'>
+                <div className={styles.comCm} style = {{width: '80%'}} data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*4600} data-aos = 'fade-left' data-aos-duration = '3000'>
                     <div className={styles.commaContainer} style = {{marginBottom: '20px', marginTop: '100px'}}>
                         <Image priority  src = './landing2_sec13_comma.png' width = '31px' height = '27px' />
                     </div>

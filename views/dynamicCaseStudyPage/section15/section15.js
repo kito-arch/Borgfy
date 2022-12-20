@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import { scroll } from '../../../conts_vars'
+import { myscroll, mobscroll } from '../../../conts_vars'
 import styles from './section15.module.css'
 
 export default function Section15(props){
@@ -14,8 +14,8 @@ export default function Section15(props){
                 <Image priority  src = './case_left_hand.png' width = '158px' height = '185px' />
             </div>
 
-            <p data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>The Outcomes</p>
-            <div data-aos-offset = {-scroll*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.centerCenter}`}>
+            <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>The Outcomes</p>
+            <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*4600} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.centerCenter}`}>
                 <div className = {`${styles.stretchBetween}`}>
                     <div style = {{position: 'relative'}}> 
                         <p className = {`${styles.text}`}>{props?.useCase?.funding}</p>
