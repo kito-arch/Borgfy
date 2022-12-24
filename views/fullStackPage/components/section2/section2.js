@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Row from './components/row/row'
 import styles from './section2.module.css'
-import {scroll} from '../../../../conts_vars'
+import {myscroll, mobscroll} from '../../../../conts_vars'
 
 export function Section2(props){
     return(

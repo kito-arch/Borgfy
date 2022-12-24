@@ -11,4 +11,8 @@
     .container p{
         line-height: normal;
     }
+    .container{
+        padding-top: 56px;
+    }
 }
+

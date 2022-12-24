@@ -169,4 +169,7 @@
     /* .cen{
         justify-content: center;
     } */
+    .container{
+        padding-top: 56px;
+    }
 }

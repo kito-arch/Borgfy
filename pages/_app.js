@@ -7,6 +7,7 @@ import { useRouter } from 'next/router';
 import "swiper/css";
 import "swiper/css/bundle";
 import React from 'react';
+import Script from 'next/script';
 
 
 function MyApp({ Component, pageProps }) {
@@ -61,7 +62,22 @@ function MyApp({ Component, pageProps }) {
 
         </div>
       :
-        <Component {...pageProps} />
+      <React.Fragment>
+
+          <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+
+          <Script strategy="lazyOnload">
+              {`
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                  page_path: window.location.pathname,
+                  });
+              `}
+          </Script>
+          <Component {...pageProps} />
+        </React.Fragment>
       }
     </React.Fragment>
   )

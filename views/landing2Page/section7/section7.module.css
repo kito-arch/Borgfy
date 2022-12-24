@@ -35,7 +35,9 @@
 
 @media screen and (max-width: 480px) {
     .rr{
-        right: 0 !important;
+        right: -15px !important;
+        width: 100vw !important;
+        height: 230px !important;
     }
     .subtext{
         margin-top: 200px;
@@ -43,5 +45,15 @@
     }
     .container p{
         line-height: normal;
+    }
+
+    .one, .four{
+        bottom: 0 !important;
+    }
+
+
+
+    .one, .two, .three, .four{
+        width: 150px;
     }
 }
