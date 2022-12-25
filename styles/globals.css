@@ -157,10 +157,14 @@ table.boostrap4_dark_striped tbody tr:nth-of-type(odd) {
   z-index: 40 !important;
 }
 
-.grecaptcha-logo{
-  background-color: transparent;
-}
+
 
 .grecaptcha-logo iframe{
   height: auto !important;
+}
+
+@media screen and (max-width: 480px) {
+  .grecaptcha-logo iframe{
+    height: 60px !important;
+  } 
 }
