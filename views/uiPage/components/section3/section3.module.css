@@ -25,13 +25,17 @@
 
 @media screen and (max-width: 480px){
     .smallHeading{
+        margin: auto;
         margin-top: 60px !important;
         line-height: 10px;
         margin-bottom: 5px;
         font-size: 15px;
+        margin-bottom: 10px;
     }
     .largeHeading{
         font-size: 20px;
-
+        line-height: 20px;
+        margin: auto;
+        margin-bottom: 10px;
     }
 }

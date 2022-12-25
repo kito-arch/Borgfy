@@ -51,6 +51,24 @@ function MyApp({ Component, pageProps }) {
     AOS.init()
     // window.addEventListener('load', ()=>{widthChanger()});
     widthChanger()
+
+
+    if(router.pathname != "/contact"){
+      // console.log("hereee")
+      if(document.getElementsByClassName("grecaptcha-badge")[0]){
+        // console.log("in")
+        document.getElementsByClassName("grecaptcha-badge")[0].style.display = "none"
+      }
+    }
+    else{
+      // console.log("here")
+      if(document.getElementsByClassName("grecaptcha-badge")[0]){
+        // console.log("in")
+        document.getElementsByClassName("grecaptcha-badge")[0].style.display = "block"
+      }
+    }
+
+
     setLoading(false)
     
   }, [router.pathname])
