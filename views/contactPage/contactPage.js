@@ -95,6 +95,10 @@ export default function ContactPage(props){
                 name:"Borgfy",
                 email:"husnainbusiness315@gmail.com"
              },
+             replyTo: {
+                name: "Borgfy",
+                email: "husnainbusiness315@gmail.com"
+             },
              to:[{  
                    email:"info@borgfy.com",
                    name:"Borgfy"

@@ -15,4 +15,4 @@
 
 const _scroll = 1
 export { _scroll as myscroll }
-export const mobscroll = -0.5
+export const mobscroll = -0.2
