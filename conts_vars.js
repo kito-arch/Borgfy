@@ -13,6 +13,6 @@
 // bigger number means earlier
 
 
-const _scroll = 1
+const _scroll = 1.2
 export { _scroll as myscroll }
-export const mobscroll = -0.2
+export const mobscroll = -0.05

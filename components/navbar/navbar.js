@@ -101,7 +101,7 @@ export default function Navbar(props){
                                             </div>
                                         </div>
                                     </Link>
-                                    <Link href = 'ui'>
+                                    <Link href = 'uiux-design'>
                                         <div className = {`${styles.dropContainer}`}>
                                             <p className = {`${styles.navLabels}`}>UI/UX</p>
                                             <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -109,7 +109,7 @@ export default function Navbar(props){
                                             </div>
                                         </div>
                                     </Link>
-                                    <Link href = 'landing'>
+                                    <Link href = 'app'>
                                         <div className = {`${styles.dropContainer}`}>
                                             <p className = {`${styles.navLabels}`}>App Development</p>
                                             <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -117,7 +117,7 @@ export default function Navbar(props){
                                             </div>
                                         </div>
                                     </Link>
-                                    <Link href = 'fullstack'>
+                                    <Link href = 'why-does-full-stack-development-matter'>
                                         <div className = {`${styles.dropContainer}`}>
                                             <p className = {`${styles.navLabels}`}>Full Stack Development</p>
                                             <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -228,7 +228,7 @@ export default function Navbar(props){
                                 </div>
                             </div>
                         </Link>
-                        <Link href = 'ui'>
+                        <Link href = 'uiux-design'>
                             <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
                                 <p className = {`${styles.navLabels} ${styles.bigger}`}>UI/UX</p>
                                 <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -236,7 +236,7 @@ export default function Navbar(props){
                                 </div>
                             </div>
                         </Link>
-                        <Link href = 'landing'>
+                        <Link href = 'app'>
                             <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
                                 <p className = {`${styles.navLabels} ${styles.bigger}`}>App Development</p>
                                 <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -244,7 +244,7 @@ export default function Navbar(props){
                                 </div>
                             </div>
                         </Link>
-                        <Link href = 'fullstack'>
+                        <Link href = 'why-does-full-stack-development-matter'>
                             <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
                                 <p className = {`${styles.navLabels} ${styles.bigger}`}>Full Stack Development</p>
                                 <div style = {{display: 'flex', justifyContent: 'center'}}>

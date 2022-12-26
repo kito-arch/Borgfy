@@ -27,7 +27,7 @@ export default function Section5(props){
                             <Image priority  src = './landing2_sec5_image1.png' width = '261px' height = '261px' />
                         </div>
                         <p className = {`${styles.boxText}`}>We had great experiences in building consumer-tech app ideas to help them build scalable mobility & premium user experiences apps product for their customers</p>
-                        <Link href = 'landing'>
+                        <Link href = 'app'>
                             <p className = {`${styles.button}`}>Read More</p>
                         </Link>
                     </div>
@@ -53,7 +53,7 @@ export default function Section5(props){
                             <Image priority  src = './landing2_sec5_image3.png' width = '261px' height = '261px' />
                         </div>
                         <p className = {`${styles.boxText}`}>The world looks better when its design perfectly and we craft your ideas in best shape as possible</p>
-                        <Link href = 'ui'>
+                        <Link href = 'uiux-design'>
                             <p className = {`${styles.button}`}>Read More</p>
                         </Link>
                     </div>
@@ -66,7 +66,7 @@ export default function Section5(props){
                             <Image priority  src = './landing2_sec5_image4.png' width = '261px' height = '261px' />
                         </div>
                         <p className = {`${styles.boxText}`}>We build vision from inception to launch to craft imagination into a physical dimension with our multi-talented pool of designers, developers, strategists, and creatives.</p>
-                        <Link href = 'fullstack'>
+                        <Link href = 'why-does-full-stack-development-matter'>
                             <p className = {`${styles.button}`}>Read More</p>
                         </Link>
                     </div>

@@ -1,8 +1,9 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
-import Landing2Page from '../views/landing2Page/landing2Page'
+import LandingPage from '../views/landingPage/landingPage'
 
-export default function Landing2() {
+export default function Landing() {
 
   return (
     <div className={styles.container}>
@@ -13,7 +14,7 @@ export default function Landing2() {
       </Head>
 
       <main>
-        <Landing2Page/>
+        <LandingPage/>
       </main>
 
       

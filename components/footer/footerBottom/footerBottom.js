@@ -7,7 +7,7 @@ export default function FooterBottom(props){
     return(
         <div className = {`${styles.width}`}>
             <div className = {`${styles.container} ${styles.startBetween}`}>
-                <Link href = 'landing2'>
+                <Link href = '/'>
                     <div className={styles.ll} style = {{position: 'absolute', top: '160px', left: '30px', cursor: 'pointer', zIndex: '100'}}>
                         <Image priority  src = {props.double ? '../footer_icon.png' : './footer_icon.png'} width = '90px' height = '90px'/>
                     </div>
@@ -43,13 +43,13 @@ export default function FooterBottom(props){
                     <Link href = 'ai'>
                         <p style = {{cursor: 'pointer'}} className = {`${styles.text}`}>AI</p>
                     </Link>
-                    <Link href = 'ui'>
+                    <Link href = 'uiux-design'>
                         <p style = {{cursor: 'pointer'}} className = {`${styles.text}`}>UI/UX</p>
                     </Link>
-                    <Link href = 'landing'>
+                    <Link href = 'app'>
                         <p style = {{cursor: 'pointer'}} className = {`${styles.text}`}>App Development</p>
                     </Link>
-                    <Link href = 'fullstack'>
+                    <Link href = 'why-does-full-stack-development-matter'>
                         <p style = {{cursor: 'pointer'}} className = {`${styles.text}`}>Full Stack Development</p>
                     </Link>
                 </div>
