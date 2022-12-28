@@ -7,7 +7,7 @@ export default function Section7Link(props){
     return(
         <div className = {`${styles.container}`}>
             <p className = {`${styles.text}`}>App Development</p>
-            <Link href = 'app'>
+            <Link href = 'why-the-businesses-needs-an-apps'>
                 <div className={styles.imCon} style = {{cursor: 'pointer', marginLeft: '30px', marginRight: '30px'}}>
                     <Image priority  src = './landing_sec7_left.png' width = '62px' height = '41px' />
                 </div>

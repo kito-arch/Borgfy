@@ -2,54 +2,71 @@
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <url>
        <loc>https://www.borgfy.com</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
        <loc>https://www.borgfy.com/portfolio</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
-       <loc>https://www.borgfy.com/ai</loc>
+       <loc>https://www.borgfy.com/what-is-ai-about</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
-       <loc>https://www.borgfy.com/ui</loc>
+       <loc>https://www.borgfy.com/uiux-design</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
-       <loc>https://www.borgfy.com/fullstack</loc>
+       <loc>https://www.borgfy.com/why-does-full-stack-development-matter</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
        <loc>https://www.borgfy.com/landing</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
-       <loc>https://www.borgfy.com/landing2</loc>
+       <loc>https://www.borgfy.com/why-the-businesses-needs-an-apps</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
-       <loc>https://www.borgfy.com/venture</loc>
+       <loc>https://www.borgfy.com/venture-studio</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
-       <loc>https://www.borgfy.com/digital</loc>
+       <loc>https://www.borgfy.com/what-is-digital-transformation</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
        <loc>https://www.borgfy.com/blogs</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
        <loc>https://www.borgfy.com/blogsdetail</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
        <loc>https://www.borgfy.com/case</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
        <loc>https://www.borgfy.com/case2</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
-       <loc>https://www.borgfy.com/brain</loc>
+       <loc>https://www.borgfy.com/brain-storming</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
        <loc>https://www.borgfy.com/about</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
        <loc>https://www.borgfy.com/contact</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
      <url>
        <loc>https://www.borgfy.com/policy</loc>
+        <lastmod>2022-12-28</lastmod>
      </url>
    </urlset>
 </xml>

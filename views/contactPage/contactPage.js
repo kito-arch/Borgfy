@@ -93,11 +93,11 @@ export default function ContactPage(props){
         axios.post("https://api.sendinblue.com/v3/smtp/email", {
             sender:{  
                 name:"Borgfy",
-                email:"husnainbusiness315@gmail.com"
+                email:"mintoadil@gmail.com"
              },
              replyTo: {
                 name: "Borgfy",
-                email: "husnainbusiness315@gmail.com"
+                email: "mintoadil@gmail.com"
              },
              to:[{  
                    email:"info@borgfy.com",

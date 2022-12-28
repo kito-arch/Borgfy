@@ -97,7 +97,7 @@ export default function Section6(props){
                                     <li><p className = {`${styles.list}`}>Full Funding Assistance</p></li>
                                 </ul>
                             </div>
-                            <Link href = 'venture'>
+                            <Link href = 'what-is-digital-transformation'>
                                 <p className = {`${styles.button}`}>Read More</p>
                             </Link>
                         </div>
@@ -139,7 +139,7 @@ export default function Section6(props){
                                     <li><p className = {`${styles.list}`}>Startup Networking Events </p></li>
                                 </ul>
                             </div>
-                            <Link href = 'digital'>
+                            <Link href = 'venture-studio'>
                                 <p className = {`${styles.button}`}>Read More</p>
                             </Link>
                         </div>

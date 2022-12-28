@@ -7,11 +7,27 @@ export default function Section2(props){
 
     const [kon, setKon] = useState(0)
 
+    const [ids, setIds] = useState([])
     
     useEffect(()=>{
+        ids.forEach((id)=>{
+            window.clearTimeout(id); // will do nothing if no timeout with id is present
+        }) 
         let width = document.getElementById('secondslider').clientWidth
         document.getElementById("secondslider").scroll((width * kon), 0)
+        let new_id = setTimeout(()=>{
+            setKon(prev => {return ((prev + 1)%(3))})
+        }, 5000)
+        setIds([...ids, new_id])
     }, [kon])
+
+
+
+    useEffect(()=>{
+        setTimeout(()=>{
+            setKon(1)
+        }, 5000)
+    }, [])
 
 
     return(

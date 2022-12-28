@@ -93,7 +93,7 @@ export default function Navbar(props){
                                     <Image priority  src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
                                 </div>
                                 <div className = {`${styles.dropdownContainer} ${styles.four}`}>
-                                    <Link href = 'ai'>
+                                    <Link href = 'what-is-ai-about'>
                                         <div className = {`${styles.dropContainer}`}>
                                             <p className = {`${styles.navLabels}`}>AI</p>
                                             <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -109,7 +109,7 @@ export default function Navbar(props){
                                             </div>
                                         </div>
                                     </Link>
-                                    <Link href = 'app'>
+                                    <Link href = 'why-the-businesses-needs-an-apps'>
                                         <div className = {`${styles.dropContainer}`}>
                                             <p className = {`${styles.navLabels}`}>App Development</p>
                                             <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -220,7 +220,7 @@ export default function Navbar(props){
                                 <Image priority  src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
                             </div>
                         </div>
-                        <Link href = 'ai'>
+                        <Link href = 'what-is-ai-about'>
                             <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
                                 <p className = {`${styles.navLabels} ${styles.bigger}`}>AI</p>
                                 <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -236,7 +236,7 @@ export default function Navbar(props){
                                 </div>
                             </div>
                         </Link>
-                        <Link href = 'app'>
+                        <Link href = 'why-the-businesses-needs-an-apps'>
                             <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
                                 <p className = {`${styles.navLabels} ${styles.bigger}`}>App Development</p>
                                 <div style = {{display: 'flex', justifyContent: 'center'}}>

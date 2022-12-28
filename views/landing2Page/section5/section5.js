@@ -27,7 +27,7 @@ export default function Section5(props){
                             <Image priority  src = './landing2_sec5_image1.png' width = '261px' height = '261px' />
                         </div>
                         <p className = {`${styles.boxText}`}>We had great experiences in building consumer-tech app ideas to help them build scalable mobility & premium user experiences apps product for their customers</p>
-                        <Link href = 'app'>
+                        <Link href = 'why-the-businesses-needs-an-apps'>
                             <p className = {`${styles.button}`}>Read More</p>
                         </Link>
                     </div>
@@ -40,7 +40,7 @@ export default function Section5(props){
                             <Image priority  src = './landing2_sec5_image2.png' width = '261px' height = '261px' />
                         </div>
                         <p className = {`${styles.boxText}`}>Artificial intelligence is the way to go and lead the world with automation helping businesses and startups lead the future with better optimization and reduced cost of operations handled by AI Algorithm</p>
-                        <Link href = 'ai'>
+                        <Link href = 'what-is-ai-about'>
                             <p className = {`${styles.button}`}>Read More</p>
                         </Link>
                     </div>
