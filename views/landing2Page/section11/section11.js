@@ -66,7 +66,7 @@ export default function Section11(props){
                 </div>
 
             </div>
-            <Link href = 'brain-storming'>
+            <Link href = 'how-to-build-and-brainstorm-ideas'>
                 <p className = {`${styles.readmore}`}>Read More</p>
             </Link>
 

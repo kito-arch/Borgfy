@@ -101,9 +101,9 @@ export default function ContactPage(props){
              },
              to:[{  
                    email:"info@borgfy.com",
-                   name:"Borgfy"
+                   name:"Borgfy Mail"
                 }],
-             subject:"From Borgfy",
+             subject:"Borgfy User Feedback",
              htmlContent:`<html><head></head><body><p><b>Name<b/>: ${nameRef.current.value}</p><p><b>Email<b/>: ${emailRef.current.value}</p><p><b>Subject<b/>: ${subjectRef.current.value}</p><p><b>Message<b/>: ${messageRef.current.value}</p></body></html>`
           },
           {

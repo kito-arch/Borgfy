@@ -93,7 +93,7 @@ export default function Navbar(props){
                                     <Image priority  src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
                                 </div>
                                 <div className = {`${styles.dropdownContainer} ${styles.four}`}>
-                                    <Link href = 'what-is-ai-about'>
+                                    <Link href = 'how-to-build-ai-products'>
                                         <div className = {`${styles.dropContainer}`}>
                                             <p className = {`${styles.navLabels}`}>AI</p>
                                             <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -220,7 +220,7 @@ export default function Navbar(props){
                                 <Image priority  src = {props.double ? '../arrowDown.png' : './arrowDown.png' }  width = '6px' height = '4px'/>
                             </div>
                         </div>
-                        <Link href = 'what-is-ai-about'>
+                        <Link href = 'how-to-build-ai-products'>
                             <div style = {{marginBottom: '10px', marginLeft: '10px'}}>
                                 <p className = {`${styles.navLabels} ${styles.bigger}`}>AI</p>
                                 <div style = {{display: 'flex', justifyContent: 'center'}}>

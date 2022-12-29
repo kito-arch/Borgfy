@@ -12,7 +12,7 @@ export default function Section7(props){
                     <Image priority  src = './landing_sec7_left.png' width = '62px' height = '41px' />
                 </div>
             </Link>
-            <Link href = 'what-is-ai-about'>
+            <Link href = 'how-to-build-ai-products'>
                 <div style = {{cursor: 'pointer', marginLeft: '30px', marginRight: '30px'}}>
                     <Image priority  src = './landing_sec7_right.png' width = '62px' height = '41px' />
                 </div>

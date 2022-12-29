@@ -40,7 +40,7 @@ export default function FooterBottom(props){
                 </div> */}
                 <div className = {`${styles.column}`}>
                     <p className = {`${styles.heading}`}>Expertise</p>
-                    <Link href = 'what-is-ai-about'>
+                    <Link href = 'how-to-build-ai-products'>
                         <p style = {{cursor: 'pointer'}} className = {`${styles.text}`}>AI</p>
                     </Link>
                     <Link href = 'uiux-design'>
