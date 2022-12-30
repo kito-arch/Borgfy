@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { mail } from './functions';
 import axios from 'axios';
 import { useEffect, useRef, useState } from 'react';
+import { numbers } from '../../numebrs';
 
 
 export default function ContactPage(props){
@@ -20,6 +21,9 @@ export default function ContactPage(props){
     const emailRef = useRef(null);
     const subjectRef = useRef(null);
     const messageRef = useRef(null);
+
+    const numberRef = useRef(null);
+    const codeRef = useRef(null);
 
 
     useEffect(() => {
@@ -92,19 +96,19 @@ export default function ContactPage(props){
     let sendEmail = ()=>{
         axios.post("https://api.sendinblue.com/v3/smtp/email", {
             sender:{  
-                name:"Borgfy",
+                name:"Borgfy Pvt",
                 email:"mintoadil@gmail.com"
              },
              replyTo: {
-                name: "Borgfy",
+                name: "Borgfy Pvt",
                 email: "mintoadil@gmail.com"
              },
              to:[{  
                    email:"info@borgfy.com",
                    name:"Borgfy Mail"
                 }],
-             subject:"Borgfy User Feedback",
-             htmlContent:`<html><head></head><body><p><b>Name<b/>: ${nameRef.current.value}</p><p><b>Email<b/>: ${emailRef.current.value}</p><p><b>Subject<b/>: ${subjectRef.current.value}</p><p><b>Message<b/>: ${messageRef.current.value}</p></body></html>`
+             subject:"Borgfy Company",
+             htmlContent:`<html><head></head><body><p><b>Name<b/>: ${nameRef.current.value}</p><p><b>Email<b/>: ${emailRef.current.value}</p>${numberRef != "" ? `<b>Number<b/>: +${codeRef.current.value} ${numberRef.current.value}</p>` : ``}<p><b>Subject<b/>: ${subjectRef.current.value}</p><p><b>Message<b/>: ${messageRef.current.value}</p></body></html>`
           },
           {
             headers: {
@@ -124,6 +128,7 @@ export default function ContactPage(props){
             emailRef.current.value = ""
             messageRef.current.value = ""
             subjectRef.current.value = ""
+            numberRef.current.value = ""
         })
         .catch((err)=>{
             // console.log(process.env.NEXT_PUBLIC_APIKEY)
@@ -173,6 +178,19 @@ export default function ContactPage(props){
                             <input ref = {emailRef} className = {`${styles.input}`} placeholder = 'Email'/>
                             <br/>
                             <textarea ref = {messageRef} className = {`${styles.input} ${styles.textArea}`} placeholder = 'Write Something...'></textarea>
+                            <br/>
+                            <div className = {styles.numberContainer}>
+                                <div className = {`${styles.select} `} style = {{width: 'fit-content'}} >
+                                    <select ref = {codeRef} className = {styles.selectInner}>
+                                        {numbers.map((number)=>{
+                                            return(
+                                                <option value = {number}>{number}</option>
+                                            )
+                                        })}
+                                    </select>
+                                </div>
+                                <input style = {{width : '75%'}} ref = {numberRef} className = {`${styles.input}`} placeholder = 'Number'/>
+                            </div>
                             <p onClick = {(event)=>{
                                 if(!showSubmit)
                                     return;
