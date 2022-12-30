@@ -111,6 +111,24 @@
         font-size: 14px;
         padding: 10px;
     }
+    .select{
+        /* width: ; */
+        font-size: 14px;
+        padding: 10px;   
+    }
+    .select::before{
+
+        content: "+";
+        font-size: 14px;
+        color: black;
+    }
+
+    .selectInner{
+        font-size: 14px;
+        color: black;
+        border: none;
+        outline: none;
+    }
     .numberContainer{
         width: -webkit-fill-available;
     }
