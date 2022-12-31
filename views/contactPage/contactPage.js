@@ -108,7 +108,7 @@ export default function ContactPage(props){
                    name:"Borgfy Mail"
                 }],
              subject:"Borgfy Company",
-             htmlContent:`<html><head></head><body><p><b>Name<b/>: ${nameRef.current.value}</p><p><b>Email<b/>: ${emailRef.current.value}</p>${numberRef != "" ? `<b>Number<b/>: +${codeRef.current.value} ${numberRef.current.value}</p>` : ``}<p><b>Subject<b/>: ${subjectRef.current.value}</p><p><b>Message<b/>: ${messageRef.current.value}</p></body></html>`
+             htmlContent:`<html><head></head><body><p><b>Name<b/>: ${nameRef.current.value}</p><p><b>Email<b/>: ${emailRef.current.value}</p>${numberRef != "" ? `<b>Number<b/>: ${codeRef.current.value} ${numberRef.current.value}</p>` : ``}<p><b>Subject<b/>: ${subjectRef.current.value}</p><p><b>Message<b/>: ${messageRef.current.value}</p></body></html>`
           },
           {
             headers: {
@@ -175,22 +175,32 @@ export default function ContactPage(props){
                             <br/>
                             <input ref = {subjectRef} className = {`${styles.input}`} placeholder = 'Subject'/>
                             <br/>
-                            <input ref = {emailRef} className = {`${styles.input}`} placeholder = 'Email'/>
-                            <br/>
-                            <textarea ref = {messageRef} className = {`${styles.input} ${styles.textArea}`} placeholder = 'Write Something...'></textarea>
-                            <br/>
                             <div className = {styles.numberContainer}>
-                                <div className = {`${styles.select} `} style = {{width: 'fit-content'}} >
-                                    <select ref = {codeRef} className = {styles.selectInner}>
+                                <input list = "code" style = {{width : '30%'}} ref = {codeRef} className = {`${styles.input} ${styles.select}`} placeholder = 'Code'/>
+
+                                <datalist id = "code" className = {styles.selectInner}>
+                                    {numbers.map((number)=>{
+                                        return(
+                                            <option value = {"+" + number}>{"+" + number}</option>
+                                        )
+                                    })}
+                                </datalist>
+                                {/* <div className = {`${styles.select} `} style = {{width: 'fit-content'}} >
+                                    <datalist ref = {codeRef} className = {styles.selectInner}>
                                         {numbers.map((number)=>{
                                             return(
                                                 <option value = {number}>{number}</option>
                                             )
                                         })}
-                                    </select>
-                                </div>
-                                <input style = {{width : '75%'}} ref = {numberRef} className = {`${styles.input}`} placeholder = 'Number'/>
+                                    </datalist>
+                                </div> */}
+                                <input style = {{width : '65%'}} ref = {numberRef} className = {`${styles.input}`} placeholder = 'Number'/>
                             </div>
+                            <br/>
+                            <input ref = {emailRef} className = {`${styles.input}`} placeholder = 'Email'/>
+                            <br/>
+                            <textarea ref = {messageRef} className = {`${styles.input} ${styles.textArea}`} placeholder = 'Write Something...'></textarea>
+                            <br/>
                             <p onClick = {(event)=>{
                                 if(!showSubmit)
                                     return;

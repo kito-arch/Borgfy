@@ -1,12 +1,40 @@
 import { myscroll, mobscroll } from '../../../conts_vars'
 import Image from 'next/image'
 import styles from './section6.module.css'
+import Link from 'next/link'
 
 export default function Section6(props){
     return(
         <div className = {`${styles.container}`}>
+
+<div className='show_in_mobile'>
+                <div style = {{position: 'relative'}}>
+                    <div>
+                        <Image src = "./landing2_sec14_arrow.png" width = '50' height = '52' />
+                    </div>
+                </div>
+                <Link href = 'portfolio'>
+                    <p style = {{marginTop: '0', marginLeft: '30px', marginBottom: '20px'}} className = {styles.button}>Our Work</p>
+                </Link>
+            </div>
+
+            <div className='hide_in_mobile' style = {{position: 'absolute', top: '100px', right: '12rem'}}>
+                <div style = {{position: 'relative'}}>
+                    <div style = {{position: 'absolute', top: '-100px', left: '-50px'}}>
+                        <Image src = "./landing2_sec14_arrow.png" width = '100' height = '104' />
+                    </div>
+                </div>
+                <Link href = 'portfolio'>
+                    <p className = {styles.button}>Our Work</p>
+                </Link>
+            </div>
+
+
             <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*1700} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.topHeading}`}>Tools We used</p>
             <p data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*1700} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.heading}`}>Native and Hybrid APP</p>
+
+
+           
 
             <div className = {`${styles.stretchBetween}`}>
                 <div data-aos-offset = {-(screen.width <= 480 ? mobscroll : myscroll)*1500} data-aos = 'fade-up' data-aos-duration = '3000' className = {`${styles.single}`}>
