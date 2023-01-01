@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(()=>{
     // AOS
-    AOS.init()
+    AOS.init({once: true})
     // window.addEventListener('load', ()=>{widthChanger()});
     widthChanger()
 
