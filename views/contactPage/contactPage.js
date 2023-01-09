@@ -54,6 +54,7 @@ export default function ContactPage(props){
 
     const handleOnClick = e => {
         e.preventDefault();
+        setShowSubmit(false)
         window.grecaptcha.ready(() => {
             window.grecaptcha.execute("6Le_AZAjAAAAAI1_3cckuVFbxaLrrNQs8hddCSus", { action: 'submit' }).then(token => {
                 submitData(token);
@@ -78,6 +79,7 @@ export default function ContactPage(props){
                     setOpacity(0)
                 }, 3000)
             }
+            setShowSubmit(true)
         })
         .catch((err)=>{
             console.log(err)
@@ -88,6 +90,7 @@ export default function ContactPage(props){
                 setReFail(false)
                 setOpacity(0)
             }, 3000)
+            setShowSubmit(true)
         })
         // console.log(token)
     }
@@ -237,6 +240,11 @@ export default function ContactPage(props){
                         </div>
                     </div>
                 </PaddingLayout>
+
+
+                <div className = {`${styles.plane} ${(success && opacity) ? styles.myplane : null}`}>
+                    <Image src = './paper_plane_icon.png' width = '30px' height = '30px' />
+                </div>
 
             </div>
         </StandardLayout>
